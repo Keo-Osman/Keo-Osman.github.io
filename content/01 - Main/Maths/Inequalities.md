@@ -20,25 +20,3 @@ When given $|f(x)| < |g(x)|$ just consider the same 2 cases.
 Find critical values where $f(x) = g(x)$ and $-f(x) = g(x)$ then sketch the graph
 
 
-## Flashcards
-#Maths/A-Level-Further-Pure/Inequalities, #Maths/Topics/Inequalites
-
-How do you solve a polynomial inequality?
-?
-1. Move all terms to one side
-2. Factor/find roots to find critical values
-3. Use a sketch to determine correct intervals <!--SR:!2024-09-28,14,290-->
-
-What's the approach for solving an algebraic fraction inequality?
-?
-Multiply by a positive number, such as a square number. <!--SR:!2024-09-30,16,290-->
-
-How can graphs be used to solve inequalities?
-?
-Sketch $y=f(x)$ and $y=g(x)$, then observe where each function is above/below the other to solve $f(x)<g(x)$. <!--SR:!2024-09-29,15,290-->
-
-What are the two cases to consider when solving $|f(x)| > g(x)$?
-?
-$f(x) > g(x)$
-$-f(x) > g(x)$ <!--SR:!2024-10-01,17,290-->
-

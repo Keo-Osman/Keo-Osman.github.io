@@ -18,53 +18,6 @@ $$y = \frac{\int f(x)Q(x)dx}{f(x)}$$
 you can use any $f(x)$ so long as $f'(x)P(x) = f(x)$ but the general solution is: $f(x) = e^{\int P(x)dx}$
 
 
-### Flashcards
-#Maths/Topics/Differential-Equations, #Maths/A-Level-Further-Core/Differential-Equations 
-
-How can you solve a first-order differential equation of the form $\frac{dy}{dx} = f(x)g(y)$?
-?
-You can solve it by separating variables and integrating:
-$$\int \frac{1}{g(y)} dy = \int f(x) dx$$ <!--SR:!2024-11-03,60,310-->
-
-What is the general form of a linear first-order differential equation?
-?
-The general form is:
-$$\frac{dy}{dx} + P(x)y = Q(x)$$ <!--SR:!2024-10-22,48,290-->
-
-What is an integrating factor used for in solving differential equations?
-?
-An integrating factor is used to transform a linear first-order differential equation into an exact differential equation, making it easier to solve. <!--SR:!2024-11-02,59,310-->
-
-How do you apply an integrating factor $f(x)$ to a differential equation?
-?
-Multiply both sides of the equation by $f(x)$:
-$$f(x)\frac{dy}{dx} + f(x)P(x)y = f(x)Q(x)$$ <!--SR:!2024-10-28,54,310-->
-
-What form should the equation take after applying the correct integrating factor?
-?
-It should take the form:
-$$f(x)\frac{dy}{dx} + f'(x)y = G(x)$$ <!--SR:!2024-10-29,55,310-->
-
-What is the significance of the left-hand side of the equation after applying the integrating factor?
-?
-The left-hand side becomes the derivative of a product:
-$$LHS = \frac{d}{dx}(f(x)y)$$ <!--SR:!2024-10-25,51,310-->
-
-What is the general solution for a linear first-order differential equation using an integrating factor?
-?
-The general solution is:
-$$y = \frac{\int f(x)Q(x)dx}{f(x)}$$ <!--SR:!2024-11-03,60,310-->
-
-What is the general form of the integrating factor $f(x)$?
-?
-The general form is:
-$$f(x) = e^{\int P(x)dx}$$ <!--SR:!2024-11-03,60,310-->
-
-What condition must be satisfied for an integrating factor $f(x)$?
-?
-The condition is:
-$$f'(x)P(x) = f(x)$$ <!--SR:!2024-10-24,50,290-->
-
 ## Second Order Homogeneous Differential Equations
 ### Equation Form
 A second order homogeneous differential equation is just a linear differential equation with a 2nd derivative term, and the whole thing equals zero:
@@ -120,41 +73,6 @@ $$
 
 
 
-### Flashcards
-#Maths/Topics/Differential-Equations, #Maths/A-Level-Further-Core/Differential-Equations 
-
-What is a second order homogeneous differential equation?
-?
-A second order homogeneous differential equation is a linear differential equation with a 2nd derivative term, and the equation is set equal to zero:
-$$a \frac{d^2 y}{dx^2} + b \frac{dy}{dx} + c y = 0$$ <!--SR:!2024-11-03,60,310-->
-
-What is the auxiliary equation associated with a second order homogeneous differential equation
-?
-The auxiliary equation is the quadratic equation:
-$$
-am^2 + bm + c = 0
-$$
-This equation is derived from the differential equation and is used to determine the roots $\lambda$ and  $\mu$ <!--SR:!2024-11-03,60,310-->
-
-What are the three cases based on the discriminant of the auxiliary equation?
-?
-- Case 1: $b^2 > 4ac$
-There are two real roots, so the general solution is:
-$$
-y = Ae^{\lambda_1 x} + Be^{\lambda_2 x}
-$$
-- Case 2: $b^2 = 4ac$
-There is one repeated root $\alpha$, so the general solution is:
-$$
-y = (A + Bx) e^{\alpha x}
-$$
-- Case 3: $b^2 < 4ac$
-There are two complex conjugate roots, so let $\alpha, \beta = p \pm qi$. The general solution is:
-$$
-y = e^{px} \left( A \cos qx + B \sin qx \right)
-$$ <!--SR:!2024-10-11,37,290-->
-
-
 ## Second Order Non-Homogeneous Differential Equations
 ### Form
 $$a \frac{d^2y}{dx^2} + b \frac{dy}{dx} + c y = f(x)$$
@@ -176,34 +94,6 @@ $$y = \text{C.F.} + \text{P.I.}$$
 
 
 
-
-
-### Flashcards
-#Maths/Topics/Differential-Equations, #Maths/A-Level-Further-Core/Differential-Equations 
-
-What is the general form of a second-order non-homogeneous differential equation?
-?
-$$a \frac{d^2y}{dx^2} + b \frac{dy}{dx} + c y = f(x)$$ <!--SR:!2024-10-14,40,290-->
-
-What is the particular integral (P.I.) in the context of differential equations?
-?
-A specific function that satisfies the differential equation. <!--SR:!2024-11-01,58,310-->
-
-What is the complementary function (C.F.)?
-?
-The solution to the second-order homogeneous differential equation that shares the same coefficients with the non-homogeneous equation. <!--SR:!2024-10-28,54,310-->
-
-What is the general solution for a second-order non-homogeneous differential equation?
-?
-$$y = \text{C.F.} + \text{P.I.}$$ <!--SR:!2024-11-01,58,310-->
-
-How do you find the particular integral (P.I.) for a non-homogeneous differential equation?
-?
-Assume a P.I. that has the same form as $f(x)$ and substitute it into the original equation to determine the coefficients. <!--SR:!2024-11-03,60,310-->
-
-What adjustment must be made to the P.I. if the form of $f(x)$ is part of the complementary function?
-?
-Use $x e^{rx}$ instead of $e^{rx}$ when $f(x) = p e^{rx}$ and $r$ is a root of the auxiliary equation. <!--SR:!2024-10-18,44,290-->
 
 
 # A-Level Further Core 2 (Modelling)
@@ -236,27 +126,6 @@ The auxiliary equation leads to 3 cases:
 For heavy and critical damping, the exact nature of the motion depends on initial conditions. For light damping, the period of observed oscillations can be calculated.
 
 
-
-## Flashcards
-#Maths/Topics/Differential-Equations, #Maths/A-Level-Further-Core/Differential-Equations  
-
-What is simple harmonic motion (SHM)and what’s its equation?
-?
-Motion in which acceleration is always directed toward a fixed point and is proportional to the displacement. Given by equation $$\ddot{x} = -\omega^2 x$$ <!--SR:!2024-10-29,55,310-->
-
-What does the solution $x = A \sin(\omega t + \alpha)$ represent in SHM?
-?
-The displacement in simple harmonic motion, where $A$ is the maximum amplitude and $\alpha$ is an arbitrary constant. <!--SR:!2024-10-17,43,290-->
-
-How is harmonic motion refined to include damping?
-?
-By adding a damping force to the equation, resulting in the differential equation $$\ddot{x} + k \dot{x} + \omega^2 x = 0$$. <!--SR:!2024-09-28,14,290-->
-
-What are the three cases of damping in harmonic motion?
-?
-1. Heavy damping: No oscillations due to a large resistive force.
-2. Critical damping: No oscillations occur.
-3. Light damping: Oscillations occur with amplitude decreasing exponentially over time. <!--SR:!2024-10-27,53,310-->
 
 # A-Level Further Pure 1
 ## Reducible Differential Equations

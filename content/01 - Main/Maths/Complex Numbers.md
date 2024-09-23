@@ -24,17 +24,6 @@ $$
 - For any cubic equation $a x^3+b x^2+c x+d$ where $a, b, c, d \in \mathbb{R}$ it will have 3 roots either all real or 1 real root and a complex conjugate pair
 - For any quartic equation $a x^4+b x^3+c x^2+d x+e$ where $a, b, c, d, e \in \mathbb{R}$ it will hare 4 roots either all real, 2 real roots and complex conjugate pair or 2 complex conjugate pairs
 
-## Flashcards
-#Maths/A-Level-Further-Core/Complex-Numbers/1, #Maths/Topics/Complex-Numbers
-
-For a given complex number $z$ defined as $a + bi$ what is $z^*$
-?
-The complex conjugate. Defined as $a - bi$ <!--SR:!2024-10-13,51,310-->
-
-How do you divide complex numbers $\frac{z_1}{z_2}$ in $a+bi$ form
-?
-Write as a fraction then multiply the numerator and denominator by $z_2^*$, then the denominator becomes a real number <!--SR:!2024-10-19,55,310-->
-
 # A-Level Further Core 2
 ## Exponential Form Of Complex Numbers
 
@@ -75,45 +64,3 @@ the equation has $n$ distinct roots
 - You can solve the equation $z^n = w$ by writing $z^n$ in the form
 $|w|^{\frac{1}{n}}(\cos(\frac{\theta + 2k\pi}{n}) + i \sin(\frac{\theta + 2k\pi}{n}))$, where $\theta = \arg(w)$ for $k = 0,1,2,...,n-1$ varying $k$ to get all $n$ roots in the interval $[-\pi, \pi]$
 
-## Flashcards
-#Maths/A-Level-Further-Core/Complex-Numbers/2, #Maths/Topics/Complex-Numbers   
-
-What is Euler's formula for complex numbers?
-?
-$e^{i\theta} = \cos \theta + i \sin \theta$ <!--SR:!2024-09-28,36,294-->
-
-What is the general exponential form of a complex number?
-?
-$z = re^{i\theta}$, where $r = |z|$ and $\theta = \arg(z)$ <!--SR:!2024-10-15,49,294-->
-
-How do you multiply complex numbers in exponential form?
-?
-$z_1 \times z_2 = r_1r_2 e^{i(\theta_1 + \theta_2)}$ <!--SR:!2024-10-25,60,314-->
-
-How do you divide complex numbers in exponential form?
-?
-$\frac{z_1}{z_2} = \frac{r_1}{r_2} e^{i(\theta_1 - \theta_2)}$ <!--SR:!2024-10-22,58,314-->
-
-What is De Moivre's theorem?
-?
-$(r(\cos \theta + i \sin \theta))^n = r^n(\cos n\theta + i \sin n\theta)$ <!--SR:!2024-10-16,54,314-->
-
-What is the formula for the sum of a finite geometric series in complex numbers?
-?
-$\sum_{r=0}^{n-1} wz^r = \frac{w(z^n-1)}{z-1}$, for $|z| < 1$ <!--SR:!2024-09-21,5,234-->
-
-What is the formula for the sum of an infinite geometric series in complex numbers?
-?
-$\sum_{r=0}^{\infty} wz^r = \frac{w}{z-1}$, for $|z| < 1$ <!--SR:!2024-09-26,8,234-->
-
-How many distinct roots does the equation $z^n = w$ have?
-?
-$n$ distinct roots <!--SR:!2024-10-24,60,314-->
-
-What is the general form of the $n^{th}$ roots of a complex number?
-?
-$|w|^{\frac{1}{n}}(\cos(\frac{\theta + 2k\pi}{n}) + i \sin(\frac{\theta + 2k\pi}{n}))$, where $\theta = \arg(w)$ $k = 0,1,2,...,n-1$ <!--SR:!2024-11-07,54,274-->
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTQxNTQ0OTFdfQ==
--->

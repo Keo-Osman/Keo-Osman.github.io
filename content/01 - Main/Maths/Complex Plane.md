@@ -46,56 +46,11 @@ The last step works with the [[Trig Identities|Trig Addition Formulae]] $\sin ^2
 This complex number is in modulus-argument form, with modulus $\frac{r_1}{r_2}$ and argument $\theta_1-\theta_2$, as required.
 
 
-### Flashcards
-
-What is $|z|$?
-?
-The **modulus** of $z$ and it is is defined as $\sqrt{a^2+b^2}$ where $z=a+b i$. $|z|$ is geometrically represented as the distance from the origin to $z$ on the complex plane. <!--SR:!2024-10-12,55,310-->
-
-What is $\arg(z)$?
-?
-it is the **argument** of $z$  and it is the angle $\theta$ such that $\tan \theta=\frac{y}{x}$. This angle represents the angle rotation from the $x$-axis on the complex plane. <!--SR:!2024-10-26,60,312-->
-
-What is the modulus-argument form of complex number $z$?
-?
-For any complex number $a+b i$ it can be written as: $r(\cos \theta+i \sin \theta)$ where $\theta=\operatorname{arg}(z)$ and $r=|z|$. <!--SR:!2024-10-25,60,312-->
-
-How do you multiply complex numbers in the modulus-argument form, $z_1 * z_2 = z_3$?
-?
-$$\left|z_1 z_2\right|=\left|z_1\right| \times\left|z_2\right| = |z_3|$$
-$$\arg (z_1 z_2)=\operatorname{arg}(z_1)+\operatorname{arg}(z_2) = \arg(z_3)$$
-so $z_3 = (|z_1|*|z_2|)(\cos(\arg(z_1)+\arg(z_2))+i\sin(arg(z_1)+\arg(z_2))$ <!--SR:!2024-10-23,59,312-->
-
 ## Loci
 - For 2 [[Complex Numbers]] $z_1, z_2$ $|z_2-z_1|$ represents the distance between points $z_1, z_2$ on [[Complex Plane]].
 - You can replace $z_2$ with the general point $z$ to obtain a locus of points described by $\left|z-z_1\right|=r$. This locus forms a circle with centre $\left(z_1.x, z_1.y\right)$ with radius $r$, you can then derive the cartesian equation $\left(z.x - z_1.x\right)^2+\left(z.y - z_1.y\right)^2=r^2$. Also written as $\left(x-x_1\right)^2+\left(y-y_1\right)^2=1^2$
 - For any 2 complex numbers $z_1, z_2$ the locus $\left|z-z_1\right|=\left|z-z_2\right|$ is the perpendicular bisector of the line segment connecting $z_1, z_2$
 - Given complex number $z_1$ the locus of points described by $\arg \left(z-z_1\right)=\theta$  forms a straight half-line that makes angle $\theta$ with the line extending from $z_1$ that is parallel to the real axis but does not include $z_1$ this is shown by drawing a hollow circle at $z_1$. The straight line described by the locus only extents one way as the condition $\arg \left(z-z_1\right)=\theta$ specifies a specific direction determined by $\theta$. 
-## Flashcards
-#Maths/A-Level-Further-Core/Complex-Plane, #Maths/Topics/Complex-Numbers  
-
-For 2 complex numbers $z_1, z_2$, what does $|z_2-z_1|$ represent on the complex plane?
-?
-$|z_2-z_1|$ represents the distance between points $z_1$ and $z_2$ on the complex plane. <!--SR:!2024-09-21,33,292-->
-
-What is the locus of points described by $|z-z_1|=r$ in the complex plane?
-?
-The locus of points described by $|z-z_1|=r$ forms a circle with:
-- Centre: $(z_1.x, z_1.y)$
-- Radius: $r$
-- Cartesian equation: $(z.x - z_1.x)^2+(z.y - z_1.y)^2=r^2$
-- Also written as: $(x-x_1)^2+(y-y_1)^2=r^2$ <!--SR:!2024-09-27,35,292-->
-
-What is the locus of points described by $|z-z_1|=|z-z_2|$ for any two complex numbers $z_1$ and $z_2$?
-?
-The locus of points described by $|z-z_1|=|z-z_2|$ is the perpendicular bisector of the line segment connecting $z_1$ and $z_2$. <!--SR:!2024-09-20,32,292-->
-
-Given a complex number $z_1$, what is the locus of points described by $\arg(z-z_1)=\theta$?
-?
-The locus of points described by $\arg(z-z_1)=\theta$ forms a straight line:
-- It makes an angle of $\theta$ with the line extending from $z_1$ that is parallel to the real axis.
-- The line extends only in one direction, as the condition $\arg(z-z_1)=\theta$ specifies a specific direction determined by $\theta$. <!--SR:!2024-10-17,53,312-->
-
 # A-Level Further Pure 2
 ## Locus On Complex Plane
 
@@ -121,37 +76,3 @@ The Locus of $\theta_1 \leq \arg(z-z_1) \leq \theta_2$ describes the region encl
 
 They are transformations in the form $w = \frac{az+b}{cz+d}$, $a,b,c,d \in \mathbb{C}$
 You can solve by rearranging into a familiar form.
-## Flashcards:
-#Maths/A-Level-Further-Pure/Complex-Numbers, #Maths/Topics/Complex-Numbers
-
-What is the locus of points $z$ that satisfy $|z-a| = k|z-b|$ where $a,b \in \mathbb{C}$, $k\in \mathbb{R}, k>0, k\neq 1$ and how do you find it’s cartesian equation?
-?
-The locus is a circle. This equation represents points that are $k$ times further from $a$ than they are from $b$. To find the Cartesian equation split $z$ into $x+iy$, then square both sides to eliminate the modulus and $i$ terms. Solve the resulting equation <!--SR:!2024-10-04,16,318-->
-
-What does the locus $\arg(\frac{z-a}{z-b}) = \theta$ represent?
-?
-This locus represents an arc of a circle with end points $A$ and $B$. The arc is drawn anticlockwise from $A$ to $B$. <!--SR:!2024-10-06,18,318-->
-
-How can you find the equation of the circle described by $\arg(\frac{z-a}{z-b}) = \theta$?
-?
-Consider the congruent isosceles triangles formed by $ACM$ and $BCM$, where $C$ is the circle centre and $M$ is the midpoint of $AB$. <!--SR:!2024-09-19,4,278-->
-
-What region is described by the locus $\theta_1 \leq \arg(z-z_1) \leq \theta_2$?
-?
-This locus describes the region enclosed by two half lines: $\arg(z-z_1) = \theta_1$ and $\arg(z-z_1) = \theta_2$. <!--SR:!2024-10-05,17,318-->
-
-What does the transformation $w = z+a+ib$ represent?
-?
-This represents a translation by the vector $\begin{pmatrix} a \\ b \end{pmatrix}$, where $a,b \in \mathbb{R}$. <!--SR:!2024-10-04,16,318-->
-
-What does the transformation $w = kz$, $k\in \mathbb{R}$ represent?
-?
-This represents an enlargement with scale factor $k$ centred at the origin $(0,0)$. <!--SR:!2024-10-03,15,318-->
-
-What does the transformation $w = iz$ represent?
-?
-This represents an anti-clockwise rotation of $\frac{\pi}{2}$ (90 degrees) about the origin $(0,0)$. <!--SR:!2024-10-03,15,318-->
-
-What is a Möbius transformation?
-?
-A Möbius transformation is a transformation of the form $w = \frac{az+b}{cz+d}$, where $a,b,c,d \in \mathbb{C}$. <!--SR:!2024-10-07,19,318-->
