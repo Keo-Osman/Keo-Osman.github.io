@@ -1,10 +1,7 @@
 # Definition
-
 Conic sections are graphs that are obtained by slicing a cone (with an inverted cone on top) with a plane
 ![Conic Sections](https://math.libretexts.org/@api/deki/files/3246/CNX_Calc_Figure_11_05_002.jfif?revision=1&size=bestfit&width=843&height=452)
-
 # A-Level Further Pure 1 (Conic Sections 1)
-
 ## Parabolas
 
 A parabola is a family of curves that are obtained by slicing a cone with a plane parallel to its slant such as $y = x^2$
@@ -13,34 +10,32 @@ Another parabola is $y^2 = 4ax$ or parametrically $x = at^2$, $y = 2at$ for $t \
 
 You can also describe a parabola as a locus of points based on a point called the "focus" and a line called the "directrix"
 
-* A parabola is the locus of points P such that $SP = PX$ where S is the focus and X is some arbitrary point on the directrix
+- A parabola is the locus of points P such that $SP = PX$ where S is the focus and X is some arbitrary point on the directrix
 
 For parabola $y^2 = 4ax$:
-
-* The focus S is $(a, 0)$
-* The directrix has equation $x + a = 0$
-* The vertex (turning point) is $(0, 0)$
+- The focus S is $(a, 0)$
+- The directrix has equation $x + a = 0$
+- The vertex (turning point) is $(0, 0)$
 
 ## Rectangular Hyperbolas
 
 A rectangular hyperbola is obtained when the slice intersects both nappes (halves) of the cone.
 
-* A hyperbola has 2 sections called branches
-* A rectangular hyperbola is a hyperbola such that the asymptotes meet at right angles
-* The Cartesian equation is $xy = c^2$
-* The parametric equations are $x = ct$, $y = \frac{c}{t}$, $t \neq 0$, $t \in \mathbb{R}$
+- A hyperbola has 2 sections called branches
+- A rectangular hyperbola is a hyperbola such that the asymptotes meet at right angles
+- The Cartesian equation is $xy = c^2$
+- The parametric equations are $x = ct$, $y = \frac{c}{t}$, $t \neq 0$, $t \in \mathbb{R}$
 
 (This is a specific type of rectangular hyperbola such that the asymptotes are $x=0$  can obtain this by rotating 45° using a rotation matrix on the standard rectangular hyperbola equation)
 
 ## Tangents & Normals
-
-* For general parabola $y^2 = 4ax$, the gradient is:
+- For general parabola $y^2 = 4ax$, the gradient is:
 
 $$\frac{dy}{dx} = \frac{2a}{y}$$
 
 (This can be obtained by parametric or implicit differentiation)
 
-* For hyperbola $xy = c^2$ / $y = \frac{c^2}{x}$:
+- For hyperbola $xy = c^2$ / $y = \frac{c^2}{x}$:
 
 $$\frac{dy}{dx} = -\frac{c^2}{x^2}$$
 
@@ -69,8 +64,7 @@ Tangent:
 $$t^3x - ty = c(t^4 - 1)$$
 
 ## Flashcards
-
-\#Maths/A-Level-Further-Pure/Conic-Sections, #Maths/Topics/Conic-Sections
+#Maths/A-Level-Further-Pure/Conic-Sections, #Maths/Topics/Conic-Sections
 
 What is the parametric equation of the **normal** line to the parabola $y^2 = 4ax$ at the point $P(at^2, 2at)$?
 ?
@@ -137,9 +131,7 @@ How is a hyperbola obtained geometrically?
 A hyperbola is obtained when a plane intersects both nappes (halves) of a double cone. <!--SR:!2024-09-19,4,270-->
 
 # A-Level Further Pure 1 (Conic Sections 2)
-
 ## Ellipses
-
 An ellipse is the graph you get from slicing one nappe to get a "closed curve". A circle is a special type of ellipse where the plane is parallel to the cone.
 **The standard Cartesian equation is (centred $0,0$)**
 $$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$$
@@ -147,10 +139,8 @@ $$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$$
 *When $x = 0$, $\displaystyle  \frac{y^2}{b^2} = 1 \Rightarrow y = \pm b$. When $y = 0$, $\frac{x^2}{a^2} = 1 \Rightarrow x = \pm a$*
 
 **The parametric equations are:**
-$$x = a \cos t, y = b \sin t, 0 \leq t \< 2\pi$$
-
+$$x = a \cos t, y = b \sin t, 0 \leq t < 2\pi$$
 ## Hyperbolas
-
 $$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$$
 
 *When $y = 0$, $x^2 = a^2 \Rightarrow x = \pm a$*
@@ -159,38 +149,30 @@ As $x, y \rightarrow \infty$, $\displaystyle  \frac{x^2}{a^2} \approx \frac{y^2}
 *When $a = b$ this creates rectangular hyperbola with equation $x^2 - y^2 = a^2$ (this is different to $xy = c^2$ as they are the same but just rotated 45° by a linear transform rotation matrix) with asymptotes $y = \pm x$*
 **The parametric equations for a standard hyperbola are:**
 
-$$x = \pm a \cosh t, \space y = b \sinh t, t \in \mathbb{R} \quad \text{or }\quad x = a \sec \theta, \space y = b \tan \theta, \space -\pi \leq \theta \< \pi, \theta \neq \pm \frac{\pi}{2}$$
+$$x = \pm a \cosh t, \space y = b \sinh t, t \in \mathbb{R} \quad \text{or }\quad x = a \sec \theta, \space y = b \tan \theta, \space -\pi \leq \theta < \pi, \theta \neq \pm \frac{\pi}{2}$$
 
 ## Eccentricity
-
 For all points $P$$ on a conic section, the ratio of the distance P from a fixed point F (the focus) and fixed straight line $D$ (the directrix) is constant. This ratio e is called the eccentricity.
-
-* If $0 \leq e \< 1$, P describes an ellipse
-* If $e = 1$, P describes a parabola
-* If $e > 1$, P describes a hyperbola
-
+- If $0 \leq e < 1$, P describes an ellipse
+- If $e = 1$, P describes a parabola
+- If $e > 1$, P describes a hyperbola
 ### Ellipses
-
 For an ellipse with equation $\displaystyle\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$, $a > b$:
-
-* Eccentricity, $0 \< e \< 1$ is given by $b^2 = a^2(1-e^2)$
-* The foci at $(\pm ae, 0)$
-* The directrices are $\displaystyle  x = \pm \frac{a}{e}$ (ellipses are symmetric)
-  *The focus is on the major axis. In this case the x-axis because $a > b$*
+- Eccentricity, $0 < e < 1$ is given by $b^2 = a^2(1-e^2)$
+- The foci at $(\pm ae, 0)$
+- The directrices are $\displaystyle  x = \pm \frac{a}{e}$ (ellipses are symmetric)
+*The focus is on the major axis. In this case the x-axis because $a > b$*
 
 For $b > a$:
-
-* Eccentricity is given by $a^2 = b^2(1-e^2)$
-* Foci are at $(0, \pm be)$
-* Directrices are $\displaystyle y = \pm \frac{b}{e}$
-
+- Eccentricity is given by $a^2 = b^2(1-e^2)$
+- Foci are at $(0, \pm be)$
+- Directrices are $\displaystyle y = \pm \frac{b}{e}$
 ### Hyperbola
-
 For a hyperbola with equation $\displaystyle\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$:
 
-* Eccentricity $e > 1$ is given by $b^2 = a^2(e^2-1)$
-* Foci are at $(\pm ae, 0)$
-* Directrices are $\displaystyle x = \pm \frac{a}{e}$
+- Eccentricity $e > 1$ is given by $b^2 = a^2(e^2-1)$
+- Foci are at $(\pm ae, 0)$
+- Directrices are $\displaystyle x = \pm \frac{a}{e}$
 
 ## Tangents & Normals
 
@@ -210,13 +192,12 @@ You can obtain these results with parametric differentiation any $\displaystyle 
 
 For hyperbola $\displaystyle \frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$:
 
-* At $P(a \cosh t, b \sinh t)$ the tangent is $ay \sinh t + bx \cosh t = ab \cosh t$
-* At $P(a \sec \theta, b \tan \theta)$ the tangent is $bx \sec \theta - ay \tan \theta = ab$
-* At $P(a \cosh t, b \sinh t)$ the normal is $ax \sinh t - by \cosh t = (a^2 + b^2) \sinh t \cosh t$
+- At $P(a \cosh t, b \sinh t)$ the tangent is $ay \sinh t + bx \cosh t = ab \cosh t$
+- At $P(a \sec \theta, b \tan \theta)$ the tangent is $bx \sec \theta - ay \tan \theta = ab$
+- At $P(a \cosh t, b \sinh t)$ the normal is $ax \sinh t - by \cosh t = (a^2 + b^2) \sinh t \cosh t$
 
 ## Flashcards:
-
-\#Maths/Topics/Conic-Sections, #Maths/A-Level-Further-Pure/Conic-Sections
+#Maths/Topics/Conic-Sections, #Maths/A-Level-Further-Pure/Conic-Sections
 
 What is the standard Cartesian equation for an ellipse centred at (0,0)?
 ?
@@ -227,7 +208,7 @@ Where $a$ and $b$ are the lengths of the semi-major and semi-minor axes respecti
 What are the parametric equations for an ellipse?
 ?
 The parametric equations for an ellipse are:
-$$x = a \cos t, y = b \sin t, 0 \leq t \< 2\pi$$
+$$x = a \cos t, y = b \sin t, 0 \leq t < 2\pi$$
 Where $a$ and $b$ are the lengths of the semi-major and semi-minor axes respectively.
 
 What is the standard Cartesian equation for a hyperbola centred at (0,0)?
@@ -246,7 +227,7 @@ What are the parametric equations for a standard hyperbola?
 The parametric equations for a standard hyperbola are:
 $$x = \pm a \cosh t, y = b \sinh t, t \in \mathbb{R}$$
 or
-$$x = a \sec \theta, y = b \tan \theta, -\pi \leq \theta \< \pi, \theta \neq \pm \frac{\pi}{2}$$
+$$x = a \sec \theta, y = b \tan \theta, -\pi \leq \theta < \pi, \theta \neq \pm \frac{\pi}{2}$$
 
 What is eccentricity in conic sections?
 ?
@@ -255,26 +236,23 @@ Eccentricity (e) in conic sections is the ratio of the distance of any point P o
 How does eccentricity determine the type of conic section?
 ?
 The eccentricity (e) determines the type of conic section as follows:
-
-* If $0 \leq e \< 1$, the conic section is an ellipse
-* If $e = 1$, the conic section is a parabola
-* If $e > 1$, the conic section is a hyperbola
+- If $0 \leq e < 1$, the conic section is an ellipse
+- If $e = 1$, the conic section is a parabola
+- If $e > 1$, the conic section is a hyperbola
 
 For an ellipse with equation $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$ where $a > b$, how is the eccentricity calculated and what are the locations of the foci and directrices?
 ?
 For an ellipse with equation $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$ where $a > b$:
-
-* Eccentricity is given by $b^2 = a^2(1-e^2)$, where $0 \< e \< 1$
-* The foci are located at $(\pm ae, 0)$
-* The directrices are located at $x = \pm \frac{a}{e}$
+- Eccentricity is given by $b^2 = a^2(1-e^2)$, where $0 < e < 1$
+- The foci are located at $(\pm ae, 0)$
+- The directrices are located at $x = \pm \frac{a}{e}$
 
 For a hyperbola with equation $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$, how is the eccentricity calculated and what are the locations of the foci and directrices?
 ?
 For a hyperbola with equation $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$:
-
-* Eccentricity is given by $b^2 = a^2(e^2-1)$, where $e > 1$
-* The foci are located at $(\pm ae, 0)$
-* The directrices are located at $x = \pm \frac{a}{e}$
+- Eccentricity is given by $b^2 = a^2(e^2-1)$, where $e > 1$
+- The foci are located at $(\pm ae, 0)$
+- The directrices are located at $x = \pm \frac{a}{e}$
 
 What is the equation of a normal to an ellipse $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$ at point $P(a \cos t, b \sin t)$?
 ?
