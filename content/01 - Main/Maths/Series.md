@@ -7,10 +7,10 @@
 * To find a series that doesn't start at one use the formula $$\sum\_{r=k}^n f(r)=\sum\_{r=1}^n f(r)-\sum\_{r=1}^{k-1} f(r)$$
 * For more complicated series:
   $$
-  \\begin{aligned}
+  \begin{aligned}
   & \sum\_{r=1}^n k f(r)= k\sum\_{r=1}^n f(r) \\
   & \sum\_{r=1}^n(f(r)+g(r))=\sum\_{r=1}^n f(r)+\sum\_{r=1}^n g(r)
-  \\end{aligned}
+  \end{aligned}
   $$
 * The sum of the first $n$ squares $$\sum\_{r=1}^n r^2=\frac{1}{6}n(n+1)(2 n+1)$$
 * The sum $g$ the first $n$ cubes $$\sum\_{r=1}^n r^3=\frac{1}{4} n^2(n+1)^2$$
@@ -66,7 +66,7 @@ This is because when summing the $-f(n+1)$ for $n = a$ cancels with the next ter
 
 $$f(x) = f(0) + f'(0)x + \frac{f''(0)}{2!}x^2 + \frac{f'''(0)}{3!}x^3 + ...$$
 
-$$= \sum\_{n=0}^{\infty} \frac{f^{(n)}(0)}{n!}x^n$$$$\text{where } f^{(n)}(0) \text{ is the }n\text{th derivative of} f(x) \text{ evaluated at } x = 0$$
+$$= \sum\_{n=0}^{\infty} \frac{f^{(n)}(0)}{n!}x^n$$ $$\text{where } f^{(n)}(0) \text{ is the }n\text{th derivative of} f(x) \text{ evaluated at } x = 0$$
 
 ## Flashcards
 
