@@ -43,7 +43,7 @@ The symmetric group is a group on $n$ elements defined as the group of all possi
 You can use 2 row notation to describe permutations like:
 
 $$
-\begin{pmatrix} 1 & \cdots & n \\ p_1 & \cdots & p_n \end{pmatrix}
+\begin{pmatrix} 1 & ... & n \\ p_1 & ... & p_n \end{pmatrix}
 $$
 
 The top row shows the starting position and $p_i$ denotes what object will end up in the $i$th position and NOT what position the $i$th object will end up in.
