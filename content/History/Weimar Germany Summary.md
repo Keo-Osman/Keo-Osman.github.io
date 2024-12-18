@@ -1,0 +1,175 @@
+# Stuff
+## Weimar Constitution
+- President who was head of state
+- President chose a chancellor who chose the ministers who made up the cabinet
+- *"Parliament"* made of two houses, the **Reichstag** *(More powerful, Controlled taxation and directly elected by people at least once every 4 years)* and **Reichsrat** *Each region of Germany sent a number of representatives depending on their size)*
+- Due to large number of parties coalitions had to be formed to pass laws and polices
+## Treaty of Versailles
+- Made Germany entirely responsible for the war
+- Had to pay £6.6B
+- Germany lost all colonies in Africa and far east
+- Army was restricted to 100,000 men
+- Rhineland *(bordered Germany and France)* was to be demilitarised.
+- Germany lost a lot of it's own land
+## Challenges to Weimar Government
+- Germans felt stabbed in the back by politicians signing the Treaty of Versailles as propaganda said that they were winning the war
+- **Spartacist Revolt**
+	- Lead by Rosa Luxembourg and Karl Liebknecht
+	- Left wing
+	- Took advantage of strikes and protests in Berlin. 100,000 workers went on strike in support of the Spartacists
+	- Ebert used the Reichswehr *(army)* to organise demobilised soldiers into Freikorps units and stop the revolt
+	- Both leaders were captured and killed
+- **Kapp Putsch**
+	- Lead by Wolfgang Kapp
+	- Right wing
+	- Freikorps in Berlin were going to be disbanded
+	- In fear of being unemployed from this, 5000 men marched into Berlin armed and declared a new government and invited the kaiser to return
+	- Ebert sent Reichswehr to stop but they refused and many joined
+	- Workers went on strike and vital services went down forcing Kapp to surrender
+- Extreme parties getting more popular mostly **right wing**
+## Hyperinflation
+- **How it happened:**
+	- Treaty of Versailles *(ToV)* signed
+	- Germany had to pay £50m per year which it could not do
+	- ToV allowed allies to take what Germany owed them
+	- December 1922 Germany couldn't pay
+	- French had to pay war debts to Americans so they were desperate for money
+	- January 1923 French troops entered the Ruhr and seized all coal and machinery
+	- Ebert encouraged coal workers to go on strike/passive resistance
+	- With no coal factories were not producing goods so the government was receiving less in taxes
+	- All of Germany's gold reserves were used during the war. Germany was bankrupt
+	- To solve problem of inflation Germany tried to print more money but this lead to more inflation. **Hyperinflation**
+- **Effects**
+	- Money Worthless
+	- Poor people poorer - savings wiped out
+	- People turned to bartering
+	- Affected political parties
+## Weimar Republic's Problems
+- Not allowed to join league of nations
+- Extremist parties gaining support
+- Could not pay reparations
+- German money was worthless and the people were poor
+## Gustav Stresemann
+- Signed Locarno pact to agree to German borders in hopes for softer reparations
+- Signed Kellogg-Briand pact with 64 nations to only use army in self defence
+- Made Dawes plan to lower reparations and increase over time
+- Made Young plan to reduce total reparations
+- Introduced Retenmark - a temporary currency issued in limited amounts to remain stable
+- However became dependant on American loans when making a permanent currency
+## Weimar Golden Age
+- **Agree**
+	- Unemployment went down 
+	- Working hours decreased and real wages went up
+	- New homes built
+	- Education improved
+	- High pensions
+	- Culture changed drastically
+	- Women had equal rights and 75% in work
+- **Disagree**
+	- Still a housing shortage
+	- Employment remained insecure
+	- Still affected by loss of savings due to hyperinflation
+	- Right wing disapproved of cultural change
+	- Women expected to give up work after marriage
+	- Few women entered high status jobs, only 36 female judges
+## Hitler's Rise to Power
+- Took control of DAP as he attended for his job but was attracted by ideas
+- Changed to NSDAP
+- Made 25-point programme outlining policy ideas
+- **Munich Putsch**
+	- Hitler tried to take over the government in Munich but failed
+- **Nazi party failed to gain power 1924-1929**
+	- Stresemann already solved many problems with more German stability people are less likely to vote for extremist parties
+	- In the mean time Hitler
+		- Gained financial backing
+		- restructured the party
+		- Make the NSDAP a national party
+		- Speaks for 5 hours at Bamberg Conference
+- Hitler became chancellor in 1933  
+## Great Depression and Wall Street Crash
+- Wall Street Crash happens in America, the German banks collapse as they had heavily invested in American stocks. Due to Stresemann's loans America is asking for their money back. Lead to a cycle of depression in Germany
+## Why Nazis Gained Support
+- Strong leadership from Hitler
+- Promises for middle and working class
+- Failure of other parties - had to abuse article 48
+- Unhappiness with the  government due to hyperinflation and then the wall street crash
+- Propaganda targeting specific groups
+- Big parades that were exciting for young people
+- Policies benefited farmers
+
+## How Hitler Became a Dictator
+- **Enabling Act** allowed Hitler to come closer to total power
+- **How it happened:**
+	- Hitler became chancellor but his power was limited
+	- He called for an election in for March 1933
+	- Reichstag fire by communist led to arrest of 4000 communists
+	- Hitler convinced Hindenburg to pass an act using article 48 to allow Nazis to imprison large amounts of people including political opponents
+	- March 1933 election: Reichstag fire blamed on communists made them lose votes so after forming a coalition with DNVP the Nazis had a 51.9% majority
+	- Hitler passed the enabling act which would allow him to pass laws without the Reichstag for 4 years 88% of Reichstag voted for it.
+	- However, Hitler got SA to surround voting chamber to pressure into voting yes and no communists were allowed in
+	- Banned Trade unions
+	- Made all other parties in Germany illegal
+	- Holds an election with Nazi party being only party they gained tons of votes
+	- Night of Long Knives
+## Nazi Police State
+- 1st July 1934 - Hitler kills Gustav von car, von Schlicher and Ernst Rohm as well as 400 top SA
+- SS
+- Gestapo
+- SD
+- SA
+## Nazi Censorship and Propaganda
+**Joseph Goebbels:** minister of propaganda and enlightenment in 1933
+- The press
+- Radio
+- Rallies
+- Film
+- Posters
+- Literature
+- Sport
+- Art and Architecture
+- Music and Theatre
+## Young People in Nazi Germany
+- Parents had to bring birth certificated of grandparents to prove their child is Aryan
+- List of banned children's names
+- Parents given a copy of Mein Kampf
+- Children have to salute to a picture of Hitler in class
+- Sick children were taken away from parents
+- Children had to swear an oath of obedience to Hitler
+- Children taught that weak should destroy the young
+- Boys had to wear Hitler Youth uniform in school
+- 1933 All youth groups banned Hitler Youth became mandatory
+- Nazis wanted to create *1000 year Reich* needed strong young people
+- Hitler Knew that adults didn't support him but if he could get youth to then he could secure the *1000 year Reich*
+- **Girls Beliefs and Requirements**
+	- Had to be strong and healthy to be a good wife and fertile mother
+	- Forced to be in *Young Maidens, League of German Maidens*
+	- Went to political rallies, swore oaths
+	- Physical and Character building exercises - no military training
+	- Trained to be a housewife
+	- Taught the importance of racial hygiene
+- **Boys Beliefs and Requirements**
+	- Had to be strong and healthy to do productive work for the economy and fight in German forces
+	- Forced to be in *Little Fellows, German Young People, Hitler Youth*
+	- Had to attend residential courses - effectively propaganda
+	- Had to undergo military training to be useful to the state - practised map-reading, signalling and small arms shooting
+	- In separate specialist divisions
+	- Did activities to mould character for comradery but also competition
+	- Taught to be ruthless
+	- Drilled by SA
+- **Edelweiss Pirates**
+	- Would wear edelweiss flower
+	- Put up anti-Nazi graffiti
+	- Beat up Nazi-Youth members
+	- Dressed like Americans
+	- As punishment they were sentenced to hard labour
+- **Swing Youth**
+	- Imported illegal goods
+	- Held illegal dances
+	- Dress like Americans
+	- Listen to Jazz
+	- Beaten up and sentenced to hard labour
+- If a child spoke badly bad about their parents the parents could be encouraged, Children were encouraged to speak up about this
+- Many parents were against this some spoke to their child about it and told them to disagree with Nazis but others were sacred of being accidently turned in by their own kids
+- In school they would learn race study's 
+- They would apply maths to military and government problems
+- Only allowed Nazi approved books
