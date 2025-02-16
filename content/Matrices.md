@@ -1,6 +1,10 @@
 # Definition
 A matrix is an array of elements organised in rows and columns
-The size of on array can be described by row $\times$ columns such as a 2 x 4 matrix $$\left(\begin{array}{cccc}1 & 4 & -1 & 1 \\ 2 & 3 & 0 & 2\end{array}\right)$$
+The size of on array can be described by row $\times$ columns such as a 2 x 4 matrix 
+$$
+\left(\begin{array}{cccc}1 & 4 & -1 & 1 \\ 2 & 3 & 0 & 2\end{array}\right)
+$$
+
 
 ---
 # Matrix Operations
@@ -14,6 +18,7 @@ Matrices $A$, $B$ can be multiplied if $A$ has dimensions $n \times m$, and $B$ 
 To compute a matrix multiplication, take the dot product of each row of the first matrix with each column of the second matrix.
 Also worded as: For $AB = C$, each element $C_{ij}$ is the dot product of the $i$-th row of $A$and the $j$-th column of $B$
 For example 
+
 $$
 \left(\begin{array}{ccc}
 5 & -1 & 2 \\
@@ -28,9 +33,11 @@ $$
 \end{array}\right)
 $$
 
+
 ---
 # Identity Matrix
 The identity matrix is the matrix $I$ that is all zero apart from having 1's on the leading diagonal.
+
 $$
 \begin{pmatrix}
 1 & 0 & 0 \\
@@ -38,6 +45,7 @@ $$
 0 & 0 & 1 \\
 \end{pmatrix}
 $$
+
 It has the unique property that $AI = IA = A$ for all matrices. This makes it the [[Groups#Axioms of Groups|Identity Element]] of a [[Groups|Group]] of matrices under the operation of multiplication hence the name
 
 ---
@@ -65,14 +73,19 @@ If $A, B$ are non singular matrices then $(AB)^{-1} = B^{-1}A^{-1}$
 For a given $3 \times 3$ matrix $A$, $A^{-1} =\displaystyle\frac{1}{|A|}C^{T}$ where $C$ is the matrix of cofactors.
 To find $C$
 - Form the matrix of the minors. This is where each of the nine elements of the matrix is replaced by its minor
-- Change the signs of some elements with alternating signs as shown $$\begin{pmatrix} + & - & + \\ - & + & - \\ + & - & + \end{pmatrix}​$$
+- Change the signs of some elements with alternating signs as shown 
+$$
+\begin{pmatrix} + & - & + \\ - & + & - \\ + & - & + \end{pmatrix}​
+$$
+
 
 ---
 # Systems of Linear Equations
 ## How to Solve Systems of Linear Equations
 If $A\begin{pmatrix} x \\ y \\ z \end{pmatrix} = v$ then $\begin{pmatrix} x \\ y \\ z \end{pmatrix} = A^{-1}v$
 If A is non-singular then a unique solution for $\begin{pmatrix} x \ y \ z \end{pmatrix}$ can be found for any vector v
-To solve a given system of equations for x, y, z: $$
+To solve a given system of equations for x, y, z: 
+$$
 \begin{aligned} ax + by + cz& = j \\
 dx + ey + fz& = k \\ 
 gx + hy + iz& = l
@@ -80,9 +93,15 @@ gx + hy + iz& = l
 \begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix} \begin{pmatrix} x \\ y \\ z \end{pmatrix} &= \begin{pmatrix} j \\ k \\ l 
 \end{pmatrix} 
 \\
-\end{aligned}$$
-$$\begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix}^{-1} \begin{pmatrix} j \\ k \\ l 
-\end{pmatrix}$$
+\end{aligned}
+$$
+
+
+$$
+\begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix}^{-1} \begin{pmatrix} j \\ k \\ l 
+\end{pmatrix}
+$$
+
 ## Linear Equation Consistency
 A system of linear equations is consistent if at least one set of values that satisfy all equations simultaneously. If the matrix corresponding to a system is non-singular then the system has one solution and is consistent.
 
@@ -99,6 +118,7 @@ An **Eigenvector** of **Matrix** A is a non-zero column [[Vectors|Vector]] $x$ t
 An eigenvector is an invariant vector under the linear transform $A$. The corresponding eigenvalue $\lambda$ can be thought of as the magnitude scale factor for the eigenvector 
 
 ## Characteristic Equation
+
 $$
 \begin{aligned}
 &Ax = \lambda x = \lambda Ix \\
@@ -106,9 +126,11 @@ $$
 \Rightarrow&\det(A-\lambda I) = 0
 \end{aligned}
 $$
+
 The solutions of $\lambda$ are the eigenvalues of $A$
 ## Cayley-Hamilton Theorem
 All matrices $M$ satisfy their own characteristic equation 
+
 $$
 \begin{aligned}
 &\det(M-\lambda I) = 0 \\
@@ -116,6 +138,7 @@ $$
 \Rightarrow &a_n{M}^{n} + a_{n-1}{M}^{n-1} + \cdots a_2{M}^2 + a_1{M} + a_0 I = 0
 \end{aligned}
 $$
+
 This theorem can be used to find various variations of M such as $M^{-1}$ and $M^k$  by multiplying or dividing through by $M$ and using the fact that $I = MM^{-1} \Rightarrow I \div M = M^{-1}$
 
 ---
@@ -139,6 +162,7 @@ When diagonalizing $A \rightarrow D$, $D$ has the eigen values of A on the leadi
 ## Powers of Matrices
 For any $n \times n$ diagonal matrix $D = \begin{pmatrix} a & 0 \\ 0 & d \end{pmatrix}$, $D^k = \begin{pmatrix} a^k & 0 \\ 0 & d^k \end{pmatrix}$ 
 To find higher powers of any general matrix $A$ you can use:
+
 $$
 \begin{aligned}
 A &= PDP^{-1}\\ 
@@ -150,51 +174,5 @@ A &= PDP^{-1}\\
 $$
 
 
+
 ---
-# Flashcards
-#Maths/Topics/Linear-Algebra/Matrices    
-
-What are the different ways that a system of linear equations can be consistent/inconsistent?
-?
-A system of linear equations is consistent if at least one set of values that satisfy all equations simultaneously. If the matrix corresponding to a system is non-singular then the system has one solution and is consistent.
-However if it is singular then either
-- The system is consistent and has infinitely many solutions
-- It is inconsistent with no solutions
-![[Linear-Equation-Consistency-1.png|400]]
-![[Linear-Equation-Consistency-2.png|400]]   
-
-How do you diagonalize a matrix $A$?
-?
-To diagonalize matrix $A$:
-1. Find Eigen vectors of $A$
-2. Form matrix P consisting of these Eigen vectors
-3. Find $P^{-1}$
-4. Calculate the diagonal matrix D as $D = P^{-1}AP$
-But for an easier calculation you can simply for a diagonal matrix where every element is an Eigen value of $A$ (The eigen value of a specific column should correspond to the eigen vector in that specific column of $P$)   
-
-How can you diagonalize a symmetric matrix $A$ more efficiently?
-?
-For a symmetric matrix A (where $A = A^T$):
-1. Find normalized eigen vectors of $A$
-2. Form matrix $P$ with these vectors
-3. Find $P^T$
-4. Calculate $D = P^T AP$
-This process is called orthogonal diagonalization. 
-
-How can you calculate higher powers of any matrix $A$ using diagonalization?
-?
-To find $A^k$:
-1. Diagonalize $A$ as $A = PDP^{-1}$
-2. Then $A^k = (PDP^{-1})^k = PD^kP^{-1}$   
-
-What does the Cayley-Hamilton Theorem state?
-?
-The Cayley-Hamilton Theorem states that any matrix $M$ satisfies its own characteristic equation.
-If $a\lambda^2 + b\lambda + c = 0$ is the characteristic equation, then $aM^2 + bM + cI = 0$, where $\lambda$ is an eigen value of $A$.   
-
-What is an Eigenvector and how do you compute them?
-?
-An Eigen vector of Matrix $A$ is a non-zero Column Vector $x$ that satisfies the equation $Ax = \lambda x$
-where $\lambda$ is a scalar called the eigen value corresponding to the eigen vector $x$. It represents the invariant vector under the linear transform $A$ *(although its magnitude may change)*.
-The solutions to the characteristic equation of A, given by $det(A-\lambda I) = 0$, are the Eigen values of A.   
-

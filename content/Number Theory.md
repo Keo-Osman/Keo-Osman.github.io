@@ -6,6 +6,7 @@ Number theory is the study of systems and properties of numbers, particularly $\
 Given two integers $a, b$ where $a \neq 0$, then we can say $a|b$ ($a$ divides $b$ or $b$ is divisible by $a$) if an integer $k$ exists such that $b = ka$.
 If $a$ does not divide $b$, it is denoted as $a \nmid b$. (This definition applies for negative divisors)
 ## Divisibility rules
+
 $$
 \begin{aligned}
 &\forall a, b, c \in \mathbb{Z}\\ \\
@@ -16,6 +17,7 @@ $$
 &a|b \Rightarrow a \leq b \quad\forall a, b \in \mathbb{Z}^+
 \end{aligned}
 $$
+
 ## Division Algorithm
 The division algorithm is a more rigorous way of defining division in the integers and is as follows:
 
@@ -41,6 +43,7 @@ You can find $\gcd(a,b)$ by using prime factors; however, a faster way for large
 3. If $r_2 \neq 0$, then keep repeating the algorithm until you get $r_{n-2} = q_{n+1}r_n + r_{n+1}$ where $r_{n+1} = 0$, then $r_n = \gcd(a,b)$
 ## Bezout's Identity
 The identity states that given 
+
 $$
 \begin{aligned}
 &a, b \in \mathbb{Z} \space a \neq b \neq 0\\
@@ -48,6 +51,7 @@ $$
 &\exists x, y \in \mathbb{Z} \text{ s.t } \gcd(a,b) = ax + by
 \end{aligned}
 $$
+
 
 You can figure out $x$ and $y$ by going through the Euclidean Algorithm backwards and collecting like terms.
 ## Coprime
@@ -94,6 +98,7 @@ $p$ is prime and $p \nmid a \Rightarrow$ $a^{p-1} \equiv 1(\operatorname{mod} p)
 
 Congruence equations with prime modulo can be solved with *Fermat's Little Theorem*
 $p$ is prime ^ $p \nmid a \Rightarrow gcd(a, p)=1 \Rightarrow ax=b(\operatorname{mod} p)$ has one solution.
+
 $$
 \begin{aligned}
 & ax \equiv b\space(\operatorname{mod} p) \Rightarrow a^{p-2} a x \equiv a^{p-2} b(\operatorname{mod} p) \Rightarrow \\
@@ -101,4 +106,5 @@ $$
  \text { as } a^{p-2} a=a^{p-1} \space\wedge\space a^{p-1} \equiv 1(\operatorname{mod} p) \\
 \end{aligned}
 $$
+
 

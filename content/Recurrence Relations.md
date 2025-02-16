@@ -6,18 +6,30 @@ They are strongly related to [[Differential Equations]] and are often solved in 
 ---
 # First Order Recurrence Relations
 First order linear recurrence relations are in the form
-$$u_n = au_{n-1} + g(n)$$
+
+$$
+u_n = au_{n-1} + g(n)
+$$
+
 ## Homogenous
 If $g(n) = 0$ then the equation is **homogeneous** and the general solution is
-$$u_n = a^nu_0 \quad \text{or} \quad u_n = a^{n-1}u_{1}$$
-This is proved by **back substitution** *or more rigorously with **[[Proof by Induction]]***$$\begin{aligned}
+
+$$
+u_n = a^nu_0 \quad \text{or} \quad u_n = a^{n-1}u_{1}
+$$
+
+This is proved by **back substitution** *or more rigorously with **[[Proof by Induction]]***
+$$
+\begin{aligned}
 u_{n} & =au_{n-1} \\
  & =a\times au_{n-2}=a^2u_{n-2} \\
  & =a^2\times au_{n-3}=a^3u_{n-3} \\
  & \vdots \\
  & =a^{n-1}u_1 \\
  & =a^nu_0
-\end{aligned}$$
+\end{aligned}
+$$
+
 ## Non-Homogenous
 For $u_n = u_{n-1} + g(n)$, the general solution is $u_n = u_0 + \sum_{i=0}^n g(i)$
 
@@ -33,7 +45,11 @@ To find the general solution to $u_n = au_{n-1} + g(n)$ where $a \neq 1$ is $C.F
 ---
 # Solving Second Order Recurrence Relations
 A 2nd order linear recurrence relation can be written in the form
-$$u_n = au_{n-1} + bu_{n-2} + g(n)$$
+
+$$
+u_n = au_{n-1} + bu_{n-2} + g(n)
+$$
+
 If $u_n = F(n)$ and $u_n = G(n)$ are particular solutions to a linear recurrence relation then $u_n = aF(n) + bG(n)$ is a solution.
 
 ## Homogenous
@@ -46,7 +62,11 @@ This quadratic leads to 3 cases.
 - The auxiliary equation has two complex conjugate roots $re^{\pm i \theta}$ $\Rightarrow u_n = r^n(A \cos n\theta + B \sin n\theta) = C\alpha^n + D\beta^n$
 ## Non-Homogeneous
 For non-homogeneous the general solution is
-$$u_n = C.F + P.S$$
+
+$$
+u_n = C.F + P.S
+$$
+
 
 | Form of $\mathbf{g}(\boldsymbol{n})$  | Form of particular solution |
 | :-----------------------------------: | :-------------------------: |

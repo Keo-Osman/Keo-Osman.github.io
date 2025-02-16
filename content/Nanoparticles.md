@@ -19,20 +19,3 @@ Used in:
 **As particle size decreases by ten times the, *surface area : volume* ratio increases 10x**
 
 
-# Flashcards
-
-#Chemistry/Structure-and-Bonding
-
-What are nanoparticles and how are they used?
-?
-Diameter between$1\times10^{-7}\text{m}$ and $1\times10^{-9}\text{m}$ and contain only a few hundred atoms.
-Has a huge *surface area : volume* ratio which is useful as you need a lot lower volume for the same effect.
-Used in:
-- Medicines
-- Screams
-- Cosmetics
-- Deodorants
-- Electronics
-- Catalysts
-**Risks:**
-- Can be absorbed by body and enter cells, little is known about effects of this

@@ -1,13 +1,22 @@
 # Definition
 You define any transform in 2 dimensions with the vector $\begin{pmatrix} x \\ y \end{pmatrix}$ and it describes how a point is changed. The new point is called an **image**. $S: \begin{pmatrix} x \\ y \end{pmatrix} \mapsto \begin{pmatrix} f(x) \\ g(y) \end{pmatrix}$
 A **linear transform** is a [[Vectors|Vector]] transform with only linear terms and no constants. You can describe any linear transform just by the effect it has on unit vectors as every vector is a linear combination of the unit vectors. Points/lines that don't change under the transform are called **invariant**.
-$$T: \begin{pmatrix} x \\ y \end{pmatrix} \mapsto \begin{pmatrix} ax + by \\ cx + dy \end{pmatrix}$$
+
+$$
+T: \begin{pmatrix} x \\ y \end{pmatrix} \mapsto \begin{pmatrix} ax + by \\ cx + dy \end{pmatrix}
+$$
+
 They have the properties that:
 - $\begin{pmatrix} 0 \\ 0 \end{pmatrix} \mapsto \begin{pmatrix} 0 \\ 0 \end{pmatrix}$
-- They can be represented by a [[Matrices|Matrix]] $$T: \begin{pmatrix} x \\ y \end{pmatrix} \mapsto \begin{pmatrix} ax + by \\ cx + dy \end{pmatrix} = T: \begin{pmatrix} x \\ y \end{pmatrix} \mapsto \begin{pmatrix} a & b \\ c & d  \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix}$$
+- They can be represented by a [[Matrices|Matrix]] 
+$$
+T: \begin{pmatrix} x \\ y \end{pmatrix} \mapsto \begin{pmatrix} ax + by \\ cx + dy \end{pmatrix} = T: \begin{pmatrix} x \\ y \end{pmatrix} \mapsto \begin{pmatrix} a & b \\ c & d  \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix}
+$$
+
 
 ---
 # Rotations
+
 $$
 \begin{aligned}
 
@@ -37,6 +46,7 @@ $$
 \end{aligned}
 $$
 
+
 ---
 # Enlargement and Stretches
 You can represent a stretch with matrix $\begin{pmatrix} a & 0 \\ 0 & b \end{pmatrix}$ It has stretch factor $a$ parallel to the $x$-axis and stretch factor $b$ parallel to the $y$-axis.
@@ -46,6 +56,7 @@ For a linear transform by matrix $M$, $|M|$ is the scale factor of area (if it's
 
 ---
 # Reflections
+
 $$
 \begin{aligned}
 & \stackrel{\displaystyle\text{2D reflection in y axis}}{\begin{pmatrix}
@@ -70,6 +81,8 @@ $$
 \end{aligned}
 $$
 
+
+
 $$
 \begin{aligned}
 \quad
@@ -93,6 +106,7 @@ $$
 \end{aligned}
 $$
 
+
 ---
 # Successive transformations
 The matrix $PQ$ represents the singular transform of the result of a transform by $Q$ then $P$
@@ -102,23 +116,3 @@ The matrix $PQ$ represents the singular transform of the result of a transform b
 Since $AA^{-1} = I$, $A^{-1}$ describes the inverse transformation of $A$
 
 ---
-# Flashcards
-#Maths/Topics/Linear-Algebra/Linear-Transforms
-
-What does $|M|$ represent for a linear transform by matrix $M$?
-?
-$|M|$ represents the scale factor of area. If it's negative, the shape has been reflected.      
-
-What does the matrix $PQ$ represent in successive transformations?
-?
-$PQ$ represents the singular transform of the result of a transform by $Q$ then $P$      
-
-What are two key properties of linear transforms?
-?
-- They always map the origin onto itself
-- They can be represented by a matrix      
-
-What are invariant points/lines in a linear transform?
-?
-Points/lines that don't change under the transform.      
-

@@ -55,13 +55,3 @@ $c^2 = a^2e^2 = a^2 + b^2$  where $c$ is the focal length meaning the distance f
 $c^2 = a^2e^2 = a^2 - b^2$ where $c$ is the focal length meaning the distance from the centre to a focus
 
 ---
-# Flashcards
-## A-Level Further Pure 1
-#z_Legacy/Maths/A-Levels/Further-Pure/Conics  
-
-How are is the general point $P$, the focus $F$, the directrix $D$ and eccentricity $e$ related?
-?
-For all points $P$ on a conic section, the ratio of the distance $P$ from a fixed point $F$ (the focus) and fixed straight line $D$ (the directrix) is constant. This ratio $e$ is called the eccentricity.
-- If $0 \leq e < 1$, $P$ describes an ellipse
-- If $e = 1$, $P$ describes a parabola
-- If $e > 1$, $P$ describes a hyperbola 

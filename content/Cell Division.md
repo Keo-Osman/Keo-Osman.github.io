@@ -11,15 +11,3 @@
 - One set of chromosomes is pulled to each end and split
 - The cytoplasm and cell membranes divide to form 2 **identical daughter cells**
 
-# Flashcards
-
-#Biology/B2/Mitosis
-
-What is the process of mitosis?
-?
-![[Mitosis.png|400]]
-**The Process:**
-- First the [[DNA]] replicates to form 2 copies of each chromosome and the cell grows and copies internal structures
-- Then the nuclear membrane breaks down and the chromosomes line up across the centre of the cell
-- One set of chromosomes is pulled to each end and split
-- The cytoplasm and cell membranes divide to form 2 **identical daughter cells** 

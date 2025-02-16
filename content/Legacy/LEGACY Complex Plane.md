@@ -31,42 +31,10 @@ You can transform loci by mapping the $z$ plane onto a $w$ plane to get $z = x+i
 - $w = kz$, $k\in \mathbb{R}$ represents enlargement with scale factor $k$ centre $(0,0)$
 - $w = iz$ represents anti-clockwise rotation of $\frac{\pi}{2}$ about $(0,0)$
 ### Möbius transformations
-They are transformations in the form $$w = \frac{az+b}{cz+d} \quad a,b,c,d \in \mathbb{C}$$
+They are transformations in the form 
+$$
+w = \frac{az+b}{cz+d} \quad a,b,c,d \in \mathbb{C}
+$$
+
 
 --- 
-# Flashcards
-## A-Level Further Core 1
-
-#z_Legacy/Maths/A-Levels/Further-Core/Complex-Plane
-
-What does $|z_2-z_1|$ represent on the complex plane?
-?
-$|z_2-z_1|$ represents the distance between points $z_1$ and $z_2$ on the complex plane. 
-
-What does the locus of points $|z-z_1|=r$ describe on the complex plane?
-?
-The locus of points described by $|z-z_1|=r$ forms a circle  
-
-What does the locus of points $|z-z_1|=|z-z_2|$ describe on the complex plane?
-?
-The locus of points described by $|z-z_1|=|z-z_2|$ is the perpendicular bisector of the line segment connecting $z_1$ and $z_2$  
-
-What does the locus of points $\arg(z-z_1)=\theta$ describe on the complex plane?
-?
- $\arg \left(z-z_1\right)=\theta$ forms a straight half-line that makes angle $\theta$ with the line extending from $z_1$ that is parallel to the real axis but does not include $z_1$.     
-
----
-## A-Level Further Pure 2
-#z_Legacy/Maths/A-Levels/Further-Pure/Complex-Plane
-
-What does the locus of points $|z-z_1| = k|z-z_2|$ describe on the complex plane and how do you find it's cartesian equation?
-?
-The locus is a circle. This equation represents points that are $k$ times further from $a$ than they are from $b$. To find the cartesian equation split $z$ into $x+iy$, then square both sides to eliminate the modulus and $i$ terms and solve the resulting equation.    
-
-What does the locus $\displaystyle \arg\left(\frac{z-z_1}{z-z_2}\right) = \theta$ represent and how do you find it's equation?
-?
-The Locus $\displaystyle \arg\left(\frac{z-z_1}{z-z_2}\right) = \theta$ is an arc of a circle with end points $z_1,z_2$. The arc is drawn **anticlockwise** from $z_1$ to $z_2$. You can find the equation of a circle by considering the 2 congruent isosceles triangles formed by $z_1CM$, $z_2CM$ where $C$ is the circle centre and $M$ is the midpoint of the line $z_1z_2$. 
-
-What is a Möbius transformation?
-?
-A Möbius transformation is a transformation of the form $\displaystyle w = \frac{az+b}{cz+d}$, where $a,b,c,d \in \mathbb{C}$.   

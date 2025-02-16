@@ -14,6 +14,7 @@ The cartesian equation of a plane is $px + qy + rz = s$ where the normal vector 
 The ***dot*** product *(also called scalar product)* between 2 vectors $a, b$ is given by the equation $a\cdot b = |a||b| \cos \theta$ where $\theta$ is the acute angle between $a$ and $b$ *(when they are pointing away from their intersection).* 
 
 The scalar product is **Commutative**
+
 $$
 \begin{aligned}
 a \cdot b &= |a||b|\cos\theta \\
@@ -22,8 +23,11 @@ b \cdot a &= |b||a|\cos(360 - \theta) \\
 a \cdot b & = b \cdot a
 \end{aligned}
 $$
+
 The dot product is also **Distributive** meaning that you can compute the scalar product without $\theta$
-$$\begin{aligned}
+
+$$
+\begin{aligned}
 a \cdot b= & \space \left(a_1 \mathbf{i}+a_2 \mathbf{j}+a_3 \mathbf{k}\right) \cdot\left(b_1 \mathbf{i}+b_2 \mathbf{j}+b_3 \mathbf{k}\right) \\
 = & \space\space a_1 \mathbf{i} \cdot\left(b_1 \mathbf{i}+b_2 \mathbf{j}+b_3 \mathbf{k}\right)  +a_2 \mathbf{j} \cdot\left(b_1 \mathbf{i}+b_2 \mathbf{j}+b_3 \mathbf{k}\right) +a_3 \mathbf{k} \cdot\left(b_1 \mathbf{i}+b_2 \mathbf{j}+b_3 \mathbf{k}\right) \\
 \\
@@ -36,8 +40,14 @@ a \cdot b= & \space \left(a_1 \mathbf{i}+a_2 \mathbf{j}+a_3 \mathbf{k}\right) \c
 & +\left(a_3 b_1\right) \mathbf{k} \cdot \mathbf{i}+\left(a_3 b_2\right) \mathbf{k} \cdot \mathbf{j}+\left(a_3 b_3\right) \mathbf{k} \cdot \mathbf{k} \\
 \\
 a \cdot b= & \space a_1 b_1+a_2 b_2+a_3 b_3
-\end{aligned}$$
-Using this you can compute the angle with just a simple expression$$\cos (\theta) = \frac{a \cdot b}{|a||b|} =\frac{a_1b_1 + a_2b_2 + a_3b_3}{|a||b|}$$
+\end{aligned}
+$$
+
+Using this you can compute the angle with just a simple expression
+$$
+\cos (\theta) = \frac{a \cdot b}{|a||b|} =\frac{a_1b_1 + a_2b_2 + a_3b_3}{|a||b|}
+$$
+
 ## Planes in The Form $r \cdot n = k$
 Suppose a plane $\Uppi$ passes through $A$ and has normal vector $n$ and let $R$ be an arbitrary point on $\Uppi$. Then $\overrightarrow {AR} = r - a$. Since $\overrightarrow {AR}$ lies on $\Uppi$, $\overrightarrow {AR}\cdot n = 0$ so $(r-a) \cdot n = 0 \Rightarrow r \cdot n = a \cdot n$ where $a \cdot n$ is a constant so $a\cdot n = k$. This can also be written as $n_1x+n_2y+n_3z = k$. Where $k$ represents the [[LEGACY Vectors#Perpendicular Distances|perpendicular distance]] from the origin to the place if $n = \hat{n}$
 ## Angles Between Vectors and Planes
@@ -57,8 +67,16 @@ To find the shortest/perpendicular distance between 2 lines $l_1: r = a + \lambd
 To find shortest distance between a line $l$ and a point $A$, Let $B$ be a point on $l$ then $l \cdot AB = 0$. You can then find the coordinates of $B$ so you can find the distance
 The perpendicular distance from the origin to the plane $r\cdot \hat n = k$ is simply k
 The perpendicular distance from a point $(x_0, y_0, z_0)$ to the plane $ax + by + cz = d$ is 
-$$\frac{|ax_0 + by_0 + cz_0 - d|}{\sqrt{a^2 + b^2 + c^2}}$$
-The distance between two parallel planes $ax + by + cz = d_1$ and $ax + by + cz = d_2$ is $$\frac{|d_1 - d_2|}{\sqrt{a^2 + b^2 + c^2}}$$
+
+$$
+\frac{|ax_0 + by_0 + cz_0 - d|}{\sqrt{a^2 + b^2 + c^2}}
+$$
+
+The distance between two parallel planes $ax + by + cz = d_1$ and $ax + by + cz = d_2$ is 
+$$
+\frac{|d_1 - d_2|}{\sqrt{a^2 + b^2 + c^2}}
+$$
+
 
 ---
 # A-Level Further Pure 1
@@ -66,6 +84,7 @@ The distance between two parallel planes $ax + by + cz = d_1$ and $ax + by + cz 
 ### Definition 
 The cross product is defined as $a \times b = |a||b| \sin (\theta) \hat{n}$.
 It is **Commutative** and **Distributive**
+
 $$
 \begin{aligned}
 a\times b & =(a_{1}\mathbf{i}+a_{2}\mathbf{j}+a_{3}\mathbf{k})\times(b_{1}\mathbf{i}+b_{2}\mathbf{j}+b_{3}\mathbf{k}) \\
@@ -94,7 +113,8 @@ b_1 & b_2
 \end{vmatrix} \\ \\
  & =(a_2b_3-a_3b_2)\mathbf{i}+(a_3b_1-a_1b_3)\mathbf{j}+(a_1b_2-a_2b_1)\mathbf{k}
  \end{aligned}
- $$
+$$
+
 $\theta$ is the angle between $a$ and $b$ where $0 \leq \theta \leq 180 \degree$. And $\hat{n}$ is the unit vector perpendicular to both $a$ and $b$ 
 ### Right Hand Rule
 The direction of $\hat{n}$ depends on the right-hand rule 
@@ -103,63 +123,29 @@ The direction of $\hat{n}$ depends on the right-hand rule
 
 Swapping $a$ and $b$ means that $\hat{n} \mapsto -\hat{n}$ therefore $b \times a = |b||a| \sin (\theta) (-\hat{n}) = - a\times b$
 ## Areas
-$$\text{Triangle Area} = \frac{1}{2}|a \times b| \quad \text{Parellelogram Area} = |a \times b|$$
+
+$$
+\text{Triangle Area} = \frac{1}{2}|a \times b| \quad \text{Parellelogram Area} = |a \times b|
+$$
+
 ## Finding Volumes - Scalar Triple Product $a \cdot (b \times c)$
-$$a \cdot (b \times c) \equiv\begin{vmatrix} a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \\ c_1 & c_2 & c_3 \end{vmatrix}\equiv a_1(b_2c_3 - b_3c_2) + a_2(b_3c_1 - c_3b_1) + a_3(b_1c_2 - b_2c_1) $$
+
+$$
+a \cdot (b \times c) \equiv\begin{vmatrix} a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \\ c_1 & c_2 & c_3 \end{vmatrix}\equiv a_1(b_2c_3 - b_3c_2) + a_2(b_3c_1 - c_3b_1) + a_3(b_1c_2 - b_2c_1)
+$$
+
 ## Straight Lines $(r-a)\times b = 0$
 Suppose $a$ is the position vector of a point on a line and the line is parallel to $b$. Let $r$ be the position vector of a general point on the line. so $\overrightarrow{AR} = \overrightarrow{OR} - \overrightarrow{OA} = r-a$. Since $\overrightarrow{AR}$ is parallel to $b$, $\overrightarrow{AR} \times b = 0$ so $(r-a)\times b = 0$
 ## Direction of Cosines
-If a line is parallel to the vector $a = xi +yj+zk$ the direction ratios are $x:y:z$ and the direction of cosines of the line are $$\cos \theta_x = \frac{x}{|a|} = l \quad \cos \theta_y = \frac{y}{|a|} = m \quad \cos \theta_z = \frac{z}{|a|} = n $$
-The sum of the squares of the direction cosines is always one $$l^2 + m^2+n^2 = \frac{x^2+y^2+z^2}{|a|^2} = \frac{|a|^2}{|a|^2}= 1$$
+If a line is parallel to the vector $a = xi +yj+zk$ the direction ratios are $x:y:z$ and the direction of cosines of the line are 
+$$
+\cos \theta_x = \frac{x}{|a|} = l \quad \cos \theta_y = \frac{y}{|a|} = m \quad \cos \theta_z = \frac{z}{|a|} = n
+$$
+
+The sum of the squares of the direction cosines is always one 
+$$
+l^2 + m^2+n^2 = \frac{x^2+y^2+z^2}{|a|^2} = \frac{|a|^2}{|a|^2}= 1
+$$
+
 
 ---
-# Flashcards
-#z_Legacy/Maths/A-Levels/Further-Core/Vectors
-
-Given that the perpendicular distance from a point $(x_0, y_0, z_0)$ to a plane $ax + by + cz = d$ is $$\frac{|ax_0 + by_0 + cz_0 - d|}{\sqrt{a^2 + b^2 + c^2}}$$ How do you calculate $ax + by + cz = d_1$ and $ax + by + cz = d_2$?
-?
-$$\frac{|d_1 - d_2|}{\sqrt{a^2 + b^2 + c^2}}$$ 
-
-What is $a \cdot b$ and what are the ways to compute it?
-?
-$a\cdot b = |a||b| \cos \theta$, $a \cdot b=  a_1 b_1+a_2 b_2+a_3 b_3$    
-
-How do you find the angle between 2 intersecting straight lines *(with direction vectors $a, b$)* ?
-?
-$\displaystyle\cos \theta = \left|\frac{a \cdot b}{|a||b|}\right|$     
-
-How do you find the angle between a straight line *(with direction vectors $r = a + \lambda b$)* and Plane *(with equation $r.n = k$)?
-?
-$\displaystyle\sin \theta = \left|\frac{b \cdot n}{|b||n|}\right|$     
-
-How do you find the angle between 2 intersecting planes $r.n_1 = k_1$ and $r.n_2 = k_2$?
-?
-$\displaystyle\cos \theta = \left|\frac{n_1 \cdot n_2}{|n_1||n_2|}\right|$     
-
-How do you find if 2 lines intersect and if so how do you find the intersection point?
-?
-To find if 2 lines $l_1: r = a + \lambda b$ and $l_2: r = c + \mu d$ intersect set them equal and solve the system of equations, if solutions for $\mu$ and $\lambda$ exist then they intersect, if not then there is no intersection.
-Two lines are **skew** if they do not intersect but are parallel meaning solutions for  $\mu$ and $\lambda$ don't exist but their direction vectors are scalar multiples of each other.  
-
-How do you find the shortest/perpendicular distance between 2 lines?
-?
-To find the shortest/perpendicular distance between 2 lines $l_1: r = a + \lambda b$ and $l_2: r = c + \mu d$, Let $A$ be a point on $l_1$ and $B$ be a point on $l_2$ then shortest/perpendicular distance between $l_1$ and $l_2$ will be the straight line segment $AB$ that is perpendicular to both lines. So $l_1 \cdot AB = l_2 \cdot AB = 0$ you can then solve for $\mu$ and $\lambda$     
-
-How do you find the shortest/perpendicular distance between a line and a point?
-?
-To find shortest distance between a line $l$ and a point $A$, Let $B$ be a point on $l$ then $l \cdot AB = 0$. You can then find the coordinates of $B$ so you can find the distance    
-
-How do you find the perpendicular distance from a plane and the origin?
-?
-The perpendicular distance from the origin to the plane $r\cdot \hat n = k$ is simply k    
-
-
-#z_Legacy/Maths/A-Levels/Further-Pure/Vectors
-
-
-What is the relationship between $a \times b$ and $b \times a$?
-?
-The relationship between $a \times b$ and $b \times a$ is:
-$$a \times b \neq b \times a$$
-$$a \times b = -b \times a$$
-This means that the cross product is anti-commutative.  
