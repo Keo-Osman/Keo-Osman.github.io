@@ -2,12 +2,30 @@
 ## First order differential equations
 ### Separating The Variables
 Equations in the form $\displaystyle \frac{dy}{dx} = f(x)g(y)$ can be solved with 
+
+
+
+
+
+
 $$
 \int \frac{1}{g(y)} dy = \int f(x) dx
 $$
 
+
+
+
+
+
+
 ### Integrating Factor
 An integrating factor is an $f(x)$ that you multiply through by to solve differential equations in the form $\displaystyle \frac{dy}{dx} + P(x)y = Q(x)$. The general integrating factor is $f(x) = \displaystyle e^{\int P(x)dx}$ but it can be other functions
+
+
+
+
+
+
 
 $$
 \begin{aligned}
@@ -23,13 +41,31 @@ $$
 \end{aligned}
 $$
 
+
+
+
+
+
+
 ## Second Order Differential Equations
 ### Homogeneous
 A second order homogeneous differential equation is a linear differential equation with a 2nd derivative term that equals zero
 
+
+
+
+
+
+
 $$
 a \frac{d^2 y}{dx^2} + b \frac{dy}{dx} + c y = 0
 $$
+
+
+
+
+
+
 
 It has the general solution $y = Ae^{\lambda x} + Be^{\mu x}$ where  $A$ and $B$ are arbitrary constants, and $\lambda$ and $\mu$ are constants to be determined.
 Plugging in $y = Ae^{\lambda x} + Be^{\mu x}$ into the differential equation, we get that $\lambda$ and $\mu$ are solutions to the quadratic equation $am^2 + bm + c = 0$ this is called the ***auxiliary equation*.** 
@@ -41,9 +77,21 @@ This quadratic leads to 3 cases.
 ### Non-Homogeneous
 A second order non-homogeneous differential equation is a linear differential equation with a 2nd derivative term that equals some function of $x$
 
+
+
+
+
+
+
 $$
 a \frac{d^2y}{dx^2} + b \frac{dy}{dx} + c y = f(x)
 $$
+
+
+
+
+
+
 
 It has the general solution  $y = C.F + P.I$. Where $C.F$ is the solution to the corresponding homogenous function and $P.I$ is a **particular integral**
 #### Particular Integral
@@ -65,18 +113,48 @@ If the particular integral contains terms which form part of the complementary f
 # A-Level Further Core 2 - Modelling
 ## Simple Harmonic Motion
 
+
+
+
+
+
+
 $$
 \dot{x} = \frac{dx}{dt}, \quad \ddot{x} = \frac{d^2x}{dt^2}
 $$
+
+
+
+
+
+
 
  Simple harmonic motion **(S.H.M)** is motion in which acceleration is always towards a fixed point $O$ *(the centre of oscillation)*, and proportional to the displacement *(basically oscillating through a point)*.
  
 **S.H.M** is modelled with $\ddot{x} = -\omega^2 x$, where $\omega$ is angular velocity 
 
 
+
+
+
+
+
+
 $$
 \ddot{x} = \frac{dv}{dt} = \frac{dx}{dt} \times \frac{dv}{dx} = v\frac{dv}{dx}
 $$
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 $$
@@ -89,11 +167,29 @@ x = R\sin(\omega t + \alpha)
 \end{matrix}
 $$
 
+
+
+
+
+
+
 ## Damped and Forced Harmonic Motion
 You can refine and make more accurate models for harmonic motion by adding an additional damping force. 
+
+
+
+
+
+
 $$
 \frac{d^2x}{dt^2} + k \frac{dx}{dt} + \omega^2 x = 0\quad \text{or}\quad\ddot{x} + k \dot{x} + \omega^2 x = 0
 $$
+
+
+
+
+
+
 
 The auxiliary equation leads to 3 cases:
 - $k^2 > 4\omega^2$: Known as **heavy damping** - *no oscillations as resistive force is large compared to restoring force*
@@ -103,9 +199,21 @@ The auxiliary equation leads to 3 cases:
 For heavy and critical damping, the exact nature of the motion depends on initial conditions. For light damping, the period of observed oscillations can be calculated.
 ## Coupled First-Order Simultaneous Differential Equations
 
+
+
+
+
+
+
 $$
 \frac{dx}{dt} = ax + by + f(t) \quad \frac{dy}{dt} = cx + dy + g(t)
 $$
+
+
+
+
+
+
 
 You can solve these equations by rearranging equation (1) to get $y = p\displaystyle\frac{dx}{dt} + qx + h(t)$ then differentiate that and sub $\displaystyle\frac{dy}{dt}$ into equation 2 to get a 2nd order differential equation, then solve for $x$, differentiate and plug into $y = p\displaystyle\frac{dx}{dt} + qx + h(t)$ to get $y$.  
 You could also solve for $y$ first

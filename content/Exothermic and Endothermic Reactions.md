@@ -1,3 +1,4 @@
+#Chemistry/Reactions, #Chemistry/Energy
 Energy is needed to break chemical bonds and it is released when bonds are made
 
 # Exothermic

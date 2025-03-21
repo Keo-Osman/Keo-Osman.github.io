@@ -1,3 +1,4 @@
+#Biology/Cells  
 # Diffusion
 **Diffusion is the movement/spreading out of particles from areas of high to low concentration**.
 - Goes with concentration gradient

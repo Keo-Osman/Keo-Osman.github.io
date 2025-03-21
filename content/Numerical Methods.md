@@ -1,18 +1,44 @@
-# Euler's Method for Differential Equations
+#Maths/Numerical-Methods
+# Euler's Method for [[Differential Equations]]
 ## First Order
+
+
+
+
+
 
 $$
 y_{r+1} \approx y_r + h \left.\frac{dy}{dx}\right|_{\displaystyle x_r}
 $$
 
 
+
+
+
+
+
+
+
+
+
+
 $$
 r \in \mathbb{N},\space x_r = x_{r-1}+h, \space h \in \mathbb{R}
 $$
 
+
+
+
+
+
 *The way this works is that you are given initial conditions $(x_0, y_0)$. So you can compute $\left.\frac{dy}{dx}\right|_{x_0}$, then you can approximate the coordinates some $h$ away from $x_0$ by using a straight line with gradient $\left.\frac{dy}{dx}\right|_{x_0}$. To get a more accurate approximation, you can calculate the next point with smaller steps $h$. As a result, you have to do more iterations to get a point some distance from $x_0$*
 
 You could also use the **Midpoint Formula**:
+
+
+
+
+
 
 
 $$
@@ -20,11 +46,31 @@ y_{r+1} \approx y_{r-1} + 2h \left.\frac{dy}{dx}\right|_{x_r}
 $$
 
 
+
+
+
+
+
 ## Second order differential equation
+
+
+
+
+
 
 $$
 y_{r+1} \approx 2y_r - y_{r-1} + h^2 \left.\frac{d^2y}{dx^2}\right|_{\displaystyle x_r}
 $$
+
+
+
+
+
+
+
+
+
+
 
 
 $$
@@ -32,13 +78,28 @@ $$
 $$
 
 
+
+
+
+
+
 ---
-# Simpson's Rule for Approximating Integrals
+# Simpson's Rule for Approximating [[Integration|Integrals]]
 You can approximate $\int_a^b g(x) dx$ with the formula:
+
+
+
+
+
 
 $$
 \int_a^b g(x) dx \approx \frac{h}{3}\left(y_0 + 4\sum_{k=1}^{n-1} y_{2k-1} + 2\sum_{k=1}^{n-1} y_{2k} + y_{2n}\right)
 $$
+
+
+
+
+
 
 
 where $2n$ is the number of strips used to approximate the area and $h$ is the width of each strip.
@@ -46,11 +107,31 @@ This formula is derived by using quadratic curves and using the result that area
 
 **Other forms:**
 
+
+
+
+
+
 $$
 \frac{1}{3}h(\text{endpoints} + 4 \times \text{odd values} + 2 \times \text{even values})
 $$
 
 
+
+
+
+
+
+
+
+
+
+
 $$
 \frac{1}{3}h(y_0 + 4(y_1 + y_3 + \ldots + y_{2n-1}) + 2(y_2 + y_4 + \ldots + y_{2n-2}) + y_{2n})
 $$
+
+
+
+
+

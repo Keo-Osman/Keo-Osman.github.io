@@ -1,3 +1,4 @@
+#Maths/Algebra 
 # Sum of Squares
 - $\alpha^2 + \beta^2 = (\alpha + \beta)^2 - 2\alpha\beta$
 -  $\alpha^2 + \beta^2 + \gamma^2 = (\alpha + \beta + \gamma)^2 - 2(\alpha\beta + \beta\gamma + \gamma\alpha)$

@@ -1,3 +1,4 @@
+#Physics/Energy
 # Thermal Conductivity
 The **thermal conductivity** of a material tells you how quickly energy is transmitted through thermal conduction. 
 *You can test this by having materials of the same diameter and length and covering the end in wax and seeing how fast the wax melts*

@@ -1,11 +1,21 @@
-#Maths/Topics/Trigonometry/Regular  
+#Maths/Trigonometry 
 # Function Definitions and Properties 
-## Sine
+## Sin
 ### **$sin(x)$**
 Defined as the fraction of 
+
+
+
+
+
 $$
 \frac{Opposite}{Hypotonuese}
 $$
+
+
+
+
+
  for a given right angle triangle with angle $x$
 - Domain of $x \in  \mathbb{R}$
 - Range of $-1 \le y \le 1$
@@ -14,9 +24,19 @@ $$
 
 ### **$cosec(x)$**
 Defined as 
+
+
+
+
+
 $$
 \frac{1}{sin(x)}
 $$
+
+
+
+
+
 
 - Domain $x \in \mathbb{R}, x \ne \frac{(2n+1)\pi}{2}, n \in \mathbb{z}$
 - Range of $y \ge 1 , y \le -1$
@@ -30,9 +50,19 @@ Defined as the inverse function of $sin(x)$
 ## Cosine
 ### **$cos(x)$**
 Defined as the fraction of 
+
+
+
+
+
 $$
 \frac{Adjacent}{Hypotonuese}
 $$
+
+
+
+
+
 for a given right angle triangle with angle $x$
 - Domain of $x \in  \mathbb{R}$
 - Range of $-1 \le y \le 1$
@@ -40,9 +70,19 @@ for a given right angle triangle with angle $x$
 ![[Cosine-Graph.png|600]]
 ### **$sec(x)$**
 Defined as 
+
+
+
+
+
 $$
 \frac{1}{cos(x)}
 $$
+
+
+
+
+
 
 - Domain $x \in \mathbb{R}, x \ne \frac{(2n+1)\pi}{2}, n \in \mathbb{z}$
 - Range of $y \ge 1 , y \le -1$
@@ -56,9 +96,19 @@ Defined as the inverse function of $cos(x)$
 ## Tangent
 ### $tan(x)$
 Defined as 
+
+
+
+
+
 $$
 \frac{Opposite}{Adjacent}
 $$
+
+
+
+
+
  for a given right-angle triangle with angle $x$
 - Domain $x \in \mathbb{R}, x \ne \frac{(2n+1)\pi}{2}, n \in \mathbb{Z}$
 - Range $y \in \mathbb{R}$
@@ -67,9 +117,19 @@ $$
 
 ### $cot(x)$
 Defined as 
+
+
+
+
+
 $$
 \frac{1}{tan(x)}
 $$
+
+
+
+
+
 
 - Domain $x \in \mathbb{R}, x \ne n\pi, n \in \mathbb{Z}$
 - Range $y \in \mathbb{R}$
@@ -93,64 +153,169 @@ Defined as the inverse function of $tan(x)$
 >- Let the hypotenuse be of length 1. 
 >- According to the definitions of sine and cosine, we have: 
 
+
+
+
+
+
 $$
 \sin x = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{a}{1} = a
 $$
+
+
+
+
+
  and 
+
+
+
+
+
 $$
 \cos x = \frac{\text{adjacent}}{\text{hypotenuse}} = \frac{b}{1} = b,
 $$
 
+
+
+
+
+
 > - By the Pythagorean theorem, we know that in a right triangle: 
+
+
+
+
+
 $$
 a^2 + b^2 = 1^2
 $$
+
+
+
+
+
  Substituting the values of $a$ and $b$ in terms of $\sin x$ and $\cos x$, we get:  
+
+
+
+
+
 $$
 \sin ^2(x) + \cos^2(x) = 1
 $$
+
+
+
+
+
 
 
 ## $1 + \tan^2(x) \equiv \sec^2(x)$
 > [!example]- Proof
 >- Take 
+
+
+
+
+
 $$
 \sin ^2(x) + \cos^2(x) = 1
 $$
 
+
+
+
+
+
 >- Divide by $sin^2(x)$ to get 
+
+
+
+
+
 $$
 \frac{sin ^2(x)}{sin ^2(x)} + \frac{cos^2(x)}{sin ^2(x)} = \frac{1}{sin ^2(x)}
 $$
 
+
+
+
+
+
 >- Rearrange to get 
+
+
+
+
+
 $$
 1 + \left (\frac{cos(x)}{sin(x)} \right)^2 \equiv \left (\frac{1}{sin(x)} \right)^2
 $$
 
+
+
+
+
+
 >- Simplify to get 
+
+
+
+
+
 $$
 1 + tan^2(x) \equiv sec^2(x)
 $$
 
 
+
+
+
+
+
 ## $a\sin(x) \pm b\cos(x)\equiv R\sin(x \pm \alpha), R\cos(x \pm \alpha)$ 
 > [!example]- Equation
+
+
+
+
+
 
 $$
 sign(a)*\left(\sqrt{a^{2}+b^{2}}\right)\sin\left(x + \arctan\left(\frac{b}{a}\right)\right)
 $$
 
+
+
+
+
+
 or
+
+
+
+
+
 
 $$
 sign(b)*\left(\sqrt{a^{2}+b^{2}}\right)\cos\left(x-\arctan\left(\frac{a}{b}\right)\right)
 $$
 
 
+
+
+
+
+
 # T-Formulae
 ## Definitions/Equations
 The t-formulae are formulae for the trigonometric functions using the substitution $t = \tan \left(\frac{\theta}{2}\right)$ to obtain the following formulae:
+
+
+
+
+
 
 
 $$
@@ -162,14 +327,27 @@ $$
 $$
 
 
+
+
+
+
+
 ## Solving Equations
 To solve questions, you need to find $\tan \left(\frac{\theta}{2}\right)$ if not directly given, then use the t-formula for what you're trying to find. You generally find $\tan \left(\frac{\theta}{2}\right)$ 
  Finding $\sin \left(\frac{\theta}{2}\right)$ or $\cos \left(\frac{\theta}{2}\right)$ *it will either be given in the question or the reciprocal function* Then using the identity $\sin^2 + \cos^2 = 1$ to obtain the other function *Either sine or cosine* then choose the correct sign for the square root based on boundary conditions for $\theta$ in the problem. Then use $\tan (\theta) = \frac{\sin(\theta)}{\cos(\theta)}$
 ## Weierstrass Substitution For Integrals
 You can use the t-formulae as a substitution for integrals it should be self explanatory from there but a key fact to remember is 
+
+
+
+
+
 $$
 dx = \frac{2}{1+t^2}dt
 $$
- 
 
----
+
+
+
+
+ 

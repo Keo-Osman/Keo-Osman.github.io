@@ -1,10 +1,15 @@
+#Maths/Geometry, #Maths/Linear-Algebra 
 # Definition
-
 ---
 # Dot Product $a\cdot b = |a||b| \cos \theta$
-The ***dot*** product *(also called scalar product)* between 2 vectors $a, b$ is given by the equation $a\cdot b = |a||b| \cos \theta$ where $\theta$ is the acute angle between $a$ and $b$ *(when they are pointing away from their intersection).* 
+The ***dot*** product *(also called scalar product)* between 2 vectors $a, b$ is given by the equation $a\cdot b = |a||b| \cos \theta$ where $\theta$ is the acute angle between $a$ and $b$ *(when they are pointing away from their intersection).* *[[Trigonometric Functions#Cosine|Cosine]]*
 
 The scalar product is **Commutative**
+
+
+
+
+
 
 $$
 \begin{aligned}
@@ -15,7 +20,17 @@ a \cdot b & = b \cdot a
 \end{aligned}
 $$
 
+
+
+
+
+
 The dot product is also **Distributive** meaning that you can compute the scalar product without $\theta$
+
+
+
+
+
 
 $$
 \begin{aligned}
@@ -34,16 +49,36 @@ a \cdot b= & \space a_1 b_1+a_2 b_2+a_3 b_3
 \end{aligned}
 $$
 
+
+
+
+
+
 Using this you can compute the angle with just a simple expression
+
+
+
+
+
 $$
 \cos (\theta) = \frac{a \cdot b}{|a||b|} =\frac{a_1b_1 + a_2b_2 + a_3b_3}{|a||b|}
 $$
 
 
+
+
+
+
+
 ---
 # Vector Cross Product $a \times b = |a||b| \sin (\theta) \hat{n}$
-The cross product is defined as $a \times b = |a||b| \sin (\theta) \hat{n}$
+The cross product is defined as $a \times b = |a||b| \sin (\theta) \hat{n}$, *[[Trigonometric Functions#Sin|Sin]]*
 It is **Commutative** and **Distributive**
+
+
+
+
+
 
 $$
 \begin{aligned}
@@ -74,6 +109,11 @@ b_1 & b_2
  & =(a_2b_3-a_3b_2)\mathbf{i}+(a_3b_1-a_1b_3)\mathbf{j}+(a_1b_2-a_2b_1)\mathbf{k}
  \end{aligned}
 $$
+
+
+
+
+
 
 $\theta$ is the angle between $a$ and $b$ where $0 \leq \theta \leq 180 \degree$. And $\hat{n}$ is the unit vector perpendicular to both $a$ and $b$ 
 ## Right Hand Rule
@@ -125,35 +165,83 @@ To find shortest distance between a line $l$ and a point $A$, Let $B$ be a point
 The perpendicular distance from the origin to the plane $r\cdot \hat n = k$ is simply k
 The perpendicular distance from a point $(x_0, y_0, z_0)$ to the plane $ax + by + cz = d$ is 
 
+
+
+
+
+
 $$
 \frac{|ax_0 + by_0 + cz_0 - d|}{\sqrt{a^2 + b^2 + c^2}}
 $$
 
+
+
+
+
+
 The distance between two parallel planes $ax + by + cz = d_1$ and $ax + by + cz = d_2$ is 
+
+
+
+
+
 $$
 \frac{|d_1 - d_2|}{\sqrt{a^2 + b^2 + c^2}}
 $$
+
+
+
+
+
 
 
 ---
 
 # Finding Volumes - Scalar Triple Product $a \cdot (b \times c)$
 
+
+
+
+
+
 $$
 a \cdot (b \times c) \equiv\begin{vmatrix} a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \\ c_1 & c_2 & c_3 \end{vmatrix}\equiv a_1(b_2c_3 - b_3c_2) + a_2(b_3c_1 - c_3b_1) + a_3(b_1c_2 - b_2c_1)
 $$
 
 
+
+
+
+
+This is simply the definition/what a [[Matrices#Determinant|Determinant]] represents
+
 # Direction of Cosines
-If a line is parallel to the vector $a = xi +yj+zk$ the direction ratios are $x:y:z$ and the direction of cosines of the line are 
+If a line is parallel to the vector $a = xi +yj+zk$ the direction ratios are $x:y:z$ and the direction of [[Trigonometric Functions|Cosines]] of the line are 
+
+
+
+
+
 $$
 \cos \theta_x = \frac{x}{|a|} = l \quad \cos \theta_y = \frac{y}{|a|} = m \quad \cos \theta_z = \frac{z}{|a|} = n
 $$
 
+
+
+
+
+
 The sum of the squares of the direction cosines is always one 
+
+
+
+
+
 $$
 l^2 + m^2+n^2 = \frac{x^2+y^2+z^2}{|a|^2} = \frac{|a|^2}{|a|^2}= 1
 $$
 
 
----
+
+
+

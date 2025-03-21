@@ -1,64 +1,66 @@
+#Maths
 # Main Content
+### Abstract Algebra
+- [[Groups]]
 ### Algebra
-[[Algebraic Expansions]]  
-[[Polynomials]]
+- [[Algebraic Expansions]]  
+- [[Polynomials]]
 ### Calculus
-[[Continuity]]  
-[[Differential Equations]]  
-[[Epsilon-Delta Definition of a Limit]]  
-[[Intervals]]  
-[[Methods in Calculus]]  
-[[Series]]  
-[[Series Approximations]]  
-[[Volumes of Revolution]]
-### Combinatorics
-[[Combinatorics]]
+- [[Continuity]]  
+- [[Differentiation]]
+- [[Differential Equations]]  
+- [[Epsilon-Delta Definition of a Limit]]  
+- [[Intervals]]  
+- [[Integration]]
+- [[Methods in Calculus]]  
+- [[Series]]  
+- [[Series Approximations]]  
+- [[Volumes of Revolution]]
 ### Complex Numbers
-[[Complex Numbers]]  
-[[Complex Plane]]
+- [[Complex Numbers]]  
+- [[Complex Plane]]
+### Discrete
+- [[Combinatorics]]
+- [[Number Theory]]
+- [[Recurrence Relations]]
 ### Geometry
-[[Conic Sections]]
-[[Vectors]]
+- [[Conic Sections]]
+- [[Linear Transforms]]  
+- [[Matrices]]  
+- [[Polar Coordinates]]
+- [[Vectors]]
 ### Graphs
-[[Polar Coordinates]]
-### Group Theory
-[[Groups]]
+- [[Differentiation#How derivatives affect the graph|Differentiation]]
+- [[Polar Coordinates]]
 ### Linear Algebra
-[[Linear Transforms]]  
-[[Matrices]]  
-[[Vectors]]
-### Number Theory
-[[Number Theory]]
+- [[Linear Transforms]]  
+- [[Matrices]]  
+- [[Vectors]]
 ### Numerical Methods
-[[Numerical Methods]]  
-[[Series Approximations]]
+- [[Numerical Methods]]  
+- [[Series Approximations]]
 ### Proofs
-[[Proof by Induction]]
-### Statistics and Probability
-[[Correlation]]  
-[[Data Collection]]  
-[[Hypothesis Testing]]  
-[[Measures of Location and Spread]]  
-[[Probability]]  
-[[Probability Distributions]]
+- [[Proof by Induction]]
 ### Trigonometry
-[[Hyperbolic Trigonometric Functions]]  
-[[Trigonometric Functions]]
+- [[Hyperbolic Trigonometric Functions]]  
+- [[Trigonometric Functions]]
 
 ---
-# Misc. 
-[[AI Note Transcription Prompt]]
+# Questions
+## CMS
+[[CMS Problem 21]]
+
 
 ---
 # LEGACY
 ## Maths A-Level
 ### Stats
-- 1.1 [[Data Collection]]
-- 1.2 [[Measures of Location and Spread]]
-- 1.4 [[Correlation]]
-- 1.5 [[Probability]]
-- 1.6 [[Probability Distributions#Binomial Distribution|Binomial Distribution]]
-- 1.7 [[Hypothesis Testing]]
+- 1.1 [[LEGACY Data Collection]]
+- 1.2 [[LEGACY Measures of Location and Spread]]
+- 1.4 [[LEGACY Correlation]]
+- 1.5 [[LEGACY Probability]]
+- 1.6 [[LEGACY Probability Distributions#Binomial Distribution|Binomial Distribution]]
+- 1.7 [[LEGACY Hypothesis Testing]]
 ## Further Maths A-Level
 ### Core
 - 1.1 [[LEGACY Complex Numbers]]

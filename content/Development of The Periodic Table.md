@@ -1,3 +1,4 @@
+#Chemistry/Atomic-Structure
 # Modern Periodic
 - Ordered by atomic number
 - Arranged in columns called groups (1-8/0) with a block of transition metals in between. Elements in groups share similar properties and have same number of electrons in outer shell  
@@ -14,3 +15,4 @@
  - Every 8th element react in similar ways - *Law of octaves*
  - However always sticking to this law meant that some metals were grouped together that shouldn't be
 
+---

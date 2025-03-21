@@ -1,3 +1,4 @@
+#Chemistry/Structure-and-Bonding 
 # Particle Types
 ## Coarse ($PM_{10}$)
 Have a diameter between $1\times10^{-5}\text{m}$ and $2.5\times10^{-6}\text{m}$ and they contain many thousands of atoms
@@ -18,4 +19,4 @@ Used in:
 
 **As particle size decreases by ten times the, *surface area : volume* ratio increases 10x**
 
-
+---

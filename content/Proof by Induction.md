@@ -1,3 +1,4 @@
+#Maths/Proofs
 Proof by induction is a way to prove that a general statement holds for all $n \in \mathbb{N}$ (can be used for all $n \in \mathbb{Z}$ but this is less common)
 -  First prove the general statement for any $n$ (generally $n = 0, 1$
 - Next assume that the statement is true for $n = k$

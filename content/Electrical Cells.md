@@ -1,3 +1,4 @@
+#Physics/Electricity 
 # Cells
 When 2 different metals are placed in an **electrolyte** then we can produce electricity. (*An electrolyte is a solution that can conduct electricity)*. This is because they create a potential difference between them. And they react with the electrolyte and the spare electrons from the reaction flow from high to low potential *(A bit like in electrolysis)*
 - A cell can only produce electricity for a certain period of time before the chemicals in the cell run out and the reaction stops.

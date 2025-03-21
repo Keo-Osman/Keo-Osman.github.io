@@ -1,6 +1,4 @@
----
-tags:
----
+#Biology/Organsiation  
 # The Heart
 *Diagram Left/Right are flipped because its as if you are looking though at somebody else's heart*
 ![[Heart-Diagram.png]]

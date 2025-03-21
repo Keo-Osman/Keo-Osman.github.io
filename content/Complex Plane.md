@@ -1,5 +1,6 @@
+#Maths/Complex-Numbers
 # Definitions
-[[Complex Numbers]] can be represented on a **Cartesian Plane** *(called the complex plane or an argand diagram)* as a point $(x, y)$ or vector $\begin{pmatrix} x \\ y \end{pmatrix}$ where $z=x+iy$. Therefore the $x$-axis is the real axis and the $y$-axis is the imaginary axis.
+[[Complex Numbers]] can be represented on a **Cartesian Plane** *(called the complex plane or an argand diagram)* as a point $(x, y)$ or [[Vectors|Vector]] $\begin{pmatrix} x \\ y \end{pmatrix}$ where $z=x+iy$. Therefore the $x$-axis is the real axis and the $y$-axis is the imaginary axis.
 
 ---
 # Loci
@@ -20,14 +21,21 @@ Given $z_1$ the locus of points described by $\arg \left(z-z_1\right)=\theta$ fo
 ---
 # Transformations on the Complex Plane
 You can transform loci by mapping the $z$ plane onto a $w$ plane to get $z = x+iy \rightarrow w = u+iv$
-$w = z+a+bi$ represents translation by $\begin{pmatrix} a \\ b \end{pmatrix}$, $a,b \in \mathbb{R}$
+$w = z+a+bi$ represents translation by [[Vectors|Vector]] $\begin{pmatrix} a \\ b \end{pmatrix}$, $a,b \in \mathbb{R}$
 $w = kz$, $k\in \mathbb{R}$ represents enlargement with scale factor $k$ centre $(0,0)$
 $w = iz$ represents anti-clockwise rotation of $\frac{\pi}{2}$ about $(0,0)$
 ## Möbius transformations
 They are transformations in the form 
+
+
+
+
+
 $$
 w = \frac{az+b}{cz+d} \quad a,b,c,d \in \mathbb{C}
 $$
 
 
---- 
+
+
+

@@ -1,3 +1,4 @@
+#Chemistry/Structure-and-Bonding 
 # Ionic
 Ionic bonds is when a non-metal reacts with a metal. Electrons are transferred from the metal to the non-metal, to complete both outer shells, forming positive metal ions and negative non-metal ions which are held together by a strong force of electrostatic attraction in a giant lattice. *The greater the charge of the ions, the higher its melting/boiling point*
 ## Melting/Boiling
@@ -26,4 +27,4 @@ Metallic bonds are strong, so metals can maintain a **regular structure** and 
 ## Electrical Conductivity
 They can conduct electricity due to delocalised electrons that are free to move through the structure. *The higher the charge of the metal ion the greater conductivity due to a higher number of delocalised electrons*
 
-
+---

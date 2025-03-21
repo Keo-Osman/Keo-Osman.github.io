@@ -1,5 +1,10 @@
-**Content Learned From [[Calculus - James Stewart.pdf|Calculus - James Stewart ]]**
+#Maths/Calculus
 # Finite Limit
+
+
+
+
+
 
 $$
 \lim_{x\to a}f(x) = L \Leftrightarrow  \forall \varepsilon > 0,  \exists \delta > 0 \\ 
@@ -7,7 +12,103 @@ $$
 0 < |x-a| < \delta \implies 0 < |f(x)-L| < \epsilon
 $$
 
-![[Epsilon-Delta-Finite-Graph.png]]
+
+
+
+
+
+This basically means that you can make the distance between $f(x)$ and $L$ arbitrarily small by taking the distance from $x$ to $a$ to be sufficiently small
+
+**Left Hand Limit**
+
+
+
+
+
+
+$$
+\lim_{x \to a^-} f(x) = L \Leftrightarrow \forall \epsilon > 0, \exists \delta > 0 \quad \text{ s.t. } \quad a - \delta < x < a \Rightarrow |f(x) - L| < \epsilon
+$$
+
+
+
+
+
+
+**Right Hand Limit**
+
+
+
+
+
+
+$$
+\lim_{x \to a^+} f(x) = L \Leftrightarrow \forall \epsilon > 0, \exists \delta > 0 \quad \text{ s.t. } \quad a < x < a + \delta \Rightarrow |f(x) - L| < \epsilon
+$$
+
+
+
+
+
+
+## Boundedness by a Constant
+You can solve Epsilon delta problems by bounding $f(x) < C|x-a|$ where $C$ is a constant. Since you are dealing with a limit you can expect $x$ to be within a small distance of $a$ such as a distance of $1$. For a distance of $1$ you get $\delta = \min{1, \frac{\epsilon}{3}}$ where $d$ is an arbitrary distance around $a$.
+
+---
+# Laws of Limits
+Given $\displaystyle\lim_{x \to a} f(x) = L, \lim_{x \to a} g(x) = M \Rightarrow$
+
+
+
+
+
+
+$$
+\begin{aligned}
+&\lim_{x \to a} [f(x) + g(x)] = L + M &&\lim_{x \to a} [f(x) - g(x)] = L - M\\
+&\lim_{x \to a} [cf(x)] = cL &&\lim_{x \to a} x^n = a^n \\
+&M \neq 0 \Rightarrow \lim_{x \to a} \frac{f(x)}{g(x)} = \frac{L}{M}
+\end{aligned}
+$$
+
+
+
+
+
+
+
+---
 # Infinite Limit
-![[Epsilon-Delta-Neg-Inf-Graph.png]]
-![[Epsilon-Delta-Pos-Inf-Graph.png]]
+**Positive Infinity**
+
+
+
+
+
+
+$$
+\lim_{x \to a} f(x) = \infty \Leftrightarrow \forall M > 0, \exists \delta > 0 \text{ s.t. } 0 < |x-a| < \delta \Rightarrow f(x) > M
+$$
+
+
+
+
+
+
+*(If a limit tends to infinity, it does not exist; $\infty$ is not a number)*
+
+**Negative Infinity**
+
+
+
+
+
+
+$$
+\lim_{x \to a} f(x) = -\infty \Leftrightarrow \forall N < 0, \exists \delta > 0 \text{ s.t. } 0 < |x-a| < \delta \Rightarrow f(x) < N
+$$
+
+
+
+
+

@@ -1,3 +1,4 @@
+#Chemistry/Structure-and-Bonding, #Physics/Particles 
 # Experiment
 - First the scientists took a piece of very thin gold foil *(only a few atoms thick)*
 - They then fired alpha particles at it *(which have a positive charge)*
@@ -9,3 +10,4 @@
 - The deflection shows that the centre of the atom has a positive charge *(as like charges - positive alpha and positive nucleus - repel)*
 - Because some straight back shows that centre of atom contains most of the mass in an atom
 
+---

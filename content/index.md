@@ -1,7 +1,7 @@
 # Subjects
 - ## [[Maths]]
+- ## [[Physics]]
 - ## [[Chemistry]]
 - ## [[Biology]]
-- ## [[Physics]]
 - ## [[History]]
 - ## [[English]]

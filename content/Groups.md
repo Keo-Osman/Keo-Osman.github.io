@@ -1,3 +1,4 @@
+#Maths/Abstract-Algebra
 # Axioms of Groups
 A Group is a set together with a binary operation denoted by $(G, *)$ where $G$ is a set and $*$ is a binary operation.
 
@@ -12,6 +13,11 @@ A Group has to satisfy the following 4 axioms
 A Cayley Table fully describes a finite group by showing all possible products of elements in the group
 Example: 
 
+
+
+
+
+
 $$
 \begin{array}{c|cccc}
 \times_{10}& 1 & 3 & 7 & 9 \\
@@ -22,6 +28,11 @@ $$
 9 & 9 & 7 & 3 & 1 \\
 \end{array}
 $$
+
+
+
+
+
 
 
 When a group's elements are displayed in a Cayley Table:
@@ -36,6 +47,11 @@ The order of an element $a$ is the smallest non-negative integer $k$ *s.t* $a^k 
 
 **Properties**
 
+
+
+
+
+
 $$
 \begin{aligned}
 &|G| < \infty \Rightarrow |a| \div |G| \in \mathbb{N}\\
@@ -45,6 +61,11 @@ $$
 &(a^x = a^y \wedge x \neq y) \Rightarrow |a| < \infty
 \end{aligned}
 $$
+
+
+
+
+
 
 
 ---
@@ -82,11 +103,11 @@ If $G \cong H$ with identity elements $e_G$, $e_H$ and $f: G \rightarrow H$ is a
 ---
 # Types of Groups
 ## Modular Arithmetic Groups
-You can use modular arithmetic to define a finite group of integers.
+You can use[[Number Theory#Modular Arithmetic|Modular Arithmetic]] to define a finite group of integers.
 The operation $\times_n$ is defined as $ab \pmod{n}$
 The operation $+_n$ is defined as $(a+b) \pmod{n}$
 ## Groups of Permutations
- A group of permutations is a group with a set of permutations of $n$ objects with operation $a \circ b$ composition - the operation of applying permutation $b$ then $a$ forms a group.
+ A group of [[Combinatorics#Permutations|Permutations]] is a group with a set of permutations of $n$ objects with operation $a \circ b$ composition - the operation of applying permutation $b$ then $a$ forms a group.
 
 The symmetric group $S_n$ is a group of permutation on $n$ elements where the set consists of all possible permutations that can be performed on $n$ objects coupled with the operation of composition $(a \circ b)$. *(It's basically a fully complete group of permutations of $n$ objects - a normal group of permutations doesn't have to contain every possible permutation of $n$, These "incomplete" groups will be be subgroups of $S_n$)*
 
@@ -103,9 +124,19 @@ You can construct a group of symmetries denoted by $D_{2n}$ by considering a set
 *There is $n$ possible rotations and $n$ possible reflections so for an $n$ sided polygon there are $2n$ elements so the group is denoted as $D_{2n}$ meaning ($D_8$ would be a square)*
 ## Cyclic Groups
 A cyclic group is a group that can be written where all elements can be written as $a^k$ where $a$ is the group generator and $k \in \mathbb{Z}^+$. $a^k$ denotes performing the group operation $k$ times.
+
+
+
+
+
 $$
 a^3 = a \circ a \circ a \qquad a^k = \underbrace{a \circ a \cdots \circ a}_{k \text{ times}}
 $$
+
+
+
+
+
 
 
 ---
