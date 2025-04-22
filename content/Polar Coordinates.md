@@ -29,6 +29,7 @@ The area enclosed by a polar curve and half lines $\theta = \alpha, \theta = \be
 
 
 
+
 $$
 A = \frac{1}{2} \int_{\alpha}^{\beta} r^2 d\theta
 $$
@@ -38,7 +39,9 @@ $$
 
 
 
+
 Very useful trig identities for [[Integration]] 
+
 
 
 
@@ -55,6 +58,7 @@ $$
 
 
 
+
 ---
 # Tangent to Polar Curve
 You can [[Differentiation|Differentiate]] parametrically to get:
@@ -64,9 +68,11 @@ You can [[Differentiation|Differentiate]] parametrically to get:
 
 
 
+
 $$
 \frac{dy}{dx} = \frac{dy /d\theta}{dx/d\theta}
 $$
+
 
 
 

@@ -1,16 +1,20 @@
 #Biology/Ecology 
 # Decomposers
-Decomposers break down dead plant and animal matter by secretin [[Enzymes]]. The matter is broken down into small food molecules which move into the microorganism by diffusion.
+Decomposers break down dead plant and animal matter by secreting [[Enzymes]]. The matter is broken down into small food molecules which move into the microorganism by diffusion.
+
+---
 # Factors
 Factors affecting rate of decomposition include:
 - Temperature
 - Water: microorganisms grow faster in conditions with water
 - Oxygen levels, most decomposers respire aerobically.
 
+---
 # Compost 
 Compost is produced when biological material decays.
 Used by gardeners as a natural fertiliser - they have to provide optimum conditions for decay.
 
+---
 # Methane Gas
 Microorganisms decompose waste anaerobically to produce methane gas which can be burnt as fuel.
 

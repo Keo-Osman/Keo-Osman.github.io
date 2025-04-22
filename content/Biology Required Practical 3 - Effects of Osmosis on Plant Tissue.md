@@ -9,7 +9,6 @@
 - Finally measure length and mass of cylinders again
 
 # Results
-![[BioRP3-Reults.png|500]]
 When the potato is in a low concentration solution the **concentration of sugar inside** is more than the outside so water moves in via osmosis but when it is less than outside water moves out via osmosis.
 
 

@@ -44,25 +44,27 @@ Both **Animal** and **Plant** cells are Eukaryotes
 - Work together to form muscle tissue
 
 ## Plant
-### Xylem
+### [[Xylem and Phloem|Xylem]]
 - Found in plant stem
 - Form long tubes to carry water dissolve minerals from roots to leaves
 - Very thick walls containing lignin to support plant, causes xylem cells to die
 - *End* walls between cells broken to form a tube
 - No nucleus, cytoplasm, vacuole chloroplasts
-### Phloem
+### [[Xylem and Phloem#Phloem|Phloem]]
 - Carry dissolved sugars up and down plant
 - Consists of phloem vessel cells, no nucleus with limited cytoplasm. And the end walls of these have pores called sieve plates, these feature allow dissolved sugars to move through 
 - Each vessel cell has a companion cell with lots of mitochondria for energy for active transport
 ### Root hair cell
 - Hairs on roots to increase surface area
 - Do not contain chloroplasts
-- Use [[Biological Transportation#Flashcards/Flashcards/Active Transport| Active Transport]] to absorb ions from the soil
+- Use [[Biological Transportation#Active Transport| Active Transport]] to absorb ions from the soil
 # Stem Cells
 A stem cell is an undifferentiated cell and is capable of differentiating into other types of cells.
 - **Human/Animal**
 	- **Embryonic stem cells** - found in embryo and can differentiate into any body cell
-	- **Adult stem cells** - found in bone marrow and differentiates to form cells in [[Circulatory System#Flashcards/Flashcards/Blood|blood]] 
+	- **Adult stem cells** - found in bone marrow and differentiates to form cells in [[Circulatory System#Blood|Blood]] 
 - **Plant**
 	- Meristem tissue *(found in roots and buds)* can differentiate into any cell at any point can be used to produced clones  
 
+---
+---

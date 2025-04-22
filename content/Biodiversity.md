@@ -10,6 +10,7 @@ Many human activities reduce biodiversity.
 - Habitat for many species
 - They are destroyed for space for farming, used as [[Decomposition#Compost|Compost]] or fuel.
 - Being used up quicker than replaced.
+- Decaying or burning peat releases $CO_2$.
 
 # Maintaining Biodiversity
 - Breeding Programs

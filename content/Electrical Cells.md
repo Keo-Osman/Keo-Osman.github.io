@@ -26,3 +26,6 @@ At the positive electrode: $O_2 + 4H^++4e^- \rightarrow 2H_2O$
 ## Disadvantages
 - Hydrogen is explosive and difficult to store
 - Low potential difference
+
+---
+---

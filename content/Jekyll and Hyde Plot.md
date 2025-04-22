@@ -1,4 +1,4 @@
-#English/J-H
+#English/Jekyll-Hyde
 # Chapter 1 - Story of The Door
 We meet [[Utterson]] and Enfield recounts the story when he saw 2 figures, a man and young girl. Then "The man trampled calmly over the girl" Enfield and a doctor threaten to ruin his reputation unless they get £100. The man goes into the building and returns with gold and a cheque. Enfield doesn't trust the man and tells Utterson that the man was called [[Hyde]]      
 # Chapter 2 -  Search for Mr Hyde

@@ -84,9 +84,11 @@ The double carbon bond opens up to form 2 single bonds for hydrogen
 
 
 
+
 $$
 \text{Alkene + Hydrogen} \rightarrow \text{Alkane} \quad C_nH_{2n}+H_2 \rightarrow C_nH_{2n+2}
 $$
+
 
 
 
@@ -106,9 +108,11 @@ Similar to *Alkene + Hydrogen*
 
 
 
+
 $$
 \text{Propene + Bromine } \rightarrow \text{ Diobropopene} \quad C_3H_6+Br_2 \rightarrow C_3H_6Br_2
 $$
+
 
 
 
@@ -122,9 +126,11 @@ $$
 
 
 
+
 $$
 \text{Alkene + Water (steam)} \rightleftharpoons \text{ Alcohol} \quad C_nH_{2n}+H_2O\rightleftharpoons C_nH_{2n+1}OH
 $$
+
 
 
 
@@ -145,9 +151,11 @@ It is high yield but requires lots of energy.
 
 
 
+
 $$
 C_6H_{12}O_6 \rightarrow 2\ C_2H_5OH + 2\ CO_2
 $$
+
 
 
 
@@ -169,9 +177,11 @@ $$
 
 
 
+
 $$
 \text{Ethanoic Acid + Sodium } \rightarrow \text{ Sodium Ethanoate + Hydrogen} \quad 2\ CH_3COOH + 2\ Na \rightarrow 2\ CH_3COONa + H_2
 $$
+
 
 
 
@@ -182,6 +192,7 @@ $$
 **Carboxylic Acid + Carbonate $\rightarrow$ Salt + Water + Carbon Dioxide**
 
 **Example**
+
 
 
 
@@ -200,11 +211,13 @@ $$
 
 
 
+
 ### Carboxylic Acid + Alkali
 **Carboxylic Acid + Alkali $\rightarrow$ Salt + Water**
 *This is a [[Types of Chemical Reactions#Neutralisation|Neutralisation Reaction]]*
 
 **Example**
+
 
 
 
@@ -223,11 +236,13 @@ $$
 
 
 
+
 ## Making Esters
 **Carboxylic Acid + Alcohol  $\rightleftharpoons$ Ester + Water**
 *This is a [[Types of Chemical Reactions#Condensation|Condensation Reaction]]*
 
 **Example**
+
 
 
 
@@ -240,6 +255,7 @@ $$
 CH_3COOH + CH_3OH \rightarrow CH_3COOCH_3 + H_2O
 \end{gather}
 $$
+
 
 
 

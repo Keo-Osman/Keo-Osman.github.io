@@ -1,18 +1,17 @@
 #History/Germany
-# Stuff
-## Weimar Constitution
+# Weimar Constitution
 - President who was head of state
 - President chose a chancellor who chose the ministers who made up the cabinet
 - *"Parliament"* made of two houses, the **Reichstag** *(More powerful, Controlled taxation and directly elected by people at least once every 4 years)* and **Reichsrat** *Each region of Germany sent a number of representatives depending on their size)*
 - Due to large number of parties coalitions had to be formed to pass laws and polices
-## Treaty of Versailles
+# Treaty of Versailles
 - Made Germany entirely responsible for the war
 - Had to pay £6.6B
 - Germany lost all colonies in Africa and far east
 - Army was restricted to 100,000 men
 - Rhineland *(bordered Germany and France)* was to be demilitarised.
 - Germany lost a lot of it's own land
-## Challenges to Weimar Government
+# Challenges to Weimar Government
 - Germans felt stabbed in the back by politicians signing the Treaty of Versailles as propaganda said that they were winning the war
 - **Spartacist Revolt**
 	- Lead by Rosa Luxembourg and Karl Liebknecht
@@ -28,7 +27,7 @@
 	- Ebert sent Reichswehr to stop but they refused and many joined
 	- Workers went on strike and vital services went down forcing Kapp to surrender
 - Extreme parties getting more popular mostly **right wing**
-## Hyperinflation
+##Hyperinflation
 - **How it happened:**
 	- Treaty of Versailles *(ToV)* signed
 	- Germany had to pay £50m per year which it could not do
@@ -45,19 +44,19 @@
 	- Poor people poorer - savings wiped out
 	- People turned to bartering
 	- Affected political parties
-## Weimar Republic's Problems
+# Weimar Republic's Problems
 - Not allowed to join league of nations
 - Extremist parties gaining support
 - Could not pay reparations
 - German money was worthless and the people were poor
-## Gustav Stresemann
+# Gustav Stresemann
 - Signed Locarno pact to agree to German borders in hopes for softer reparations
 - Signed Kellogg-Briand pact with 64 nations to only use army in self defence
 - Made Dawes plan to lower reparations and increase over time
 - Made Young plan to reduce total reparations
 - Introduced Retenmark - a temporary currency issued in limited amounts to remain stable
 - However became dependant on American loans when making a permanent currency
-## Weimar Golden Age
+# Weimar Golden Age
 - **Agree**
 	- Unemployment went down 
 	- Working hours decreased and real wages went up
@@ -73,7 +72,7 @@
 	- Right wing disapproved of cultural change
 	- Women expected to give up work after marriage
 	- Few women entered high status jobs, only 36 female judges
-## Hitler's Rise to Power
+# Hitler's Rise to Power
 - Took control of DAP as he attended for his job but was attracted by ideas
 - Changed to NSDAP
 - Made 25-point programme outlining policy ideas
@@ -87,9 +86,9 @@
 		- Make the NSDAP a national party
 		- Speaks for 5 hours at Bamberg Conference
 - Hitler became chancellor in 1933  
-## Great Depression and Wall Street Crash
+# Great Depression and Wall Street Crash
 - Wall Street Crash happens in America, the German banks collapse as they had heavily invested in American stocks. Due to Stresemann's loans America is asking for their money back. Lead to a cycle of depression in Germany
-## Why Nazis Gained Support
+# Why Nazis Gained Support
 - Strong leadership from Hitler
 - Promises for middle and working class
 - Failure of other parties - had to abuse article 48
@@ -98,7 +97,7 @@
 - Big parades that were exciting for young people
 - Policies benefited farmers
 
-## How Hitler Became a Dictator
+# How Hitler Became a Dictator
 - **Enabling Act** allowed Hitler to come closer to total power
 - **How it happened:**
 	- Hitler became chancellor but his power was limited
@@ -112,13 +111,13 @@
 	- Made all other parties in Germany illegal
 	- Holds an election with Nazi party being only party they gained tons of votes
 	- Night of Long Knives
-## Nazi Police State
+# Nazi Police State
 - 1st July 1934 - Hitler kills Gustav von car, von Schlicher and Ernst Rohm as well as 400 top SA
 - SS
 - Gestapo
 - SD
 - SA
-## Nazi Censorship and Propaganda
+# Nazi Censorship and Propaganda
 **Joseph Goebbels:** minister of propaganda and enlightenment in 1933
 - The press
 - Radio
@@ -129,7 +128,7 @@
 - Sport
 - Art and Architecture
 - Music and Theatre
-## Young People in Nazi Germany
+# Young People in Nazi Germany
 - Parents had to bring birth certificated of grandparents to prove their child is Aryan
 - List of banned children's names
 - Parents given a copy of Mein Kampf

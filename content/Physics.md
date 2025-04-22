@@ -9,7 +9,7 @@
 - [[Alpha Scattering Experiment]]
 - [[Particle Motion, Pressure and Work Done in Gases]]
 ### P4 - Atomic Structure
-- [[Radioactivity]]
+- [[Radiation]]
 ### Required Practicals
 - [[Physics Required Practical 1 - Specific Heat Capacity]]
 - [[Physics Required Practical 2 - Thermal Insulators]]

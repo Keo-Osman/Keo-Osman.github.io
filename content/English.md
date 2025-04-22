@@ -11,14 +11,9 @@
 - [[Lanyon]]
 - [[Utterson]]
 ### Macbeth
+- [[Macbeth Characters]]
 - [[Macbeth Plot]]
 - [[Macbeth Themes]]
-- [[Macbeth]]
-- [[Lady Macbeth]]
-- [[Witches]]
-- [[Banquo]]
-- [[Macduff]]
-- [[Malcom]]
 ### An Inspector Calls
 - [[An Inspector Calls - Themes]] - *Archived*
 - [[An Inspector Calls - Summary]] - *Archived*

@@ -9,6 +9,7 @@ For discrete Data: ($D_N$ denotes $N^{th}$ data point)
 
 
 
+
 $$
 \begin{equation}
 Q_1 =
@@ -23,6 +24,8 @@ D_{\textstyle\lceil \frac{n}{4}\rceil}, & \text{if } \frac{n}{4} \notin\mathbb{Z
 \right\}
 \end{equation}
 $$
+
+
 
 
 
@@ -63,6 +66,8 @@ $$
 
 
 
+
+
 $$
 \begin{equation}
 Q_3 =
@@ -90,9 +95,12 @@ $$
 
 
 
+
+
 $$
 P_n \text{ (nth percentile) }: D_{\left(\textstyle\frac{n \times s}{100}\right)}
 $$
+
 
 
 
@@ -108,9 +116,11 @@ $$
 
 
 
+
 $$
 σ^2 = \frac{Σ(x-\bar{x})^2}{n}
 $$
+
 
 
 
@@ -126,6 +136,7 @@ Coding is a function to take data $x$ and translate into a different domain $y$.
 
 
 
+
 $$
 y = \frac{x-a}{b}
 $$
@@ -135,7 +146,9 @@ $$
 
 
 
+
 This implies:
+
 
 
 
@@ -157,9 +170,12 @@ $$
 
 
 
+
+
 $$
 \displaystyle σ_y = \frac{σ_x}{b}
 $$
+
 
 
 

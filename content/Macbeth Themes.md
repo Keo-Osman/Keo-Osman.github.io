@@ -1,4 +1,4 @@
-#English/MB 
+#English/Macbeth 
 # Themes
 ## Good vs evil
 ## Nature/unnatural/ supernatural

@@ -1,5 +1,6 @@
 #Biology 
 # GCSE
+- [[Enzymes]]
 ## Paper 1
 ### B1 - Cell Biology
 - [[Cells]]
@@ -8,11 +9,11 @@
 - [[Cell Division]]
 - [[Circulatory System]]
 - [[Digestive Enzymes]]
-- [[Digestive Enzymes]]
 - [[Digestive System]]
 - [[Transpiration and Translocation]]
 - [[Plant Tissue]]
 - [[Breathing System]]
+- [[Xylem and Phloem]]
 ### B3 - Infection and Response
 - [[Diseases In Humans]]
 - [[Diseases in Plants]]
@@ -20,9 +21,10 @@
 - [[Non Specific Defence Systems in Humans]]
 - [[Pathogens]]
 - [[Plant Defence System]]
-- [[The Immune System]]
+- [[Immune System]]
 - [[Vaccination]]
 ### B4 - Bioenergetics
+- [[Glucose]]
 ### Required Practicals
 - [[Biology Required Practical 1 - Microscopes]]
 - [[Biology Required Practical 2 - Culturing Microorganisms]]
@@ -38,8 +40,10 @@
 - [[Control of Blood Glucose Concentration]]
 - [[Human Endocrine System]]
 - [[Thermoregulation]]
-- [[The Eye]]
-- [[The Brain]]
+- [[Eye]]
+- [[Brain]]
+- [[Plant Hormones]]
+- [[Hormones in The Human Reproductive System]]
 ### B6 - Inheritance, Variation and Evolution
 - [[Amino Acids]]
 - [[DNA]]

@@ -6,6 +6,7 @@
 
 
 
+
 $$
 \begin{aligned}
  &\sum_{r=1}^n m=mn \\
@@ -24,6 +25,7 @@ $$
 
 
 
+
 ***
 
 # A-Level Further Core 2
@@ -35,9 +37,11 @@ If the general term of a series can be describes as $u_r = f(r) - f(r+1)$ then
 
 
 
+
 $$
 \sum_{r=1}^{n}{u_r} = f(1) - f(n+1)
 $$
+
 
 
 
@@ -56,9 +60,11 @@ The Maclaurin series for a function $f(x)$ that is infinitely differentiable at 
 
 
 
+
 $$
 f(x) = f(0) + f'(0)x + \frac{f''(0)}{2!}x^2 + \frac{f'''(0)}{3!}x^3 + ... = \sum_{n=0}^{\infty} \frac{f^{(n)}(0)}{n!}x^n
 $$
+
 
 
 
@@ -77,9 +83,11 @@ A Taylor series is simply just a [[LEGACY Series#Maclaurin Series|Maclaurin seri
 
 
 
+
 $$
 f(x) = \sum_{n=0}^N \frac{f^{(n)}(a)}{n!}(x-a)^n
 $$
+
 
 
 
@@ -100,9 +108,11 @@ Therefore the series expansion of $\displaystyle\frac{dy}{dx} = f(x, y)$ is
 
 
 
+
 $$
 y = \sum_{n=1}^N \frac{(x-x_0)^n}{n!}\frac{d^ny}{dx^n}\bigg|_{\displaystyle x_0}
 $$
+
 
 
 

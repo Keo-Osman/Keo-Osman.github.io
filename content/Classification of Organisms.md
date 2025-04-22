@@ -1,5 +1,6 @@
 #Biology/Inheritance-and-Evolution  
 # The Linnaean System
+An mnemonic is ***King Philip Came Over For Good Soup***.
 Living things are divided into:
 - Kingdoms
 - Phylum
@@ -8,6 +9,7 @@ Living things are divided into:
 - Family
 - Genus
 - Species
+
 The **Binomial System** gives each organism a worldwide name. The first part is their genus and the second is their species.
 
 # 3 Domain System

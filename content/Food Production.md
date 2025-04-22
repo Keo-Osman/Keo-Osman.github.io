@@ -7,6 +7,7 @@ Factors affecting food production/security include:
 - Climate change - crops fail.
 - Conflicts.
 
+---
 # Farming Techniques
 - Farmers aim to increase the efficiency of energy to biomass.
 - This is done by reducing energy transferred from animals to environment by:
@@ -14,8 +15,12 @@ Factors affecting food production/security include:
 	- Kept is areas of high temperature to recue energy on controlling body temperature
 	- given high protein foods
 
+---
 # Sustainable Fisheries
 - Some fish are being caught faster than they reproduce so the population decreases.
 - To avoid this restrictions are put in place
 	- Net sizes increased so smaller fish are not caught
 	- Fishing quotas so not too many are caught
+
+---
+---

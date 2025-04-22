@@ -24,19 +24,9 @@ When they react a small molecule such as water is lost hence the name. Making it
 **Example Reaction**
 $\square$ represents irrelevant atoms in the reaction
 
-
-
-
-
-
 $$
 HO-\square-OH + HOOC-\square-COOH \rightarrow -[O-\square-O-CO-\square-CO]-_n + 2n(H_2O)
 $$
-
-
-
-
-
 
 *You don't really need to know example of condensation polymerisation reaction just the general principle of how it works*
 ## Polymerisation of Amino Acids
@@ -44,22 +34,12 @@ $$
 
 **Example Reaction**
 
-
-
-
-
-
 $$
 \begin{gather} 
 \text{glycine} \rightarrow \text{poly(glycine) + water}\\
 n(H_2NCH_2COOH)\rightarrow-[HNCH_2CO]-_n+n(H_2O)
 \end{gather}
 $$
-
-
-
-
-
 
 ## Formation of [[Proteins]]
 2 [[Amino Acids]] react. The $NH_2$ [[Functional Group]] of one reacts with the $COOH$ [[Hydrocarbons#Carboxylic Acid|Carboxylic Acid]] [[Functional Group]] of the other. One hydrogen from the $NH_2$ and the $OH$ from the $COOH$ form water whilst the remaining $NH$ and $CO$ form the **peptide link**.

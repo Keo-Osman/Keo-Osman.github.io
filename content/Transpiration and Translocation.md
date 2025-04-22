@@ -6,3 +6,10 @@
  - Exits out the stomata
  - Now water from xylem passes into leaf to replace water that's been lost
  - Finally water is drawn in from root hair cells up the xylem to leaf
+
+---
+# Translocation
+Translocation is the movement of sugar and other molecules through [[Plant Tissue#Phloem|Phloem]]
+
+---
+---

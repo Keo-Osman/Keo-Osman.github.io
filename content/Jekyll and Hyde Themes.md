@@ -1,4 +1,4 @@
-#English/J-H
+#English/Jekyll-Hyde
 # Duality – Good and Evil
 
 **Idea 1**  

@@ -1,15 +1,4 @@
 #History 
-# JCOP
-## Judgement
-Simple starter sentence Source is is accurate for ... because ...
-## Content
-What you see/ in the source and what does this tell you
-## Own Knowledge
-What other evidence do you have that backs this up
-## Provenance
-Author, date, intended audience of source, type of source etc...
-Is it biased are there limitations to the source?
-
 # DIAPER
 ## Detail
 What can you see in the source

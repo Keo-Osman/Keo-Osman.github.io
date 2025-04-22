@@ -13,11 +13,6 @@ A Group has to satisfy the following 4 axioms
 A Cayley Table fully describes a finite group by showing all possible products of elements in the group
 Example: 
 
-
-
-
-
-
 $$
 \begin{array}{c|cccc}
 \times_{10}& 1 & 3 & 7 & 9 \\
@@ -30,14 +25,9 @@ $$
 $$
 
 
-
-
-
-
-
 When a group's elements are displayed in a Cayley Table:
 - **All entries are $\in G$**
-- **Every entry appears exactly once in each row and column** - *this due that for a fixed $a$, $a*b$ maps $b$ onto a unique $c$ so every element in a row is unique and since each row/column has $n$ different operations with a fixed $a$ and each $a*b$ is unique, there is $n$ unique elements in the row/column and since there is $n$ unique elements in the set each one appears exactly once *
+- **Every entry appears exactly once in each row and column** - *this due that for a fixed* $a$, $a*b$ *maps* $b$ *onto a unique $c$ so every element in a row is unique and since each row/column has $n$ different operations with a fixed* $a$ *and each* $a*b$ *is unique, there is $n$ unique elements in the row/column and since there is $n$ unique elements in the set each one appears exactly once*
 - **$e$ must appear in every row and column and it's position is symmetric about the leading diagonal** - since $e = a*a^{-1} = a^{-1}*a$ (and can only be formed from this operation), when $e$ is in location $(x, y)$ it has to be in $(y, x)$ as $x$ or $y$ are $a$ or $a^{-1}$ so $x*y = y*x$
 
 ---
@@ -46,11 +36,6 @@ The order of group $G$ denoted as $|G|$ is the size of the underlying set
 The order of an element $a$ is the smallest non-negative integer $k$ *s.t* $a^k = e$. $\nexists k \Rightarrow |a| = \infty$
 
 **Properties**
-
-
-
-
-
 
 $$
 \begin{aligned}
@@ -61,11 +46,6 @@ $$
 &(a^x = a^y \wedge x \neq y) \Rightarrow |a| < \infty
 \end{aligned}
 $$
-
-
-
-
-
 
 
 ---
@@ -124,19 +104,9 @@ You can construct a group of symmetries denoted by $D_{2n}$ by considering a set
 *There is $n$ possible rotations and $n$ possible reflections so for an $n$ sided polygon there are $2n$ elements so the group is denoted as $D_{2n}$ meaning ($D_8$ would be a square)*
 ## Cyclic Groups
 A cyclic group is a group that can be written where all elements can be written as $a^k$ where $a$ is the group generator and $k \in \mathbb{Z}^+$. $a^k$ denotes performing the group operation $k$ times.
-
-
-
-
-
 $$
 a^3 = a \circ a \circ a \qquad a^k = \underbrace{a \circ a \cdots \circ a}_{k \text{ times}}
 $$
-
-
-
-
-
 
 
 ---

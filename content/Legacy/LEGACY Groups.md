@@ -17,6 +17,7 @@ Example:
 
 
 
+
 $$
 \begin{array}{c|cccc}
 \times_{10}& 1 & 3 & 7 & 9 \\
@@ -27,6 +28,7 @@ $$
 9 & 9 & 7 & 3 & 1 \\
 \end{array}
 $$
+
 
 
 
@@ -68,9 +70,11 @@ A cyclic group is a group that can be written where all elements can be written 
 
 
 
+
 $$
 a^3 = a \circ a \circ a \qquad a^k = \underbrace{a \circ a \cdots \circ a}_{k \text{ times}}
 $$
+
 
 
 
@@ -90,6 +94,7 @@ The order of an element $a$ is the smallest non-negative integer $k$ *s.t* $a^k 
 
 
 
+
 $$
 \begin{aligned}
 &|G| < \infty \Rightarrow |a| \div |G| \in \mathbb{N}\\
@@ -99,6 +104,7 @@ $$
 &(a^x = a^y \wedge x \neq y) \Rightarrow |a| < \infty
 \end{aligned}
 $$
+
 
 
 

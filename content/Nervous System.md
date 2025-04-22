@@ -6,7 +6,7 @@ The nervous system is an [[Homeostasis#Automatic Control System|Automatic Contro
 1. First the receptor cells detect a stimulus.
 2. The receptor sends **Electrical Impulses** down **Neurones** to the *CNS - The co-ordination centre of the nervous system.* 
 3. The CNS now sends **Electrical Impulses** down *other* **Neurones** to an effector.
-4. The effector carries out a response *(Usually a muscle which contracts or a gland which secretes a hormone in the case of the nervous system.
+4. The effector carries out a response *(Usually a muscle which contracts or a gland which secretes a hormone)*.
 
 ---
 # Reflexes
@@ -17,8 +17,11 @@ The **Reflex Arc** is:
 1. Stimulus
 2. Receptor 
 3. Sensory Neurone 
-4. Synapse - *located at the end of the sensory neurone where a chemical is released which diffuses to a relay neurone.*
+4. Synapse - *located at the end of the sensory neurone where a chemical (neurotransmitter) is released which diffuses to a relay neurone.*
 5. Relay Neurone - *located in **CNS**, when the chemical is received it triggers an electrical impulse.*
 6. Synapse - *the electrical impulse passes across the relay neurone to another synapse. A chemical is released*
 7. Motor Neurone - *when the chemical is received it triggers an electrical impulse*
 8. Effector - *electrical impulse received which causes effector to bring a response*
+
+---
+--- 

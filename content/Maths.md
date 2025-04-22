@@ -3,8 +3,11 @@
 ### Abstract Algebra
 - [[Groups]]
 ### Algebra
-- [[Algebraic Expansions]]  
+- [[Algebraic Expansions]]
+- [[Exponential Functions]]
+- [[Inverse Functions]]
 - [[Polynomials]]
+- [[Recurrence Relations]]
 ### Calculus
 - [[Continuity]]  
 - [[Differentiation]]
@@ -16,13 +19,11 @@
 - [[Series]]  
 - [[Series Approximations]]  
 - [[Volumes of Revolution]]
+## Combinatorics
+- [[Combinatorics]]
 ### Complex Numbers
 - [[Complex Numbers]]  
 - [[Complex Plane]]
-### Discrete
-- [[Combinatorics]]
-- [[Number Theory]]
-- [[Recurrence Relations]]
 ### Geometry
 - [[Conic Sections]]
 - [[Linear Transforms]]  
@@ -30,12 +31,19 @@
 - [[Polar Coordinates]]
 - [[Vectors]]
 ### Graphs
+- [[Graph Sketching]]
 - [[Differentiation#How derivatives affect the graph|Differentiation]]
 - [[Polar Coordinates]]
 ### Linear Algebra
+- [[Linear Algebra]]
 - [[Linear Transforms]]  
 - [[Matrices]]  
 - [[Vectors]]
+## Number Theory
+- [[GCD]]
+- [[Divisibility]]
+- [[Number Theory]]
+- [[Primes]]
 ### Numerical Methods
 - [[Numerical Methods]]  
 - [[Series Approximations]]

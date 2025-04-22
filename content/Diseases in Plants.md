@@ -1,5 +1,8 @@
+#Biology/Infection-and-Response/Diseases 
 # Plant Attack By Insects
 - Plants can be attacked by insects such as aphids which extract nutrients from the plant stunting it's growth
+
+---
 # Diagnosing Plant Diseases
 Look for:
 - Discolouration
@@ -9,11 +12,13 @@ Look for:
 - Growths
 - Malformed stems or leaves
 
+---
 # Identify Plant Diseases
  - Use garden manuals or websites
  - Take to a lab to identify pathogen
  - Us testing kits containing monoclonal antibodies
 
+---
 # Plant Ion deficiencies
 ## Nitrate
 - Causes stunted growth
@@ -22,6 +27,7 @@ Look for:
 - Causes chlorosis - discolouration
 - Needed to make chlorophyll
 
+---
 # Specific Plant Diseases
 ##  Rose Black Spot
 - **Type of pathogen**: **Fungus** (Diplocarpon rosae)
@@ -34,3 +40,5 @@ Look for:
 - **Treatment**: There is no cure for infected plants. Prevention involves planting resistant strains and maintaining proper hygiene, such as disinfecting tools and removing infected plants.
 - **How it spreads**: The virus spreads through direct contact between infected plants, contaminated tools, hands, or soil.
 
+---
+---
