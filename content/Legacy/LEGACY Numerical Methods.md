@@ -9,9 +9,12 @@ Some differential equations can not be solved analytically; however, they can be
 
 
 
+
 $$
 y_{r+1} \approx y_r + h \left.\frac{dy}{dx}\right|_{\displaystyle x_r}
 $$
+
+
 
 
 
@@ -37,9 +40,11 @@ $$
 
 
 
+
 *The way this works is that you are given initial conditions $(x_0, y_0)$. So you can compute $\left.\frac{dy}{dx}\right|_{x_0}$, then you can approximate the coordinates some $h$ away from $x_0$ by using a straight line with gradient $\left.\frac{dy}{dx}\right|_{x_0}$. To get a more accurate approximation, you can calculate the next point with smaller steps $h$. As a result, you have to do more iterations to get a point some distance from $x_0$*
 
 You could also use the **Midpoint Formula**:
+
 
 
 
@@ -59,8 +64,10 @@ $$
 
 
 
+
 ## Second order differential equation
 You can extend Euler's method to second order differential equations with:
+
 
 
 
@@ -86,6 +93,8 @@ $$
 
 
 
+
+
 $$
 \left.\frac{d^2y}{dx^2}\right|_{\displaystyle x_0} \approx \frac{y_1 - 2y_0 + y_{-1}}{h^2}
 $$
@@ -97,8 +106,10 @@ $$
 
 
 
+
 ## Simpson's Rule
 You can approximate $\int_a^b g(x) dx$ with the formula:
+
 
 
 
@@ -118,10 +129,12 @@ $$
 
 
 
+
 where $2n$ is the number of strips used to approximate the area and $h$ is the width of each strip.
 This formula is derived by using quadratic curves and using the result that area of quadratic curve passing through $(x_0, y_0)$, $(x_0 + h, y_1)$, $(x_0 + 2h, y_2)$ is $\frac{1}{3}h(y_0 + 4y_1 + y_2)$.
 
 Other forms:
+
 
 
 
@@ -148,9 +161,12 @@ $$
 
 
 
+
+
 $$
 \frac{1}{3}h(y_0 + 4(y_1 + y_3 + \ldots + y_{2n-1}) + 2(y_2 + y_4 + \ldots + y_{2n-2}) + y_{2n})
 $$
+
 
 
 

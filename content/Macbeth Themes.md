@@ -1,25 +1,49 @@
 #English/Macbeth 
-# Themes
-## Good vs evil
-## Nature/unnatural/ supernatural
-## Ambition
-
-## Kingship & loyalty
-## Appearance vs reality
-## Fate vs free will
-
-## Man/Beast/Monster
+# Good vs Evil
+### Quotes
+1. "Fair is foul, and foul is fair." - said by the witches when they are meeting on the heath, establishing the blurring of moral boundaries.
+2. "Yet I do fear thy nature; it is too full o' the milk of human kindness." - said by Lady Macbeth when she worries Macbeth is too good to seize the crown by evil means.
+3. "Something wicked this way comes." - said by the second witch when Macbeth approaches, showing he has embraced evil.
 
 ---
-# Context
-## King James I Daemonolgie
-King James I wrote about the dangers of witches and ordered a law whereby anyone seen fraternising with witches or anyone casting spells would be sentenced to death
-## Gunpowder Plot
-The Gunpowder plot was a plan to blow up King James I. There was conflict between Catholics and protestants. It was revealed that some members of government were part of the conspiracy: James I was betrayed by members of parliament.
-## Witchcraft
-## Great Chain of Being
-The belief that all of the universe was a hierarchy dictated by God, with God at the top followed by angels, right down to plants and animals at the bottom. The King was the highest representative of God on earth. Everyone was expected to stay in their place
-## Divine Right of Kings
-People believed that Kings and Queens were put on the throne by God. By betraying the King or Queen, you were going against God
-## Role of Women
-Women were presented in literature and art to be passive and do as they were told by their fathers and husbands. They were seen as inferior to men. Women were expected to be wives and mothers.
+
+# Nature, Unnatural and Supernatural
+### Quotes
+1. "By th’ clock ’tis day, and yet dark night strangles the travelling lamp." - said by ross when he describes the unnatural darkness following Duncan's murder.
+2. "Come, you spirits that tend on mortal thoughts, unsex me here." - said by Lady Macbeth when she calls on dark forces to strip her of human compassion.
+3. "Is this a dagger which I see before me, the handle toward my hand?" - said by Macbeth when he hallucinates a floating dagger leading him to Duncan's chamber.
+
+---
+
+# Kingship and Loyalty
+### Quotes
+1. "There's no art to find the mind's construction in the face." - said by Duncan when he reflects on the betrayal by the previous thane of Cawdor.
+2. "The service and the loyalty I owe, in doing it, pays itself." - said by Macbeth when he outwardly expresses loyalty to Duncan while secretly plotting his death.
+3. "But screw your courage to the sticking-place, and we'll not fail." - said by Lady Macbeth when she urges Macbeth to be resolute in murdering Duncan.
+
+---
+
+# Appearance vs. Reality
+### Quotes
+1. "Look like the innocent flower, but be the serpent under't." - said by Lady Macbeth when she advises Macbeth to deceive others about his true intentions.
+2. "False face must hide what the false heart doth know." - said by Macbeth when he decides to put on a mask of loyalty to conceal his murderous plans.
+3. "There's daggers in men's smiles." - said by Donalbain when he warns that those around them may appear friendly but harbour deadly intentions.
+
+---
+
+# Fate vs. Free Will
+### Quotes
+1. "If chance will have me king, why, chance may crown me without my stir." - said by Macbeth when he muses that he might become king without taking action.
+2. "Come what come may, time and the hour runs through the roughest day." - said by Macbeth when he reflects on fate unfolding no matter what.
+3. "Macbeth! Macbeth! Macbeth! Beware Macduff!" - said by the first apparition when warning MacBeth of Macduff, influencing his future actions.
+
+---
+
+# Man, Beast and Monster
+### Quotes
+1. "I dare do all that may become a man; who dares do more is none." - said by Macbeth when he argues that true manhood has moral limits.
+2. "O, full of scorpions is my mind, dear wife!" - said by Macbeth when he reveals the monstrous, poisonous thoughts tormenting him.
+3. "The devil himself could not pronounce a title more hateful to mine ear." - said by young Siward when he faces Macbeth in battle, describing Macbeth as devilish.
+
+---
+---

@@ -12,7 +12,7 @@ In 1534 Henry VII became *Supreme Head of the English Church* and he started the
 - Catholic married Phillip of Spain
 - 300 protestants burned at stake for heresy
 ### Elizabeth I (1558-1603, Protestant)
-- Know
+- [[Elizabeth's Problems]], [[16th Century England]], [[Catholic Opposition]]
 ### James I (1603-1625, Protestant)
 - Protestant
 - Tolerant of Catholics before gunpowder plot

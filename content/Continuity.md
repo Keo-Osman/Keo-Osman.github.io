@@ -19,6 +19,7 @@ If $f$ and $g$ are continuous at $a$ then the following are continuous at $a$
 
 
 
+
 $$
 \begin{aligned}
 &f+g &&f-g\\
@@ -26,6 +27,7 @@ $$
 &\frac{f}{g}, \quad(g(a) \neq0)
 \end{aligned}
 $$
+
 
 
 
@@ -50,9 +52,11 @@ $f$ is continuous at $b$ $\wedge \displaystyle\lim_{x \to a} g(x) = b \Rightarro
 
 
 
+
 $$
 f\text{ is continuous on }[a,b] \wedge f(a) \neq f(b)\Rightarrow\forall N \text{ s.t. }  \text{min}\{f(a), f(b)\} < N < \text{max}\{f(a), f(b)\} \quad\exists c \text{ s.t. } f(c) = N
 $$
+
 
 
 
@@ -68,9 +72,11 @@ $$
 
 
 
+
 $$
 f\text{ is continuous on }[a,b] \Rightarrow f\text{ attains a global maximum and minimum value on } [a, b]
 $$
+
 
 
 

@@ -38,6 +38,3 @@ In the final battle, ***Macduff*** reveals he was *“untimely ripped” from hi
 4. Malcolm orders his army to cut down branches from Birnam Wood to disguise the number of soldiers. 
 5. Macbeth is told of his wife’s death and about the news that Birnam Wood seems to be approaching. He resolves to die fighting. 
 6. (scene vi – ix) Macbeth is killed by Macduff (who reveals he was delivered by caesarean and so not properly ‘born’). Malcolm becomes the new king of Scotland and order is restored.
-
----
----

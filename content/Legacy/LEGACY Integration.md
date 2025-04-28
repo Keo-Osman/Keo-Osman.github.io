@@ -8,6 +8,7 @@
 
 
 
+
 $$
 \begin{aligned}
 &\int x^n dx = \frac{x^{n+1}}{n+1} + c &&\int e^x dx = e^x + c\\
@@ -25,8 +26,10 @@ $$
 
 
 
+
 ## Reverse Chain Rule
  
+
 
 
 
@@ -37,6 +40,7 @@ $$
 $$
 \int f(ax + b) dx = \frac{1}{a}f(ax + b) + c \quad \int \frac{f'(x)}{f(x)} dx = \ln{f(x)}\quad\int f'(x)(f(x))^n dx= \frac{1}{n+1}(f(x))^{n+1}
 $$
+
 
 
 
@@ -56,9 +60,11 @@ Sometimes you can simplify an integral by changing the variable. This process is
 
 
 
+
 $$
 \int u \frac{dv}{dx} dx = uv - \int v \frac{du}{dx} dx
 $$
+
 
 
 
@@ -87,9 +93,11 @@ The mean value of a function $f(x)$ in the interval $[a,b]$ is:
 
 
 
+
 $$
 \frac{1}{b-a} \int_a^b f(x)dx
 $$
+
 
 
 
@@ -115,9 +123,11 @@ The Reduction formula allows you to write an integral as a recurrence relation. 
 
 
 
+
 $$
 I_n = \int g(x,n)dx = \sum_{r=0}^{n-1} g_r(n)I_r
 $$
+
 
 
 
@@ -138,6 +148,7 @@ The arc length of $y = g(x)$ from $A(x_A, y_A)$ and $B(x_B, y_B)$ is:
 
 
 
+
 $$
 s = \int_{\displaystyle x_A}^{\displaystyle x_B} \sqrt{1 + \left(\frac{dy}{dx}\right)^2} dx \quad \text{or} \quad s = \int_{\displaystyle y_A}^{\displaystyle y_B} \sqrt{1 + \left(\frac{dx}{dy}\right)^2} dy
 $$
@@ -149,8 +160,10 @@ $$
 
 
 
+
 ### Parametric
 For $x = f(t)$, $y = g(t)$, the arc length from $A(f(t_A), g(t_A))$ to $B(f(t_B), g(t_B))$ is: 
+
 
 
 
@@ -169,8 +182,10 @@ $$
 
 
 
+
 ### Polar
 For $r = g(\theta)$, the arc length from half lines $\theta = \alpha$ to $\theta = \beta$ is: 
+
 
 
 
@@ -181,6 +196,7 @@ For $r = g(\theta)$, the arc length from half lines $\theta = \alpha$ to $\theta
 $$
 s = \int_{\displaystyle \alpha}^{\displaystyle \beta} \sqrt{r^2 + \left(\frac{dr}{d\theta}\right)^2} d\theta
 $$
+
 
 
 
@@ -200,6 +216,7 @@ The area, $S$, of the surface generated when the arc $A B$ on the curve $C$ is r
 
 
 
+
 $$
 S=2 \pi \int_{\displaystyle x_A}^{\displaystyle x_B} y \sqrt{1+\left(\frac{\mathrm{d} y}{\mathrm{~d} x}\right)^2} \mathrm{~d} x
 $$
@@ -211,7 +228,9 @@ $$
 
 
 
+
 **About the $y$-axis:** 
+
 
 
 
@@ -230,8 +249,10 @@ $$
 
 
 
+
 ### Parametric
 **About the $x$-axis:** 
+
 
 
 
@@ -250,7 +271,9 @@ $$
 
 
 
+
 **About the $y$-axis:** 
+
 
 
 
@@ -269,8 +292,10 @@ $$
 
 
 
+
 ### Polar
 **About the initial line $\theta = 0$**  
+
 
 
 
@@ -289,7 +314,9 @@ $$
 
 
 
+
 **About the line $\theta= \displaystyle\pm \frac{\pi}{2}:$** 
+
 
 
 
@@ -300,6 +327,7 @@ $$
 $$
 S=2 \pi \int_{\displaystyle \alpha}^{\displaystyle \beta} r \cos \theta \sqrt{r^2+\left(\frac{\mathrm{d} \theta}{\mathrm{d} r}\right)^2} \mathrm{~d} \theta
 $$
+
 
 
 

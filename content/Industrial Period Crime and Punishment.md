@@ -69,6 +69,7 @@ They attended crime scenes used *"thief takers"* and *"principial officers"* and
 The introduced organised regular foot and horse patrols by paid constable along major roads. They understood the importance of sharing information with other law enforcement.
 
 ## Metropolitan Police Force 1829
+*Links*: [[Whitechapel#Police|Whitechapel Policing]]
 ### Reasons for Introduction
 1. Widespread belief that violent crime was on the rise.
 2. High food prices and unemployment lead to major protests *in 1815* which the government felt out of control for.

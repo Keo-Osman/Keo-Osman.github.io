@@ -8,9 +8,11 @@ The $R_f$ value of substance is a measure of solubility and is calculated with
 
 
 
+
 $$
 \frac{\text{distance travelled by substance}}{\text{distance travelled by solvent}}
 $$
+
 
 
 

@@ -9,11 +9,14 @@ Hyperbolic functions are functions with similar properties to [[Trigonometric Fu
 
 
 
+
 $$
 \sinh(x) \equiv \frac{e^x - e^{-x}}{2} \quad \quad
 \cosh(x) \equiv \frac{e^x + e^{-x}}{2}\quad \quad
 \tanh(x) \equiv \frac{\sinh(x)}{\cosh(x)} = \frac{e^{2x} - 1}{e^{2x} + 1}
 $$
+
+
 
 
 
@@ -37,6 +40,7 @@ $$
 &\coth(x) \equiv \frac{1}{\tanh(x)} = \frac{\cosh(x)}{\sinh(x)} = \frac{e^{2x} + 1}{e^{2x} - 1}
 \end{aligned}
 $$
+
 
 
 
@@ -73,6 +77,7 @@ Generally given a trig identity you can find the corresponding hyperbolic identi
 
 
 
+
 $$
 \cos(x) \rightarrow \cosh(x) \quad \sin(x) \rightarrow \sinh(x) \quad \sin^2(x) \rightarrow -\sinh^2(x) \quad\sin A \sin B \rightarrow -\sinh(A)\sinh(B)
 $$
@@ -84,9 +89,11 @@ $$
 
 
 
+
 ## Calculus With Hyperbolic Functions
 Most found in formula booklet
 ### Differentiation
+
 
 
 
@@ -110,7 +117,9 @@ $$
 
 
 
+
 ### Integration
+
 
 
 
@@ -126,6 +135,7 @@ $$
 &\int \tanh(x) \ dx = \ln(\cosh(x)) + C &&\int \frac{1}{1-x^2} \, dx = \text{artanh}(x) + C 
 \end{aligned}
 $$
+
 
 
 

@@ -11,9 +11,11 @@
 - [[Lanyon]]
 - [[Utterson]]
 ### Macbeth
-- [[Macbeth Characters]]
 - [[Macbeth Plot]]
 - [[Macbeth Themes]]
+- [[Macbeth Genre]]
+- [[Macbeth Context]]
+- [[Macbeth Major Characters]]
 ### An Inspector Calls
 - [[An Inspector Calls - Themes]] - *Archived*
 - [[An Inspector Calls - Summary]] - *Archived*

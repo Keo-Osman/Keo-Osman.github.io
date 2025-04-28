@@ -10,12 +10,14 @@ Cracking is a reaction in which larger saturated [[Hydrocarbons]] molecules 
 
 
 
+
 $$
 \begin{gather}
 \text{Long Chain Alkane} \rightarrow \text{Medium Chain Alkane + Short Chain Alkene}\\
 C_6H_{14} \rightarrow C_4H_{10} + C_2H_4
 \end{gather}
 $$
+
 
 
 

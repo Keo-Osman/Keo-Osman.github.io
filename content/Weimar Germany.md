@@ -27,7 +27,7 @@
 	- Ebert sent Reichswehr to stop but they refused and many joined
 	- Workers went on strike and vital services went down forcing Kapp to surrender
 - Extreme parties getting more popular mostly **right wing**
-##Hyperinflation
+## Hyperinflation
 - **How it happened:**
 	- Treaty of Versailles *(ToV)* signed
 	- Germany had to pay £50m per year which it could not do

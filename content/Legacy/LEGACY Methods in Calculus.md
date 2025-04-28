@@ -18,9 +18,11 @@ For $y=uv$
 
 
 
+
 $$
 \frac{d^n y}{dx^n} = \sum_{k=0}^n \binom{n}{k} \frac{d^k u}{dx^k} \frac{d^{n-k} v}{dx^{n-k}}
 $$
+
 
 
 
@@ -40,9 +42,11 @@ If either $\displaystyle \lim_{x \to a} f(x) = \lim_{x \to a} g(x) = 0$ **OR** $
 
 
 
+
 $$
 \lim_{x \to a} \frac{f(x)}{g(x)} = \frac{f'(x)}{g'(x)} \quad \text{(provided that } \lim_{x \to a} \frac{f(x)}{g(x)} \text{ exists)}
 $$
+
 
 
 

@@ -7,9 +7,11 @@
 
 
 
+
 $$
 3H_2+N_2\Leftrightarrow 2NH_3
 $$
+
 
 
 

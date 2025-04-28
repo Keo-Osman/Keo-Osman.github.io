@@ -38,9 +38,11 @@ $\forall a, b \in \mathbb{Z} \ \exists q, r \quad \text{ s.t } \quad b = aq + r,
 ### Explanations
 1. Given $n = p_1^{\alpha_1} \cdot p_2^{\alpha_2}$ the $\tau(n) =\displaystyle\sum_{d|n}1 = (\alpha_1+1)(\alpha_2+1) \cdots (\alpha_k+1)$ *This is because any divisor must be in the form $p_1^{\beta_1} \cdot p_2^{\beta_2}$ with $0 \leq \beta_k \leq \alpha_k$ $\forall k$. So for each $k$ there are $\alpha_k+1$ choices for $k_k$. Since they are independent you multiply.*
 2. $n = p_1^{\alpha_1} \cdot p_2^{\alpha_2}$ $\Rightarrow$ there are $(2\alpha_1+1)(2\alpha_2+1) \cdots (2\alpha_1+1)$ distinct ordered pairs $(a,b) \in \mathbb{Z}^+$ such that $\operatorname{lcm}(a,b) = n$ *This is because $a, b$ are divisors of $n$ so they must have the form $a = p_1^{\beta_1} \cdot p_2^{\beta_k}$ and $p_1^{\gamma_1} \cdot p_2^{\gamma_k}$ since $\operatorname{\operatorname{lcm}}(a,b) = n$ $\max(\beta_k,\gamma_k) = \alpha_1$ there are $2\alpha_1+1$ options for $(\beta_k,\gamma_k)$: 
+
 $$
 \underbrace{(0,\alpha_1), (1,\alpha_1),...,}_{\alpha \text{ terms}} (\alpha_1,\alpha_1)\underbrace{,...,(\alpha_1,0)}_{\alpha \text{ terms}}
 $$
+
 So you multiply number of choices together.*
 3. If $n = p_1^{\alpha_1} \cdot p_2^{\alpha_2}$ there are $\tau(n)$ divisors you can split into $\textstyle\frac{\tau(n)}{2}$ pairs $(d, \textstyle\frac{n}{d})$ so their product is $n$ multiplying all together you get $n^{\textstyle\frac{\tau(n)-1}{2}}$. Then multiply by $n^2$ yielding $n^{\textstyle\frac{\tau(n)}{ 2}}$
 4. Let $d_1, d_2, ..., d_k$ be the divisors of $n \leq \sqrt{n}$. The rest of the divisors are $\frac{n}{d_1}, \frac{n}{d_2}, ..., \frac{n}{d_k}$. In each set there are $k$ numbers so $\tau(n) = 2k$ (or $2k-1$ if $n$ is a perfect square) Since $d_i$ are distinct positive integers $\leq \sqrt{n}$ there can be at most $\lfloor\sqrt{n}\rfloor$ so $k \leq \sqrt{n}$ $\Rightarrow$ $\tau(n) \leq 2k \leq 2\sqrt{n}$
@@ -49,21 +51,27 @@ So you multiply number of choices together.*
 # Sum of Divisors
 ## Definition
 $\sigma(n)$ is defined as the sum of divisors of $n$. This can be written as 
+
 $$
 \forall n \in \mathbb{Z}^+ \quad\sigma(n) = \sum_{d|n} d
 $$
 
+
 ## Properties
 1. 
+
 $$
 \sigma(n) = \frac{p_1^{\alpha_1+1} - 1}{p_1 - 1} \cdot \frac{p_2^{\alpha_2+1} - 1}{p_2 - 1} = \prod_{1}^k \frac{p_k^{\alpha_k+1} - 1}{p_k - 1}
 $$
 
+
 ### Explanations
 1. Let $n = p_1^{\alpha_1} \cdot p_2^{\alpha_2}$ then the divisors will have the form $d = p_1^{k_1} \cdot p_2^{k_2}$ $0 \leq k_i \leq \alpha_i$ $\forall i$. Every possible divisor appears exactly once so each combination of $k_i$ will appear exactly once which can be written as $(1 + p_1 + ... + p_1^{\alpha_1}) \cdot (1 + p_2 + ... + p_2^{\alpha_2})$ which are geometric series, therefore 
+
 $$
 \sigma(n) = \frac{p_1^{\alpha_1+1} - 1}{p_1 - 1} \cdot \frac{p_2^{\alpha_2+1} - 1}{p_2 - 1} = \prod_{i} \frac{p_i^{\alpha_i+1} - 1}{p_i - 1}
 $$
+
 
 
 ---
