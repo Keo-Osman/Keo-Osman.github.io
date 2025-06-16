@@ -1,4 +1,4 @@
-#Physics/Electromagnetism 
+#Physics/Paper-2/P7__Electromagnetism 
 # Motor Effect
 When a current carrying wire is placed in the magnetic field of a permanent magnet the magnetic field of the wire and of the permanent magnet interact and produce a resultant force.
 If the magnetic fields are parallel there is no resultant force, the force will be strongest when the fields are perpendicular 

@@ -1,4 +1,4 @@
-#Physics/Required-Practicals/Paper-2  
+#Physics/Paper-2/Required-Practicals  
 
 # Aim
 Investigate the effect of varying the force on the acceleration of an object of constant mass. 

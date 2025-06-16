@@ -1,44 +1,41 @@
 #Physics 
-# GCSE
-## Paper 1
-### P1 - Energy
-- [[Energy Transfers by Heating]]
-### P2 - Electricity
-- [[Electrical Cells]] *(Chemistry but relevant)*
-### P3 - Particle Model of Matter
-- [[Alpha Scattering Experiment]]
-- [[Particle Motion, Pressure and Work Done in Gases]]
-### P4 - Atomic Structure
-- [[Radiation]]
-### Required Practicals
-- [[Physics Required Practical 1 - Specific Heat Capacity]]
-- [[Physics Required Practical 2 - Thermal Insulators]]
-- [[Physics Required Practical 3 - Resistance]]
-- [[Physics Required Practical 4 - Current and Potential Difference Characteristics]]
-- [[Physics Required Practical 5 - Density]]
+# Energy
+1. [[Energy Transfers by Heating]]
+# Electricity
+1. [[Electrical Cells]] 
+# Particle Model of Matter
+1. [[Alpha Scattering Experiment]]
+2. [[Particle Motion, Pressure and Work Done in Gases]]
+# Atomic Structure
+1. [[Radiation]]
+# Waves 
+1. [[Lenses]]
+2. [[Seismic Waves]]
+3. [[Black Body Radiation]]
+# Electromagnetism 
+1. [[Alternator and Dynamo]]
+2. [[Electromagnets]]
+3. [[Generator Effect]]
+4. [[Induced Magnets]]
+5. [[Loudspeakers]]
+6. [[Magnetic Fields]]
+7. [[Microphone]]
+8. [[Motor Effect]]
+9. [[Transformers]]
+# Space Physics 
+1. [[Lifecycle of Stars]]
 
 ---
-## Paper 2
-### P5 - Forces
-### P6 - Waves 
-- [[Lenses]]
-- [[Seismic Waves]]
-- [[Black Body Radiation]]
-### P7 - Magnetism and Electromagnetism 
-- [[Alternator and Dynamo]]
-- [[Electromagnets]]
-- [[Generator Effect]]
-- [[Induced Magnets]]
-- [[Loudspeakers]]
-- [[Magnetic Fields]]
-- [[Microphone]]
-- [[Motor Effect]]
-- [[Transformers]]
-### P8 - Space Physics 
-- [[Lifecycle of Stars]]
-### Required Practicals
-- [[Physics Required Practical 6 - Force and Extension]]
-- [[Physics Required Practical 7 - Acceleration]]
-- [[Physics Required Practical 8 - Waves]]
-- [[Physics Required Practical 9 - Reflection and Refraction]]
-- [[Physics Required Practical 10 - Infrared]]
+---
+# LEGACY
+## GCSE Required Practicals
+1. [[LEGACY Physics Required Practical 1 - Specific Heat Capacity]]
+2. [[LEGACY Physics Required Practical 2 - Thermal Insulators]]
+3. [[LEGACY Physics Required Practical 3 - Resistance]]
+4. [[LEGACY Physics Required Practical 4 - Current and Potential Difference Characteristics]]
+5. [[LEGACY Physics Required Practical 5 - Density]]
+6. [[LEGACY Physics Required Practical 6 - Force and Extension]]
+7. [[LEGACY Physics Required Practical 7 - Acceleration]]
+8. [[LEGACY Physics Required Practical 8 - Waves]]
+9. [[LEGACY Physics Required Practical 9 - Reflection and Refraction]]
+10. [[LEGACY Physics Required Practical 10 - Infrared]]

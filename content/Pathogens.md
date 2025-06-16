@@ -1,4 +1,4 @@
-#Biology/Infection-and-Response/Pathogens
+#Biology/Paper-1/B3__Infection-and-Response/Pathogens
 Pathogens are microorganisms that cause infectious disease.
 
 ---

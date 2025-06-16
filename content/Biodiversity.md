@@ -1,4 +1,4 @@
-#Biology/Ecology 
+#Biology/Paper-2/B7__Ecology 
 
 High **Biodiversity** means that the ecosystem will be stable - species are less dependant on a each other multiple streams of dependencies.
 

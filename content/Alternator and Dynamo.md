@@ -1,4 +1,4 @@
-#Physics/Electromagnetism
+#Physics/Paper-2/P7__Electromagnetism
 # Alternator
 An alternator is a coil that is rotating through a magnetic field and connected to 2 commutators which allow current to pass through the coil. It produces **AC** *(via the [[Generator Effect]])* as when the coil rotates the direction of each side changes.
 

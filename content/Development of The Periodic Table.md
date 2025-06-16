@@ -1,4 +1,4 @@
-#Chemistry/Atomic-Structure
+#Chemistry/Paper-1/C1__Atomic-Structure
 # Modern Periodic
 - Ordered by atomic number
 - Arranged in columns called groups (1-8/0) with a block of transition metals in between. Elements in groups share similar properties and have same number of electrons in outer shell  

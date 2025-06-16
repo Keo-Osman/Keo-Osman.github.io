@@ -1,4 +1,4 @@
-#Physics/Particles
+#Physics/Paper-1/P2__Particles
 # Particle Motion in Gases
 The particles are very far apart moving in random directions
 # Pressure in Gases

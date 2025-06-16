@@ -25,13 +25,17 @@ TO approximate a signal we can ask. What $|w \rangle \in W$ is as close to $|f \
 
 ## Cartesian Plane
 The plane is made up of all real number pairs $(x, y)$ and addition and scalar multiplication are defined as follows 
+
 $$
 (x_1, y_1) + (x_2, y_2) = (x_1+x_2, y_1+y_2)
 $$
 
+
+
 $$
 c(x, y) = (cx, cy)
 $$
+
 
 This makes the Cartesian Plane a **Vector Space**
 ### Lines
@@ -40,13 +44,17 @@ Lines that pass through the origin in the cartesian plane, is a **Subspace** of 
 ## The Gauss-Jordan Process 
 A **Linear System** is a collection of one or more linear equations in the same set of variables $x_1, \dotsc, x_n$ in the form
 
+
 $$
 a_{i1}x_1+a_{i2}x_2 + \dots + a_{in}x_n=b_i
 $$
+
   
+
 
 $$
 \left\{\begin{array}{c}a_{11}x_1+\cdots+a_{1n}x_n=b_1\\\vdots\\a_{m1}x_1+\cdots+a_{mn}x_n=b_m\end{array}\right.\mapsto\left(\begin{array}{ccc|c}a_{11}&\dots&a_{1n}&b_1\\\vdots&\vdots&\vdots&\vdots\\a_{m1}&\dots&a_{mn}&b_m\end{array}\right)
 $$
+
 
 

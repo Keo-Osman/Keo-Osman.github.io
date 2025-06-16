@@ -1,4 +1,4 @@
-#Biology/Homeostasis-and-Response 
+#Biology/Paper-2/B5__Homeostasis-and-Response 
 # Definition
 **Homeostasis** is the regulation of the *internal conditions* of a [[Cells|Cell]] or organism to maintain *optimum conditions* for function in *response* to *internal or external changes*
 

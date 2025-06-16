@@ -9,9 +9,11 @@ A **linear transform** is a [[LEGACY Vectors|Vector]] transform with only linear
 
 
 
+
 $$
 T: \begin{pmatrix} x \\ y \end{pmatrix} \mapsto \begin{pmatrix} ax + by \\ cx + dy \end{pmatrix}
 $$
+
 
 
 
@@ -32,9 +34,11 @@ They have the properties that:
 
 
 
+
 $$
 T: \begin{pmatrix} x \\ y \end{pmatrix} \mapsto \begin{pmatrix} ax + by \\ cx + dy \end{pmatrix} = T: \begin{pmatrix} x \\ y \end{pmatrix} \mapsto \begin{pmatrix} a & b \\ c & d  \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix}
 $$
+
 
 
 
@@ -60,9 +64,11 @@ The matrix of a rotation through angle $\theta$ anticlockwise about the origin
 
 
 
+
 $$
 \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}
 $$
+
 
 
 
@@ -78,6 +84,7 @@ For stretches only along the $x$-axis, points on the $y$-axis are invariant and 
 For stretches in both direction the only invariance is the origin
 For a linear transform by matrix $M$, $|M|$ is the scale factor of area (if it's negative the shape has been reflected)
 ## Reflections
+
 
 
 
@@ -110,6 +117,8 @@ $$
 \end{pmatrix}}
 \end{aligned}
 $$
+
+
 
 
 
@@ -162,7 +171,9 @@ $$
 
 
 
+
 ## Rotations
+
 
 
 
@@ -178,6 +189,8 @@ $$
 \sin\theta & \cos\theta
 \end{pmatrix}}
 $$
+
+
 
 
 
@@ -229,10 +242,12 @@ $$
 
 
 
+
 ## Successive transformations
 The matrix $PQ$ represents the singular transform of the result of a transform by $Q$ then $P$
 ## Linear Transforms in 3D
 For a linear transform by a given 3x3 Matrix 
+
 
 
 
@@ -261,9 +276,12 @@ $$
 
 
 
+
+
 $$
 \begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix} \rightarrow \begin{pmatrix} a \\ d \\ g \end{pmatrix}, \begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix} \rightarrow \begin{pmatrix} b \\ e \\ h \end{pmatrix}, \begin{pmatrix} 0 \\ 0 \\ 1 \end{pmatrix} \rightarrow \begin{pmatrix} c \\ f \\ i \end{pmatrix}
 $$
+
 
 
 

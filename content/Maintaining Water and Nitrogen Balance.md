@@ -1,4 +1,4 @@
-#Biology/Homeostasis-and-Response  
+#Biology/Paper-2/B5__Homeostasis-and-Response  
 If too much water moves into cells by osmosis then the cell could burst. If too much moves out the cell could shrink. Either way they do not function properly.
 
 # The Kidneys

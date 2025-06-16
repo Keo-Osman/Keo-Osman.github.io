@@ -9,6 +9,7 @@ If $a$ does not divide $b$, it is denoted as $a \nmid b$. (This definition appli
 ## Divisibility rules
 
 
+
 $$
 \begin{aligned}
 &\forall a, b, c \in \mathbb{Z}\\ \\
@@ -19,6 +20,7 @@ $$
 &a|b \Rightarrow a \leq b \quad\forall a, b \in \mathbb{Z}^+
 \end{aligned}
 $$
+
 
 
 ## Division Algorithm
@@ -48,6 +50,7 @@ You can find $\gcd(a,b)$ by using prime factors; however, a faster way for large
 The identity states that given 
 
 
+
 $$
 \begin{aligned}
 &a, b \in \mathbb{Z} \space a \neq b \neq 0\\
@@ -55,6 +58,7 @@ $$
 &\exists x, y \in \mathbb{Z} \text{ s.t } \gcd(a,b) = ax + by
 \end{aligned}
 $$
+
 
 
 
@@ -105,6 +109,7 @@ Congruence equations with prime modulo can be solved with *Fermat's Little Theor
 $p$ is prime ^ $p \nmid a \Rightarrow gcd(a, p)=1 \Rightarrow ax=b(\operatorname{mod} p)$ has one solution.
 
 
+
 $$
 \begin{aligned}
 & ax \equiv b\space(\operatorname{mod} p) \Rightarrow a^{p-2} a x \equiv a^{p-2} b(\operatorname{mod} p) \Rightarrow \\
@@ -112,6 +117,7 @@ $$
  \text { as } a^{p-2} a=a^{p-1} \space\wedge\space a^{p-1} \equiv 1(\operatorname{mod} p) \\
 \end{aligned}
 $$
+
 
 
 

@@ -1,4 +1,4 @@
-#Physics/Waves
+#Physics/Paper-2/P6__Waves
 # Convex
 Convex lenses are **thicker at the centre**.
 The symbol is a vertical line with 2 arrows pointing outwards. 
@@ -12,3 +12,7 @@ If you extend the rays behind the lens, they will meet at a point which is the *
 The distance from the focus to the lenses' centre is the focal length.
 
 The Image is always the right way up, diminished and virtual - *virtual meaning it's if you placed a screen where the image appears you would not see an image on the screen*.
+
+
+---
+---

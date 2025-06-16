@@ -1,4 +1,4 @@
-#Biology/Homeostasis-and-Response 
+#Biology/Paper-2/B5__Homeostasis-and-Response 
 # Definition
 It works in a negative feedback loop. When blood glucose levels change a hormone is secreted to oppose the change. The action of the hormone cannot occur continually as at a certain point the other hormone is released resulting in the other effect. This continues on a loop of the 2 hormones being produced.
 

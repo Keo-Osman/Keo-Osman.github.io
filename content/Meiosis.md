@@ -1,4 +1,4 @@
-#Biology/Inheritance-and-Evolution  
+#Biology/Paper-2/B6__Inheritance-and-Evolution  
 # Definition
 Meiosis is the formation of 4 *genetically different* cells from 1 cell. Cells in the reproductive organs divide by meiosis to form gametes. Gametes only have one copy of each chromosome.
 

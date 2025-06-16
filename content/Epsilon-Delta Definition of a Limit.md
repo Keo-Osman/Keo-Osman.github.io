@@ -2,6 +2,7 @@
 # Finite Limit
 
 
+
 $$
 \lim_{x\to a}f(x) = L \Leftrightarrow  \forall \varepsilon > 0,  \exists \delta > 0 \\ 
 \quad \text{s.t} \quad \\
@@ -9,9 +10,11 @@ $$
 $$
 
 
+
 This basically means that you can make the distance between $f(x)$ and $L$ arbitrarily small by taking the distance from $x$ to $a$ to be sufficiently small
 
 **Left Hand Limit**
+
 
 
 $$
@@ -19,12 +22,15 @@ $$
 $$
 
 
+
 **Right Hand Limit**
+
 
 
 $$
 \lim_{x \to a^+} f(x) = L \Leftrightarrow \forall \epsilon > 0, \exists \delta > 0 \quad \text{ s.t. } \quad a < x < a + \delta \Rightarrow |f(x) - L| < \epsilon
 $$
+
 
 
 ## Boundedness by a Constant
@@ -33,6 +39,7 @@ You can solve Epsilon delta problems by bounding $f(x) < C|x-a|$ where $C$ is a 
 ---
 # Laws of Limits
 Given $\displaystyle\lim_{x \to a} f(x) = L, \lim_{x \to a} g(x) = M \Rightarrow$
+
 
 
 $$
@@ -45,9 +52,11 @@ $$
 
 
 
+
 ---
 # Infinite Limit
 **Positive Infinity**
+
 
 
 $$
@@ -55,14 +64,17 @@ $$
 $$
 
 
+
 *(If a limit tends to infinity, it does not exist; $\infty$ is not a number)*
 
 **Negative Infinity**
 
 
+
 $$
 \lim_{x \to a} f(x) = -\infty \Leftrightarrow \forall N < 0, \exists \delta > 0 \text{ s.t. } 0 < |x-a| < \delta \Rightarrow f(x) < N
 $$
+
 
 
 
@@ -90,7 +102,9 @@ The line $y=L$ is a horizontal asymptote of $y=f(x)$ if either $\lim_{x\to\infty
 Some curves have asymptotes that are oblique, neither horizontal nor vertical.
 
 
+
 $$
 \lim_{x\to\infty}[f(x)-(mx+c)]=0 \Rightarrow y=mx+c \text{ is a slant asymptote of } f(x)
 $$
+
 

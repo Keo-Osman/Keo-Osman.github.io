@@ -1,4 +1,4 @@
-#Physics/Required-Practicals/Paper-2
+#Physics/Paper-2/Required-Practicals
 # Aim 
 Determine the correlation between the mass placed on a spring and the spring's extension, by measuring resultant spring lengths. 
 # Equipment List

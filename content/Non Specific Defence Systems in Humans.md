@@ -1,4 +1,4 @@
-#Biology/Infection-and-Response/Defence-Systems
+#Biology/Paper-1/B3__Infection-and-Response/Defence-Systems
 The job of the non-specific defence system is to prevent pathogens from entering the body.
 
 ---

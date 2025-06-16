@@ -1,4 +1,4 @@
-#Biology/Homeostasis-and-Response 
+#Biology/Paper-2/B5__Homeostasis-and-Response 
 # Components
 **Cerebral Cortex** - Controls conscious thought, memory and language. Outer part of the brain.
 **Cerebellum** - Controls fine movement of muscles. Bottom/back of the brain.

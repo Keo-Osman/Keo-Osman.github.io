@@ -1,4 +1,4 @@
-#Chemistry/Resources  
+#Chemistry/Paper-2/C10__Resources  
 # Definition
 Fertilisers are important as they replace elements that have been taken up by plants.
 NPK fertilisers contain compounds of nitrogen, phosphorus and potassium which improves agricultural activity.
@@ -11,9 +11,9 @@ The potassium in NPK fertilisers comes from potassium chloride or potassium sulf
 # Phosphorous
 Phosphate rock has to be chemically processed before being used in fertilisers.
 **Treating Phosphorus Rock**
-- Treating phosphate rock with *nitric acid* produces *phosphoric acid and calcium nitrate*. Phosphoric acid contains phosphorus but this cant be directly added to plants so it must be neutralised with ammonia. This produces ammonium phosphate which can be used.
-- Treating phosphate rock with *sulfuric acid* produces a mixture of *calcium phosphate and calcium sulfate*. This mixture is called *single superphosphate* which can be used. 
-- Treating phosphate rock with phosphoric acid produces triple superphosphate.
+1. Treating phosphate rock with *nitric acid* produces *phosphoric acid and calcium nitrate*. Phosphoric acid contains phosphorus but this cant be directly added to plants so it must be neutralised with ammonia. This produces ammonium phosphate which can be used.
+2. Treating phosphate rock with *sulfuric acid* produces a mixture of *calcium phosphate and calcium sulfate*. This mixture is called *single superphosphate* which can be used. 
+3. Treating phosphate rock with phosphoric acid produces triple superphosphate.
 
 ---
 ---

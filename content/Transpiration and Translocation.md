@@ -1,4 +1,4 @@
-#Biology/Organsiation  
+#Biology/Paper-1/B2__Organsiation  
 # Transpiration
  It is the process of water evaporating from leaves.
  - Starts with evaporation of water from cells inside the leaf

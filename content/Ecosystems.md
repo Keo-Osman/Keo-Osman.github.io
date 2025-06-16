@@ -1,4 +1,4 @@
-#Biology/Ecology
+#Biology/Paper-2/B7__Ecology
 # Definition
 An individual is part of a species that lives in its habitat within a population. Many different populations interact in the same habitat creating a community. The populations are often dependant on each other.
 An **Ecosystem** is the interaction of a community with abiotic parts of the environment.

@@ -1,4 +1,4 @@
-#Chemistry/Chemical-Analysis
+#Chemistry/Paper-2/C8__Chemical-Analysis
 # $H_2$
 Insert a burning splint into the gas. If there is a squeaky pop a gas is present
 # $O_2$ 

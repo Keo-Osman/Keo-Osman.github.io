@@ -1,4 +1,4 @@
-#Biology/Organsiation 
+#Biology/Paper-1/B2__Organsiation 
 # Xylem
 - Found in plant stem
 - Form long tubes to carry water dissolve minerals from roots to leaves

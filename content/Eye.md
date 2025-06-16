@@ -1,4 +1,4 @@
-#Biology/Homeostasis-and-Response 
+#Biology/Paper-2/B5__Homeostasis-and-Response 
 # Components
 **Retina -** Layer of light sensitive cells found at the back of the eye.
 **Optic Nerve -** nerve that connects eyes and the [[Brain]].

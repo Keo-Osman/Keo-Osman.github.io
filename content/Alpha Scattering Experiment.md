@@ -1,4 +1,4 @@
-#Chemistry/Structure-and-Bonding, #Physics/Particles 
+#Chemistry/Paper-1/C2__Structure-Bonding, #Physics/Paper-1/P2__Particles 
 # Experiment
 - First the scientists took a piece of very thin gold foil *(only a few atoms thick)*
 - They then fired alpha particles at it *(which have a positive charge)*

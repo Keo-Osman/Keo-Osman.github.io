@@ -1,10 +1,10 @@
-#Chemistry/Resources 
+#Chemistry/Paper-2/C10__Resources 
 The properties of [[Polymers]] depend on both the *monomer* and the conditions used to make the polymer.
 
 To change the properties of a polymer you could change:
-- The temperature
-- The pressure
-- The catalyst
+1. The temperature
+2. The pressure
+3. The catalyst
 
 # Thermosoftening Polymers
 The melt when heated and can be reshaped as the cool down.

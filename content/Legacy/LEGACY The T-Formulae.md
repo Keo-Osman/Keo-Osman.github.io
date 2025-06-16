@@ -10,6 +10,7 @@ The t-formulae are formulae for the trigonometric functions using the substituti
 
 
 
+
 $$
 \begin{aligned}
 &\tan \left(\frac{\theta}{2}\right) = t  && \tan \theta = \frac{2t}{1-t^2}\\
@@ -17,6 +18,7 @@ $$
 &\cos \left(\frac{\theta}{2}\right) = \frac{1}{\sqrt{1+t^2}} && \cos \theta = \frac{1-t^2}{1+t^2}
 \end{aligned}
 $$
+
 
 
 
@@ -38,9 +40,11 @@ You can use the t-formulae as a substitution for integrals it should be self exp
 
 
 
+
 $$
 dx = \frac{2}{1+t^2}dt
 $$
+
 
 
 

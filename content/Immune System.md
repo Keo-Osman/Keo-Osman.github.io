@@ -1,4 +1,4 @@
-#Biology/Infection-and-Response/Defence-Systems 
+#Biology/Paper-1/B3__Infection-and-Response/Defence-Systems 
 - The immune system destroys pathogens and toxins
 - It also protects against the same pathogen in the future
 

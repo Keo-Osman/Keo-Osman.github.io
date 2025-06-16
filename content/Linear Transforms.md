@@ -10,6 +10,7 @@ A **linear transform** is a [[Vectors|Vector]] transform with only linear terms 
 
 
 
+
 $$
 T: \begin{pmatrix} x \\ y \end{pmatrix} \mapsto \begin{pmatrix} ax + by \\ cx + dy \end{pmatrix}
 $$
@@ -21,9 +22,11 @@ $$
 
 
 
+
 They have the properties that:
 - $\begin{pmatrix} 0 \\ 0 \end{pmatrix} \mapsto \begin{pmatrix} 0 \\ 0 \end{pmatrix}$
 - They can be represented by a [[Matrices|Matrix]] 
+
 
 
 
@@ -43,8 +46,10 @@ $$
 
 
 
+
 ---
 # Rotations
+
 
 
 
@@ -90,6 +95,7 @@ $$
 
 
 
+
 ---
 # Enlargement and Stretches
 You can represent a stretch with matrix $\begin{pmatrix} a & 0 \\ 0 & b \end{pmatrix}$ It has stretch factor $a$ parallel to the $x$-axis and stretch factor $b$ parallel to the $y$-axis.
@@ -99,6 +105,7 @@ For a linear transform by matrix $M$, $|M|$ is the scale factor of area (if it's
 
 ---
 # Reflections
+
 
 
 
@@ -147,6 +154,8 @@ $$
 
 
 
+
+
 $$
 \begin{aligned}
 \quad
@@ -169,6 +178,7 @@ $$
 \end{pmatrix}}
 \end{aligned}
 $$
+
 
 
 

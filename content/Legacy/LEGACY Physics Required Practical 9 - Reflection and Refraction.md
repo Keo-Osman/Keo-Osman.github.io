@@ -1,4 +1,4 @@
-#Physics/Required-Practicals/Paper-2  
+#Physics/Paper-2/Required-Practicals  
 # Aim
 Investigate the reflection of light by different types of surfaces and the refraction of light by different substances. 
 # Equipment List

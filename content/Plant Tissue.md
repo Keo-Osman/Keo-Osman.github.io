@@ -1,4 +1,4 @@
-#Biology/Organsiation  
+#Biology/Paper-1/B2__Organsiation  
 # Tissues in Leaves
 The leaf is a plant organ that contains different tissues
 ![[Leaf-Tissue-Diagram.png]]

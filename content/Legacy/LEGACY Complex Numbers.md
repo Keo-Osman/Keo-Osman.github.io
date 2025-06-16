@@ -16,9 +16,11 @@ $z+z^*$ is also always real as it’s a difference of two squares
 
 
 
+
 $$
 (a+b i)(a-b i)=a^2-(b i)^2=a^2-\left(b^2 i^2\right)=a^2-\left(-b^2\right)=a^2+b^2
 $$
+
 
 
 
@@ -44,9 +46,11 @@ For multiplication just expand brackets ex. $(a+b i)(c+d i)=$ $a c+(b c) i+(a d)
 
 
 
+
 $$
 \frac{a+b i}{c+d i}=\frac{a+b i)(c-d i)}{(c+d i)(c-d i)} = \frac{a c+b d}{c^2+d^2}+\left(\frac{b c-a d}{c^2+d^2}\right)i
 $$
+
 
 
 
@@ -90,9 +94,12 @@ The argument $z$ *written as $arg(z)$* is the angle $\theta$ such that $\tan \th
 
 
 
+
 $$
 \left|z_1 z_2\right|=\left|z_1\right| \times\left|z_2\right| \quad \arg (z_1 z_2)=\operatorname{arg}(z_1)+\operatorname{arg}(z_2)
 $$
+
+
 
 
 
@@ -131,8 +138,10 @@ $$
 
 
 
+
 #### Division
 You can also prove that: 
+
 
 
 
@@ -144,6 +153,8 @@ You can also prove that:
 $$
 \left|\frac{z_1}{z_2}\right|=\frac{|z_1|}{|z_2|} \quad \operatorname{arg}\left(\frac{z_1}{z_2}\right)=\operatorname{arg}(z_1)-\operatorname{arg}(z_2)
 $$
+
+
 
 
 
@@ -181,11 +192,13 @@ $$
 
 
 
+
 ---
 # A-Level Further Core 2
 ## Exponential Form of Complex Numbers
 ### Derivation
 By using the Taylor expansion of $e^x$ and plugging in $x = i\theta$, you can split the series to obtain $e^{i\theta} = \cos \theta + i \sin \theta$
+
 
 
 
@@ -212,9 +225,11 @@ $$
 
 
 
+
 Then multiply by $r$ to get the general form of $z = re^{i\theta}$ where $r = |z|$ and $\theta = \arg(z)$
 
 ### Multiplication and Division
+
 
 
 
@@ -245,6 +260,8 @@ $$
 
 
 
+
+
 $$
 \frac{z_1}{z_2} = \frac{r_1}{r_2} e^{i(\theta_1 - \theta_2)}
 $$
@@ -257,7 +274,9 @@ $$
 
 
 
+
 ## De Moivre's Theorem
+
 
 
 
@@ -283,8 +302,10 @@ $$
 
 
 
+
 It can be used to find trigonometric identities by applying De Moivre's Theorem and the binomial expansion of $(\cos\theta + i\sin\theta)^n$ to express $\cos n\theta$ in terms of powers of $\cos \theta$ and same for $\sin \theta$
 You can also use the following identities
+
 
 
 
@@ -307,8 +328,10 @@ $$
 
 
 
+
 to find other identities by binomially expanding the function in terms of $z$ and exponentiating the trig function. These identities themselves can be proved using De Moivre's Theorem.
 ## Sum of Geometric Series
+
 
 
 
@@ -321,6 +344,7 @@ to find other identities by binomially expanding the function in terms of $z$ an
 $$
 \sum_{r=0}^{n-1} wz^r = \frac{w(z^n-1)}{z-1}   \quad \sum_{r=0}^{\infty} wz^r = \frac{w}{1-z},\ |z| < 1
 $$
+
 
 
 

@@ -1,4 +1,4 @@
-#Biology/Inheritance-and-Evolution  
+#Biology/Paper-2/B6__Inheritance-and-Evolution  
 # The Linnaean System
 An mnemonic is ***King Philip Came Over For Good Soup***.
 Living things are divided into:

@@ -1,4 +1,4 @@
-#Physics/Space
+#Physics/Paper-2/P8__Space
 # Formation
 Stars begin as cloud of dust and gas called a **nebula**. Gravity causes the cloud to collapse as particles move faster the temperature reaches millions of degrees. This stage is called a **Protostar**.
 # Main Sequence

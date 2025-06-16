@@ -14,6 +14,7 @@ A Cayley Table fully describes a finite group by showing all possible products o
 Example: 
 
 
+
 $$
 \begin{array}{c|cccc}
 \times_{10}& 1 & 3 & 7 & 9 \\
@@ -24,6 +25,7 @@ $$
 9 & 9 & 7 & 3 & 1 \\
 \end{array}
 $$
+
 
 
 
@@ -40,6 +42,7 @@ The order of an element $a$ is the smallest non-negative integer $k$ *s.t* $a^k 
 **Properties**
 
 
+
 $$
 \begin{aligned}
 &|G| < \infty \Rightarrow |a| \div |G| \in \mathbb{N}\\
@@ -49,6 +52,7 @@ $$
 &(a^x = a^y \wedge x \neq y) \Rightarrow |a| < \infty
 \end{aligned}
 $$
+
 
 
 
@@ -109,9 +113,11 @@ You can construct a group of symmetries denoted by $D_{2n}$ by considering a set
 ## Cyclic Groups
 A cyclic group is a group that can be written where all elements can be written as $a^k$ where $a$ is the group generator and $k \in \mathbb{Z}^+$. $a^k$ denotes performing the group operation $k$ times.
 
+
 $$
 a^3 = a \circ a \circ a \qquad a^k = \underbrace{a \circ a \cdots \circ a}_{k \text{ times}}
 $$
+
 
 
 

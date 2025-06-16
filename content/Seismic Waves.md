@@ -1,4 +1,4 @@
-#Physics/Waves 
+#Physics/Paper-2/P6__Waves 
 # Properties
 ## Primary Waves
 **Longitudinal Waves**

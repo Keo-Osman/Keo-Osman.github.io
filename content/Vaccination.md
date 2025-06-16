@@ -1,4 +1,4 @@
-#Biology/Infection-and-Response/Treatments 
+#Biology/Paper-1/B3__Infection-and-Response/Treatments 
 # How Vaccines Work
 Vaccination involves introducing small quantities of dead or inactive forms of a pathogen into the body
 The white blood cells are now stimulated to produce antibodies against the pathogen

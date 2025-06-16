@@ -10,6 +10,7 @@ Equations in the form $\displaystyle \frac{dy}{dx} = f(x)g(y)$ can be solved wit
 
 
 
+
 $$
 \int \frac{1}{g(y)} dy = \int f(x) dx
 $$
@@ -22,8 +23,10 @@ $$
 
 
 
+
 ### Integrating Factor
 An integrating factor is an $f(x)$ that you multiply through by to solve differential equations in the form $\displaystyle \frac{dy}{dx} + P(x)y = Q(x)$. The general integrating factor is $f(x) = \displaystyle e^{\int P(x)dx}$ but it can be other functions
+
 
 
 
@@ -55,6 +58,7 @@ $$
 
 
 
+
 ## Second Order Differential Equations
 ### Homogeneous
 A second order homogeneous differential equation is a linear differential equation with a 2nd derivative term that equals zero
@@ -67,9 +71,11 @@ A second order homogeneous differential equation is a linear differential equati
 
 
 
+
 $$
 a \frac{d^2 y}{dx^2} + b \frac{dy}{dx} + c y = 0
 $$
+
 
 
 
@@ -97,9 +103,11 @@ A second order non-homogeneous differential equation is a linear differential eq
 
 
 
+
 $$
 a \frac{d^2y}{dx^2} + b \frac{dy}{dx} + c y = f(x)
 $$
+
 
 
 
@@ -137,9 +145,11 @@ If the particular integral contains terms which form part of the complementary f
 
 
 
+
 $$
 \dot{x} = \frac{dx}{dt}, \quad \ddot{x} = \frac{d^2x}{dt^2}
 $$
+
 
 
 
@@ -162,9 +172,12 @@ $$
 
 
 
+
 $$
 \ddot{x} = \frac{dv}{dt} = \frac{dx}{dt} \times \frac{dv}{dx} = v\frac{dv}{dx}
 $$
+
+
 
 
 
@@ -201,8 +214,10 @@ $$
 
 
 
+
 ## Damped and Forced Harmonic Motion
 You can refine and make more accurate models for harmonic motion by adding an additional damping force. 
+
 
 
 
@@ -214,6 +229,7 @@ You can refine and make more accurate models for harmonic motion by adding an ad
 $$
 \frac{d^2x}{dt^2} + k \frac{dx}{dt} + \omega^2 x = 0\quad \text{or}\quad\ddot{x} + k \dot{x} + \omega^2 x = 0
 $$
+
 
 
 
@@ -239,9 +255,11 @@ For heavy and critical damping, the exact nature of the motion depends on initia
 
 
 
+
 $$
 \frac{dx}{dt} = ax + by + f(t) \quad \frac{dy}{dt} = cx + dy + g(t)
 $$
+
 
 
 

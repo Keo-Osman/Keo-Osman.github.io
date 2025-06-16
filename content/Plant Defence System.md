@@ -1,4 +1,4 @@
-#Biology/Infection-and-Response/Defence-Systems 
+#Biology/Paper-1/B3__Infection-and-Response/Defence-Systems 
 # Physical Responses
 - All plant cells have a cellulose cell wall which is difficult to penetrate
 - Leaves are covered with waxy cuticle which is difficult to penetrate

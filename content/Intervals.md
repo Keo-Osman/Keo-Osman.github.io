@@ -17,6 +17,7 @@ An **open interval** does not include any endpoint, and is indicated with parent
 
 
 
+
 $$
 \begin{aligned}
 \text{Open Intervals} \\
@@ -33,6 +34,7 @@ $$
 (-\infty,b] &= \{x \in \mathbb{R}| x \leq b\}
 \end{aligned}
 $$
+
 
 
 

@@ -1,4 +1,4 @@
-#Physics/Electromagnetism 
+#Physics/Paper-2/P7__Electromagnetism 
 
 When current flows through a wire a magnetic field is produced around the wire. The strength of the magnetic field depends on the size of the current.
 If the direction of the current is reversed the direction of the magnetic field is reversed
@@ -7,7 +7,7 @@ If the direction of the current is reversed the direction of the magnetic field 
 With your right hand point thumb in the direction of conventional current, the direction of magnetic field will be the direction of other fingers
 
 ## Solenoid
-A **solenoid** is a coiled wire .
+A **solenoid** is a coiled wire.
 When current is passed through a solenoid the magnetic field is uniform and strong inside the solenoid.
 
 ## Increasing Strength

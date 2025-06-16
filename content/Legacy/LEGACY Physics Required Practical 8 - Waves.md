@@ -1,4 +1,4 @@
-#Physics/Required-Practicals/Paper-2  
+#Physics/Paper-2/Required-Practicals  
 # Aim
 Measure the frequency, wavelength and speed of waves by observing water waves in a ripple tank and waves on a stretched string or elastic cord.
 

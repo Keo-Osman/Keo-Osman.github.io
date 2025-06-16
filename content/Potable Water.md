@@ -1,4 +1,4 @@
-#Chemistry/Resources
+#Chemistry/Paper-2/C10__Resources
 # Definition
 Potable is water that is safe to drink for humans, has to have sufficiently low level of dissolved salts and have no microbes. It is not necessarily pure.
 

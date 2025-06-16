@@ -1,4 +1,4 @@
-#Biology/Organsiation
+#Biology/Paper-1/B2__Organsiation
 # Protein Synthesis
 1. Inside of the nucleus, the DNA strands unzip. 
 2. mRNA is created from the original DNA bases, and is complementary to them. 

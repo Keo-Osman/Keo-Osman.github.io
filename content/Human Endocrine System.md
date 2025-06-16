@@ -1,4 +1,4 @@
-#Biology/Homeostasis-and-Response
+#Biology/Paper-2/B5__Homeostasis-and-Response
 # Definition
 The endocrine system is a control system similar to the [[Nervous System]] however is is slower but acts for longer. It works by sending hormones around the body via the blood stream. It is made up of glands which secret hormones directly into the bloodstream. The blood transports the hormone to a target organ or tissue where it elicits and effect.
 

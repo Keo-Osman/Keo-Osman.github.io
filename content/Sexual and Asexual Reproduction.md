@@ -1,4 +1,4 @@
-#Biology/Inheritance-and-Evolution  
+#Biology/Paper-2/B6__Inheritance-and-Evolution  
 # Sexual Reproduction
 *Sexual Reproduction* involves the joining of male and female **gametes**, each containing genetic information from the mother or father.
 *Gametes* are formed by [[Meiosis]]. Gametes are formed by meiosis, as they are non identical. Each gamete has 23 chromosomes and they fuse in fertilisation. The genetic information from each parent is mixed, producing variation in the offspring.

@@ -1,4 +1,4 @@
-#Biology/Infection-and-Response/Treatments
+#Biology/Paper-1/B3__Infection-and-Response/Treatments
 # How to Produce Monoclonal Antibodies
 - First inject a mouse with an **antigen** *(any substance that induces the immune system to produce antibodies against it)* then it's **[[Immune System#White blood cells|Lymphocytes]]** will produce antibodies against the antigen.
 - The collect lymphocytes from the mouse.

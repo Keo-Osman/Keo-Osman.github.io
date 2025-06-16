@@ -1,14 +1,14 @@
-#Biology/Inheritance-and-Evolution 
+#Biology/Paper-2/B6__Inheritance-and-Evolution 
 # Plants
 ## Tissue Culture
-- Plant cells are taken, scraped from parent plant.
-- Placed in a growth medium with nutrients and hormones - eg petri dish with agar jelly with growth hormones and nutrients.
-- Samples develop into tiny plantlets.
-- Plantlets planted in compost.
+1. Plant cells are taken, scraped from parent plant.
+2. Placed in a growth medium with nutrients and hormones - eg petri dish with agar jelly with growth hormones and nutrients.
+3. Samples develop into tiny plantlets.
+4. Plantlets planted in compost.
 ## Cuttings
- - A branch from the parent plant is cut off, its lower leaves are removed, and the stem is planted in damp compost.
- - Plant hormones are often used to encourage new roots to develop. 
- - The cutting is usually covered in a clear plastic bag to keep it moist and warm. After a few weeks, new roots develop and a new plant grows.
+ 1. A branch from the parent plant is cut off, its lower leaves are removed, and the stem is planted in damp compost.
+ 2. Plant hormones are often used to encourage new roots to develop. 
+ 3. The cutting is usually covered in a clear plastic bag to keep it moist and warm. After a few weeks, new roots develop and a new plant grows.
 
 ---
 # Animals

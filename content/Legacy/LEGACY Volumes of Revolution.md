@@ -11,9 +11,11 @@ For a Volume of Revolution you do the same however the areas are small cylindric
 
 
 
+
 $$
 \pi \int_a^b f(x)^2dx
 $$
+
 
 
 
@@ -33,9 +35,11 @@ You can do the same thing for a volume of revolution around the y axis by rearra
 
 
 
+
 $$
 \pi \int_a^b{ f(y)^2dy}
 $$
+
 
 
 
@@ -60,9 +64,11 @@ For a parametric equation defined $y = g(t), x = f(t)$ you can find the volumes 
 
 
 
+
 $$
 \pi \int_{t=q}^{t=p} g(t)^2 \frac{dy}{dt} dt
 $$
+
 
 
 
@@ -81,9 +87,11 @@ $$
 
 
 
+
 $$
 \pi \int_{t=q}^{t=p} f(t)^2 \frac{dx}{dt} dt
 $$
+
 
 
 

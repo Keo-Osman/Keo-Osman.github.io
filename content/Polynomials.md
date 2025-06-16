@@ -11,9 +11,11 @@ Given a polynomial with all real coefficients, it can any combination of complex
 
 
 
+
 $$
 \Sigma\alpha = -\frac{b}{a} \quad \Sigma\alpha\beta = \frac{c}{a} \quad \Sigma\alpha\beta\gamma = -\frac{d}{a} \quad \alpha\beta\gamma\delta = \frac{e}{a}
 $$
+
 
 
 

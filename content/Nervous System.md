@@ -1,4 +1,4 @@
-#Biology/Homeostasis-and-Response 
+#Biology/Paper-2/B5__Homeostasis-and-Response 
 # Definition
 The **Nervous System** consists of two parts: the **CNS** *(Central Nervous System)* which is the brain and spinal cord, and other nerves to and from the CNS.
 

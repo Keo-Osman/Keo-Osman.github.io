@@ -1,4 +1,4 @@
-#Physics/Required-Practicals/Paper-2  
+#Physics/Paper-2/Required-Practicals  
 # Aim
 Investigate how the amount of infrared radiation absorbed or radiated by a surface depends on the nature of that surface. 
 # Equipment List 

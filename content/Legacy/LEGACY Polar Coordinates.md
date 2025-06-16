@@ -29,6 +29,7 @@ The area enclosed by a polar curve and half lines $\theta = \alpha, \theta = \be
 
 
 
+
 $$
 A = \frac{1}{2} \int_{\alpha}^{\beta} r^2 d\theta
 $$
@@ -41,7 +42,9 @@ $$
 
 
 
+
 Very useful trig identities for integration 
+
 
 
 
@@ -62,8 +65,10 @@ $$
 
 
 
+
 ## Tangent to polar Curve
 You can differentiate parametrically to get:
+
 
 
 
@@ -76,6 +81,7 @@ You can differentiate parametrically to get:
 $$
 \frac{dy}{dx} = \frac{dy /d\theta}{dx/d\theta}
 $$
+
 
 
 

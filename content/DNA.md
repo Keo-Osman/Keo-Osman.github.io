@@ -1,4 +1,4 @@
-#Biology/Inheritance-and-Evolution, #Chemistry/Organic  
+#Biology/Paper-2/B6__Inheritance-and-Evolution 
 # Definition
 **DNA** stands for deoxyribonucleic acid and it is a [[Polymers|Polymer]] made up of 2 strands in a double helix. Between the 2 strands are the 4 nitrogenous bases lined up in rows which come together to form a sequence of pairs.
 

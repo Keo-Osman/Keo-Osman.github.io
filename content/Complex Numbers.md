@@ -16,9 +16,11 @@ $z+z^*$ is also always real as it’s a difference of two squares
 
 
 
+
 $$
 (a+b i)(a-b i)=a^2-(b i)^2=a^2-\left(b^2 i^2\right)=a^2-\left(-b^2\right)=a^2+b^2
 $$
+
 
 
 
@@ -41,9 +43,12 @@ $$
 
 
 
+
 $$
 (a+b i) \pm(c+d i)=(a+c) \pm(b+d) i
 $$
+
+
 
 
 
@@ -79,9 +84,12 @@ $$
 
 
 
+
+
 $$
 \frac{a+b i}{c+d i}=\frac{a+b i)(c-d i)}{(c+d i)(c-d i)} = \frac{a c+b d}{c^2+d^2}+\left(\frac{b c-a d}{c^2+d^2}\right)i
 $$
+
 
 
 
@@ -105,9 +113,12 @@ The **argument** $z$ *written as $arg(z)$* is the angle $\theta$ such that $\tan
 
 
 
+
 $$
 \left|z_1 z_2\right|=\left|z_1\right| \times\left|z_2\right| \quad \arg (z_1 z_2)=\operatorname{arg}(z_1)+\operatorname{arg}(z_2)
 $$
+
+
 
 
 
@@ -144,7 +155,9 @@ $$
 
 
 
+
 #### Division
+
 
 
 
@@ -156,6 +169,8 @@ $$
 $$
 \left|\frac{z_1}{z_2}\right|=\frac{|z_1|}{|z_2|} \quad \operatorname{arg}\left(\frac{z_1}{z_2}\right)=\operatorname{arg}(z_1)-\operatorname{arg}(z_2)
 $$
+
+
 
 
 
@@ -191,9 +206,11 @@ $$
 
 
 
+
 ## Exponential Form $re^{i\theta}$
 ### Derivation
 Using the [[Series Approximations#Taylor Series|Taylor Series]]
+
 
 
 
@@ -221,7 +238,9 @@ $$
 
 
 
+
 ### Multiplication and Division
+
 
 
 
@@ -233,6 +252,8 @@ $$
 $$
 z_1 \times z_2 = r_1r_2 e^{i(\theta_1 + \theta_2)}
 $$
+
+
 
 
 
@@ -261,8 +282,10 @@ $$
 
 
 
+
 ---
 # De Moivre's Theorem
+
 
 
 
@@ -286,10 +309,12 @@ $$
 
 
 
+
 *This can prove with [[Proof by Induction]]*
 
 It can be used to find [[Trigonometric Functions#Identities|Trigonometric Identities]] by applying De Moivre's Theorem and the binomial expansion of $(\cos\theta + i\sin\theta)^n$ to express $\cos n\theta$ in terms of powers of $\cos \theta$ and same for $\sin \theta$
 You can also use the following identities
+
 
 
 
@@ -303,6 +328,7 @@ z=\cos\theta + i\sin\theta\Rightarrow\qquad\begin{aligned}
  &  z-\frac{1}{z}=2i\sin\theta\quad z^{n}-\frac{1}{z^{n}}=2i\sin n\theta
 \end{aligned}
 $$
+
 
 
 

@@ -1,4 +1,4 @@
-#Chemistry/Structure-and-Bonding 
+#Chemistry/Paper-1/C2__Structure-Bonding 
 # Ionic
 Ionic bonds is when a non-metal reacts with a metal. Electrons are transferred from the metal to the non-metal, to complete both outer shells, forming positive metal ions and negative non-metal ions which are held together by a strong force of electrostatic attraction in a giant lattice. *The greater the charge of the ions, the higher its melting/boiling point*
 ## Melting/Boiling

@@ -1,4 +1,4 @@
-#Chemistry/Reactions 
+#Chemistry/Paper-1/C4__Reactions 
 Please - Potassium
 Send - Sodium
 Camels - Calcium
@@ -15,3 +15,6 @@ Munching - Mercury
 Sweet - Silver
 Green - Gold
 Peas - Platinum
+
+---
+---
