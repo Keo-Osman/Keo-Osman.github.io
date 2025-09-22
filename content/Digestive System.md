@@ -13,3 +13,6 @@
 **The products of digestion are then used by the body to build new carbohydrates, lipids and proteins**
 **Some glucose produced is used in respiration**
 
+---
+---
+

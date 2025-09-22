@@ -1,3 +1,4 @@
+#Computer-Science/Rendering 
 When we want to render an object we must first break it down into triangles, then when we want to render a triangle the 3 vertices’ coordinates *6 numbers in total* are given as input and an image that best represents this theoretical perfect triangle. So we need to decide which pixels are mostly contained within the triangle then colour them.
 
 **The graphics pipeline is a linear sequence of stages where each stage takes in some input as data then performs some operation and outputs it onto the next stage**

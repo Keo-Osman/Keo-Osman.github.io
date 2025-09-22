@@ -8,7 +8,7 @@
 # Addition Polymerisation
 This is when a double bond opens up to form a single bonds to form a chain. *(Which is a long alkane)*
 Has $1$ product so it has $100\%$ atom economy.
-## [[Hydrocarbons#Alkene|Alkenes]]
+## [[Hydrocarbons#Alkenes|Alkenes]]
 **Name Scheme -** *Poly(alkene name)*
 
 **Example Molecules**
@@ -49,7 +49,7 @@ Since the new molecule still has a $COOH$ and $NH_2$ this reaction can repeat to
 # Naturally Occurring Polymers
 1. **[[DNA]]** - *Polymer of* **Nucleotides**
 2. **[[Proteins]]** - *Polymer of [[Amino Acids]]*
-3. **[[Glucose#Starch|Starch]]** - *Polymer of glucose*
-4. **[[Glucose#Cellulose|Cellulose]]** - *Polymer of glucose*
+3. **Starch** - *Polymer of glucose*
+4. **Cellulose** - *Polymer of glucose*
 ---
 ---

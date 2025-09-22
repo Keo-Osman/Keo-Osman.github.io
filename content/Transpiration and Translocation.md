@@ -9,7 +9,7 @@
 
 ---
 # Translocation
-Translocation is the movement of sugar and other molecules through [[Plant Tissue#Phloem|Phloem]]
+Translocation is the movement of sugar and other molecules through [[Xylem and Phloem#Phloem|Phloem]]
 
 ---
 ---

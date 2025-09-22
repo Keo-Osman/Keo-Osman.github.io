@@ -7,7 +7,7 @@ Enzymes catalyse chemical reactions and are **large protein molecules** and they
 - Proteins are broken down into their individual [[Amino Acids]] 
 - Amino acids are absorbed into bloodstream then they are then joined in a different order to make human proteins 
 ## Carbohydrates/Carbohydrase & Starch/Amylase
-- Carbohydrates are broken down Carbohydrases in the specific case of [[Glucose#Starch|Starch]] it's broken down by amylase
+- Carbohydrates are broken down Carbohydrases in the specific case of *Starch* it's broken down by amylase
 - Carbohydrates are broken down into simple sugars
 - **Amylase** is found in the saliva and pancreatic fluid
 ## Lipids/Lipase

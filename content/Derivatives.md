@@ -2,31 +2,20 @@
 # Definition
 The **Derivative** of $f(x)$ is 
 
-
-
 $$
 f'(x) = \lim_{h \to 0} \frac{f(x+h)-f(x)}{h} \quad \text{or} \quad f'(a) =\lim_{x \to a}\frac{f(x)-f(a)}{x-a}
 $$
 
-
-
-## Differentiability
 A function is differentiable $\Leftrightarrow$ $f'(a)$ exists. It is Differentiable on $(a, b) \Leftrightarrow$ it is differentiable $\forall x \in (a, b)$
-
+***
 # Techniques
 ## Chain Rule
-
-
 
 $$
 \frac{d}{dx}[f(g(x))] = f'(g(x))g'(x)
 $$
 
-
-
 ### Proof
-
-
 
 $$
 \begin{aligned}
@@ -44,17 +33,11 @@ $$
 \end{aligned}
 $$
 
-
-
-
----
-# Theorems
-## [[Continuity]]
-If $f(x)$ is [[Differentiation#Differentiability|Differentiable]] at $a$ then $f(x)$ is [[Continuity|Continuous]] at $a$. 
+***
+# [[Continuity]]
+If $f(x)$ is [[Derivatives#Differentiability|Differentiable]] at $a$ then $f(x)$ is [[Continuity|Continuous]] at $a$. 
 *However the converse is not necessarily true, such as $f(x) = |x|$ which is continuous at $0$ but not differentiable at $0$*
-### Proof 
-
-
+**Proof**
 
 $$
 \begin{aligned}
@@ -75,44 +58,31 @@ f(x)-f(a)& =\frac{f(x)-f(a)}{x-a}(x-a) \\ \\
 \end{aligned}
 $$
 
-
-
-## Fermat's Theorem
+***
+# Fermat's Theorem
 If $f$ has a local **maximum** or **minimum** at $c$ then $f'(c)=0$
 *The converse is not true if $f'(c) =0$ it is not necessarily a* **maximum** *or* **minimum**
-
-### Proof
 INSERT PROOF
-
 A **Critical Number** is a number $c$ in the domain of $f$ such that $f'(c) = 0$ or $f'(c)$ doesn't exist
-
-## Rolle's Theorem
-If $f$ is [[Continuity|Continuous]] on $[a,b]$, [[Differentiation#Differentiability|Differentiable]] on $(a, b)$, $f(a) = f(b)$ then $\exists c \text{ s.t } f'(c) = 0$
-### Proof
+***
+# Rolle's Theorem
+If $f$ is [[Continuity|Continuous]] on $[a,b]$, [[Derivatives#Differentiability|Differentiable]] on $(a, b)$, $f(a) = f(b)$ then $\exists c \text{ s.t } f'(c) = 0$
 INSERT PROOF
-
-## Mean Value Theorem 
-If $f$ is [[Continuity|Continuous]] on $[a,b]$, [[Differentiation#Differentiability|Differentiable]] on $(a, b)$ then $\exists c \text{ s.t }$
-
-
+***
+# Mean Value Theorem 
+If $f$ is [[Continuity|Continuous]] on $[a,b]$, [[Derivatives#Differentiability|Differentiable]] on $(a, b)$ then $\exists c \text{ s.t }$
 
 $$
 f'(c) = \frac{f(b)-f(a)}{b-a}
 $$
 
-
-
 This means that at some point $c$ the slop of the tangent is equal to the slope of the secant line which represents average rate of change hence the name
-### Proof
+
 INSERT PROOF
 
 ---
-# How Derivatives Affect the Graph
-
-## Second Derivative
-If the graph of $f$ lies above all tangents on an interval $I$ then it is concave upward on $I$. If it is below it is concave downward on $I$.
-
-If $f''(x)>0$ $\forall x \in I$ $f$ is concave upward on $I$ (convex/convex downward)
-If $f''(x)<0$ $\forall x \in I$ $f$ is concave downward on $I$ (concave/convex upward)
+# [[Concavity]]
+1. $f''(x)>0 \ \forall x \in I\implies f$ is on $I$ (convex downward/concave upward)
+2. $f''(x)<0 \ \forall x \in I \implies f$ is concave on $I$ (convex upward/convex downward)
 
 A point $P$ on $f(x)$ is an inflection point if $f$ is continuous at $P$ and it changes direction of concavity.

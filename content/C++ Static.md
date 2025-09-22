@@ -1,10 +1,10 @@
-In [[C++]] the keyword `static` can mean many things.
-
+#Computer-Science/Cpp 
+In C++ the keyword `static` can mean many things.
 # In Classes
 ## Functions
 If a function is marked static it does not belong to a particular object it just belongs to the class similar to a static variable in a class
 ```Cpp
-#Flashcards/Flashcards/include <iostream>
+#include <iostream>
 
 class MyClass {
 public:

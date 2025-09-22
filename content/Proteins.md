@@ -10,7 +10,7 @@
 ---
 # Function
 The protein’s specific shape helps it to carry out its role. Proteins can be:
-- [[Enzymes]] – biological catalysts that speed up the rate of reaction.
+- Enzymes – biological catalysts that speed up the rate of reaction.
 - [[Human Endocrine System|Hormones]] – chemical messengers that send signals around the body.
 - Structural protein – strong proteins in order to form structures, such as collagen.
 

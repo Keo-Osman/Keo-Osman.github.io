@@ -1,42 +1,15 @@
 # Definition
 A matrix is an array of elements organised in rows and columns
 The size of on array can be described by row $\times$ columns such as a 2 x 4 matrix 
-
-
-
-
-
-
-
-
-
 $$
 \left(\begin{array}{cccc}1 & 4 & -1 & 1 \\ 2 & 3 & 0 & 2\end{array}\right)
 $$
-
-
-
-
-
-
-
-
-
 
 
 ---
 # A-Level Further Core 1
 ## Identity Matrix
 The identity matrix is the matrix $I$ that is all zero apart from having 1's on the leading diagonal.
-
-
-
-
-
-
-
-
-
 
 $$
 \begin{pmatrix}
@@ -45,15 +18,6 @@ $$
 0 & 0 & 1 \\
 \end{pmatrix}
 $$
-
-
-
-
-
-
-
-
-
 
 It has the unique property that $AI = IA = A$ for all matrices. This makes it the [[LEGACY Groups#Axioms of Groups|Identity Element]] of a [[LEGACY Groups|Group]] of matrices under the operation of multiplication hence the name
 ## Matrix Operations
@@ -68,15 +32,6 @@ To compute a matrix multiplication, take the dot product of each row of the firs
 Also worded as: For $AB = C$, each element $C_{ij}$ is the dot product of the $i$-th row of $A$and the $j$-th column of $B$
 For example 
 
-
-
-
-
-
-
-
-
-
 $$
 \left(\begin{array}{ccc}
 5 & -1 & 2 \\
@@ -90,15 +45,6 @@ $$
 15 & -9
 \end{array}\right)
 $$
-
-
-
-
-
-
-
-
-
 
 ## Minor
 A minor of a element $a_{ij}$  is the determinant of the submatrix formed by removing the $i$th row and the $j$th column often denoted as $M_{ij}$ 
@@ -121,41 +67,14 @@ For a given $3 \times 3$ matrix $A$, $A^{-1} =\displaystyle\frac{1}{|A|}C^{T}$ w
 To find $C$
 - Form the matrix of the minors. This is where each of the nine elements of the matrix is replaced by its minor
 - Change the signs of some elements with alternating signs as shown 
-
-
-
-
-
-
-
-
-
 $$
 \begin{pmatrix} + & - & + \\ - & + & - \\ + & - & + \end{pmatrix}​
 $$
-
-
-
-
-
-
-
-
-
 
 ## Solving Systems of Linear Equations
 If $A\begin{pmatrix} x \\ y \\ z \end{pmatrix} = v$ then $\begin{pmatrix} x \\ y \\ z \end{pmatrix} = A^{-1}v$
 If A is non-singular then a unique solution for $\begin{pmatrix} x \ y \ z \end{pmatrix}$ can be found for any vector v
 To solve a given system of equations for x, y, z: 
-
-
-
-
-
-
-
-
-
 $$
 \begin{aligned} ax + by + cz& = j \\
 dx + ey + fz& = k \\ 
@@ -168,37 +87,10 @@ gx + hy + iz& = l
 $$
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 $$
 \begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix}^{-1} \begin{pmatrix} j \\ k \\ l 
 \end{pmatrix}
 $$
-
-
-
-
-
-
-
-
-
 
 ## Linear Equation Consistency
 A system of linear equations is consistent if at least one set of values that satisfy all equations simultaneously. If the matrix corresponding to a system is non-singular then the system has one solution and is consistent.
@@ -218,15 +110,6 @@ An eigenvector is an invariant vector under the linear transform $A$. The corres
 
 ### Characteristic Equation
 
-
-
-
-
-
-
-
-
-
 $$
 \begin{aligned}
 &Ax = \lambda x = \lambda Ix \\
@@ -234,15 +117,6 @@ $$
 \Rightarrow&\det(A-\lambda I) = 0
 \end{aligned}
 $$
-
-
-
-
-
-
-
-
-
 
 The solutions of $\lambda$ are the eigenvalues of $A$
 ## Reducing Matrices to Diagonal Form
@@ -265,15 +139,6 @@ When diagonalizing $A \rightarrow D$, $D$ has the eigen values of A on the leadi
 For any $n \times n$ diagonal matrix $D = \begin{pmatrix} a & 0 \\ 0 & d \end{pmatrix}$, $D^k = \begin{pmatrix} a^k & 0 \\ 0 & d^k \end{pmatrix}$ 
 To find higher powers of any general matrix $A$ you can use:
 
-
-
-
-
-
-
-
-
-
 $$
 \begin{aligned}
 A &= PDP^{-1}\\ 
@@ -284,26 +149,8 @@ A &= PDP^{-1}\\
 \end{aligned}
 $$
 
-
-
-
-
-
-
-
-
-
 ## Cayley-Hamilton Theorem
 All matrices $M$ satisfy their own characteristic equation 
-
-
-
-
-
-
-
-
-
 
 $$
 \begin{aligned}
@@ -312,15 +159,6 @@ $$
 \Rightarrow &a_n{M}^{n} + a_{n-1}{M}^{n-1} + \cdots a_2{M}^2 + a_1{M} + a_0 I = 0
 \end{aligned}
 $$
-
-
-
-
-
-
-
-
-
 
 This theorem can be used to find various variations of M such as $M^{-1}$ and $M^k$  by multiplying or dividing through by $M$ and using the fact that $I = MM^{-1} \Rightarrow I \div M = M^{-1}$ 
 

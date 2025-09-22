@@ -1,6 +1,6 @@
 #Biology/Paper-2/B7__Ecology 
 # Decomposers
-Decomposers break down dead plant and animal matter by secreting [[Enzymes]]. The matter is broken down into small food molecules which move into the microorganism by diffusion.
+Decomposers break down dead plant and animal matter by secreting *enzymes*. The matter is broken down into small food molecules which move into the microorganism by diffusion.
 
 ---
 # Factors

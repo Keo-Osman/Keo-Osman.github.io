@@ -25,7 +25,7 @@ They help to form scab and clot blood to prevent blood loss they do this by
 - Transports digested food from the small intestine to respiring cells
 - Transports urea from the liver to the kidneys for excretion
 - Distributes heat all around the body
-- Transports [[Hormones]] from the glands where they are made to the target organs
+- Transports Hormones from the glands where they are made to the target organs
 # Blood Vessels
 There are 3 types of blood vessels: **Arteries**, **Veins**, **Capillaries** and they all have different functions and adaptations
 ## Arteries

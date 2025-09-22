@@ -1,5 +1,6 @@
+#Computer-Science/Rendering  #Computer-Science/Cpp 
 It's basically a getter/setter for Window data.
-what it does is that you can update any data (typically a [[struct]]) eg.
+what it does is that you can update any data (typically a struct) eg.
 ```cpp
 // Update the title of the window
 windowData.title = "New Window Title";

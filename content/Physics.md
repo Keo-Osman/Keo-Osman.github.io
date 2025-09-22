@@ -3,6 +3,7 @@
 1. [[Energy Transfers by Heating]]
 # Electricity
 1. [[Electrical Cells]] 
+2. [[Electricity]]
 # Particle Model of Matter
 1. [[Alpha Scattering Experiment]]
 2. [[Particle Motion, Pressure and Work Done in Gases]]

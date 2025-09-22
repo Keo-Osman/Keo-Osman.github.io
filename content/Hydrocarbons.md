@@ -75,7 +75,7 @@ It has [[Functional Group|Functional Groups]] **$COO$** which is the link betwee
 
 ---
 # Reactions
-## [[Hydrocarbons#Alkene|Alkenes]]
+## [[Hydrocarbons#Alkenes|Alkenes]]
 ### Hydrogenation
 The double carbon bond opens up to form 2 single bonds for hydrogen
 
