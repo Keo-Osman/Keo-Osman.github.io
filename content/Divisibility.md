@@ -16,9 +16,11 @@ Let $x, y, z \in \mathbb{Z}$
 ---
 # Euclid's Division Lemma
 
+
 $$
 \forall a,b \in \mathbb{Z}, \ \exists q, r \in \mathbb{Z} \ \text{ s.t } \ a=bq+r, \ 0\leq r \leq b
 $$
+
 
 
 ---
@@ -81,9 +83,11 @@ This also proves that $|mx +ny| \geq \gcd(m,n)$ as $d$ was the minimal element.
 	1. *This is because any divisor must be in the form $p_1^{\beta_1} \cdots p_k^{\beta_k}$ with $0 \leq \beta_k \leq \alpha_k$ $\forall k$. So for each $k$ there are $\alpha_k+1$ choices for $k_k$. Since they are independent you multiply.*
 2.  $n = p_1^{\alpha_1} \cdots p_k^{\alpha_k}$ $\Rightarrow$ there are $(2\alpha_1+1)(2\alpha_2+1) \cdots (2\alpha_k+1)$ distinct ordered pairs $(a,b) \in \mathbb{Z}^+$ such that $\operatorname{lcm}(a,b) = n$	
 	1. *This is because $a, b$ are divisors of $n$ so they must have the form $a = p_1^{\beta_1} \cdots p_k^{\beta_k}$ and $p_1^{\gamma_1} \cdots p_k^{\gamma_k}$ since $\operatorname{\operatorname{lcm}}(a,b) =  p_1^{\textstyle\max(\beta_1,\gamma_1)} \cdots p_k^{\textstyle\max(\beta_k,\gamma_k)}$ there are $2\alpha_1+1$ options for each $(\beta_k,\gamma_k)$: 
+
 $$
 \underbrace{(0,\alpha_k), (1,\alpha_k),...,}_{\alpha \text{ terms}} (\alpha_k,\alpha_k)\underbrace{,...,(\alpha_k,0)}_{\alpha \text{ terms}}
 $$
+
  So you multiply number of choices together.
 3. $\forall n \in \mathbb{Z}^+$, $\displaystyle\prod_{d|n} d = n^{\textstyle\frac{\tau(n)}{2}}$
 	1. $n=a^2$
@@ -104,9 +108,11 @@ $$
 # Sum of Divisors
 ## Definition
 $\sigma(n)$ is defined as the sum of divisors of $n$. This can be written as 
+
 $$
 \forall n \in \mathbb{Z}^+ \quad\sigma(n) = \sum_{d|n} d
 $$
+
 
 ## Properties
 1. $\displaystyle\sigma(n) = \frac{p_1^{\alpha_1+1} - 1}{p_1 - 1} \cdots \frac{p_k^{\alpha_k+1} - 1}{p_k - 1} = \prod_{i=1}^k \frac{p_i^{\alpha_i+1} - 1}{p_i - 1}$
@@ -114,9 +120,11 @@ $$
 ## Explanations
 1. $\displaystyle\sigma(n) = \frac{p_1^{\alpha_1+1} - 1}{p_1 - 1} \cdots \frac{p_k^{\alpha_k+1} - 1}{p_k - 1} = \prod_{i=1}^k \frac{p_i^{\alpha_i+1} - 1}{p_i - 1}$
 	1. Let $n = p_1^{\alpha_1} \cdots p_k^{\alpha_k}$ then the divisors will have the form $d = p_1^{\beta_1} \cdot p_k^{\beta_k}$ $0 \leq \beta_i \leq \alpha_i$ $\forall i$. Every possible divisor appears exactly once so each combination of $k_i$ will appear exactly once which can be written as $(1 + p_1 + ... + p_1^{\alpha_1}) \cdot (1 + p_k + ... + p_k^{\alpha_k})$ which are geometric series, therefore 
+
 $$
 \sigma(n) = \frac{p_1^{\alpha_1+1} - 1}{p_1 - 1} \cdots \frac{p_k^{\alpha_k+1} - 1}{p_k - 1} = \prod_{i=1}^k \frac{p_i^{\alpha_i+1} - 1}{p_i - 1}
 $$
+
 
 2. $\sigma(n)$ is [[Arithmetic Functions#Multiplicative Functions|Multiplicative]]
     1. Let $n = p_1^{\alpha_1} \cdot p_2^{\alpha_2}\cdots p_k^{\alpha_k}$ 

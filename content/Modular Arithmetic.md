@@ -35,9 +35,11 @@ $|S|\equiv \varphi(n)$ *([[Divisibility#Euler's Totient Function|Euler's Totient
 ---
 # Fermat's Little Theorem
 Let $p$ be prime and $\gcd(a, p) = 1$, then 
+
 $$
 a^{p-1} \equiv 1\pmod {p}
 $$
+
 
 **Proof 1**
 Using the *Reduced Residue System* $\text{(mod p): }S$. 
@@ -52,9 +54,11 @@ $a \cdot 2a \cdots (p-1)a \equiv 1 \cdot 2 \cdot (p-1) \pmod{p}$ This gives $a^{
 ## Euler's Theorem
 *([[Divisibility#Euler's Totient Function|Euler's Totient Function]])*
 Euler's Theorem is a more general case of Fermat's Little Theorem. It states that 
+
 $$
 a^{\varphi(n)}\equiv 1 \pmod{n} \quad \gcd(a,n)=1
 $$
+
 In the case of $n$ being prime $\varphi(n)= n-1$ and it simplifies to Fermat's Little Theorem.
 *Proof*
 1. By considering the elements of $S$ *(The reduced residue system $\text{mod n}$)*, multiplying them together. $(a\cdot 1)\cdots(a\cdot(n-1)) \equiv 1 \cdots (n-1) \pmod{n}$. 
@@ -93,9 +97,11 @@ An element can be self inverse meaning $a^2\equiv 1 \pmod{p}$. This means $p|a^2
 ---
 # Wilson's Theorem
 Start with $2 \cdot 3 \cdots (p-2)\pmod{p}$ using the fact that $\text{mod p}$ every element in $\{2, 3, \dots, (p-2)\}$ has a unique inverse, you can pair these elements up to get $1 \cdot 1 \cdots 1 \equiv 1 \pmod{p}$. Multiplying both sides by $(p-1)$ you obtain *Wilson's Theorem* 
+
 $$
 \text{p is prime } \Leftrightarrow(p-1)!\equiv -1 \pmod{p}
 $$
+
 
 *Proof of the reverse direction*
 Assume $n$ is composite then $\exists p, q, \ 1 <p, q < n \text{ s.t } pq=n$ since $1 <p, q < n$ both $p, q$ must be contained in $(n-1)!$ so $(n-1)!=k(pq) = kn \Rightarrow n|(n-1)! \Rightarrow (n-1)! \equiv 0 \pmod{n}$. Therefore if $(n-1)! \not\equiv 0 \pmod{n}$, $n$ can't be composite and is therefore prime.
@@ -156,9 +162,11 @@ Let $a, b, m \in \mathbb{Z}, m > 0$,  $\gcd(a,m) = d$
 ---
 # Euler's Totient Function
 Euler's totient function is defined as 
+
 $$
 \varphi(n) = \text{the number of positive integers} \leq n, \text{ that are copprime to } n
 $$
+
 
 ## Properties
 1. $\varphi(n)$ is [[Arithmetic Functions#Multiplicative Functions|Multiplicative Function]]
@@ -181,9 +189,11 @@ $$
 3. Let $n = p_1^{\alpha_1}p_2^{\alpha_2}\cdots p_k^{\alpha_k}$ $\displaystyle\varphi(n) = n\left(1-\frac{1}{p_1}\right)\cdots\left(1-\frac{1}{p_k}\right)=p_1^{\alpha_1-1}p_2^{\alpha_2-1}\cdots p_k^{\alpha_k-1}\cdot (p_1-1)\cdots(p_k-1)$
 	1. Using *property 2*, $\displaystyle\varphi(p^k) = p^k-p^{k-1}=p^{k}\left(1-\frac{1}{p_k}\right)$
 	2. Since $\varphi$ is multiplicative and primes are pairwise coprime. 
+
 $$
 \begin{aligned}\displaystyle \varphi(n) &= \varphi(p_1^{\alpha_1}p_2^{\alpha_2}\cdots p_k^{\alpha_k}) \\ &=  \varphi(p_1^{\alpha_1})\cdot\varphi(p_2^{\alpha_2})\cdots\varphi(p_k^{\alpha_k})\\&=p_1^{\alpha_1}\left(1-\frac{1}{p_1}\right)\cdot p_2^{\alpha_2}\left(1-\frac{1}{p_2}\right)\cdots p_k^{\alpha_k}\left(1-\frac{1}{p_k}\right)\\&=p_1^{\alpha_1}p_2^{\alpha_2}\cdots p_k^{\alpha_k}\left(1-\frac{1}{p_1}\right)\cdots\left(1-\frac{1}{p_k}\right)\end{aligned}
 $$
+
 
 4. $\displaystyle \sum_{d|n} \varphi(d) = n$. (This is *[[Arithmetic Functions#Multiplicative Functions|completely multiplicative]]* as $f(n)=n$ is - $f(mn) = mn = f(m)f(n) = (m)(n)$). 
 	1. Let $n = p_1^{\alpha_1} \cdot p_2^{\alpha_2}\cdots p_k^{\alpha_k}$ 

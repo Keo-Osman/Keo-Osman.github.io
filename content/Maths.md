@@ -4,6 +4,7 @@
 1. [[Algorithms]]
 2. [[Sorting Algorithms]]
 3. [[Bin Packing Algorithms]]
+4. [[Graphs]]
 ## Abstract Algebra
 1. [[Groups]]
 ## Algebra
@@ -31,7 +32,7 @@
 10. [[Volumes of Revolution]]
 ## Combinatorics
 1. [[Combinatorics]]
-2. [[Simple Graphs]]
+2. [[Graphs]]
 3. [[Recurrence Relations]]
 ## Complex Numbers
 1. [[Complex Numbers]]  
@@ -61,3 +62,5 @@
 ## Proofs
 1. [[Proof by Induction]]
 
+***
+[[LEGACY A-Level Maths]]

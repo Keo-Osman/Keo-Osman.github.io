@@ -1,9 +1,11 @@
 #Chemistry/Paper-2/C10__Resources 
 # Reaction
 
+
 $$
 3H_2+N_2\Leftrightarrow 2NH_3
 $$
+
 
 Passed over iron catalyst at $450\degree C$ and $200 atm$ pressure. Forward reaction is [[Exothermic and Endothermic Reactions#Exothermic|Exothermic]] 
 

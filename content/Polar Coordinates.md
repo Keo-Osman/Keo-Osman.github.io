@@ -24,24 +24,30 @@ Cardioids fall into 2 categories "egg" shaped and those with a "dimple", egg sha
 ---
 # Area enclosed by a Polar Curve
 The area enclosed by a polar curve and half lines $\theta = \alpha, \theta = \beta$ where $\theta$ is measured in radians is given as: 
+
 $$
 A = \frac{1}{2} \int_{\alpha}^{\beta} r^2 d\theta
 $$
 
+
 Very useful trig identities for [[Integration]] 
+
 
 $$
 \sin^2\theta = \frac{1-\cos 2\theta}{2}\quad\cos^2\theta = \frac{1+\cos 2\theta}{2}
 $$
 
 
+
 ---
 # Tangent to Polar Curve
 You can differentiate parametrically to get:
 
+
 $$
 \frac{dy}{dx} = \frac{dy /d\theta}{dx/d\theta}
 $$
+
 
 
 To find a tangent line to the parallel to the initial set: $\displaystyle\frac{dy}{d\theta} = 0$

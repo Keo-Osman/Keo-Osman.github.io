@@ -7,6 +7,7 @@ This corresponds to a vector that is an invariant vector under the [[Linear Tran
 However the definition can be applied to any *linear operator* on any vector space as they can be represented as a matrix. E.g. for a linear operator $L$ there is an eigen vector that satisfies $L(\vec{x})=\lambda \vec{x}$.
 # Characteristic Equation
 
+
 $$
 \begin{aligned}
 &A\vec{x} = \lambda \vec{x} = \lambda I\vec{x} \\
@@ -14,6 +15,7 @@ $$
 \Rightarrow&\det(A-\lambda I) = 0
 \end{aligned}
 $$
+
 
 The solutions of $\lambda$ are the eigenvalues of $A$. To find the eigen-vectors of $A$ we simply solve $A=\lambda I$.
 ## Eigenspace, Multiplicity
@@ -23,6 +25,7 @@ Given an eigen value $\lambda$ of $A$. The ***algebraic multiplicity*** of $\lam
 # Cayley-Hamilton Theorem
 All matrices $M$ satisfy their own characteristic equation 
 
+
 $$
 \begin{aligned}
 &\det(M-\lambda I) = 0 \\
@@ -31,6 +34,7 @@ $$
 \Rightarrow &a_n{M}^{n} + a_{n-1}{M}^{n-1} + \cdots a_2{M}^2 + a_1{M} + a_0 I = 0
 \end{aligned}
 $$
+
 
 This theorem can be used to find various variations of M such as $M^{-1}$ and $M^k$  by multiplying or dividing through by $M$ and using the fact that $I = MM^{-1} \Rightarrow I \div M = M^{-1}$
 ***

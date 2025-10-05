@@ -14,3 +14,37 @@ $P.D<EMF$ as the charges lose energy as they pass through the cell.
 
 # Coulombs
 An electron has a charge of $-1.6\times 10^{-19}C$
+# Kirchoff's Law
+For any point in an electrical circuit, the sum of currents into a point is equal to the sum of currents out of that point.
+
+$$
+\sum I_{\text{in}}=\sum I_{\text{out}}
+$$
+
+# Number Density
+Number density is 
+$$
+n_{e} =\frac{\text{\#Delocalised Electrons}}{\text{Volume}}
+$$
+
+It has unit $\text{m}^{-3}$ 
+In an insulator $n \approx 0$ in a semi-conductor $n \approx10^{17}$ and in a conductor $n \approx10^{28}$
+
+# Mean Drift Velocity
+Electrons move at $\approx 10^{-3}\text{ms}^{-1}$. Even though individually they move slow turning on a switch is instantaneous is as they push each other.
+
+$$
+\text{Current} \propto\text{Number Density}
+$$
+
+
+$$
+I=Anev \quad
+$$
+
+$A$ cross sectional area
+$n$ number density
+$e$ electric charge
+$v$ velocity
+**SI Unit Derivation**
+$Anev=(m^{2})(m^{-3})(As)(ms^{-1})=A\text{ (amps)}=I$

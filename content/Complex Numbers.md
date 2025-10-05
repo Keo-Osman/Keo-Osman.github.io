@@ -112,8 +112,8 @@ $$
 \ln z=|z|+i\operatorname{arg}(z)
 $$
 
-However since $e^{z}$ is *not* bijective over $\mathbb{C}$ a proper inverse of $\ln$ can't exist. This comes down to the fact that $e^{z}\equiv e^{z+2k\pi}, k\in \mathbb{Z}$ so $\operatorname{arg}z$ is not unique. Typically this is dealt with by simply restricting $\operatorname{arg}z$ to $(-\pi,\pi]$ however other *branches* are valid it is just dependant on context.
-We can also deal with $\log_{k}z$ where $k>1$ by simply using the change of base formula to use $\ln z$.
+However since $e^{z}$ is *not* bijective over $\mathbb{C}$ a proper inverse, $\ln$ can't exist. This comes down to the fact that $e^{z}\equiv e^{z+2k\pi}, k\in \mathbb{Z}$ so $\operatorname{arg}z$ is not unique. Typically this is dealt with by simply restricting $\operatorname{arg}z$ to $(-\pi,\pi]$ however other *branches* are valid it is just dependant on context.
+We can also deal with $\log_{k}z$ by simply using the change of base formula to use $\ln z$. This still works as $z^{w}=e^{w\ln z}$ still holds
 ### General Complex Exponentiation
 Given two complex numbers $z=a+bi, \ w=c+di$ we can compute $z^{w}$ as $e^{w\ln z}$.
 ***

@@ -79,9 +79,11 @@ It has [[Functional Group|Functional Groups]] **$COO$** which is the link betwee
 ### Hydrogenation
 The double carbon bond opens up to form 2 single bonds for hydrogen
 
+
 $$
 \text{Alkene + Hydrogen} \rightarrow \text{Alkane} \quad C_nH_{2n}+H_2 \rightarrow C_nH_{2n+2}
 $$
+
 
 ### Alkene + Bromine Water
 The bromine goes from orange to colourless. This means it is a good test for *Alkene* presence
@@ -91,15 +93,19 @@ Similar to *Alkene + Hydrogen*
 
 **Example**
 
+
 $$
 \text{Propene + Bromine } \rightarrow \text{ Diobropopene} \quad C_3H_6+Br_2 \rightarrow C_3H_6Br_2
 $$
 
+
 ### Hydration of Alkene
+
 
 $$
 \text{Alkene + Water (steam)} \rightleftharpoons \text{ Alcohol} \quad C_nH_{2n}+H_2O\rightleftharpoons C_nH_{2n+1}OH
 $$
+
 
 *Requires temperature of 360$\degree$, pressure of 70$atm$ and a phosphoric catalyst.*
 It is high yield but requires lots of energy.
@@ -110,9 +116,11 @@ It is high yield but requires lots of energy.
 ### [[Hydrocarbons#Combustion Of Hydrocarbons|Combustion]]
 ### Fermentation of Sugar
 
+
 $$
 C_6H_{12}O_6 \rightarrow 2\ C_2H_5OH + 2\ CO_2
 $$
+
 
 *Requires temperatures of 30$\degree$ and yeast and to take place in anaerobic conditions. The ethanol must then be purified by distillation requiring lots of energy.*
 
@@ -124,14 +132,17 @@ $$
 
 **Example**
 
+
 $$
 \text{Ethanoic Acid + Sodium } \rightarrow \text{ Sodium Ethanoate + Hydrogen} \quad 2\ CH_3COOH + 2\ Na \rightarrow 2\ CH_3COONa + H_2
 $$
+
 
 ### Carboxylic Acid + Carbonate
 **Carboxylic Acid + Carbonate $\rightarrow$ Salt + Water + Carbon Dioxide**
 
 **Example**
+
 
 $$
 \begin{gather}
@@ -140,11 +151,13 @@ $$
 \end{gather}
 $$
 
+
 ### Carboxylic Acid + Alkali
 **Carboxylic Acid + Alkali $\rightarrow$ Salt + Water**
 *This is a* **Neutralisation Reaction**
 
 **Example**
+
 
 $$
 \begin{gather}
@@ -153,11 +166,13 @@ CH_3COOH + NaOH \rightarrow CH_3COONa + H_2O
 \end{gather}
 $$
 
+
 ## Making Esters
 **Carboxylic Acid + Alcohol  $\rightleftharpoons$ Ester + Water**
 *This is a* **Condensation Reaction**
 
 **Example**
+
 
 $$
 \begin{gather}
@@ -165,6 +180,7 @@ $$
 CH_3COOH + CH_3OH \rightarrow CH_3COOCH_3 + H_2O
 \end{gather}
 $$
+
 
 
 ---
