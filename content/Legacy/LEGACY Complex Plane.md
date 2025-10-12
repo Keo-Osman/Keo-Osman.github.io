@@ -33,9 +33,11 @@ You can transform loci by mapping the $z$ plane onto a $w$ plane to get $z = x+i
 ### Möbius transformations
 They are transformations in the form 
 
+
 $$
 w = \frac{az+b}{cz+d} \quad a,b,c,d \in \mathbb{C}
 $$
+
 
 
 

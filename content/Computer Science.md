@@ -1,6 +1,6 @@
 #Computer-Science 
 # General
-1. [[Computer Systems]]
+1. [[Computer Architecture and Components]]
 2. [[Computer Networks]]
 3. [[SQL]]
 # Graphics

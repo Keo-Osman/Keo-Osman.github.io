@@ -16,6 +16,7 @@ The ***dot*** product *(also called scalar product)* between 2 vectors $a, b$ is
 The scalar product is **Commutative**
 
 
+
 $$
 \begin{aligned}
 a \cdot b &= |a||b|\cos\theta \\
@@ -26,7 +27,9 @@ a \cdot b & = b \cdot a
 $$
 
 
+
 The dot product is also **Distributive** meaning that you can compute the scalar product without $\theta$
+
 
 
 $$
@@ -47,11 +50,14 @@ a \cdot b= & \space a_1 b_1+a_2 b_2+a_3 b_3
 $$
 
 
+
 Using this you can compute the angle with just a simple expression
+
 
 $$
 \cos (\theta) = \frac{a \cdot b}{|a||b|} =\frac{a_1b_1 + a_2b_2 + a_3b_3}{|a||b|}
 $$
+
 
 
 ## Planes in The Form $r \cdot n = k$
@@ -75,16 +81,20 @@ The perpendicular distance from the origin to the plane $r\cdot \hat n = k$ is s
 The perpendicular distance from a point $(x_0, y_0, z_0)$ to the plane $ax + by + cz = d$ is 
 
 
+
 $$
 \frac{|ax_0 + by_0 + cz_0 - d|}{\sqrt{a^2 + b^2 + c^2}}
 $$
 
 
+
 The distance between two parallel planes $ax + by + cz = d_1$ and $ax + by + cz = d_2$ is 
+
 
 $$
 \frac{|d_1 - d_2|}{\sqrt{a^2 + b^2 + c^2}}
 $$
+
 
 
 
@@ -94,6 +104,7 @@ $$
 ### Definition 
 The cross product is defined as $a \times b = |a||b| \sin (\theta) \hat{n}$.
 It is **Commutative** and **Distributive**
+
 
 
 $$
@@ -127,6 +138,7 @@ b_1 & b_2
 $$
 
 
+
 $\theta$ is the angle between $a$ and $b$ where $0 \leq \theta \leq 180 \degree$. And $\hat{n}$ is the unit vector perpendicular to both $a$ and $b$ 
 ### Right Hand Rule
 The direction of $\hat{n}$ depends on the right-hand rule 
@@ -137,12 +149,15 @@ Swapping $a$ and $b$ means that $\hat{n} \mapsto -\hat{n}$ therefore $b \times a
 ## Areas
 
 
+
 $$
 \text{Triangle Area} = \frac{1}{2}|a \times b| \quad \text{Parellelogram Area} = |a \times b|
 $$
 
 
+
 ## Finding Volumes - Scalar Triple Product $a \cdot (b \times c)$
+
 
 
 $$
@@ -150,21 +165,26 @@ a \cdot (b \times c) \equiv\begin{vmatrix} a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \\
 $$
 
 
+
 ## Straight Lines $(r-a)\times b = 0$
 Suppose $a$ is the position vector of a point on a line and the line is parallel to $b$. Let $r$ be the position vector of a general point on the line. so $\overrightarrow{AR} = \overrightarrow{OR} - \overrightarrow{OA} = r-a$. Since $\overrightarrow{AR}$ is parallel to $b$, $\overrightarrow{AR} \times b = 0$ so $(r-a)\times b = 0$
 ## Direction of Cosines
 If a line is parallel to the vector $a = xi +yj+zk$ the direction ratios are $x:y:z$ and the direction of cosines of the line are 
+
 
 $$
 \cos \theta_x = \frac{x}{|a|} = l \quad \cos \theta_y = \frac{y}{|a|} = m \quad \cos \theta_z = \frac{z}{|a|} = n
 $$
 
 
+
 The sum of the squares of the direction cosines is always one 
+
 
 $$
 l^2 + m^2+n^2 = \frac{x^2+y^2+z^2}{|a|^2} = \frac{|a|^2}{|a|^2}= 1
 $$
+
 
 
 

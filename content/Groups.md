@@ -46,6 +46,7 @@ The following properties are a direct result of the axioms and are sometimes inc
 A Cayley Table fully describes a finite group by showing all possible products of elements in the group
 Example: 
 
+
 $$
 \begin{array}{c|cccc}
 \times_{10}& 1 & 3 & 7 & 9 \\
@@ -56,6 +57,7 @@ $$
 9 & 9 & 7 & 3 & 1 \\
 \end{array}
 $$
+
 
 
 When a group's elements are displayed in a Cayley Table:
@@ -127,9 +129,11 @@ You can construct a group of symmetries denoted by $D_{2n}$ by considering a set
 *There is $n$ possible rotations and $n$ possible reflections so for an $n$ sided polygon there are $2n$ elements so the group is denoted as $D_{2n}$ meaning ($D_8$ would be a square)*
 ## Cyclic Groups
 A cyclic group is a group that can be written where all elements can be written as $a^k$ where $a$ is the group generator and $k \in \mathbb{Z}^+$. $a^k$ denotes performing the group operation $k$ times.
+
 $$
 a^3 = a \circ a \circ a \qquad a^k = \underbrace{a \circ a \cdots \circ a}_{k \text{ times}}
 $$
+
 
 
 ***

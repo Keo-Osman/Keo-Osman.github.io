@@ -25,9 +25,11 @@ When they react a small molecule such as water is lost hence the name. Making it
 $\square$ represents irrelevant atoms in the reaction
 
 
+
 $$
 HO-\square-OH + HOOC-\square-COOH \rightarrow -[O-\square-O-CO-\square-CO]-_n + 2n(H_2O)
 $$
+
 
 
 *You don't really need to know example of condensation polymerisation reaction just the general principle of how it works*
@@ -37,12 +39,14 @@ $$
 **Example Reaction**
 
 
+
 $$
 \begin{gather} 
 \text{glycine} \rightarrow \text{poly(glycine) + water}\\
 n(H_2NCH_2COOH)\rightarrow-[HNCH_2CO]-_n+n(H_2O)
 \end{gather}
 $$
+
 
 
 ## Formation of [[Proteins]]

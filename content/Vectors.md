@@ -23,9 +23,11 @@ Given a vector space $V$ defined over $\mathbb{F}$, a basis (also called the bas
 Given $n$ vectors the are linearly independent if no vector can be written as a linear combination of the others.
 The more rigorous definition is that a set of vectors $\vec{v}_{k}$ is ***linearly dependant*** if there exists solution to the equation such that $a_{1},a_{2},\dots ,a_{k}$ are not all zero.
 
+
 $$
 a_{1}\vec{v}_{1}+a_{2}\vec{v}_{2}+\dots+a_{k}\vec{v}_{k}=0
 $$
+
 
 
 If no non-trivial solution exists then the vectors are said to be ***linearly independent***.
@@ -56,9 +58,11 @@ We also want to have similar properties as regular multiplication so we have the
 
 For equal vectors it makes sense to just choose their length squared so we get the property that $\langle \vec{v},\vec{v} \rangle=\lVert v \rVert^{2}$ and there is only one such inner product that satisfies this. For a vector space over $\mathbb{R}$ it is 
 
+
 $$
 \langle \vec{v},\vec{w} \rangle =\frac{1}{4}((\lVert \vec{v}+\vec{u} \rVert)^{2}-(\lVert \vec{v}-\vec{u} \rVert)^{2} )
 $$
+
 
 
 **Proof**
@@ -75,9 +79,11 @@ We can also derive it geometrically.
 The dot product of $\vec{v}\cdot \vec{w}$ is equal to projecting $\vec{w}$ onto $\vec{v}$ and multiplying the lengths $\vec{v}$ and the new projected vector. It is signed so it the projection is pointing the opposite way of $\vec{v}$ than the dot product is negative.
 Using some simple [[Trigonometric Functions|Trig]] we find that 
 
+
 $$
 \vec{v}\cdot \vec{w}=|\vec{v}||\vec{w}| \cos \theta
 $$
+
 
 
 
@@ -92,6 +98,7 @@ $\begin{pmatrix}a_{1} \\ \vdots \\ a_{n}\end{pmatrix}\cdot \begin{pmatrix}b_{1} 
 Hence $a\cdot(b+c)=a\cdot b+a\cdot c \quad \square$.
 ### Dual Vector
 We also find that the dot product is equivalent to a linear transformation by the first vector as a matrix e.g. 
+
 
 $$
 \begin{pmatrix}
@@ -109,6 +116,7 @@ d
 $$
 
 
+
 And this generalises to any $n$-length vector.
 **2D Example Proof**
 To see why we can imagine placing a copy of the real number line on the 2D plane (rotated at any angle) with the condition that 0 lies on the origin. Then define $\hat{u}$ to be the vector from the origin to where 1 lies on this number line. Then define a function that takes any 2D vector and projects it onto this number line with the number it lands on as output $L:\mathbb{R}^{2}\to \mathbb{R}$. Since this is a linear function we can find a matrix to describe this transform. By considering $\hat{i},\hat{j}$ and using a line of symmetry we can find that this is $\begin{pmatrix}\hat{u}_{x} & \hat{u}_{y}\end{pmatrix}$. Applying this transform is computationally equivalent to taking the dot product. If we have a non-unit vector $\vec{u}$ we can simply write it as $k\hat{u}$ and the dot product scales linearly so it still works.
@@ -122,6 +130,7 @@ We can compute the magnitude using the [[Determinant]] taking $\vec{v},\vec{w}$ 
 
 To compute the cross product fully we can take the determinant of a special [[Matrices|Matrix]] 
 
+
 $$
 \vec{v}\times \vec{w}=\det \begin{pmatrix}
 \hat{i}  & v_{1} & w_{1}\\ 
@@ -131,10 +140,12 @@ $$
 $$
 
 
+
 *Note that this is equivalent to $\det\begin{pmatrix}\hat{i} & \hat{j} & \hat{k} \\ v_{1} & v_{2} & v_{3} \\ w_{1} & w_{2} & w_{3} \end{pmatrix}$ as determinant doesn't change under a transpose. Also note that putting unit vectors as entries in a matrix is a notational shorthand.*
 
 **Explanation**
 First we define a function 
+
 
 $$
 f \begin{pmatrix}x \\ y \\ z\end{pmatrix}=\det \begin{pmatrix}
@@ -145,15 +156,19 @@ z  & v_{3} & w_{3}
 $$
 
 
+
 This function geometrically is computing the signed volume of the parallelepiped bounded by $\overrightarrow{(x,y,z)},\vec{v},\vec{w}$
 This function is $f:\mathbb{R}^{3}\to \mathbb{R}$ and it is linear since the [[Determinant]] is *multi-linear* and we are changing a single slot. Since it is a linear transform we can define the function as matrix multiplication and more specifically since it is a transformation to $\mathbb{R}$ there must exist a dual vector 
+
 
 $$
 \vec{p}\text{ s.t } \vec{p}\cdot \begin{pmatrix}x \\ y \\ z\end{pmatrix}=f\begin{pmatrix}x \\  y\\ z\end{pmatrix}
 $$
 
 
+
 Meaning we can compute $f$ by taking this dot product so we get 
+
 
 
 $$
@@ -174,6 +189,7 @@ z  & v_{3} & w_{3}
 $$
 
 
+
 By comparing coefficients of $x,y,z$ we get the coordinates of $\vec{p}$ and writing it as a sum of a linear combination of unit vectors gets the exact same thing as the determinant as the matrix with unit vectors as entries.
 
 We can think of this as asking for any two given vectors $\vec{v},\vec{w}$, what vector $\hat{p}$ has the property that for any other vector $\vec{x}$,  $p\cdot \vec{x}$ *(projecting $\vec{x}$ onto $\vec{p}$ and multiplying the length of $\vec{p}$ by the length of this projected vector)* is equivalent to the volume of the parallelepiped bound by $\vec{x},\vec{v},\vec{w}$. *As we have just shown $\vec{p}$ is given exactly by $\vec{v}\times \vec{w}$*.
@@ -183,6 +199,7 @@ There are two such vectors that satisfy this property *(going in opposite direct
 Using this idea of the vector that $\vec{p}$ is the vector with length equal to the area of the parallelogram we can find using some basic [[Trigonometric Functions|Trig]] that the are is equal to $|\vec{v}||\vec{w}|\sin\theta$ where $\theta$ is the angle between $\vec{v},\vec{w}$ such that $0\leq\theta\leq \pi$. Then we just want a vector perpendicular to both $\vec{v},\vec{w}$ that follows the right hand rule. We call this normal vector $\hat{n}$ which has magnitude 1 to preserve the length of $\vec{p}$.
 
 It is **Distributive**
+
 
 
 $$
@@ -216,6 +233,7 @@ b_1 & b_2
 $$
 
 
+
 $\theta$ is the angle between $a$ and $b$ where $0 \leq \theta \leq 180 \degree$. And $\hat{n}$ is the unit vector perpendicular to both $a$ and $b$ 
 ### Right Hand Rule
 The direction of $\hat{n}$ depends on the right-hand rule, swapping $a$ and $b$ means that $\hat{n} \mapsto -\hat{n}$ therefore $b \times a = |b||a| \sin (\theta) (-\hat{n}) = - a\times b$, this means it is **anti-commutative**
@@ -223,9 +241,11 @@ The direction of $\hat{n}$ depends on the right-hand rule, swapping $a$ and $b$ 
 ### Finding Volumes - Scalar Triple Product $a \cdot (b \times c)$
 
 
+
 $$
 a \cdot (b \times c) \equiv\begin{vmatrix} a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \\ c_1 & c_2 & c_3 \end{vmatrix}\equiv a_1(b_2c_3 - b_3c_2) + a_2(b_3c_1 - c_3b_1) + a_3(b_1c_2 - b_2c_1)
 $$
+
 
 
 This is simply the definition/what a [[Determinant]] represents and using the geometrical definition of the cross product.
@@ -275,12 +295,15 @@ The perpendicular distance from the origin to the plane $r\cdot \hat n = k$ is s
 The perpendicular distance from a point $(x_0, y_0, z_0)$ to the plane $ax + by + cz = d$ is 
 
 
+
 $$
 \frac{|ax_0 + by_0 + cz_0 - d|}{\sqrt{a^2 + b^2 + c^2}}
 $$
 
 
+
 The distance between two parallel planes $ax + by + cz = d_1$ and $ax + by + cz = d_2$ is 
+
 
 $$
 \frac{|d_1 - d_2|}{\sqrt{a^2 + b^2 + c^2}}
@@ -288,18 +311,23 @@ $$
 
 
 
+
 ***
 # Direction of Cosines
 If a line is parallel to the vector $a = xi +yj+zk$ the direction ratios are $x:y:z$ and the direction of [[Trigonometric Functions|Cosines]] of the line are 
+
 
 $$
 \cos \theta_x = \frac{x}{|a|} = l \quad \cos \theta_y = \frac{y}{|a|} = m \quad \cos \theta_z = \frac{z}{|a|} = n
 $$
 
 
+
 The sum of the squares of the direction cosines is always one 
+
 
 $$
 l^2 + m^2+n^2 = \frac{x^2+y^2+z^2}{|a|^2} = \frac{|a|^2}{|a|^2}= 1
 $$
+
 

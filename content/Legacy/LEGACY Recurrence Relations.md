@@ -9,13 +9,16 @@ They are strongly related to [[LEGACY Differential Equations|Differential Equati
 First order linear recurrence relations are in the form
 
 
+
 $$
 u_n = au_{n-1} + g(n)
 $$
 
 
+
 ### Homogenous
 If $g(n) = 0$ then the equation is **homogeneous** and the general solution is
+
 
 
 $$
@@ -23,7 +26,9 @@ u_n = a^nu_0 \quad \text{or} \quad u_n = a^{n-1}u_{1}
 $$
 
 
+
 This is proved by **back substitution** *or more rigorously with **[[Proof by Induction]]***
+
 
 $$
 \begin{aligned}
@@ -35,6 +40,7 @@ u_{n} & =au_{n-1} \\
  & =a^nu_0
 \end{aligned}
 $$
+
 
 
 ### Non-Homogenous
@@ -52,9 +58,11 @@ To find the general solution to $u_n = au_{n-1} + g(n)$ where $a \neq 1$ is $C.F
 A 2nd order linear recurrence relation can be written in the form
 
 
+
 $$
 u_n = au_{n-1} + bu_{n-2} + g(n)
 $$
+
 
 
 If $u_n = F(n)$ and $u_n = G(n)$ are particular solutions to a linear recurrence relation then $u_n = aF(n) + bG(n)$ is a solution.
@@ -71,9 +79,11 @@ This quadratic leads to 3 cases.
 For non-homogeneous the general solution is
 
 
+
 $$
 u_n = C.F + P.S
 $$
+
 
 
 

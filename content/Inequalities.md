@@ -10,9 +10,11 @@ $a,b \in \mathbb{R}^+, \ b>1 \implies \exists c \text{ s.t } x^a>\log_{b}(x) \qu
 # Weighted F-Mean (Mean in an Arbitrary Function)
 Given any function $f:I\to \mathbb{R}$ which is both [[Continuity|Continuous]] and [[Functions#Injective|Injective]] *(So that $f^{-1}$ is well defined)*, The *f-mean* of $x_{1},x_{2},\dots ,x_{n} \in I$ with weights $w_{1},w_{2},\dots ,w_{n} \in \mathbb{R}^{+}$ is defined as 
 
+
 $$
 M_{f}(x_{1},x_{2},\dots ,x_{n})=f^{-1}\left( \frac{\sum w_{i}f(x_{i})}{\sum w_{i}} \right)
 $$
+
 
 
 Since $f$ is both [[Continuity|Continuous]] and [[Functions#Injective|Injective]] it follows that $f$ is strictly *monotonic* so it follows that $x_{min} \leq \text{f-mean} \leq x_{max}$.
@@ -20,9 +22,11 @@ Since $f$ is both [[Continuity|Continuous]] and [[Functions#Injective|Injective]
 # Weighted Jensen's Inequality
 Let $I$ be an interval on the reals $f:I\to \mathbb{R}$ be [[Concavity|Convex]] on $I$, with $x_{1},x_{2},\dots ,x_{n}\in I$ and real weights $w_{1},w_{2},\dots ,w_{n}> 0$ *(In many scenarios the weights will be normalised such that $\sum w_{i}=1$)*, Then 
 
+
 $$
 \frac{w_{1}f(x_{1})+w_{2}f(x_{2})\dots +w_{n}f(x_{n})}{\sum w_{i}}\geq f\left( \frac{w_{1}x_{1}+w_{2}x_{2}+\dots+w_{n}x_{n}}{\sum w_{i}} \right)
 $$
+
 
 If $f$ is concave then the inequality is flipped.
 The equality holds if $x_{1}=x_{2}=\dots =x_{n}$ or $f$ is affine on the on a domain containing $x_{i}$.
@@ -49,6 +53,7 @@ The *weighted power mean* is the case of $f(x)=x^p$ and $I=\mathbb{R}^+$ of the 
 
 Given $a_{1},a_{2},\dots ,a_{n} \in \mathbb{R}^+$ with weights $w_{1},w_{2},\dots ,w_{n} \in \mathbb{R}^{+}$ where$\text{ W.L.O.G, } \sum w_{i}=1$ and $p \in\mathbb{R}$, The weighted power mean is 
 
+
 $$
 \displaystyle M_{p}(a_{1},a_{2},\dots,a_{n})=\begin{cases}
 \displaystyle  \left( \sum w_{i}a_{i}^p \right)^{1/p} &p\neq 0 \\
@@ -57,15 +62,18 @@ $$
 $$
 
 
+
 The weights $w_{i}$ serve to emphasises a certain element so if $a_{i}$ is more important then $w_{i}$ will be greater. In the case where $\displaystyle w_{1}=w_{2}=\dots =w_{n}=\frac{1}{n}$, we get an unweighted/regular version. 
 Some special case for $p$ are: $p=-1\text{ :HM}, \ p=0\text{ :GM}, \ p=1\text{ :AM}, \ p=2\text{ :QM}$.
 $a_{i}=0$ is valid for $p>0$.
 ### Weighted Power Mean Inequality
 
 
+
 $$
 r>s\implies M_{r}(a_{1},a_{2},\dots,a_{n})\geq M_{s}(a_{1},a_{2},\dots,a_{n})
 $$
+
 
 
 The equality holds if and only if $a_{1}=a_{2}=\dots=a_{n}$.
@@ -92,9 +100,11 @@ It is also the $\displaystyle \lim_{ p \to 0 }$ of the *power mean* $\displaysty
 Suppose we have two sequences $x_{1}\geq x_2 \geq \dots \geq x_{n}$ and $y_{1}\geq y_2 \geq \dots \geq y_{n}$ such that $x_{1}+x_{2}\dots +x_{n}=y_{1}+y_{2}\dots +y_{n}$ and $x_{1}+x_{2}\dots +x_{n-1}\geq y_{1}+y_{2}\dots +y_{n-1}$, we say that $(x_{n})\text{ majorises }y(n)$ also denoted as $(x_{n})\succ (y_{n})$.
 *Muirhead's Inequality* states that 
 
+
 $$
 (x_{n})\succ (y_{n})\implies \sum_{sym}a_{1}^{x_{1}}a_{2}^{x_{2}}\cdots a_{n}^{x_{n}}\geq \sum_{sym}a_{1}^{y_{1}}a_{2}^{y_{2}}\cdots a_{n}^{y_{n}}
 $$
+
 
 
 INSERT PROOF
@@ -104,9 +114,11 @@ with Karamta's Inequality
 # Holders Inequality
 For sequences $\{a_{1_{1}},a_{1_{2}},\dots ,a_{1_{n}}\},\{a_{2_{1}},a_{2_{2}},\dots ,a_{2_{n}}\},\dots,\{a_{k_{1}},a_{k_{2}},\dots ,a_{k_{n}}\} \in \mathbb{R}_{>0}$ and weights $\lambda_{1},\lambda_{2},\dots ,\lambda_{k} \in \mathbb{R}_{\geq_{0}}\text{ s.t } \sum \lambda_{i}=1$, Holders states that 
 
+
 $$
 \sum_{j=1}^{n}\prod_{i=1}^{k}a_{i_{j}}^{\lambda_{i}}\leq \prod_{i=1}^{k}\left(\left( \sum_{j=1}^{n}a_{i_{j}} \right)^{\lambda_{i}}\right)
 $$
+
 
 With the equality holding if and only if the sequences are proportional to each other
 INSERT PROOF
@@ -115,9 +127,11 @@ INSERT PROOF
 Using Holders with two sequences $a_{i},b_{i}$ and weights $\lambda_{1}=\frac{p}{p+q}, \lambda_{2}=\frac{q}{p+q}$ for $p,q\in \mathbb{R}^{+}$
 Let $a_{1},a_{2},\dots ,a_{n} \in \mathbb{R}\geq_{0}$ and $b_{1},b_{2},\dots ,b_{n} \in \mathbb{R}_{\geq_{0}}$ and $p,q \in \mathbb{R}^{+}$, Then 
 
+
 $$
 \displaystyle \left( \sum a_{i} \right)^{p}\left( \sum b_{i} \right)^{q}\geq\left( \sum (a_{i}^{p}b_{i}^{q})^{\frac{1}{p+q}} \right)^{p+q}
 $$
+
 
 With the equality only holding when the sequences are proportional to each other.
 **Proof**
@@ -134,26 +148,32 @@ So both sides scale by a positive factor of $t^{p}s^{q}$ so we can divide throug
 ### Classical Conjugate-Exponent Form
 Using the $k=2$ case and making transformations $a_{i}\to a_{i}^{p}, \ b_{i}\to b_{i}^{q}$ and renaming exponents so that $\frac{p}{p+q}\to \frac{1}{p}, \ \frac{q}{p+q}\to \frac{1}{q}$ *(This adds the condition $p,q>1$)* we get 
 
+
 $$
 \sum a_{i}b_{i}\leq \left( \sum a_{i}^{p} \right)^{1/p}\left( \sum b_{i}^{q} \right)^{1/q}
 $$
 
 
+
 ### Cauchy-Schwarz
 Using the classical conjugate-exponent form and setting $p=q=\frac{1}{2}$ then squaring the whole inequality (Also equivalent to the full holders inequality with $\lambda_{1}=\lambda_{2}=\frac{1}{2}$ then transformations $a_{i}\to a_{i}^{2}, \ b_{i}\to b_{i}^{2}$)
+
 
 $$
 \left( \sum a_{i}^{2} \right)\left( \sum b_{i}^{2} \right)\geq \left( \sum a_{i}b_{i} \right)^{2}
 $$
 
 
+
 *Note that now we introduced the squares we have expanded the domain so now we get that* $a,b \in \mathbb{R}$
 ### Titu's Lemma
 *Titu's Lemma* states that for $a_{1},a_{2},\dots ,a_{n}\in \mathbb{R}$ and $b_{1},b_{2},\dots ,b_{n}\in \mathbb{R}^{+}$ 
 
+
 $$
 \frac{a_{1}^{2}}{b_{1}}+\frac{a_{2}^{2}}{b_{2}}+\dots+\frac{a_{n}^{2}}{b_{n}}\geq \frac{(a_{1}+a_{2}+\dots+a_{n})^{2}}{b_{1}+b_{2}\dots +b_{n}}
 $$
+
 
 
 Note this is just *Cauchy-Schwarz* applied to the sequences $\displaystyle \left\{\frac{a_{n}}{\sqrt{b_{n}}}\right\}$ and $\{\sqrt{b_{n}}\}$ *hence the extra restrictions on $b_{i}\in \mathbb{R}^{+}$*.
@@ -162,9 +182,11 @@ This is a very useful version for eliminating fractions.
 # Chebyshev's Sum Inequality
 Let $a_{1},a_{2},\dots ,a_{n} \in \mathbb{R}$ and $b_{1},b_{2},\dots ,b_{n} \in \mathbb{R}$ such that they are both monotonic in the same direction, Then 
 
+
 $$
 \frac{1}{n}\sum a_{i}b_{i}\geq \left( \frac{1}{n} \sum a_{i}\right)\left( \frac{1}{n}\sum b_{i} \right)
 $$
+
 
 With equality only holding when at least on of the sequences is constant ***or*** they are proportional meaning $\exists c \text{ s.t } b_{i}=ca_{i} \quad\forall i$.
 If they are monotonic but in opposite directions then the reverse inequality holds with the same conditions for equality.
@@ -173,16 +195,20 @@ INSERT PROOF
 # Schur's Inequality 
 Let $a,b,c \in \mathbb{R}_{\geq_{0}}, \ r\in \mathbb{R}^{+}$, Then *Schur's Inequality* States 
 
+
 $$
 \sum_{cyc}a^{r}(a^{2}+bc)\geq \sum_{cyc}a^{r+1}(b+c)
 $$
 
+
 With equality if and only if $a=b=c$ or $\{a,b,c\}=\{x,x,0\}$
 The $r=1$ case is most common and is 
+
 
 $$
 a^{3}+b^{3}+c^{3}+3abc \leq \sum_{sym}a^{2}b
 $$
+
 
 
 INSERT PROOF

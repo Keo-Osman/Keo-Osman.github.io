@@ -23,6 +23,7 @@ $$
 
 # Number Density
 Number density is 
+
 $$
 n_{e} =\frac{\text{\#Delocalised Electrons}}{\text{Volume}}
 $$
@@ -46,5 +47,23 @@ $A$ cross sectional area
 $n$ number density
 $e$ electric charge
 $v$ velocity
-**SI Unit Derivation**
-$Anev=(m^{2})(m^{-3})(As)(ms^{-1})=A\text{ (amps)}=I$
+## Derivation
+
+$$
+\begin{aligned}
+&I=\frac{Q}{t}=nVe\\
+&Av=\frac{V}{\Delta t}\implies \frac{Av}{V}=\frac{1}{\Delta t}\\
+&I=\frac{Av}{V}\cdot nVe=Anev
+\end{aligned}
+$$
+
+
+*$V$ volume*
+***
+# Resistance
+In a parallel circuit 
+$$
+\frac{1}{R_{T}}=\sum \frac{1}{R_{n}}
+$$
+
+An analogy is with traffic with more available lanes the flow of traffic increases. 

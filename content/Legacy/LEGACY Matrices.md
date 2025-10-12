@@ -2,9 +2,11 @@
 A matrix is an array of elements organised in rows and columns
 The size of on array can be described by row $\times$ columns such as a 2 x 4 matrix 
 
+
 $$
 \left(\begin{array}{cccc}1 & 4 & -1 & 1 \\ 2 & 3 & 0 & 2\end{array}\right)
 $$
+
 
 
 
@@ -14,6 +16,7 @@ $$
 The identity matrix is the matrix $I$ that is all zero apart from having 1's on the leading diagonal.
 
 
+
 $$
 \begin{pmatrix}
 1 & 0 & 0 \\
@@ -21,6 +24,7 @@ $$
 0 & 0 & 1 \\
 \end{pmatrix}
 $$
+
 
 
 It has the unique property that $AI = IA = A$ for all matrices. This makes it the [[LEGACY Groups#Axioms of Groups|Identity Element]] of a [[LEGACY Groups|Group]] of matrices under the operation of multiplication hence the name
@@ -37,6 +41,7 @@ Also worded as: For $AB = C$, each element $C_{ij}$ is the dot product of the $i
 For example 
 
 
+
 $$
 \left(\begin{array}{ccc}
 5 & -1 & 2 \\
@@ -50,6 +55,7 @@ $$
 15 & -9
 \end{array}\right)
 $$
+
 
 
 ## Minor
@@ -74,15 +80,18 @@ To find $C$
 - Form the matrix of the minors. This is where each of the nine elements of the matrix is replaced by its minor
 - Change the signs of some elements with alternating signs as shown 
 
+
 $$
 \begin{pmatrix} + & - & + \\ - & + & - \\ + & - & + \end{pmatrix}​
 $$
+
 
 
 ## Solving Systems of Linear Equations
 If $A\begin{pmatrix} x \\ y \\ z \end{pmatrix} = v$ then $\begin{pmatrix} x \\ y \\ z \end{pmatrix} = A^{-1}v$
 If A is non-singular then a unique solution for $\begin{pmatrix} x \ y \ z \end{pmatrix}$ can be found for any vector v
 To solve a given system of equations for x, y, z: 
+
 
 $$
 \begin{aligned} ax + by + cz& = j \\
@@ -98,10 +107,13 @@ $$
 
 
 
+
+
 $$
 \begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix}^{-1} \begin{pmatrix} j \\ k \\ l 
 \end{pmatrix}
 $$
+
 
 
 ## Linear Equation Consistency
@@ -123,6 +135,7 @@ An eigenvector is an invariant vector under the linear transform $A$. The corres
 ### Characteristic Equation
 
 
+
 $$
 \begin{aligned}
 &Ax = \lambda x = \lambda Ix \\
@@ -130,6 +143,7 @@ $$
 \Rightarrow&\det(A-\lambda I) = 0
 \end{aligned}
 $$
+
 
 
 The solutions of $\lambda$ are the eigenvalues of $A$
@@ -154,6 +168,7 @@ For any $n \times n$ diagonal matrix $D = \begin{pmatrix} a & 0 \\ 0 & d \end{pm
 To find higher powers of any general matrix $A$ you can use:
 
 
+
 $$
 \begin{aligned}
 A &= PDP^{-1}\\ 
@@ -165,8 +180,10 @@ A &= PDP^{-1}\\
 $$
 
 
+
 ## Cayley-Hamilton Theorem
 All matrices $M$ satisfy their own characteristic equation 
+
 
 
 $$
@@ -176,6 +193,7 @@ $$
 \Rightarrow &a_n{M}^{n} + a_{n-1}{M}^{n-1} + \cdots a_2{M}^2 + a_1{M} + a_0 I = 0
 \end{aligned}
 $$
+
 
 
 This theorem can be used to find various variations of M such as $M^{-1}$ and $M^k$  by multiplying or dividing through by $M$ and using the fact that $I = MM^{-1} \Rightarrow I \div M = M^{-1}$ 

@@ -27,12 +27,15 @@ Half equations show what happens at the electrodes in terms of gaining/losing el
 For metal ions *(M$^{n+}$)*:
 
 
+
 $$
 M^{n+}+ne^-\rightarrow M
 $$
 
 
+
 For non-metal ions *(M$^{n-}$)*:
+
 
 
 $$
@@ -40,11 +43,14 @@ M^{n-}\rightarrow M + ne^-
 $$
 
 
+
 For $OH^-$ ions *(oxidation reaction at **anode**)*: 
+
 
 $$
 4OH^- \rightarrow O_2+2H_2O \space +4e^-
 $$
+
 
 
 

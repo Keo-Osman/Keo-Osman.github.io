@@ -22,6 +22,7 @@ The *preimage* is defined for all values in the *codomain* for all functions but
 A function is ***injective*** on domain $A$ if different inputs map to different outputs. Formally denoted as 
 
 
+
 $$
 \begin{gather}
 \forall x_{1},x_{2} \in A \quad f(x_{1})=f(x_{2})\implies x_{1}=x_{2} \\
@@ -31,13 +32,16 @@ x_{1}\neq x_{2}\implies f(x_{1})\neq f(x_{2})
 $$
 
 
+
 It can also be state that *no two elements in the domain share the same image*.
 ## Surjective
 $f:A\to B$ is *surjective* if it covers the whole domain. Formally denoted as 
 
+
 $$
 \forall y \in B, \quad \exists x \in A \text{ s.t } f(x)=y
 $$
+
 
  A function is always surjective if $\text{codomian}=\text{range}$.  
 ## Bijective
@@ -46,9 +50,11 @@ $f:A\to B$ is bijective if it is both *injective and *surjective*
 # Indicator Function
 Let $A \subseteq U$, the ***indicator function*** of $A$ denoted by $1_{A}$ is a function with domain $U$ and range $\{0,1\}$ defined as 
 
+
 $$
 1_{A}(x)=\begin{cases} 1, & x \in A \\0, & x \notin A \end{cases}
 $$
+
 
 
 ***
