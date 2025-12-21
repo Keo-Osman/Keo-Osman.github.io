@@ -1,16 +1,15 @@
-#Maths/Geometry
+---
+tags:
+  - Maths/Geometry
+---
 # Congruent Triangles
 Two triangles are congruent if all sides and their corresponding angles are the same, denoted by $\triangle ABC \cong \triangle DEF$
 ## Congruence Conditions
 Traveling around a triangle counter-clockwise, starting at angle, two triangle are congruent under the conditions the following match 
 
-
-
 $$
 SAS, \ ASA, \ SSS, \ AAS
 $$
-
-
 
 However $ASS$ does *not* guarantee congruence *unless* the angle is $\geq 90 \degree$. Similarly $AAA$ does not guarantee congruence as the side lengths can be scaled, but it is similar.
 ***

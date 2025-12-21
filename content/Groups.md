@@ -1,4 +1,8 @@
-#Maths/Abstract-Algebra
+---
+tags:
+  - Maths/Abstract-Algebra
+---
+
 # Axioms of Groups
 A Group is a set together with a binary operation denoted by $(G, *)$ where $G$ is a set and $*$ is a binary operation. (Conventionally the operation is called multiplication even though it may not be standard multiplication).
 
@@ -18,7 +22,7 @@ A Group has to satisfy the following 4 axioms. Other fundamental corollaries den
 The following properties are a direct result of the axioms and are sometimes included in the definition but do not have to be.
 **Proof** $(3.1)$
 1. Note that $a*a^{-1}=e, \ a^{-1}*a'=e$ where $a'=(a^{-1})^{-1}$. All these elements are guaranteed to exist by $(3)$. 
-2. Consider $e*a*e$. By $(2), \ e*(a*e)= e*a$. Also by using the equivalent statements of $e$ we get $e*a*e=(a*a^{-1})*(a*a^{-1})*a'=e*e*a'=a'$. So we get that $e*a=a'$
+2. Consider $e*a*e$. By $(2), \ e*(a*e)= e*a$. Also by using the equivalent statements of $e$ we get $e*a*e=(a*a^{-1})*(a*a^{-1})*a'=(e*e)*a'=e*a'$. So we get that $e*a=e*a'$
 3. Substituting in we get $e=a^{-1}*a'=a^{-1}*(e*a)=(a^{-1}*e)*a=a^{-1}*a \quad \square$
 
 **Proof** $(4.1)$
@@ -46,7 +50,6 @@ The following properties are a direct result of the axioms and are sometimes inc
 A Cayley Table fully describes a finite group by showing all possible products of elements in the group
 Example: 
 
-
 $$
 \begin{array}{c|cccc}
 \times_{10}& 1 & 3 & 7 & 9 \\
@@ -57,7 +60,6 @@ $$
 9 & 9 & 7 & 3 & 1 \\
 \end{array}
 $$
-
 
 
 When a group's elements are displayed in a Cayley Table:
@@ -129,11 +131,9 @@ You can construct a group of symmetries denoted by $D_{2n}$ by considering a set
 *There is $n$ possible rotations and $n$ possible reflections so for an $n$ sided polygon there are $2n$ elements so the group is denoted as $D_{2n}$ meaning ($D_8$ would be a square)*
 ## Cyclic Groups
 A cyclic group is a group that can be written where all elements can be written as $a^k$ where $a$ is the group generator and $k \in \mathbb{Z}^+$. $a^k$ denotes performing the group operation $k$ times.
-
 $$
 a^3 = a \circ a \circ a \qquad a^k = \underbrace{a \circ a \cdots \circ a}_{k \text{ times}}
 $$
-
 
 
 ***

@@ -1,4 +1,7 @@
-#Maths/Algebra 
+---
+tags:
+  - Maths/Algebra
+---
 # Definitions
 A function is one-to-one if it never takes the same value twice: $x_1 \neq x_2 \Rightarrow f(x_1) \neq f(x_2)$
 

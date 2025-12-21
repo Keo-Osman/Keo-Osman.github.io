@@ -1,21 +1,33 @@
-#Maths
+---
+tags:
+  - Maths
+---
 # Main Content
-## Algorithms
-1. [[Algorithms]]
-2. [[Sorting Algorithms]]
-3. [[Bin Packing Algorithms]]
-4. [[Graphs]]
-## Abstract Algebra
+## Algebra (Abstract)
 1. [[Groups]]
-## Algebra
-1. [[Algebraic Factorisation]]
-2. [[Concavity]]
-3. [[Exponential Functions]]
-4. [[Functions]]
-5. [[Inequalities]]
-6. [[Inverse Functions]]
-7. [[Polynomials]]
-## Calculus
+## Algebra (Elementary)
+1. **[[Functions]]**
+	1. [[Concavity]]
+	2. [[Exponential Functions]]
+	3. [[Function Growth Rates]]
+	4. [[Inverse Functions]]
+2. **[[Inequalities]]**
+	1. [[Chebyshev's Sum Inequality]]
+	2. [[Holders Inequality]]
+	3. [[Jensen's Inequality]]
+	4. [[Karamata's and Muirhead's Inequalities]]
+	5. [[Schur's Inequality]]
+	6. [[Weighted Power Mean]]
+3. [[Algebraic Factorisation]]
+4. [[Polynomials]]
+## Algebra (Linear)
+1. [[Change of Basis]]
+2. [[Determinant]]
+3. [[Eigen Vectors]]
+4. [[Linear Transforms]]  
+5. [[Matrices]]  
+6. [[Vectors]]
+## Calculus and Real Analysis
 1. [[Continuity]]  
 2. [[Derivatives]]
 3. [[Differential Equations]]  
@@ -30,37 +42,34 @@
 9. [[Series]]  
 	1. [[Series Approximations]]  
 10. [[Volumes of Revolution]]
-## Combinatorics
+## Combinatorics and Discrete Maths
 1. [[Combinatorics]]
 2. [[Graphs]]
 3. [[Recurrence Relations]]
-## Complex Numbers
+## Complex Analysis
 1. [[Complex Numbers]]  
 2. [[Complex Plane]]
-## Geometry
+## Geometry (Euclidean)
 1. [[Conic Sections]]
 2. [[Euclidean Geometry Basics]]
 3. [[Polar Coordinates]]
 4. [[Hyperbolic Trigonometric Functions]]  
 5. [[Trigonometric Functions]]
-
-## Linear Algebra
-1. [[Change of Basis]]
-2. [[Determinant]]
-3. [[Eigen Vectors]]
-4. [[Linear Transforms]]  
-5. [[Matrices]]  
-6. [[Vectors]]
-
 ## Number Theory
 1. [[Arithmetic Functions]]
-2. [[Divisibility]]
-3. [[Floor, Ceiling and Fractional Functions]]
-4. [[Modular Arithmetic]]
-5. [[Pell's Equations]]
-6. [[Primes]]
-## Proofs
-1. [[Proof by Induction]]
-
-***
-[[LEGACY A-Level Maths]]
+2. [[Bezout's Identity]]
+3. [[Divisibility]]
+4. [[Euclid's Division Lemma]]
+5. [[Euler's Theorem]]
+6. [[Euler's Totient Function]]
+7. [[Fermat's Little Theorem]]
+8. [[Floor, Ceiling and Fractional Functions]]
+9. [[GCD]]
+10. [[LCM]]
+11. [[Modular Arithmetic]]
+12. [[Number Bases]]
+13. [[Number of Divisors]]
+14. [[Pell's Equations]]
+15. [[Prime Counting Function]]
+16. [[Sum of Divisors]]
+17. [[Wilson's Theorem]]

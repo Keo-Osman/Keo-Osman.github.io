@@ -1,3 +1,7 @@
+---
+tags:
+  - Physics/Module-1
+---
 # Potential Difference vs Electromotor Force
 *P.D* is the energy provided to each charge within the circuit. It is also the difference in potential between two points.
 EMF accounts for the resistance within the battery it provides energy to the resistor in the battery.
@@ -66,4 +70,21 @@ $$
 \frac{1}{R_{T}}=\sum \frac{1}{R_{n}}
 $$
 
-An analogy is with traffic with more available lanes the flow of traffic increases. 
+An analogy is with traffic with more available lanes the flow of traffic increases.
+
+Factors affecting resistance are: *material, temperature, length and cross sectional area of wire*
+1. Length - the electrons will collide with more metal ions in total. Directly proportional
+2. Cross sectional area - the electrons have more space to flow, more paths to go down.
+
+$$
+R=\frac{\rho L}{A}
+$$
+
+where $\rho$ is ***resistivity*** - an intrinsic property of a material that measures how strongly a given ***material*** opposes the flow of electric current.
+***
+# Diodes
+The diode circuit symbol shows the direction that conventional current can flow.
+In the foward direction the electrons still need a threshold voltage to pass through
+A diode is made of 2 layers. One consisting of positively charged particles *p-type semi conductors*, one with negatively charged particles. When electrons approach from the positive side the electrons are attracted to the positive particles and repelled by the negative making it hard for them to get through. When electrons approach from the negative side the negative particles repel the electrons through
+???
+TODO understand it properly

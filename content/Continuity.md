@@ -1,4 +1,7 @@
-#Maths/Calculus  
+---
+tags:
+  - Maths/Calculus
+---
 # Definition
 $f(x)$ is continuous at $\displaystyle a \Leftrightarrow \lim_{x \to a} f(x) = f(a)$
 

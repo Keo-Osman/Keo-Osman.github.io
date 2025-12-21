@@ -1,4 +1,7 @@
-#Computer-Science
+---
+tags:
+  - Computer-Science
+---
 # Von Neumann Architecture
 1. Uses one memory location for both data and instructions.
 2. *Requests* next instruction/data from memory with unidirectional address bus.

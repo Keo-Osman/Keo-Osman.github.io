@@ -1,4 +1,7 @@
-#Maths/Complex-Numbers
+---
+tags:
+  - Maths/Complex-Numbers
+---
 # Definitions
 [[Complex Numbers]] can be represented on a **Cartesian Plane** *(called the complex plane or an argand diagram)* as a point $(x, y)$ or [[Vectors|Vector]] $\begin{pmatrix} x \\ y \end{pmatrix}$ where $z=x+iy$. Therefore the $x$-axis is the real axis and the $y$-axis is the imaginary axis.
 
@@ -26,10 +29,6 @@ $w = kz$, $k\in \mathbb{R}$ represents enlargement with scale factor $k$ centre 
 $w = iz$ represents anti-clockwise rotation of $\frac{\pi}{2}$ about $(0,0)$
 ## Möbius transformations
 They are transformations in the form 
-
-
 $$
 w = \frac{az+b}{cz+d} \quad a,b,c,d \in \mathbb{C}
 $$
-
-

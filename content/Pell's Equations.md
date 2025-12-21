@@ -1,4 +1,7 @@
-#Maths/Number-Theory 
+---
+tags:
+  - Maths/Number-Theory
+---
 # Definition
 Pell's equations are equations in the form $x^2-dy^2=1$ where $d$ is not a square.
 There are infinite integer solutions to the equation.
@@ -12,13 +15,9 @@ Using the fact that $N$ is multiplicative, $N(z)=1\implies N(z^k)=1$. So from on
 ***
 # Fundamental Solution
 We can find a *fundamental solution* $\epsilon=x_{0}+y_{0}\sqrt{d}, \ x, y, \in \mathbb{N}$ such that every solution $(x, y)$ is found by 
-
-
 $$
 x+y\sqrt{d}=\epsilon^n=(x_{0}+y_{0}\sqrt{d})^n
 $$
-
-
 
 **Proof**
 1. Consider $\alpha$ to be the smallest real in the for $x+y\sqrt{d}>1$ and $N(\alpha)=1$.
@@ -36,22 +35,14 @@ $$
 INSERT PROOF
 Let $(x_{0}, y_{0})$ be the *fundamental solution* and $(x_{n-1}, y_{n-1})$ be the $n$th solution, then
 
-
-
 $$
 x_{n-1}=\frac{1}{2}((x_{0}+y_{0}\sqrt{d})^n+(x_{0}-y_{0}\sqrt{d})^n), \quad y_{n-1}=\frac{1}{2\sqrt{d}} ((x_{0}+y_{0}\sqrt{d})^n-(x_{0}-y_{0}\sqrt{d})^n)
 $$
 
 
-
-
-
-
 $$
 x_{n}=2x_{0}x_{n-1}-x_{n-2}, \quad y_{n}=2x_{0}y_{n-1}-y_{n-2}
 $$
-
-
 
 
 ***

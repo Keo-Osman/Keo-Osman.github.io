@@ -1,4 +1,7 @@
-#Maths/Geometry
+---
+tags:
+  - Maths/Geometry
+---
 # Definition
 Conic sections are graphs that are obtained by slicing a cone (with an inverted cone on top) with a plane
 ![Conic Sections|500](https://math.libretexts.org/@api/deki/files/3246/CNX_Calc_Figure_11_05_002.jfif?revision=1&size=bestfit&width=843&height=452)

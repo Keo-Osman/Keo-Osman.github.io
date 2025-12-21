@@ -1,4 +1,7 @@
-#Computer-Science 
+---
+tags:
+  - Computer-Science
+---
 # Protocols
 1. Ethernet
 	1. Family of protocols used in LANs

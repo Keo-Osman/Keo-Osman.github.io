@@ -1,4 +1,7 @@
-#Maths/Linear-Algebra  
+---
+tags:
+  - Maths/Linear-Algebra
+---
 [Why are Determinants Like That? (YT)](https://www.youtube.com/watch?v=Sv7VseMsOQc)
 # Definition and Derivation
 In an $n$ dimensional [[Vectors#Vector Spaces|Vector Space]] *(specifically $\mathbb{R}^{n}$)* we want to define a function to calculate the area/volume bounded by $n$ linearly independent vectors. 
@@ -11,35 +14,23 @@ First we will start in $\mathbb{R}^{2}$ with basis vectors $\hat{i},\hat{j}$ so 
 5. $A(\vec{v}+\vec{u},\vec{w})=A(\vec{v},\vec{w})+A(\vec{u},\vec{w}) \text{ and } A(\vec{v},\vec{w}+\vec{u})=A(\vec{v},\vec{w})+A(\vec{v},\vec{u})$
 
 However we can notice that setting $\vec{u}=-\vec{v}$ in 5 gives that $A(\vec{v}+(-\vec{v}),\vec{w})=A(0,\vec{w})=0$ but using the rule in 5 we get $A(\vec{v}+(-\vec{v}),\vec{w})=A(\vec{v},\vec{w})+A(-\vec{v},\vec{w})=0\implies$ 
-
-
 $$
 A(-\vec{v},\vec{w})=-A(\vec{v},\vec{w})
 $$
 
-
-
 *Justifying why in 4 the domain is $\mathbb{R}$ and not $\mathbb{R}_{\geq0}$*.
 
 Next we try $A(\vec{v}+\vec{w},\vec{v}+\vec{w})=0$ but applying rule 5 gives $A(\vec{v}+\vec{w},\vec{v}+\vec{w})=A(\vec{v},\vec{v})+A(\vec{w},\vec{w})+A(\vec{v},\vec{w})+A(\vec{w},\vec{v})\implies$ 
-
-
 $$
 A(\vec{v},\vec{w})=-A(\vec{w},\vec{v})
 $$
 
-
-
 The sign gives the *orientation* of the parallelogram. If $A<0$ then orientation is negative and if $A>0$ the orientation is positive. For convention we choose orientation to be positive when going from $\vec{v}$ to $\vec{w}$ is counter-clockwise. For example $A(\hat{i},\hat{j})=1$ because going from $\hat{i}$ to $\hat{j}$ is a counter-clock wise rotation. However this is just convention you *could* define $A(\hat{j},\hat{i})=1$ so $A(\hat{i},\hat{j})=-1$ but you must pick *some* orientation to be positive and convention is counter-clockwise.
 ### Computation
 By writing $\vec{v},\vec{w}$ as linear combinations of the basis vectors we get $A(\vec{v},\vec{w})=A(v_{1}\hat{i}+v_{2}\hat{j},w_{1}\hat{i}+w_{2}\hat{j})$ and applying or rules we get 
-
-
 $$
 A(\vec{v},\vec{w})=v_{1}w_{2}-v_{2}w_{1}
 $$
-
-
 
 Now instead of the function taking multiple vectors as input we have the function call it $\det A$ where $A$ is an $n\times n$ *(in this case $2\times 2$)* matrix with column vectors $\vec{v},\vec{w}$
 ## Generalisation to $\mathbb{R}^{n}$
@@ -59,21 +50,15 @@ $\implies V(\vec{v}_{1},\vec{w},\vec{v}_{3},\vec{v}_{4},\dots ,\vec{v}_{n})=-V(\
 We can also see that the sign of $A(\text{basis vectors})$ corresponds to the number of swaps needed to reach the permutation $e_{1},e_{2},\dots ,e_{n}$ more specifically the sign is negative for an odd amount of swaps and positive for an even amount.
 From this we define a function $\operatorname{sign}(\mathbf{p})$ where $\mathbf{p}$ is a permutation of $1,2,\dots,n$ and $\operatorname{sign}(\mathbf{p})=(-1)^{\text{no. swaps to reach } 1,2,\dots,n}$ equivalently defined as 
 
-
-
 $$
 \operatorname{sign}(\mathbf{p})=
 \begin{cases}  1&\text{even no. swaps}\\-1& \text{odd no. swaps}
 \end{cases}
 $$
 
-
-
 ### Computation
 #### Leibniz Formula
 We first write a vector in terms of the basis vectors giving $\displaystyle\vec{v}_{i}=\sum_{j=1}^{n} v_{ij}e_{j}$
-
-
 
 $$
 \begin{aligned}
@@ -88,20 +73,14 @@ $$
 $$
 
 
-
-
 The reason why we get from $\displaystyle\sum_{j_{1}=1}^{n}\sum_{j_{2}=1}^{n}\dots\sum_{j_{n}=1}^{n}$ to $\displaystyle \sum_{\substack{p\text{ is a permuation of}\\\text{of }1,2,\dots,n}}$ is because the first sum goes over every sequence with length $n$ where the elements are any number from $1$-$n$ but as any volume with a repeated vector is zero we only consider the subset of those sequences where every element is unique which is the permutations of $1,2,\dots,n$.
 
 Now instead of the function taking multiple vectors as input we have the function call it $\det A$ where $A$  is an $n\times n$ matrix with column vectors $\vec{v}_{1},\vec{v}_{2},\dots ,\vec{v}_{n}$.
 #### Recursive Formula
 Using the Leibniz formula we can derive a recursive formula. Given an $n\times n$ matrix $A$ 
-
-
 $$
 \det A=\sum_{i=1}^{n}a_{1i}\det(A_{1i})=\sum_{j=1}^{n}a_{j1}\det(A_{j1})
 $$
-
-
 
 **Proof**
 *Note that in this proof subscripts are flipped e.g. $v_{ij}$ is the $j$th element of the $i$th column vector as we are emphasising **column** vectors but it doesn't matter as the determinant is constant under transpose.*
@@ -112,8 +91,6 @@ For every even $k$ we pick up a minus sign formally $\operatorname{sign}(\mathbf
 The reason why is because for any permutation $\mathbf{p}$ keep $p_{1}$ in place then do all the required swaps to get the remaining elements in order then you can move $p_{1}$ to the right place by repeatedly swapping adjacent elements to move $p_{1}$ further in the sequence. If $p_{1}$ is odd this requires an even amount of swaps not affecting the sign but if $p_{1}$ is even this requires an odd amount of swaps flipping the sign.
 
 Putting this together we get 
-
-
 $$
 \begin{aligned}
 &\det A\\
@@ -124,7 +101,5 @@ $$
 &=\sum_{j=1}^{n}v_{1j}\det(A_{1j})
 \end{aligned}
 $$
-
-
 
 The trick is that we can notice that each term $\displaystyle\sum_{{\substack{\rho^{j}\text{ is a}\\ \text{perm of}\\\text{of }[1,n-1]}}}\operatorname{sign}(\mathbf{\rho}^{j})\prod_{i=1}^{n-1}(w_{j})_{i\rho^{k}_{i}}$ has the same format as a determinant but with dimension $(n-1)\times(n-1)$ and if we pay attention to the fact we have removed the first column and the $j$th row we realise it is the determinant of the minor $A_{1j}$.

@@ -1,4 +1,7 @@
-#Computer-Science 
+---
+tags:
+  - Computer-Science
+---
 # Commands
 1. SELECT *Column1, Column2*
 2. FROM *Table*

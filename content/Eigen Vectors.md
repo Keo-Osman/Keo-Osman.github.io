@@ -1,4 +1,7 @@
-#Maths/Linear-Algebra 
+---
+tags:
+  - Maths/Linear-Algebra
+---
 # Definition
 An **Eigenvector** of [[Matrices|Matrix]] A is a non-zero column [[Vectors|Vector]] $\vec{x}$ that satisfies $A\vec{x} = \lambda \vec{x}$ where $\lambda$ is a scalar. The value of $\lambda$ is the **eigenvalue** corresponding to the **eigen vector** $\vec{x}$.
 
@@ -6,8 +9,6 @@ This corresponds to a vector that is an invariant vector under the [[Linear Tran
 
 However the definition can be applied to any *linear operator* on any vector space as they can be represented as a matrix. E.g. for a linear operator $L$ there is an eigen vector that satisfies $L(\vec{x})=\lambda \vec{x}$.
 # Characteristic Equation
-
-
 
 $$
 \begin{aligned}
@@ -17,17 +18,14 @@ $$
 \end{aligned}
 $$
 
-
-
-The solutions of $\lambda$ are the eigenvalues of $A$. To find the eigen-vectors of $A$ we simply solve $A=\lambda I$.
+The solutions of $\lambda$ are the eigenvalues of $A$. To find the eigen-vectors of $A$ we simply solve $A\vec{x}=\lambda \vec{x}$.
 ## Eigenspace, Multiplicity
-Given an eigen value $\lambda$ of $A$. The ***algebraic multiplicity*** of $\lambda$ denoted $\operatorname{AM}(\lambda)=$ the number of times the root appears in the characteristic equation of $A$ e.g. $(2-\lambda)^{2}$ the eigen vector $\lambda=2$ has $AM=2$
+Given an eigen value $\lambda$ of $A$. The ***algebraic multiplicity*** of $\lambda$ denoted $\operatorname{AM}(\lambda)=$ the number of times the root appears in the characteristic equation of $A$ e.g. $(2-\lambda)^{2}$ the eigen vector $\lambda=2$ has $AM=2$.
+The eigenspace is simply the span of the eigenvectors.
 
 ***
 # Cayley-Hamilton Theorem
 All matrices $M$ satisfy their own characteristic equation 
-
-
 
 $$
 \begin{aligned}
@@ -37,8 +35,6 @@ $$
 \Rightarrow &a_n{M}^{n} + a_{n-1}{M}^{n-1} + \cdots a_2{M}^2 + a_1{M} + a_0 I = 0
 \end{aligned}
 $$
-
-
 
 This theorem can be used to find various variations of M such as $M^{-1}$ and $M^k$  by multiplying or dividing through by $M$ and using the fact that $I = MM^{-1} \Rightarrow I \div M = M^{-1}$
 ***

@@ -1,4 +1,7 @@
-#Maths/Linear-Algebra 
+---
+tags:
+  - Maths/Linear-Algebra
+---
 Space has no intrinsic idea of a grid/coordinate system this means that the basis [[Vectors]] $\hat{i},\hat{j}$ are just convention but you could describe the coordinate system - and in turn [[Matrices]]/[[Linear Transforms]] etc.. - with other basis vectors. In general in $n$ dimensions you can pick any $n$ vectors and describe the whole space - *as long as they are [[Vectors#Linear Independence|Linearly Independent]]*.
 
 Given a non-standard set of basis vectors $b_{1},b_{2},\dots ,b_{n}$ we can find how to write any vector in terms of our standard bases $e_{1},e_{2},\dots ,e_{n}$. By taking a vector *expressed in terms of $b$* we find in terms of $e$ by applying the linear transform of matrix $A$ where the column vectors of $A$ are the basis vectors $b_{k}$.
