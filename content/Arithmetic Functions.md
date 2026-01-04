@@ -20,13 +20,13 @@ $$
 
 ***
 # Additive Functions
-An arithmetic function is called ***multiplicative*** if 
+An arithmetic function is called ***additive*** if 
 
 $$
 f(mn) = f(m)+f(n) \quad \forall m,n \in \mathbb{N}, \ \gcd(m, n)=1
 $$
 
-It is ***completely multiplicative*** if
+It is ***completely additive*** if
 
 $$
 f(mn) = f(m)+f(n) \quad \forall m,n \in \mathbb{N}

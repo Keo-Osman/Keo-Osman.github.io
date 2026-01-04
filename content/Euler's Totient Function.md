@@ -1,11 +1,11 @@
 ---
 tags:
-  - Maths/Number-Theoru
+  - Maths/Number-Theory
 ---
 # Definition
 Euler's totient function is defined as 
 $$
-\varphi(n) = \text{the number of positive integers} \leq n, \text{ that are copprime to } n
+\varphi(n) = \text{the number of positive integers} \leq n, \text{ that are coprime to } n
 $$
 
 ***

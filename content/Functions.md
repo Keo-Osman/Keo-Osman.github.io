@@ -1,6 +1,8 @@
 ---
 tags:
   - Maths/Algebra
+aliases:
+  - Function
 ---
 # Definition of a Function
 Given two sets $A,B$ a function is any subset of $A\times B$ such that each $a\in A$ pairs with **exactly one** $b\in B$. It is denoted as $f:A\to B$.

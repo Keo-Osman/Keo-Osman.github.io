@@ -1,13 +1,9 @@
 ---
 tags:
   - Maths/Number-Theory
-mathLink-blocks:
-  "752771": $\gcd(a,b)$
-mathLink-sections:
-  Definition: $\gcd(a,b)$
 ---
 # Definition
-Given $a,b \in \mathbb{Z}, \ \gcd(a,b) = d$ is defined as the greatest integer $d \text{ s.t } d|a$ and $d|b$ ^752771
+Given $a,b \in \mathbb{Z}, \ \gcd(a,b) = d$ is defined as the greatest integer $d \text{ s.t } d|a$ and $d|b$ 
 # Properties
 **Theorem**
 1. $p$ is prime $\Rightarrow \gcd(p,m) = p$ or $\gcd(p,m) = 1$ 
