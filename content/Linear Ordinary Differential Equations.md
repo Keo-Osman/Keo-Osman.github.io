@@ -5,9 +5,13 @@ tags:
 ---
 # Definition
 A linear ordinary [[Derivatives|differential]] equation is a differential equation in the form 
+
+
 $$
 y^{(n)}(x)+a_{n-1}y^{(n-1)}(x)+\dots+a_{0}y(x)=f(x)
 $$
+
+
 
 Where $y(x)$ is an unknown function and $\displaystyle y^{(n)}(x)=\frac{d^{n}}{dx^{n}}(y)$
 
@@ -17,16 +21,24 @@ The ***Characteristic Polynomial*** of the equation is $m^{n}+a_{n-1}m^{n-1}+\do
 ***
 # [[Vectors#Vector Spaces|Vector Space]]
 We can look at the vector space 
+
+
 $$
 V=\{f:\mathbb{R}\to \mathbb{R} \ |\ f \in C^{n}(\mathbb{R})\}
 $$
 
+
+
 *the vector space of real functions n times differentiable*.
 We can also notice that differentiation is a [[Linear Transforms|Linear Operator]] in $V$.
 Since the equation is a linear combination of $y$ after varying amounts of differentiation - a linear operator - we can write the whole equation as 
+
+
 $$
 L[y]=f(x)\quad \text{or} \quad P(D)y=0
 $$
+
+
 
 Where $L$ is a linear operator and $P(D)$ is a polynomial of operator $D$ the differentiation operator. This means we can represent $L$ and $P(D)$ as a [[Matrices|Matrix]] $A$. *We will be using $P(D)$ notation*. 
 
@@ -47,6 +59,8 @@ So we know that $Dy$ is equivalent to $\lambda y$ substituting this into $P(D)y$
 
 For the *homogenous case* we define two vectors $\mathbf{y}(x)=\begin{pmatrix}y(x) \\ y'(x) \\ \vdots \\ y^{(n-1)}(x)\end{pmatrix}$ and $\mathbf{y}'(x)=\begin{pmatrix}y'(x) \\ y''(x) \\ \vdots \\ y^{(n)}(x)\end{pmatrix}$ and rearranging the equation to get $y^{(n)}(x)=-a_{k-1}y^{(k-1)}(x)-\dots-a_{1}y'(x)-a_{0}y(x)$. 
 Using this we can write the matrix equation as 
+
+
 $$
 \begin{gather}
 \mathbf{y}'(x)=A\mathbf{y}(x)\\ \\
@@ -59,6 +73,8 @@ A=\begin{pmatrix}
 \end{pmatrix}
 \end{gather}
 $$
+
+
 
 Since $A\mathbf{y}(x)=\mathbf{y}'(x)$ looks very similar to $A\mathbf{y(x)}=\lambda \mathbf{y}(x)$ we can find 
 

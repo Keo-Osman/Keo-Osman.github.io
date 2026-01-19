@@ -1,24 +1,32 @@
 ---
 tags:
   - Maths/Calculus
+aliases:
+  - Differentiation
+  - Differentiable
 ---
 # Definition
 The **Derivative** of $f(x)$ is 
 
+
 $$
 f'(x) = \lim_{h \to 0} \frac{f(x+h)-f(x)}{h} \quad \text{or} \quad f'(a) =\lim_{x \to a}\frac{f(x)-f(a)}{x-a}
 $$
+
 
 A function is differentiable $\Leftrightarrow$ $f'(a)$ exists. It is Differentiable on $(a, b) \Leftrightarrow$ it is differentiable $\forall x \in (a, b)$
 ***
 # Techniques
 ## Chain Rule
 
+
 $$
 \frac{d}{dx}[f(g(x))] = f'(g(x))g'(x)
 $$
 
+
 ### Proof
+
 
 $$
 \begin{aligned}
@@ -36,11 +44,13 @@ $$
 \end{aligned}
 $$
 
+
 ***
 # [[Continuity]]
 If $f(x)$ is Differentiable at $a$ then $f(x)$ is [[Continuity|Continuous]] at $a$. 
 *However the converse is not necessarily true, such as $f(x) = |x|$ which is continuous at $0$ but not differentiable at $0$*
 **Proof**
+
 
 $$
 \begin{aligned}
@@ -61,6 +71,7 @@ f(x)-f(a)& =\frac{f(x)-f(a)}{x-a}(x-a) \\ \\
 \end{aligned}
 $$
 
+
 ***
 # Fermat's Theorem
 If $f$ has a local **maximum** or **minimum** at $c$ then $f'(c)=0$
@@ -75,9 +86,11 @@ INSERT PROOF
 # Mean Value Theorem 
 If $f$ is [[Continuity|Continuous]] on $[a,b]$, differentiable on $(a, b)$ then $\exists c \text{ s.t }$
 
+
 $$
 f'(c) = \frac{f(b)-f(a)}{b-a}
 $$
+
 
 This means that at some point $c$ the slop of the tangent is equal to the slope of the secant line which represents average rate of change hence the name
 

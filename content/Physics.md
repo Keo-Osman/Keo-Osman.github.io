@@ -10,6 +10,7 @@ tags:
 ## Electrons, Waves and Photons - Module 4
 1. [[Electricity]]
 2. [[Waves]]
+3. [[Capacitors]]
 ## Newtonian World and Astrophysics - Module 5
 ## Particles and Medical Physics - Module 6
 

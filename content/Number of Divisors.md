@@ -16,19 +16,31 @@ $n = p_1^{\alpha_1} \cdots p_k^{\alpha_k}$ $\Rightarrow$ there are $(2\alpha_1+1
 
 *Proof:*
 Given that $a, b$ are divisors of $n$, they must have the form $a = p_1^{\beta_1} \cdots p_k^{\beta_k}$ and $p_1^{\gamma_1} \cdots p_k^{\gamma_k}$ since 
+
+
 $$
 \operatorname{\operatorname{lcm}}(a,b) =  p_1^{\textstyle\max(\beta_1,\gamma_1)} \cdots p_k^{\textstyle\max(\beta_k,\gamma_k)}
 $$
+
+
 There are $2\alpha_1+1$ options for each $(\beta_k,\gamma_k)$: 
+
+
 $$
 \underbrace{(0,\alpha_k), (1,\alpha_k),...,}_{\alpha \text{ terms}} (\alpha_k,\alpha_k)\underbrace{,...,(\alpha_k,0)}_{\alpha \text{ terms}}
 $$
+
+
  So you multiply number of choices together\.
 ***
 **Theorem** 
+
+
 $$
 \forall n \in \mathbb{Z}^+,\ \displaystyle\prod_{d|n} d = n^{\textstyle\frac{\tau(n)}{2}}
 $$
+
+
 
 
 *Proof:*
@@ -39,9 +51,13 @@ You can split the divisors into $\textstyle\frac{\tau(n)}{2}-1$ pairs $(d, \text
 You can split the divisors into $\textstyle\frac{\tau(n)}{2}$ pairs $(d, \textstyle\frac{n}{d})$ so their product is $n$ multiplying all together you get $n^{\textstyle\frac{\tau(n)}{2}}$\.
 ***
 **Theorem** 
+
+
 $$
 \forall n \in \mathbb{Z}^+,\ \tau(n) \leq 2\sqrt{n}
 $$
+
+
 
 
 *Proof:*
@@ -59,8 +75,12 @@ $\tau(n)$ is [[Arithmetic Functions#Multiplicative Functions|Multiplicative]]\.
 *Proof:*
 Let $a =p_1^{\alpha_1} \cdots p_k^{\alpha_k}$ and $b=P_1^{\beta_1} \cdots P_r^{\beta_r}$ with $\gcd(a,b) = 1$. Meaning they share no prime factors. $\tau(a) = (1+\alpha_1)\cdots (1+\alpha_k)$ and $\tau(b) = (1+\beta_1) \cdots (1+\beta_r)$ therefore $ab = p_1^{\alpha_1} \cdots p_k^{\alpha_k} P_1^{\beta_1} \cdots P_r^{\beta_r}$. Since they share no prime factors $P_i \neq p_j  \ \forall i, j$ so there is no crossover in primes and this is the proper prime factorisation. 
 
+
+
 $$
 \tau(a)\tau(b)=\tau(ab)=(1+\alpha_1)\cdots (1+\alpha_k)(1+\beta_1) \cdots (1+\beta_r)
 $$
+
+
 
 *(If $a, b$ weren't coprime they would share factors and this would not be the proper prime factorisation: you could get $p_i^{\alpha_i +\beta_j}$ terms. This means that $\tau$ is not completely multiplicative)*\. 

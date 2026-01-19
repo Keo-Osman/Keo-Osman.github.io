@@ -23,6 +23,8 @@ The *preimage* is defined for all values in the *codomain* for all functions but
 ## Injective
 A function is ***injective*** on domain $A$ if different inputs map to different outputs. Formally denoted as 
 
+
+
 $$
 \begin{gather}
 \forall x_{1},x_{2} \in A \quad f(x_{1})=f(x_{2})\implies x_{1}=x_{2} \\
@@ -31,13 +33,19 @@ x_{1}\neq x_{2}\implies f(x_{1})\neq f(x_{2})
 \end{gather}
 $$
 
+
+
 It can also be state that *no two elements in the domain share the same image*.
 ### Monic
 A function is ***monic*** *iff* 
 
+
+
 $$
 \forall g, h, \  f \circ g = f \circ h \implies g = h
 $$
+
+
 
 
 **Theorem**
@@ -51,16 +59,24 @@ Suppose $f: X\to Y$ is injective and $f \circ g = f \circ h$. Where $g, h: Z\to 
 Fix a one element set $1 = \{*\}$. Then $\forall x \in X$ define $g_{x}(*) = x$ where $g_{x}:1\to X$. Then $\forall x_{1}, x_{2}, \ f(x_{1}) = f({x_{2}}) \implies f\circ g_{x_{1}} = f\circ g_{x_{2}} \implies g_{x_{1}} = g_{x_{2}}\implies x_{1}=x_{2}$. Hence $f$ is injective\.
 ## Surjective
 $f:A\to B$ is *surjective* if it covers the whole domain. Formally denoted as 
+
+
 $$
 \forall y \in B, \quad \exists x \in A \text{ s.t } f(x)=y
 $$
+
+
  A function is always surjective if $\text{codomian}=\text{range}$.  
 ### Epic
 A function is ***epic*** *iff* 
 
+
+
 $$
 \forall g, h, \ g\circ f = h\circ f\implies g =h
 $$
+
+
 
 
 
@@ -74,9 +90,13 @@ Suppose $f: X\to Y$ is surjective and $g \circ f = h \circ f$. Where $g, h: Y\to
 **Reverse Direction** - *Proof by contrapositive*
 Suppose $f: X\to Y$ is **not** surjective. Then $\exists y \in Y \text{ s.t }  \nexists x, \ f(x)=y$. Pick such a $y$ and call it $a$. Then fix a two element set $Z= \{1, 2\}$. Then define 
 
+
+
 $$
 g(x) = 1, \quad h(x) = \begin{cases}1 & y\neq a \\ 2 & y=a\end{cases}
 $$
+
+
 
 But $g \circ f = h \circ f$ as $\forall x \in X, \ f(x) \neq a$ so $g(f(x)) = h(f(x)) = 1$. But since $h \neq g$, $f$ is not epic\. 
 
@@ -97,16 +117,24 @@ This concept still holds for many functions as if $f$ is equal to some power ser
 
 ## Constructing Even and Odd Functions
 Given a function $f$ which has no parity, we can create two special functions $f_{\text{odd}}, f_{\text{even}}$ which are even and odd functions respectively with the property that $f_{\text{odd}}+f_{\text{even}}=f$. We can think of this as taking the odd and even *"components"* of $f$. And if $f$ is a power series $f_{\text{odd}}, f_{\text{even}}$ are precisely the part of the power series with odd and even powers respectively. Making these functions is very easy. 
+
+
 $$
 f_{\text{odd}}=\frac{f(x)-f(-x)}{2},\quad f_{\text{even}}=\frac{f(x)+f(-x)}{2}
 $$
+
+
 
 It is trivial to check these functions are odd and even and that they have the property $f_{\text{odd}}+f_{\text{even}}=f(x)$.
 ***
 # Indicator Function
 Let $A \subseteq U$, the ***indicator function*** of $A$ denoted by $1_{A}$ is a function with domain $U$ and range $\{0,1\}$ defined as 
+
+
 $$
 1_{A}(x)=\begin{cases} 1, & x \in A \\0, & x \notin A \end{cases}
 $$
+
+
 
 *** 

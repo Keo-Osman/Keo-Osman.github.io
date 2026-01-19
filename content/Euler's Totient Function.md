@@ -4,9 +4,13 @@ tags:
 ---
 # Definition
 Euler's totient function is defined as 
+
+
 $$
 \varphi(n) = \text{the number of positive integers} \leq n, \text{ that are coprime to } n
 $$
+
+
 
 ***
 # Properties
@@ -30,27 +34,43 @@ Let $n = p_1^{\alpha_1}p_2^{\alpha_2}\cdots p_k^{\alpha_k}$ $\displaystyle\varph
 *Proof:*
 Using the previous theorem, $\displaystyle\varphi(p^k) = p^k-p^{k-1}=p^{k}\left(1-\frac{1}{p_k}\right)$
 Since $\varphi$ is multiplicative and primes are pairwise coprime. 
+
+
 $$
 \begin{aligned}\displaystyle \varphi(n) &= \varphi(p_1^{\alpha_1}p_2^{\alpha_2}\cdots p_k^{\alpha_k}) \\ &=  \varphi(p_1^{\alpha_1})\cdot\varphi(p_2^{\alpha_2})\cdots\varphi(p_k^{\alpha_k})\\&=p_1^{\alpha_1}\left(1-\frac{1}{p_1}\right)\cdot p_2^{\alpha_2}\left(1-\frac{1}{p_2}\right)\cdots p_k^{\alpha_k}\left(1-\frac{1}{p_k}\right)\\&=p_1^{\alpha_1}p_2^{\alpha_2}\cdots p_k^{\alpha_k}\left(1-\frac{1}{p_1}\right)\cdots\left(1-\frac{1}{p_k}\right)\end{aligned}
 $$
 
 
 
+
+
 **Theorem** 
+
+
 $$
 \displaystyle \sum_{d|n} \varphi(d) = n
 $$
 
+
+
 *Proof:*
 Let $n = p_1^{\alpha_1} \cdot p_2^{\alpha_2}\cdots p_k^{\alpha_k}$. Every positive divisor $d = p_1^{\beta_1} \cdot p_2^{\beta_2} \cdots p_k^{\beta_k} \quad 0 \leq \beta_i \leq \alpha_i\ \forall i$ 
+
+
 $$
 \displaystyle \sum_{d|n} \varphi(d) = \sum_{0 \leq \beta_1 \leq \alpha_1} \sum_{0 \leq \beta_2 \leq \alpha_2} \dots \sum_{0 \leq \beta_k \leq \alpha_k} \varphi(p_1^{\beta_1} \cdot p_2^{\beta_2} \cdots p_k^{\beta_k})
 $$
 
+
+
 Using the fact that $\varphi(n)$ is multiplicate we get $\displaystyle \sum_{d|n} \varphi(d) = \sum_{0 \leq \beta_1 \leq \alpha_1} \sum_{0 \leq \beta_2 \leq \alpha_2} \dots \sum_{0 \leq \beta_k \leq \alpha_k} \varphi(p_1^{\beta_1}) \varphi(p_2^{\beta_2}) \cdots \varphi(p_k^{\beta_k})$. You can repeatedly factor out $\displaystyle\sum_{0\leq\beta_k\leq\alpha_k}\varphi(p_k^{\beta_k})$ from the summation with $0\leq\beta_{k-1}\leq\alpha_{k-1}$ as it is constant as you are changing all $\beta_k$ up to ***but not including*** $\beta_k$ so the summation is constant and can be factored out. This obtains 
+
+
 $$
 \displaystyle \left(\sum_{0\leq\beta_1\leq\alpha_1} \varphi(p_1^{\beta_1}) \right)\cdots \left(\sum_{0\leq\beta_k\leq\alpha_k} \varphi(p_k^{\beta_k}) \right)
 $$
+
+
  
 For each term we get $\varphi(1)+\varphi(p)+\varphi(p^2)+\cdots+\varphi(p^\alpha)$ which using $\varphi(p^k) = p^k-p^{k-1}$ gets a telescoping sum of $1+(p-1)+(p^2-p)+\cdots+(p^{\alpha}-p^{\alpha-1})=p^{\alpha}$. Replacing every sum we get $p_1^{\alpha_1} \cdot p_2^{\alpha_2}\cdots p_k^{\alpha_k} = n$\.
 

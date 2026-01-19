@@ -4,9 +4,13 @@ tags:
 ---
 # Weighted F-Mean (Mean in an Arbitrary Function)
 Given any function $f:I\to \mathbb{R}$ which is both [[Continuity|Continuous]] and [[Functions#Injective|Injective]] *(So that $f^{-1}$ is well defined)*, The *f-mean* of $x_{1},x_{2},\dots ,x_{n} \in I$ with weights $w_{1},w_{2},\dots ,w_{n} \in \mathbb{R}^{+}$ is defined as 
+
+
 $$
 M_{f}(x_{1},x_{2},\dots ,x_{n})=f^{-1}\left( \frac{\sum w_{i}f(x_{i})}{\sum w_{i}} \right)
 $$
+
+
 
 Since $f$ is both [[Continuity|Continuous]] and [[Functions#Injective|Injective]] it follows that $f$ is strictly *monotonic* so it follows that $x_{min} \leq \text{f-mean} \leq x_{max}$.
 
@@ -19,12 +23,16 @@ The *weighted power mean* is the case of $f(x)=x^p$ and $I=\mathbb{R}^+$ of the 
 2. $\displaystyle M_{f}=f^{-1}\left(\frac{\sum w_{i}f(x_{i})}{\sum w_{i}} \right) =\left(\frac{\sum w_{i}x_{i}^{p}}{\sum w_{i}}\right)^{1/p} \quad \square$
 
 Given $a_{1},a_{2},\dots ,a_{n} \in \mathbb{R}^+$ with weights $w_{1},w_{2},\dots ,w_{n} \in \mathbb{R}^{+}$ where$\text{ W.L.O.G, } \sum w_{i}=1$ and $p \in\mathbb{R}$, The weighted power mean is 
+
+
 $$
 \displaystyle M_{p}(a_{1},a_{2},\dots,a_{n})=\begin{cases}
 \displaystyle  \left( \sum w_{i}a_{i}^p \right)^{1/p} &p\neq 0 \\
 \displaystyle  \prod a_{i}^{w_{i}} &p=0
 \end{cases}
 $$
+
+
 
 The weights $w_{i}$ serve to emphasises a certain element so if $a_{i}$ is more important then $w_{i}$ will be greater. In the case where $\displaystyle w_{1}=w_{2}=\dots =w_{n}=\frac{1}{n}$, we get an unweighted/regular version. 
 Some special case for $p$ are: $p=-1\text{ :HM}, \ p=0\text{ :GM}, \ p=1\text{ :AM}, \ p=2\text{ :QM}$.
@@ -48,9 +56,13 @@ It is also the $\displaystyle \lim_{ p \to 0 }$ of the *power mean* $\displaysty
 6. Therefore $\displaystyle \lim_{ p \to 0 } \ M_{p}=\exp\left( \displaystyle\frac{\sum w_{i}\ln x_{i}}{\sum w_{i}}\right)=\prod x_{i}^{w_{i}} \quad \square$
 # Weighted Power Mean Inequality
 
+
+
 $$
 q>p\implies M_{q}(a_{1},a_{2},\dots,a_{n})\geq M_{p}(a_{1},a_{2},\dots,a_{n})
 $$
+
+
 
 The equality holds if and only if $a_{1}=a_{2}=\dots=a_{n}$.
 For the cases of $p \in\{-1,0,1,2\}$ we get the inequality $\text{QM}\geq\text{AM}\geq\text{GM}\geq\text{HM}$. Again the equality only holding when all elements are equal.
@@ -69,9 +81,13 @@ For the cases of $p \in\{-1,0,1,2\}$ we get the inequality $\text{QM}\geq\text{A
 # Young's Inequality
 Let $p,q\in \mathbb{R}^{+}\text{ s.t } \frac{1}{p}+\frac{1}{q}=1$. Then if $a,b\in \mathbb{R}_{\geq0}$
 
+
+
 $$
 ab\leq \frac{a^{p}}{p}+\frac{b^{q}}{q}
 $$
+
+
 
 Where equality holds iff $a^{p}=b^{q}$
 

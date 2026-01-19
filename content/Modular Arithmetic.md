@@ -5,14 +5,22 @@ tags:
 # Definition
 Modular arithmetic is a system of arithmetic restricted to the remainders. Defined as
 
+
+
 $$
 a \equiv b \pmod{m} \Leftrightarrow m|(a-b), \ m \in \mathbb{Z}^+ \quad a, b \in \mathbb{Z}
 $$
 
+
+
 or equivalently using [[Euclid's Division Lemma]] 
+
+
 $$
 a \equiv b \pmod{m} \Leftrightarrow \exists k \in \mathbb{Z} \text{ s.t } a = b + km
 $$
+
+
 
 # Basic Properties
 **Theorem**
@@ -73,9 +81,13 @@ Since $a^{-1} \equiv b \pmod{p} \Rightarrow a \equiv b^{-1} \pmod{p}$, inverses 
 An element can be self inverse meaning $a^2\equiv 1 \pmod{p}$. This means $p|a^2-1=(a+1)(a-1) \Rightarrow p|(a+1) \text{ or } p|(a-1) \Rightarrow a \equiv 1 \text{ or } a \equiv -1$ *(This is the only case where $a$ is self inverse).*
 
 **Theorem** 
+
+
 $$
 \gcd(a^{-1}, n) = 1
 $$
+
+
 
 *Proof:*
 By definition $aa^{-1}= kn+1\implies1 = aa^{-1}-kn$. Let $d = \gcd(a^{-1}, n)$ so $d|a^{-1}\implies d|aa^{-1}$ as well as $d|kn$. Putting them together we get $d|aa^{-1}-kn=1$ hence $d=1$\.
@@ -88,21 +100,33 @@ They can be added and multiplied normally.
 
 *Proof:* Addition 
 
+
+
 $$
 \displaystyle bd(a\cdot b^{-1}+c\cdot d^{-1})=bd(a\cdot b^{-1})+bd(c\cdot d^{-1})\equiv ad+ bc \pmod{p} \Rightarrow \frac{a}{b}+\frac{c}{d}\equiv \frac{ad+bc}{bd} \pmod {p}
 $$
 
+
+
 *Proof:* Multiplication
+
+
 
 $$
 \displaystyle bd(a \cdot b^{-1})\cdot(c \cdot d^{-1}) =b(a \cdot b^{-1})\cdot d(c \cdot d^{-1})\equiv a \cdot c \pmod{p} \Rightarrow \frac{a}{b} \cdot \frac{c}{d} \equiv \frac{ac}{bd} \pmod{p}
 $$
 
 
+
+
 **Theorem** 
+
+
 $$
 \frac{a}{b}\equiv 0 \pmod{n} \implies a\equiv 0 \pmod{n}
 $$
+
+
 
 *Proof:*
 $\frac{a}{b}\equiv a\cdot b^{-1} \equiv 0$ but since an inverse can never be zero as $x\cdot 0 \not\equiv 1$, We also can't have both $a,b^{-1}$ be proper divisors of $n$ *(For example something like $a=4, b^{-1}=2 \pmod{8}\implies ab^{-1}=0$)* as $\gcd(b^{-1}, n) =1$. So we must have $a\equiv 0$\.
@@ -134,29 +158,45 @@ In many problems you can use the fact that certain powers of $a$ can only take o
 ***
 # Advance Properties and Results
 **Theorem** 
+
+
 $$
 \displaystyle a^x \equiv a^y \equiv 1 \pmod{n} \Rightarrow a^{\gcd(x, y)} \equiv 1 \pmod{n}
 $$
 
+
+
 *Proof:*
 By [[Bezout's Identity]] $mx+ny = \gcd(m, n)$. 
+
+
 $$
 a^{\gcd(m, n)} = a^{mx+ny}=a^{mx} \cdot a^{ny} = {(a^{m})}^{x} \cdot {(a^{n})}^{y} \equiv 1 \pmod{d}
 $$
 
 
+
+
 **Theorem** 
+
+
 $$
 \displaystyle ad \equiv bd \pmod{n} \Rightarrow a \equiv b \quad \left(\text{ mod} {\frac{n}{\gcd(n, d)}}\right)
 $$
+
+
 
 *Proof:*
 We have $n|d(a-b)$. $n=gn'$, $g=gd'$ with $g=\gcd(n,d)$. So $n'|d'(a-b)$. So $n'|(a-b)$. Therefore $\displaystyle a\equiv b \left(\text{ mod } n'= {\frac{n}{\gcd(n, d)}}\right)$\.
 
 **Theorem** 
+
+
 $$
 (a+b)^{p^i} \equiv a^{p^i}+b^{p^i} \pmod{p} \quad i \in \mathbb{N}_{0}
 $$
+
+
 
 *Proof:*
 First we will prove that $(a+b)^p \equiv a^p+b^p \pmod{p}$
@@ -189,6 +229,8 @@ $\displaystyle \binom{p-1}{k} \equiv (-1)^k \pmod{p}$
 
 *Proof:*
 
+
+
 $$
 \begin{aligned}
 \binom{p-1}{k}&=\frac{(p-1)!}{k!(p-1-k)!} \\
@@ -198,3 +240,5 @@ $$
 &\equiv \frac{(-1)^kk!}{k!}\equiv (-1)^k \pmod{p}
 \end{aligned}
 $$
+
+

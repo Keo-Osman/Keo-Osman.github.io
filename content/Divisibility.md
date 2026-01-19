@@ -17,14 +17,22 @@ Let $x, y, z \in \mathbb{Z}$
 8. $(z≠0)$ and $x|y \Leftrightarrow xz|yz$ 
 
 **Theorem** 
+
+
 $$
 p|\binom{p}{k} \quad (0<k<p)
 $$
 
+
+
 *Proof:*
+
+
 
 $$
 \binom{p}{k} = \frac{p!}{k!(p-k!)}=\frac{p(p-1)(p-2)\cdots(p-k+1)}{k!}
 $$
+
+
 
 Hence $k!|p(p-1)(p-2)\cdots(p-k+1)$. Since $\gcd(p, k!) = 1$ as none of $k, k-1, \dots 1$ share any factors with $p$ as $k<p$. Using this we get $k!|(p-1)(p-2)\cdots(p-k+1)$ so $\frac{(p-1)(p-2)\cdots(p-k+1)}{k!}=S\in \mathbb{Z}\implies \binom{p}{k} = pS$ Hence $p|\binom{p}{k}$\.

@@ -49,15 +49,23 @@ It has $\displaystyle\frac{n(n-1)}{2}$ edges.
 A graph is planar if it is isomorphic to a graph that can be drawn on a plane with no edges meeting/crossing over other than at the vertices.
 ## Euler's Formula 
 For a connected planar graph the following holds 
+
+
 $$
 \text{Vertices}-\text{Edges}+\text{Faces}=2
 $$
 
+
+
 Faces are regions in the graph.
+
+
 
 $$
 \text{Edges}\geq \frac{3\cdot\text{Faces}}{2}
 $$
+
+
 
 **Proof**
 1. Any region must be bound by at least edges - a triangle

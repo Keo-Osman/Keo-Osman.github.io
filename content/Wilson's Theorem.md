@@ -4,13 +4,21 @@ tags:
 ---
 # Wilson's Theorem
 **Theorem** 
+
+
 $$
 \text{n is prime } \Leftrightarrow(n-1)!\equiv -1 \pmod{n}
 $$
 
+
+
+
+
 $$
 n\text{ is composite}\Leftrightarrow (n-1)! \equiv 0\pmod{n}
 $$
+
+
 
 
 *Proof:*

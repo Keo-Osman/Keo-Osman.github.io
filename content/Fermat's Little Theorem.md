@@ -6,9 +6,13 @@ tags:
 # Fermat's Little Theorem
 **Theorem**
 Let $p$ be prime and $\gcd(a, p) = 1$, then 
+
+
 $$
 a^{p-1} \equiv 1\pmod {p}
 $$
+
+
 
 *Proof:*
 Using the [[Modular Arithmetic#Reduced Residue System|Reduced Residue System]] $\text{(mod p)}$, $S$. Multiplying all the elements together yields $a \cdot 2a \cdots (p-1)a \equiv 1 \cdot 2 \cdot (p-1) \pmod{p}$. This gives $a^{p-1} \cdot (p-1)! \equiv (p-1)!$. Since $\gcd((p-1)! \ , p) = 1$, you get $a^{p-1} \equiv 1\pmod {p}$\. 

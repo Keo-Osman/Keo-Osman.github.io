@@ -5,15 +5,23 @@ tags:
 # Polynomial Operations
 ## Multiplication
 Let $A(x)=\sum a_{i}x^i, \ B(x)=\sum b_{i}x^i, \text{ and } C(x)=\sum c_{i}x^i=A(x)B(x)$ then 
+
+
 $$
 c_{j}=a_{0}b_{j}+a_{1}+b_{j-1}+\dots+a_{j}b_{0}=\sum_{\substack{s+t=j\\s,t\geq 0}}a_{s}b_{t}
 $$
 
+
+
 ## Division
 Let $f(x),g(x) \in K[x]$ where $K$ is one of $\mathbb{Z},\mathbb{Q},\mathbb{R},\mathbb{C}, \mathbb{Z}_{n}$ then 
+
+
 $$
 f(x)=Q(x)g(x)+R(x)
 $$
+
+
  where $Q(x),R(x) \in K[x]$ and the degree of $R(x)<$ the degree of $g(x)$ 
 ### Remainder Theorem
 If polynomial $P(x)$ is divide by $x-a$ the remainder will be $P(a)$. 
@@ -35,9 +43,13 @@ This means that given a polynomial $f$, $f(z)=0 \Leftrightarrow f(\bar{z})=0$
 Given a polynomial in terms of $x$ with roots $\alpha, \beta, \gamma$, you can find the polynomial in terms of $w$ with roots $(k\alpha + c)$, $(k\beta + c)$, $(k\gamma + c)$ by using the equation $w = kx + c$, then rearranging for $x$ and plugging into the original polynomial and expanding and simplifying.
 ## Vieta's Formulae
 Given a polynomial $P(x)=a_nx^n+a_{n-1}x^{n-1}+\dots+a_{0}$ with roots $r_{1}, r_{2}, \dots,r_{n}$ then for any integer $1\leq k\leq n$, 
+
+
 $$
 \sum_{1\leq i_{1}<i_{2}<\dots<i_{k}\leq n} \left(\prod_{j=1}^k r_{i_{j}}\right)=(-1)^k \frac{a_{n-k}}{a_{n}}
 $$
+
+
 
 This is more easily written as $\displaystyle \text{sum of all products of k roots} = (-1)^n \frac{a_{n-k}}{a_{n}}$.
 This can be simply proved directly by considering $a_{n}x^n+a_{n-1}x^{n-1}+\dots+a_{0}=a_{n}(x-r_{1})(x-r_{2})\cdots(x-r_{n})$ and expanding out $\text{RHS}$ and comparing coefficients of identical powers of $x$.

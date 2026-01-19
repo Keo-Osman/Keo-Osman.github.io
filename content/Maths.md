@@ -73,3 +73,6 @@ tags:
 15. [[Prime Counting Function]]
 16. [[Sum of Divisors]]
 17. [[Wilson's Theorem]]
+# Statistics
+1. [[Multiple Continuous Random Variables]]
+2. [[Single Continuous Random Variable]]
