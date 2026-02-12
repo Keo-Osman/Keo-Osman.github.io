@@ -6,9 +6,11 @@ tags:
 **Theorem** 
 
 
+
 $$
 \forall m,n \in \mathbb{Z}, \exists x,y \in \mathbb{Z} \text{ s.t }\gcd(m,n) = mx+ny
 $$
+
 
 
 

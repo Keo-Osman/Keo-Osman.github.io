@@ -22,18 +22,22 @@ First using similarity of $L$ and $K$ we derive that $\displaystyle \frac{\sin\t
 We can also derive the reciprocal relationships 
 
 
+
 $$
 \csc\theta\equiv\frac{1}{\sin\theta}\quad \cot\theta\equiv\frac{1}{\tan\theta}\quad\sec\theta\equiv\frac{1}{\cos\theta}
 $$
 
 
 
+
 Using Pythagoras we can also derive the following 
+
 
 
 $$
 \cos^{2}\theta+\sin^{2}\theta\equiv{1}\quad 1+\tan^{2}\theta\equiv \sec^{2}\theta\quad \cot^{2}\theta+1\equiv \csc^{2}\theta
 $$
+
 
 
 
@@ -100,9 +104,12 @@ $$
 
 
 
+
 $$
 R_{s}=\operatorname{sign}(a)*\left(\sqrt{a^{2}+b^{2}}\right)\quad \alpha=\arctan\left(\frac{b}{a}\right)
 $$
+
+
 
 
 
@@ -114,10 +121,12 @@ $$
 
 
 
+
 ***
 # T-Formulae
 ## Definitions/Equations
 The t-formulae are formulae for the trigonometric functions using the substitution $t = \tan \left(\frac{\theta}{2}\right)$ to obtain the following formulae:
+
 
 
 
@@ -133,6 +142,7 @@ $$
 
 
 
+
 ## Solving Equations
 To solve questions, you need to find $\tan \left(\frac{\theta}{2}\right)$ if not directly given, then use the t-formula for what you're trying to find. You generally find $\tan \left(\frac{\theta}{2}\right)$ 
  Finding $\sin \left(\frac{\theta}{2}\right)$ or $\cos \left(\frac{\theta}{2}\right)$ *it will either be given in the question or the reciprocal function* Then using the identity $\sin^2 + \cos^2 = 1$ to obtain the other function *Either sine or cosine* then choose the correct sign for the square root based on boundary conditions for $\theta$ in the problem. Then use $\tan (\theta) = \frac{\sin(\theta)}{\cos(\theta)}$
@@ -140,9 +150,11 @@ To solve questions, you need to find $\tan \left(\frac{\theta}{2}\right)$ if not
 You can use the t-formulae as a substitution for integrals it should be self explanatory from there but a key fact to remember is 
 
 
+
 $$
 dx = \frac{2}{1+t^2}dt
 $$
+
 
 
  

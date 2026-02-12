@@ -6,9 +6,11 @@ tags:
 For sequences $\{a_{1_{1}},a_{1_{2}},\dots ,a_{1_{n}}\},\{a_{2_{1}},a_{2_{2}},\dots ,a_{2_{n}}\},\dots,\{a_{k_{1}},a_{k_{2}},\dots ,a_{k_{n}}\} \in \mathbb{R}_{\geq0}$ and weights $\lambda_{1},\lambda_{2},\dots ,\lambda_{k} \in \mathbb{R}_{\geq_{0}}\text{ s.t } \sum \lambda_{i}=1$, Holders states that 
 
 
+
 $$
 \sum_{j=1}^{n}\prod_{i=1}^{k}a_{i_{j}}^{\lambda_{i}}\leq \prod_{i=1}^{k}\left( \sum_{j=1}^{n}a_{i_{j}} \right)^{\lambda_{i}}
 $$
+
 
 
 With the equality holding if and only if the sequences are proportional to each other
@@ -26,9 +28,11 @@ With the equality holding if and only if the sequences are proportional to each 
 Using $k=2$ on Holders Inequality with $\lambda_{1}=\lambda_{2}=\frac{1}{2}$ then transformations $a_{i}\to a_{i}^{2}, \ b_{i}\to b_{i}^{2}$)
 
 
+
 $$
 \left( \sum a_{i}^{2} \right)\left( \sum b_{i}^{2} \right)\geq \left( \sum a_{i}b_{i} \right)^{2}
 $$
+
 
 
 
@@ -40,9 +44,11 @@ Using Holders with two sequences $a_{i},b_{i}$ and weights $\lambda_{1}=\frac{p}
 Let $a_{1},a_{2},\dots ,a_{n} \in \mathbb{R}\geq_{0}$ and $b_{1},b_{2},\dots ,b_{n} \in \mathbb{R}_{\geq_{0}}$ and $p,q \in \mathbb{R}^{+}$, Then 
 
 
+
 $$
 \displaystyle \left( \sum a_{i} \right)^{p}\left( \sum b_{i} \right)^{q}\geq\left( \sum (a_{i}^{p}b_{i}^{q})^{\frac{1}{p+q}} \right)^{p+q}
 $$
+
 
 
 With the equality only holding when the sequences are proportional to each other.
@@ -62,9 +68,11 @@ So both sides scale by a positive factor of $t^{p}s^{q}$ so we can divide throug
 Using the $k=2$ case and making transformations $a_{i}\to a_{i}^{p}, \ b_{i}\to b_{i}^{q}$ and renaming exponents so that $\frac{p}{p+q}\to \frac{1}{p}, \ \frac{q}{p+q}\to \frac{1}{q}$ *(This adds the condition $p,q>1$)* we get 
 
 
+
 $$
 \sum a_{i}b_{i}\leq \left( \sum a_{i}^{p} \right)^{1/p}\left( \sum b_{i}^{q} \right)^{1/q}
 $$
+
 
 
 
@@ -74,9 +82,11 @@ $$
 *Titu's Lemma* states that for $a_{1},a_{2},\dots ,a_{n}\in \mathbb{R}$ and $b_{1},b_{2},\dots ,b_{n}\in \mathbb{R}^{+}$ 
 
 
+
 $$
 \frac{a_{1}^{2}}{b_{1}}+\frac{a_{2}^{2}}{b_{2}}+\dots+\frac{a_{n}^{2}}{b_{n}}\geq \frac{(a_{1}+a_{2}+\dots+a_{n})^{2}}{b_{1}+b_{2}\dots +b_{n}}
 $$
+
 
 
 

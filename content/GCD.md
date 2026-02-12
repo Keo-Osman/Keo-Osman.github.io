@@ -18,9 +18,11 @@ Given $a,b \in \mathbb{Z}, \ \gcd(a,b) = d$ is defined as the greatest integer $
 **Theorem** 
 
 
+
 $$
 \gcd(a^m-1, a^n-1)=a^{\gcd(m,n)}-1
 $$
+
 
 
 
@@ -30,9 +32,11 @@ TODO
 **Theorem** 
 
 
+
 $$
 \gcd(a \pm kb, b) = \gcd(a, b)
 $$
+
 
 
 
@@ -44,9 +48,11 @@ This theorem is very common and useful and is used in [[Euclid's Division Lemma]
 **Theorem** 
 
 
+
 $$
 \gcd(ab, n) = \gcd(a, n)\gcd\left( b, \frac{n}{\gcd(a,n)} \right)
 $$
+
 
 
 
@@ -60,9 +66,11 @@ We will go prime by prime. Fix a prime $p$. Then let $p^{\alpha}||n,\ p^{x}||a,\
 Let $d = \gcd(a, n)$ then $a = da',\ n = dn'$ with $\gcd(a', n') =1$. Then 
 
 
+
 $$
 \gcd(ab,n) = \gcd(da'b, dn')=d\gcd(a'b, n')
 $$
+
 
 
 Then let $g=\gcd(a'b, n')\implies g|a'b, \ g|n'$ and with $\gcd(a', n')=1$ we must have $g|b$ hence $g=\gcd(b,n')$. Substituting that in and writing $n'$ as $\displaystyle\frac{n}{\gcd(a,n)}$ we get $\displaystyle\gcd(ab, n) = \gcd(a, n)\gcd\left( b, \frac{n}{\gcd(a,n)} \right)$ as required\.

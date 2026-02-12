@@ -6,9 +6,11 @@ tags:
 **Theorem** 
 
 
+
 $$
 \forall a,b \in \mathbb{Z}, \ \exists q, r \in \mathbb{Z} \ \text{ s.t } \ a=bq+r, \ 0\leq r \leq b
 $$
+
 
 
 

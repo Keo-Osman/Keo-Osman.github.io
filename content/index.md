@@ -1,5 +1,6 @@
 # Subjects
-- # [[Adventurous Flamingo Tractors]]
 - ## [[Maths]]
 - ## [[Computer Science]]
 - ## [[Physics]]
+
+## [[Bayesian Data Assimilation Guide]]

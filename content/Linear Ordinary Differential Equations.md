@@ -7,9 +7,11 @@ tags:
 A linear ordinary [[Derivatives|differential]] equation is a differential equation in the form 
 
 
+
 $$
 y^{(n)}(x)+a_{n-1}y^{(n-1)}(x)+\dots+a_{0}y(x)=f(x)
 $$
+
 
 
 
@@ -23,9 +25,11 @@ The ***Characteristic Polynomial*** of the equation is $m^{n}+a_{n-1}m^{n-1}+\do
 We can look at the vector space 
 
 
+
 $$
 V=\{f:\mathbb{R}\to \mathbb{R} \ |\ f \in C^{n}(\mathbb{R})\}
 $$
+
 
 
 
@@ -34,9 +38,11 @@ We can also notice that differentiation is a [[Linear Transforms|Linear Operator
 Since the equation is a linear combination of $y$ after varying amounts of differentiation - a linear operator - we can write the whole equation as 
 
 
+
 $$
 L[y]=f(x)\quad \text{or} \quad P(D)y=0
 $$
+
 
 
 
@@ -61,6 +67,7 @@ For the *homogenous case* we define two vectors $\mathbf{y}(x)=\begin{pmatrix}y(
 Using this we can write the matrix equation as 
 
 
+
 $$
 \begin{gather}
 \mathbf{y}'(x)=A\mathbf{y}(x)\\ \\
@@ -73,6 +80,7 @@ A=\begin{pmatrix}
 \end{pmatrix}
 \end{gather}
 $$
+
 
 
 

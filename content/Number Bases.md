@@ -7,9 +7,11 @@ A number base is a way of writing numbers. We use base $10$. A number in base $\
 
 
 
+
 $$
 n = \sum a_{k}\ell^{k}
 $$
+
 
 
 
@@ -29,6 +31,7 @@ Assume for the sake of contradiction that there exists two distinct representati
 
 
 
+
 $$
 \begin{aligned}
 
@@ -38,6 +41,7 @@ $$
 \implies &\ell^{A}<\ell^{B+1} \land A\geq B\implies A=B
 \end{aligned}
 $$
+
 
 
 

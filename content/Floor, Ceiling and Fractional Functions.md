@@ -25,9 +25,11 @@ Let $x \in \mathbb{R}$ and $n \in \mathbb{Z}$.
 **Theorem** 
 
 
+
 $$
 \displaystyle x \in \mathbb{R}, \ m \in \mathbb{N} \implies \sum_{i=0}^{m-1} \left\lfloor  x+\frac{i}{m}  \right\rfloor=\lfloor x \rfloor+\left\lfloor  x+\frac{1}{m}  \right\rfloor+\dots + \left\lfloor  x+\frac{m-1}{m}  \right\rfloor=\lfloor mx \rfloor
 $$
+
 
 
 
@@ -35,9 +37,11 @@ $$
 The key fact is that 
 
 
+
 $$
 \displaystyle\lfloor x\rfloor \leq \left\lfloor  x+\frac{1}{n}  \right\rfloor \leq \cdots \leq \left\lfloor  x+\frac{n-1}{n}  \right\rfloor =\left\lfloor  \lfloor x \rfloor+\{x\}+1-\frac{1}{n}  \right\rfloor=\lfloor  x\rfloor+1+\left\lfloor  \{x\}-\frac{1}{n}  \right\rfloor \leq \lfloor x \rfloor+1
 $$
+
 
 
 

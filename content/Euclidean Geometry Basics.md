@@ -9,9 +9,11 @@ Traveling around a triangle counter-clockwise, starting at angle, two triangle a
 
 
 
+
 $$
 SAS, \ ASA, \ SSS, \ AAS
 $$
+
 
 
 

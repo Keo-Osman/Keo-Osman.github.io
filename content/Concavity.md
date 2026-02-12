@@ -7,9 +7,11 @@ A [[Functions|Funciton]] $f$ is ***concave-(down)*** on $I$ if $\forall x_{1},x_
 This leads to the formal definition 
 
 
+
 $$
 \forall x_{1},x_{2}\in I, 0\leq\lambda\leq 1 \quad f(\lambda x_{1}+(1-\lambda)x_{2})\geq \lambda f(x_{1})+(1-\lambda)f(x_{2})
 $$
+
 
 
 

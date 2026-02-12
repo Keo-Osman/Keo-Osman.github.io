@@ -8,6 +8,7 @@ In general if $x \in \mathbb{Z}^+$ $f(x) = \underbrace{a \cdot a \cdots a}_{n \t
 
 
 
+
 $$
 x \in \mathbb{Z}^- \Rightarrow f(-x) = \frac{1}{f(x)} = \frac{1}{a^{x}}
 $$
@@ -17,9 +18,12 @@ $$
 
 
 
+
+
 $$
 x \in \mathbb{Q} \Rightarrow f(x) = a^x = a^{\textstyle \frac{p}{q}} = \sqrt[q]{a^p} = (\sqrt[q]{a})^p
 $$
+
 
 
 

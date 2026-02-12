@@ -12,6 +12,7 @@ However the definition can be applied to any *linear operator* on any vector spa
 
 
 
+
 $$
 \begin{aligned}
 &A\vec{x} = \lambda \vec{x} = \lambda I\vec{x} \\
@@ -19,6 +20,7 @@ $$
 \Rightarrow&\det(A-\lambda I) = 0
 \end{aligned}
 $$
+
 
 
 
@@ -33,6 +35,7 @@ All matrices $M$ satisfy their own characteristic equation
 
 
 
+
 $$
 \begin{aligned}
 &\det(M-\lambda I) = 0 \\
@@ -41,6 +44,7 @@ $$
 \Rightarrow &a_n{M}^{n} + a_{n-1}{M}^{n-1} + \cdots a_2{M}^2 + a_1{M} + a_0 I = 0
 \end{aligned}
 $$
+
 
 
 

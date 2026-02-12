@@ -9,9 +9,11 @@ aliases:
 A matrix is an array of elements organised in rows and columns
 The size of on array can be described by row $\times$ columns such as a 2 x 4 matrix 
 
+
 $$
 \left(\begin{array}{cccc}1 & 4 & -1 & 1 \\ 2 & 3 & 0 & 2\end{array}\right)
 $$
+
 
 
 
@@ -30,6 +32,7 @@ Also worded as: For $AB = C$, each element $C_{ij}$ is the dot product of the $i
 For example 
 
 
+
 $$
 \left(\begin{array}{ccc}
 5 & -1 & 2 \\
@@ -46,9 +49,11 @@ $$
 
 
 
+
 ***
 # Identity Matrix
 The identity matrix is the matrix $I$ that is all zero apart from having 1's on the leading diagonal. In terms of linear transforms this represents that all unit vectors remain where they are.
+
 
 
 $$
@@ -58,6 +63,7 @@ $$
 0 & 0 & 1 \\
 \end{pmatrix}
 $$
+
 
 
 It has the unique property that $AI = IA = A$ for all matrices. This makes it the [[Groups#Axioms of Groups|Identity Element]] of a [[Groups|Group]] of matrices under the operation of multiplication hence the name
@@ -70,9 +76,11 @@ The transpose of a matrix is found by interchanging the rows and the columns. Fo
 # Matrix Inverses
 The inverse of any non-singular matrix $A$ is the matrix $A^{-1}$ such that 
 
+
 $$
 AA^{-1} \equiv A^{-1}A \equiv I
 $$
+
 
 
 If $\det A\neq 0$, $A^{-1}$ is guaranteed to exist but if $\det A=0$ then $A^{-1}$ does not exist. This can be related to the null space of $A$. If $\operatorname{nullity}A\neq 0$ e.g. no dimensions are lost/collapsed then every transform can be undone. However if $\operatorname{nullity}A\geq 1$ then information/space is lost and the inverse doesn't exist because multiple vectors collapse into the same vector so the inverse transform is multivalued and therefore not a proper linear transform.
@@ -85,9 +93,11 @@ To find $C$
 1. Form the matrix of the minors. This is where each of the nine elements of the matrix is replaced by its minor
 2. Change the signs of some elements with alternating signs as shown 
 
+
 $$
 \begin{pmatrix} + & - & + \\ - & + & - \\ + & - & + \end{pmatrix}​
 $$
+
 
 
 ***
@@ -96,6 +106,7 @@ $$
 If $A\begin{pmatrix} x \\ y \\ z \end{pmatrix} = v$ then $\begin{pmatrix} x \\ y \\ z \end{pmatrix} = A^{-1}v$
 If A is non-singular then a unique solution for $\begin{pmatrix} x \ y \ z \end{pmatrix}$ can be found for any vector v
 To solve a given system of equations for $x, y, z$: 
+
 
 $$
 \begin{aligned} ax + by + cz& = j \\
@@ -111,10 +122,13 @@ $$
 
 
 
+
+
 $$
 \begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix}^{-1} \begin{pmatrix} j \\ k \\ l 
 \end{pmatrix}
 $$
+
 
 
 ## Cramer's Rule
@@ -123,9 +137,11 @@ $$
 Given an $n\times n$ matrix $A$ with column vectors $\vec{u}_{1},\vec{u}_{2},\dots ,\vec{u}_{n}$ and two other vectors $\vec{v},\vec{w}$ giving the equation $A\vec{v}=\vec{w}$.
 You can find the solution with 
 
+
 $$
 v_{k}=\frac{\det A_{k}}{\det A}
 $$
+
 
 
 Where $A_{k}$ is the matrix where $\vec{u}_{k}$ is replaced by $\vec{w}$.

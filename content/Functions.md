@@ -25,6 +25,7 @@ A function is ***injective*** on domain $A$ if different inputs map to different
 
 
 
+
 $$
 \begin{gather}
 \forall x_{1},x_{2} \in A \quad f(x_{1})=f(x_{2})\implies x_{1}=x_{2} \\
@@ -35,15 +36,18 @@ $$
 
 
 
+
 It can also be state that *no two elements in the domain share the same image*.
 ### Monic
 A function is ***monic*** *iff* 
 
 
 
+
 $$
 \forall g, h, \  f \circ g = f \circ h \implies g = h
 $$
+
 
 
 
@@ -61,9 +65,11 @@ Fix a one element set $1 = \{*\}$. Then $\forall x \in X$ define $g_{x}(*) = x$ 
 $f:A\to B$ is *surjective* if it covers the whole domain. Formally denoted as 
 
 
+
 $$
 \forall y \in B, \quad \exists x \in A \text{ s.t } f(x)=y
 $$
+
 
 
  A function is always surjective if $\text{codomian}=\text{range}$.  
@@ -72,9 +78,11 @@ A function is ***epic*** *iff*
 
 
 
+
 $$
 \forall g, h, \ g\circ f = h\circ f\implies g =h
 $$
+
 
 
 
@@ -92,9 +100,11 @@ Suppose $f: X\to Y$ is **not** surjective. Then $\exists y \in Y \text{ s.t }  \
 
 
 
+
 $$
 g(x) = 1, \quad h(x) = \begin{cases}1 & y\neq a \\ 2 & y=a\end{cases}
 $$
+
 
 
 
@@ -119,9 +129,11 @@ This concept still holds for many functions as if $f$ is equal to some power ser
 Given a function $f$ which has no parity, we can create two special functions $f_{\text{odd}}, f_{\text{even}}$ which are even and odd functions respectively with the property that $f_{\text{odd}}+f_{\text{even}}=f$. We can think of this as taking the odd and even *"components"* of $f$. And if $f$ is a power series $f_{\text{odd}}, f_{\text{even}}$ are precisely the part of the power series with odd and even powers respectively. Making these functions is very easy. 
 
 
+
 $$
 f_{\text{odd}}=\frac{f(x)-f(-x)}{2},\quad f_{\text{even}}=\frac{f(x)+f(-x)}{2}
 $$
+
 
 
 
@@ -131,9 +143,11 @@ It is trivial to check these functions are odd and even and that they have the p
 Let $A \subseteq U$, the ***indicator function*** of $A$ denoted by $1_{A}$ is a function with domain $U$ and range $\{0,1\}$ defined as 
 
 
+
 $$
 1_{A}(x)=\begin{cases} 1, & x \in A \\0, & x \notin A \end{cases}
 $$
+
 
 
 
