@@ -52,9 +52,15 @@ For a connected planar graph the following holds
 
 
 
+
+
+
 $$
 \text{Vertices}-\text{Edges}+\text{Faces}=2
 $$
+
+
+
 
 
 
@@ -64,9 +70,15 @@ Faces are regions in the graph.
 
 
 
+
+
+
 $$
 \text{Edges}\geq \frac{3\cdot\text{Faces}}{2}
 $$
+
+
+
 
 
 

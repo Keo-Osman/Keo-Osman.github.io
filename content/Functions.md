@@ -26,6 +26,9 @@ A function is ***injective*** on domain $A$ if different inputs map to different
 
 
 
+
+
+
 $$
 \begin{gather}
 \forall x_{1},x_{2} \in A \quad f(x_{1})=f(x_{2})\implies x_{1}=x_{2} \\
@@ -37,6 +40,9 @@ $$
 
 
 
+
+
+
 It can also be state that *no two elements in the domain share the same image*.
 ### Monic
 A function is ***monic*** *iff* 
@@ -44,9 +50,15 @@ A function is ***monic*** *iff*
 
 
 
+
+
+
 $$
 \forall g, h, \  f \circ g = f \circ h \implies g = h
 $$
+
+
+
 
 
 
@@ -66,9 +78,15 @@ $f:A\to B$ is *surjective* if it covers the whole domain. Formally denoted as
 
 
 
+
+
+
 $$
 \forall y \in B, \quad \exists x \in A \text{ s.t } f(x)=y
 $$
+
+
+
 
 
 
@@ -79,9 +97,15 @@ A function is ***epic*** *iff*
 
 
 
+
+
+
 $$
 \forall g, h, \ g\circ f = h\circ f\implies g =h
 $$
+
+
+
 
 
 
@@ -101,9 +125,15 @@ Suppose $f: X\to Y$ is **not** surjective. Then $\exists y \in Y \text{ s.t }  \
 
 
 
+
+
+
 $$
 g(x) = 1, \quad h(x) = \begin{cases}1 & y\neq a \\ 2 & y=a\end{cases}
 $$
+
+
+
 
 
 
@@ -130,9 +160,15 @@ Given a function $f$ which has no parity, we can create two special functions $f
 
 
 
+
+
+
 $$
 f_{\text{odd}}=\frac{f(x)-f(-x)}{2},\quad f_{\text{even}}=\frac{f(x)+f(-x)}{2}
 $$
+
+
+
 
 
 
@@ -144,9 +180,15 @@ Let $A \subseteq U$, the ***indicator function*** of $A$ denoted by $1_{A}$ is a
 
 
 
+
+
+
 $$
 1_{A}(x)=\begin{cases} 1, & x \in A \\0, & x \notin A \end{cases}
 $$
+
+
+
 
 
 

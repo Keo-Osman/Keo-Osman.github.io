@@ -4,9 +4,15 @@ tags:
 ---
 **Theorem**
 
+
+
+
 $$
 P(A|B) = \frac{P(B|A)P(A)}{P(B)}
 $$
+
+
+
 
 *Proof:*
 Using conditional probability $\displaystyle P(A|B)= \frac{P(A \cap B)}{P(B)} \implies P(A \cap B) = P(A|B)P(B)$. Similarity $\displaystyle P(B|A) = \frac{P(A \cap B)}{P(A)}\implies P(A\cap B)=P(B|A)P(A)$ .

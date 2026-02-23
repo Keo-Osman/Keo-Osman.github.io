@@ -7,9 +7,15 @@ Given any function $f:I\to \mathbb{R}$ which is both [[Continuity|Continuous]] a
 
 
 
+
+
+
 $$
 M_{f}(x_{1},x_{2},\dots ,x_{n})=f^{-1}\left( \frac{\sum w_{i}f(x_{i})}{\sum w_{i}} \right)
 $$
+
+
+
 
 
 
@@ -28,12 +34,18 @@ Given $a_{1},a_{2},\dots ,a_{n} \in \mathbb{R}^+$ with weights $w_{1},w_{2},\dot
 
 
 
+
+
+
 $$
 \displaystyle M_{p}(a_{1},a_{2},\dots,a_{n})=\begin{cases}
 \displaystyle  \left( \sum w_{i}a_{i}^p \right)^{1/p} &p\neq 0 \\
 \displaystyle  \prod a_{i}^{w_{i}} &p=0
 \end{cases}
 $$
+
+
+
 
 
 
@@ -63,9 +75,15 @@ It is also the $\displaystyle \lim_{ p \to 0 }$ of the *power mean* $\displaysty
 
 
 
+
+
+
 $$
 q>p\implies M_{q}(a_{1},a_{2},\dots,a_{n})\geq M_{p}(a_{1},a_{2},\dots,a_{n})
 $$
+
+
+
 
 
 
@@ -90,9 +108,15 @@ Let $p,q\in \mathbb{R}^{+}\text{ s.t } \frac{1}{p}+\frac{1}{q}=1$. Then if $a,b\
 
 
 
+
+
+
 $$
 ab\leq \frac{a^{p}}{p}+\frac{b^{q}}{q}
 $$
+
+
+
 
 
 

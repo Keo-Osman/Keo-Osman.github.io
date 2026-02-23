@@ -7,6 +7,9 @@ tags:
 
 
 
+
+
+
 $$
 \begin{aligned}
  &\sum_{r=1}^n m=mn  &&\sum_{r=1}^n r=\frac{1}{2} n(n+1) \\
@@ -20,6 +23,9 @@ $$
 
 
 
+
+
+
 ***
 # The Method of Differences
 
@@ -27,9 +33,15 @@ If the general term of a series can be describes as $u_r = f(r) - f(r+1)$ then
 
 
 
+
+
+
 $$
 \sum_{r=1}^{n}{u_r} = f(1) - f(n+1)
 $$
+
+
+
 
 
 

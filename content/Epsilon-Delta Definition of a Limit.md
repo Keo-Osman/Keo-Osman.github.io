@@ -7,11 +7,17 @@ tags:
 
 
 
+
+
+
 $$
 \lim_{x\to a}f(x) = L \Leftrightarrow  \forall \varepsilon > 0,  \exists \delta > 0 \\ 
 \quad \text{s.t} \quad \\
 0 < |x-a| < \delta \implies 0 < |f(x)-L| < \epsilon
 $$
+
+
+
 
 
 
@@ -23,6 +29,9 @@ This basically means that you can make the distance between $f(x)$ and $L$ arbit
 
 
 
+
+
+
 $$
 \lim_{x \to a^-} f(x) = L \Leftrightarrow \forall \epsilon > 0, \exists \delta > 0 \quad \text{ s.t. } \quad a - \delta < x < a \Rightarrow |f(x) - L| < \epsilon
 $$
@@ -30,7 +39,13 @@ $$
 
 
 
+
+
+
 **Right Hand Limit**
+
+
+
 
 
 
@@ -42,12 +57,18 @@ $$
 
 
 
+
+
+
 ## Boundedness by a Constant
 You can solve Epsilon delta problems by bounding $f(x) < C|x-a|$ where $C$ is a constant. Since you are dealing with a limit you can expect $x$ to be within a small distance of $a$ such as a distance of $1$. For a distance of $1$ you get $\delta = \min{1, \frac{\epsilon}{3}}$ where $d$ is an arbitrary distance around $a$.
 
 ---
 # Laws of Limits
 Given $\displaystyle\lim_{x \to a} f(x) = L, \lim_{x \to a} g(x) = M \Rightarrow$
+
+
+
 
 
 
@@ -64,9 +85,15 @@ $$
 
 
 
+
+
+
 ---
 # Infinite Limit
 **Positive Infinity**
+
+
+
 
 
 
@@ -78,6 +105,9 @@ $$
 
 
 
+
+
+
 *(If a limit tends to infinity, it does not exist; $\infty$ is not a number)*
 
 **Negative Infinity**
@@ -85,9 +115,15 @@ $$
 
 
 
+
+
+
 $$
 \lim_{x \to a} f(x) = -\infty \Leftrightarrow \forall N < 0, \exists \delta > 0 \text{ s.t. } 0 < |x-a| < \delta \Rightarrow f(x) < N
 $$
+
+
+
 
 
 
@@ -115,9 +151,15 @@ Some curves have asymptotes that are oblique, neither horizontal nor vertical.
 
 
 
+
+
+
 $$
 \lim_{x\to\infty}[f(x)-(mx+c)]=0 \Rightarrow y=mx+c \text{ is a slant asymptote of } f(x)
 $$
+
+
+
 
 
 

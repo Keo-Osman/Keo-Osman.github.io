@@ -8,9 +8,15 @@ You can approximate $\int_a^b g(x) dx$ with the formula:
 
 
 
+
+
+
 $$
 \int_a^b g(x) dx \approx \frac{h}{3}\left(y_0 + 4\sum_{k=1}^{n-1} y_{2k-1} + 2\sum_{k=1}^{n-1} y_{2k} + y_{2n}\right)
 $$
+
+
+
 
 
 
@@ -24,9 +30,15 @@ This formula is derived by using quadratic curves and using the result that area
 
 
 
+
+
+
 $$
 \frac{1}{3}h(\text{endpoints} + 4 \times \text{odd values} + 2 \times \text{even values})
 $$
+
+
+
 
 
 

@@ -20,9 +20,15 @@ Let $x, y, z \in \mathbb{Z}$
 
 
 
+
+
+
 $$
 p|\binom{p}{k} \quad (0<k<p)
 $$
+
+
+
 
 
 
@@ -32,9 +38,15 @@ $$
 
 
 
+
+
+
 $$
 \binom{p}{k} = \frac{p!}{k!(p-k!)}=\frac{p(p-1)(p-2)\cdots(p-k+1)}{k!}
 $$
+
+
+
 
 
 
