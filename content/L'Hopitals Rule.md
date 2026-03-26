@@ -10,9 +10,11 @@ If either $\displaystyle \lim_{x \to a} f(x) = \lim_{x \to a} g(x) = 0$ **OR** $
 
 
 
+
 $$
 \lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{ x \to a } \frac{f'(x)}{g'(x)}
 $$
+
 
 
 

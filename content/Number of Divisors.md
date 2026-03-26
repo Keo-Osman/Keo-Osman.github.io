@@ -22,6 +22,7 @@ Given that $a, b$ are divisors of $n$, they must have the form $a = p_1^{\beta_1
 
 
 
+
 $$
 \operatorname{\operatorname{lcm}}(a,b) =  p_1^{\textstyle\max(\beta_1,\gamma_1)} \cdots p_k^{\textstyle\max(\beta_k,\gamma_k)}
 $$
@@ -31,7 +32,9 @@ $$
 
 
 
+
 There are $2\alpha_1+1$ options for each $(\beta_k,\gamma_k)$: 
+
 
 
 
@@ -47,6 +50,7 @@ $$
 
 
 
+
  So you multiply number of choices together\.
 ***
 **Theorem** 
@@ -56,9 +60,11 @@ $$
 
 
 
+
 $$
 \forall n \in \mathbb{Z}^+,\ \displaystyle\prod_{d|n} d = n^{\textstyle\frac{\tau(n)}{2}}
 $$
+
 
 
 
@@ -81,9 +87,11 @@ You can split the divisors into $\textstyle\frac{\tau(n)}{2}$ pairs $(d, \textst
 
 
 
+
 $$
 \forall n \in \mathbb{Z}^+,\ \tau(n) \leq 2\sqrt{n}
 $$
+
 
 
 
@@ -113,9 +121,11 @@ Let $a =p_1^{\alpha_1} \cdots p_k^{\alpha_k}$ and $b=P_1^{\beta_1} \cdots P_r^{\
 
 
 
+
 $$
 \tau(a)\tau(b)=\tau(ab)=(1+\alpha_1)\cdots (1+\alpha_k)(1+\beta_1) \cdots (1+\beta_r)
 $$
+
 
 
 

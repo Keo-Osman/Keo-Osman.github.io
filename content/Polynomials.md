@@ -11,9 +11,11 @@ Let $A(x)=\sum a_{i}x^i, \ B(x)=\sum b_{i}x^i, \text{ and } C(x)=\sum c_{i}x^i=A
 
 
 
+
 $$
 c_{j}=a_{0}b_{j}+a_{1}+b_{j-1}+\dots+a_{j}b_{0}=\sum_{\substack{s+t=j\\s,t\geq 0}}a_{s}b_{t}
 $$
+
 
 
 
@@ -29,9 +31,11 @@ Let $f(x),g(x) \in K[x]$ where $K$ is one of $\mathbb{Z},\mathbb{Q},\mathbb{R},\
 
 
 
+
 $$
 f(x)=Q(x)g(x)+R(x)
 $$
+
 
 
 
@@ -65,9 +69,11 @@ Given a polynomial $P(x)=a_nx^n+a_{n-1}x^{n-1}+\dots+a_{0}$ with roots $r_{1}, r
 
 
 
+
 $$
 \sum_{1\leq i_{1}<i_{2}<\dots<i_{k}\leq n} \left(\prod_{j=1}^k r_{i_{j}}\right)=(-1)^k \frac{a_{n-k}}{a_{n}}
 $$
+
 
 
 

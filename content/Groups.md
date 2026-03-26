@@ -56,6 +56,7 @@ Example:
 
 
 
+
 $$
 \begin{array}{c|cccc}
 \times_{10}& 1 & 3 & 7 & 9 \\
@@ -66,6 +67,7 @@ $$
 9 & 9 & 7 & 3 & 1 \\
 \end{array}
 $$
+
 
 
 
@@ -149,9 +151,11 @@ A cyclic group is a group that can be written where all elements can be written 
 
 
 
+
 $$
 a^3 = a \circ a \circ a \qquad a^k = \underbrace{a \circ a \cdots \circ a}_{k \text{ times}}
 $$
+
 
 
 

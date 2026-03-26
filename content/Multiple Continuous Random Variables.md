@@ -13,6 +13,7 @@ A ***Joint Probability Density Function*** is
 
 
 
+
 $$
 f_{\mathbf{X}}(\mathbf{X}): \mathbb{R}^{n} \to \mathbb{R}, \quad f_{\mathbf{X}}\geq0
 $$
@@ -21,7 +22,9 @@ $$
 
 
 
+
  Where 
+
 
 
 
@@ -37,8 +40,10 @@ $$
 
 
 
+
 ## Marginal PDF
 Given a joint PDF we can find a marginal PDF which is just a regular PDF of a subset of variables. For a subset of indices $I \subset\{1, 2, \dots, n\}$ we get 
+
 
 
 
@@ -47,6 +52,7 @@ Given a joint PDF we can find a marginal PDF which is just a regular PDF of a su
 $$
 f_{(X_{i})i\in I}(\mathbf{x_{I}}) = \int_{\mathbb{R}^{n-|I|}}f_{\mathbf{X}}(\mathbf{x})d\mathbf{x_{I^{c}}}
 $$
+
 
 
 
@@ -62,9 +68,11 @@ Variables $X_{1},X_{2},\dots ,X_{n}$ are **mutually independent** iff
 
 
 
+
 $$
 f_{\mathbf{X}}(\mathbf{x}) = \prod f_{X_{i}}(x)
 $$
+
 
 
 
@@ -83,6 +91,7 @@ Given a random vector $\mathbf{X}$ with probabilistic graphical model $G$. If we
 
 
 
+
 $$
 f_{(\mathbf{Y}_{1},\mathbf{Y}_{2},\dots ,\mathbf{Y}_{k})}(\mathbf{y}) = \prod f_{\mathbf{Y_{i}}}(\mathbf{y}_{i})
 $$
@@ -92,9 +101,11 @@ $$
 
 
 
+
 *Note*: a *probabilistic graphical model* $G$ just means a dependency graph where two nodes are connected if they are mathematically independent.
 
 # Expected Value
+
 
 
 
@@ -111,7 +122,9 @@ $$
 
 
 
+
 # Mean
+
 
 
 
@@ -131,8 +144,10 @@ $$
 
 
 
+
 # Covariance
 For two random variables $X, Y$ 
+
 
 
 
@@ -141,6 +156,7 @@ For two random variables $X, Y$
 $$
 \operatorname{Cov}(X, Y) = \mathbb{E}[(X-\mathbb{E}[X])(Y-\mathbb{E}[Y])]
 $$
+
 
 
 
@@ -160,9 +176,11 @@ $$
 
 
 
+
 $$
 \operatorname{Cov}(X, X) = \operatorname{Var}(X)
 $$
+
 
 
 
@@ -180,6 +198,7 @@ It is defined as
 
 
 
+
 $$
 \Sigma:=\mathbb{E}[(\mathbf{X}-\mathbb{E}[\mathbf{X}])(\mathbf{X}-\mathbb{E}[\mathbf{X}])^{\top}]
 $$
@@ -189,7 +208,9 @@ $$
 
 
 
+
 So we get that 
+
 
 
 
@@ -204,8 +225,10 @@ $$
 
 
 
+
 We can using this compute the variance of a linear $a^{\top}\mathbf{X}$ with $\operatorname{Var}(a^{\top}\mathbf{X}) = a^{\top}\Sigma a$
 # Correlation Matrix
+
 
 
 
@@ -215,6 +238,7 @@ We can using this compute the variance of a linear $a^{\top}\mathbf{X}$ with $\o
 $$
 R_{ij}=\frac{\Sigma_{ij}}{\sqrt{\Sigma_{ii}\Sigma_{jj}}}
 $$
+
 
 
 
@@ -231,9 +255,11 @@ For two random vectors $\mathbf{X}, \mathbf{Y}$ we have
 
 
 
+
 $$
 f_{\mathbf{X| \mathbf{Y}}}(\mathbf{x}|\mathbf{y})=\frac{f_{\mathbf{X},\mathbf{Y}}(\mathbf{x}, \mathbf{y})}{f_{\mathbf{Y}}(\mathbf{y})}, \quad f_{\mathbf{Y}}(\mathbf{y}) >0
 $$
+
 
 
 

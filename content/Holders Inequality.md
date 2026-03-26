@@ -10,9 +10,11 @@ For sequences $\{a_{1_{1}},a_{1_{2}},\dots ,a_{1_{n}}\},\{a_{2_{1}},a_{2_{2}},\d
 
 
 
+
 $$
 \sum_{j=1}^{n}\prod_{i=1}^{k}a_{i_{j}}^{\lambda_{i}}\leq \prod_{i=1}^{k}\left( \sum_{j=1}^{n}a_{i_{j}} \right)^{\lambda_{i}}
 $$
+
 
 
 
@@ -38,9 +40,11 @@ Using $k=2$ on Holders Inequality with $\lambda_{1}=\lambda_{2}=\frac{1}{2}$ the
 
 
 
+
 $$
 \left( \sum a_{i}^{2} \right)\left( \sum b_{i}^{2} \right)\geq \left( \sum a_{i}b_{i} \right)^{2}
 $$
+
 
 
 
@@ -60,9 +64,11 @@ Let $a_{1},a_{2},\dots ,a_{n} \in \mathbb{R}\geq_{0}$ and $b_{1},b_{2},\dots ,b_
 
 
 
+
 $$
 \displaystyle \left( \sum a_{i} \right)^{p}\left( \sum b_{i} \right)^{q}\geq\left( \sum (a_{i}^{p}b_{i}^{q})^{\frac{1}{p+q}} \right)^{p+q}
 $$
+
 
 
 
@@ -90,9 +96,11 @@ Using the $k=2$ case and making transformations $a_{i}\to a_{i}^{p}, \ b_{i}\to 
 
 
 
+
 $$
 \sum a_{i}b_{i}\leq \left( \sum a_{i}^{p} \right)^{1/p}\left( \sum b_{i}^{q} \right)^{1/q}
 $$
+
 
 
 
@@ -110,9 +118,11 @@ $$
 
 
 
+
 $$
 \frac{a_{1}^{2}}{b_{1}}+\frac{a_{2}^{2}}{b_{2}}+\dots+\frac{a_{n}^{2}}{b_{n}}\geq \frac{(a_{1}+a_{2}+\dots+a_{n})^{2}}{b_{1}+b_{2}\dots +b_{n}}
 $$
+
 
 
 

@@ -11,6 +11,7 @@ Equations in the form $\displaystyle \frac{dy}{dx} = f(x)g(y)$ can be solved wit
 
 
 
+
 $$
 \int \frac{1}{g(y)} dy = \int f(x) dx
 $$
@@ -21,8 +22,10 @@ $$
 
 
 
+
 ## Integrating Factor
 An integrating factor is an $f(x)$ that you multiply through by to solve differential equations in the form $\displaystyle \frac{dy}{dx} + P(x)y = Q(x)$. The general integrating factor is $f(x) = \displaystyle e^{\int P(x)dx}$ but it can be other functions
+
 
 
 
@@ -50,7 +53,9 @@ $$
 
 
 
+
 ## Coupled First-Order Simultaneous Differential Equations
+
 
 
 
@@ -61,6 +66,7 @@ $$
 $$
 \frac{dx}{dt} = ax + by + f(t) \quad \frac{dy}{dt} = cx + dy + g(t)
 $$
+
 
 
 
@@ -82,9 +88,11 @@ A second order homogeneous differential equation is a linear differential equati
 
 
 
+
 $$
 a \frac{d^2 y}{dx^2} + b \frac{dy}{dx} + c y = 0
 $$
+
 
 
 
@@ -108,9 +116,11 @@ A second order non-homogeneous differential equation is a linear differential eq
 
 
 
+
 $$
 a \frac{d^2y}{dx^2} + b \frac{dy}{dx} + c y = f(x)
 $$
+
 
 
 
@@ -145,9 +155,11 @@ Therefore the series expansion of $\displaystyle\frac{dy}{dx} = f(x, y)$ is
 
 
 
+
 $$
 y = \sum_{n=1}^N \frac{(x-x_0)^n}{n!}\frac{d^ny}{dx^n}\bigg|_{\displaystyle x_0}
 $$
+
 
 
 
@@ -166,9 +178,11 @@ $$
 
 
 
+
 $$
 \dot{x} = \frac{dx}{dt}, \quad \ddot{x} = \frac{d^2x}{dt^2}
 $$
+
 
 
 
@@ -187,9 +201,12 @@ $$
 
 
 
+
 $$
 \ddot{x} = \frac{dv}{dt} = \frac{dx}{dt} \times \frac{dv}{dx} = v\frac{dv}{dx}
 $$
+
+
 
 
 
@@ -220,8 +237,10 @@ $$
 
 
 
+
 ## Damped and Forced Harmonic Motion
 You can refine and make more accurate models for harmonic motion by adding an additional damping force. 
+
 
 
 
@@ -231,6 +250,7 @@ You can refine and make more accurate models for harmonic motion by adding an ad
 $$
 \frac{d^2x}{dt^2} + k \frac{dx}{dt} + \omega^2 x = 0\quad \text{or}\quad\ddot{x} + k \dot{x} + \omega^2 x = 0
 $$
+
 
 
 

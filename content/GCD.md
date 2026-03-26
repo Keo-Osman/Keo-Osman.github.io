@@ -22,9 +22,11 @@ Given $a,b \in \mathbb{Z}, \ \gcd(a,b) = d$ is defined as the greatest integer $
 
 
 
+
 $$
 \gcd(a^m-1, a^n-1)=a^{\gcd(m,n)}-1
 $$
+
 
 
 
@@ -42,9 +44,11 @@ TODO
 
 
 
+
 $$
 \gcd(a \pm kb, b) = \gcd(a, b)
 $$
+
 
 
 
@@ -64,9 +68,11 @@ This theorem is very common and useful and is used in [[Euclid's Division Lemma]
 
 
 
+
 $$
 \gcd(ab, n) = \gcd(a, n)\gcd\left( b, \frac{n}{\gcd(a,n)} \right)
 $$
+
 
 
 
@@ -88,9 +94,11 @@ Let $d = \gcd(a, n)$ then $a = da',\ n = dn'$ with $\gcd(a', n') =1$. Then
 
 
 
+
 $$
 \gcd(ab,n) = \gcd(da'b, dn')=d\gcd(a'b, n')
 $$
+
 
 
 

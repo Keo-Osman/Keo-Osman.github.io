@@ -21,9 +21,11 @@ We can find a *fundamental solution* $\epsilon=x_{0}+y_{0}\sqrt{d}, \ x, y, \in 
 
 
 
+
 $$
 x+y\sqrt{d}=\epsilon^n=(x_{0}+y_{0}\sqrt{d})^n
 $$
+
 
 
 
@@ -53,6 +55,7 @@ Let $(x_{0}, y_{0})$ be the *fundamental solution* and $(x_{n-1}, y_{n-1})$ be t
 
 
 
+
 $$
 x_{n-1}=\frac{1}{2}((x_{0}+y_{0}\sqrt{d})^n+(x_{0}-y_{0}\sqrt{d})^n), \quad y_{n-1}=\frac{1}{2\sqrt{d}} ((x_{0}+y_{0}\sqrt{d})^n-(x_{0}-y_{0}\sqrt{d})^n)
 $$
@@ -70,9 +73,12 @@ $$
 
 
 
+
+
 $$
 x_{n}=2x_{0}x_{n-1}-x_{n-2}, \quad y_{n}=2x_{0}y_{n-1}-y_{n-2}
 $$
+
 
 
 

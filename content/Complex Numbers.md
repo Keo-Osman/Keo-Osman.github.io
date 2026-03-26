@@ -18,9 +18,11 @@ $z\cdot\bar{z}$ is also always real as it’s a difference of two squares
 
 
 
+
 $$
 (a+b i)(a-b i)=a^2-(b i)^2=a^2-\left(b^2 i^2\right)=a^2-\left(-b^2\right)=a^2+b^2
 $$
+
 
 
 
@@ -41,9 +43,12 @@ Also the conjugation is multiplicative and additive meaning $\overline{z_{1}z_{2
 
 
 
+
 $$
 (a+b i) \pm(c+d i)=(a+c) \pm(b+d) i
 $$
+
+
 
 
 
@@ -75,9 +80,12 @@ $$
 
 
 
+
+
 $$
 \frac{a+b i}{c+d i}=\frac{a+b i)(c-d i)}{(c+d i)(c-d i)} = \frac{a c+b d}{c^2+d^2}+\left(\frac{b c-a d}{c^2+d^2}\right)i
 $$
+
 
 
 
@@ -99,9 +107,12 @@ The **argument** $z$ *written as $arg(z)$* is the angle $\theta$ such that $\tan
 
 
 
+
 $$
 \left|z_1 z_2\right|=\left|z_1\right| \times\left|z_2\right| \quad \arg (z_1 z_2)=\operatorname{arg}(z_1)+\operatorname{arg}(z_2)
 $$
+
+
 
 
 
@@ -135,7 +146,9 @@ $$
 
 
 
+
 #### Division
+
 
 
 
@@ -146,6 +159,8 @@ $$
 $$
 \left|\frac{z_1}{z_2}\right|=\frac{|z_1|}{|z_2|} \quad \operatorname{arg}\left(\frac{z_1}{z_2}\right)=\operatorname{arg}(z_1)-\operatorname{arg}(z_2)
 $$
+
+
 
 
 
@@ -177,11 +192,13 @@ $$
 
 
 
+
 ## Exponential Form $re^{i\theta}$
 Every complex number can be written in the form $re^{ i\theta }$ where $r=|z|, \ \theta=\operatorname{arg}z$. Complex exponentiation is defined using the Taylor series of $e^{x}$ as it only contains integer powers of $x$ which can be extended for complex inputs $z$. 
 ### Derivation
 **Rigorous proof**
 Using the [[Series Approximations#Taylor Series|Taylor Series]]
+
 
 
 
@@ -199,6 +216,7 @@ e^{ i\theta} & =1+\mathrm{i}\theta+\frac{(\mathrm{i}\theta)^{2}}{2!}+\frac{(\mat
 &= \cos\theta + i\sin\theta
 \end{aligned}
 $$
+
 
 
 
@@ -229,9 +247,11 @@ Since we have extended $e^{ x }$ to $\mathbb{C}$ we can simply define $\ln e^{z}
 
 
 
+
 $$
 \ln z=|z|+i\operatorname{arg}(z)
 $$
+
 
 
 
@@ -253,6 +273,7 @@ Given two complex numbers $z=a+bi, \ w=c+di$ we can compute $z^{w}$ as $e^{w\ln 
 
 
 
+
 $$
 \begin{matrix}
 (r(\cos \theta + i \sin \theta))^n \equiv r^n(\cos n\theta + i \sin n\theta)
@@ -260,6 +281,7 @@ $$
 \forall n  \in \mathbb{Z}
 \end{matrix}
 $$
+
 
 
 
@@ -277,12 +299,14 @@ You can also use the following identities
 
 
 
+
 $$
 z=\cos\theta + i\sin\theta\Rightarrow\qquad\begin{aligned}
  &  z+\frac{1}{z}=2\cos\theta\quad z^{n}+\frac{1}{z^{n}}=2\cos n\theta \\
  &  z-\frac{1}{z}=2i\sin\theta\quad z^{n}-\frac{1}{z^{n}}=2i\sin n\theta
 \end{aligned}
 $$
+
 
 
 

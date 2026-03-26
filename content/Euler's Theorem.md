@@ -12,9 +12,11 @@ Euler's Theorem is a more general case of [[Fermat's Little Theorem]] using [[Eu
 
 
 
+
 $$
 a^{\varphi(n)}\equiv 1 \pmod{n} \quad \gcd(a,n)=1
 $$
+
 
 
 
@@ -31,9 +33,11 @@ By considering the elements of $S$ *(The [[Modular Arithmetic#Reduced Residue Sy
 
 
 
+
 $$
 \displaystyle a^{\varphi(n)}\cdot \prod_{\substack{1\leq i <n \\ \gcd(i, n)=1}} i \equiv \prod_{\substack{1\leq i <n \\ \gcd(i, n)=1}} i
 $$
+
 
 
 

@@ -11,6 +11,7 @@ However the definition can be applied to any *linear operator* on any vector spa
 # Characteristic Equation
 
 
+
 $$
 \begin{aligned}
 &A\mathbf{x} = \lambda \mathbf{x} = \lambda I\mathbf{x} \\
@@ -18,6 +19,7 @@ $$
 \Rightarrow&\det(A-\lambda I) = 0
 \end{aligned}
 $$
+
 
 
 The solutions of $\lambda$ are the eigenvalues of $A$. To find the eigen-vectors of $A$ we simply solve $A\mathbf{x}=\lambda \mathbf{x}$.
@@ -30,6 +32,7 @@ The eigenspace is simply the span of the eigenvectors.
 All matrices $M$ satisfy their own characteristic equation 
 
 
+
 $$
 \begin{aligned}
 &\det(M-\lambda I) = 0 \\
@@ -38,6 +41,7 @@ $$
 \Rightarrow &a_n{M}^{n} + a_{n-1}{M}^{n-1} + \cdots a_2{M}^2 + a_1{M} + a_0 I = 0
 \end{aligned}
 $$
+
 
 
 This theorem can be used to find various variations of M such as $M^{-1}$ and $M^k$  by multiplying or dividing through by $M$ and using the fact that $I = MM^{-1} \Rightarrow I \div M = M^{-1}$

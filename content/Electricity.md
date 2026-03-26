@@ -12,9 +12,11 @@ EMF accounts for the resistance within the battery it provides energy to the res
 
 
 
+
 $$
 E=I(R+r)=V+Ir
 $$
+
 
 
 
@@ -39,6 +41,7 @@ For any point in an electrical circuit, the sum of currents into a point is equa
 
 
 
+
 $$
 \sum I_{\text{in}}=\sum I_{\text{out}}
 $$
@@ -49,8 +52,10 @@ $$
 
 
 
+
 # Number Density
 Number density is 
+
 
 
 
@@ -68,11 +73,13 @@ $$
 
 
 
+
 It has unit $\text{m}^{-3}$ 
 In an insulator $n \approx 0$ in a semi-conductor $n \approx10^{17}$ and in a conductor $n \approx10^{28}$
 
 # Mean Drift Velocity
 Electrons move at $\approx 10^{-3}\text{ms}^{-1}$. Even though individually they move slow turning on a switch is instantaneous is as they push each other.
+
 
 
 
@@ -97,9 +104,12 @@ $$
 
 
 
+
+
 $$
 I=Anev \quad
 $$
+
 
 
 
@@ -112,6 +122,7 @@ $n$ number density
 $e$ electric charge
 $v$ velocity
 ## Derivation
+
 
 
 
@@ -134,6 +145,7 @@ $$
 
 
 
+
 *$V$ volume*
 ***
 # Resistance
@@ -144,9 +156,11 @@ In a parallel circuit
 
 
 
+
 $$
 \frac{1}{R_{T}}=\sum \frac{1}{R_{n}}
 $$
+
 
 
 
@@ -166,9 +180,11 @@ Factors affecting resistance are: *material, temperature, length and cross secti
 
 
 
+
 $$
 R=\frac{\rho L}{A}
 $$
+
 
 
 

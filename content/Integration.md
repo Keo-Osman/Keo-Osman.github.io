@@ -18,9 +18,11 @@ Using the [[Epsilon-Delta Definition of a Limit]] you get:
 
 
 
+
 $$
 \forall \varepsilon > 0 \space \exists N \in \mathbb{Z}^+ \text { s.t. } \left|\int_a^b f(x)dx - \sum_{i=1}^n f(x_i^*) \Delta x\right| < \varepsilon \quad (\forall n > N) \land (\forall x_i^* \in [x_{i-1}, x_i])
 $$
+
 
 
 
@@ -52,6 +54,7 @@ Suppose $f$ is continuous on $[-a,a]$ then:
 
 
 
+
 $$
 \begin{aligned}
 &\int x^n dx = \frac{x^{n+1}}{n+1} + c &&\int e^x dx = e^x + c\\
@@ -67,6 +70,7 @@ $$
 
 
 
+
 # Techniques
 ## Reverse Chain Rule
  
@@ -75,9 +79,11 @@ $$
 
 
 
+
 $$
 \int f'(ax + b) dx = \frac{1}{a}f(ax + b) + c \quad \int \frac{f'(x)}{f(x)} dx = \ln{f(x)}\quad\int f'(x)(f(x))^n dx= \frac{1}{n+1}(f(x))^{n+1}
 $$
+
 
 
 
@@ -102,9 +108,11 @@ $\int_{g(a)}^{g(b)} f(v)dv = F(g(b)) - F(g(a))$
 
 
 
+
 $$
 \int u \frac{dv}{dx} dx = uv - \int v \frac{du}{dx} dx
 $$
+
 
 
 
@@ -128,9 +136,11 @@ The mean value of a function $f(x)$ in the interval $[a,b]$ is:
 
 
 
+
 $$
 \frac{1}{b-a} \int_a^b f(x)dx
 $$
+
 
 
 
@@ -151,9 +161,11 @@ The Reduction formula allows you to write an integral as a recurrence relation. 
 
 
 
+
 $$
 I_n = \int g(x,n)dx = \sum_{r=0}^{n-1} g_r(n)I_r
 $$
+
 
 
 

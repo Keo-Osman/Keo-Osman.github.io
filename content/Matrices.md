@@ -13,9 +13,11 @@ The size of on array can be described by row $\times$ columns such as a 2 x 4 ma
 
 
 
+
 $$
 \left(\begin{array}{cccc}1 & 4 & -1 & 1 \\ 2 & 3 & 0 & 2\end{array}\right)
 $$
+
 
 
 
@@ -42,6 +44,7 @@ For example
 
 
 
+
 $$
 \left(\begin{array}{ccc}
 5 & -1 & 2 \\
@@ -62,9 +65,11 @@ $$
 
 
 
+
 ***
 # Identity Matrix
 The identity matrix is the matrix $I$ that is all zero apart from having 1's on the leading diagonal. In terms of linear transforms this represents that all unit vectors remain where they are.
+
 
 
 
@@ -78,6 +83,7 @@ $$
 0 & 0 & 1 \\
 \end{pmatrix}
 $$
+
 
 
 
@@ -98,9 +104,11 @@ The inverse of any non-singular matrix $A$ is the matrix $A^{-1}$ such that
 
 
 
+
 $$
 AA^{-1} \equiv A^{-1}A \equiv I
 $$
+
 
 
 
@@ -121,9 +129,11 @@ To find $C$
 
 
 
+
 $$
 \begin{pmatrix} + & - & + \\ - & + & - \\ + & - & + \end{pmatrix}​
 $$
+
 
 
 
@@ -136,6 +146,7 @@ $$
 If $A\begin{pmatrix} x \\ y \\ z \end{pmatrix} = v$ then $\begin{pmatrix} x \\ y \\ z \end{pmatrix} = A^{-1}v$
 If A is non-singular then a unique solution for $\begin{pmatrix} x \ y \ z \end{pmatrix}$ can be found for any vector v
 To solve a given system of equations for $x, y, z$: 
+
 
 
 
@@ -163,10 +174,13 @@ $$
 
 
 
+
+
 $$
 \begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix}^{-1} \begin{pmatrix} j \\ k \\ l 
 \end{pmatrix}
 $$
+
 
 
 
@@ -183,9 +197,11 @@ You can find the solution with
 
 
 
+
 $$
 v_{k}=\frac{\det A_{k}}{\det A}
 $$
+
 
 
 

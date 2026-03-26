@@ -10,9 +10,11 @@ Let $a_{1},a_{2},\dots ,a_{n} \in \mathbb{R}$ and $b_{1},b_{2},\dots ,b_{n} \in 
 
 
 
+
 $$
 \frac{1}{n}\sum a_{i}b_{i}\geq \left( \frac{1}{n} \sum a_{i}\right)\left( \frac{1}{n}\sum b_{i} \right)
 $$
+
 
 
 

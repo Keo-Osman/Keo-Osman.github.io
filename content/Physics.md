@@ -7,6 +7,8 @@ tags:
 ## Practical Skills in Physics - Module 1
 ## Foundations of Physics - Module 2
 ## Forces and Motion - Module 3
+1. [[Moments]]
+2. [[Pressure]]
 ## Electrons, Waves and Photons - Module 4
 1. [[Electricity]]
 2. [[Waves]]

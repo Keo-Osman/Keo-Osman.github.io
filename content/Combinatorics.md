@@ -13,6 +13,7 @@ The number of possible permutations of $r$ items taken from a set of $n$ items, 
 
 
 
+
 $$
 { }^n P_r=\frac{n!}{(n-r)!}
 $$
@@ -23,8 +24,10 @@ $$
 
 
 
+
 The number of permutations of $n$ items, of which $r$ are identical is given by $\displaystyle\frac{n!}{r!}$
 The number of permutations of $n$ items, of which $r_1$ are identical, $r_2$ are identical, and so on, is given by 
+
 
 
 
@@ -41,7 +44,9 @@ $$
 
 
 
+
 The number of possible combinations of $r$ items (in any order) taken from a set of $n$ items, where $n \geqslant r$, is given by 
+
 
 
 
@@ -51,6 +56,7 @@ The number of possible combinations of $r$ items (in any order) taken from a set
 $$
 { }^n C_r=\binom{n}{r}=\frac{n!}{r!(n-r)!}
 $$
+
 
 
 

@@ -10,6 +10,7 @@ tags:
 
 
 
+
 $$
 \begin{aligned}
  &\sum_{r=1}^n m=mn  &&\sum_{r=1}^n r=\frac{1}{2} n(n+1) \\
@@ -18,6 +19,7 @@ $$
 &\sum_{r=1}^n r^3=\frac{1}{4} n^2(n+1)^2\\
 \end{aligned}
 $$
+
 
 
 
@@ -36,9 +38,11 @@ If the general term of a series can be describes as $u_r = f(r) - f(r+1)$ then
 
 
 
+
 $$
 \sum_{r=1}^{n}{u_r} = f(1) - f(n+1)
 $$
+
 
 
 

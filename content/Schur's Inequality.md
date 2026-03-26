@@ -10,9 +10,11 @@ Let $a,b,c \in \mathbb{R}_{\geq_{0}}, \ r\in \mathbb{R}^{+}$, Then *Schur's Ineq
 
 
 
+
 $$
 \sum_{cyc}a^{r}(a^{2}+bc)\geq \sum_{cyc}a^{r+1}(b+c)
 $$
+
 
 
 
@@ -27,9 +29,11 @@ The $r=1$ case is most common and is
 
 
 
+
 $$
 a^{3}+b^{3}+c^{3}+3abc \leq \sum_{sym}a^{2}b
 $$
+
 
 
 

@@ -11,6 +11,7 @@ Hyperbolic functions are functions with similar properties to [[Trigonometric Fu
 
 
 
+
 $$
 e^{x}_{\text{even}}=\cosh (x)=\frac{e^{x}+e^{-x}}{2} \quad e^{x}_{\text{odd}}=\sinh(x)= \frac{e^{x}-e^{-x}}{2}
 $$
@@ -21,7 +22,9 @@ $$
 
 
 
+
 Their relation from the trig functions comes form the fact that $e^{x}$ is connected to to the trig functions for complex $x$. We can see the similarity between identities. 
+
 
 
 
@@ -39,7 +42,9 @@ $$
 
 
 
+
 And we can get a very fundamental connection between the trig functions, [[Complex Numbers]] and the hyperbolics with 
+
 
 
 
@@ -50,6 +55,7 @@ And we can get a very fundamental connection between the trig functions, [[Compl
 $$
 \cosh(ix)=\cos x\quad\sinh (ix)=i\sin x
 $$
+
 
 
 
@@ -78,6 +84,7 @@ Generally given a trig identity you can find the corresponding hyperbolic identi
 
 
 
+
 $$
 \cos(x) \rightarrow \cosh(x) \quad \sin(x) \rightarrow \sinh(x) \quad \sin^2(x) \rightarrow -\sinh^2(x) \quad\sin A \sin B \rightarrow -\sinh(A)\sinh(B)
 $$
@@ -88,9 +95,11 @@ $$
 
 
 
+
 This only works for identities contain linear combinations of $\sin^{\alpha}x\cos^{\beta}y, \alpha, \beta, \in \{0, 1\}$ it works by substituting $x\to ix$.
 ***
 # [[Derivatives]]
+
 
 
 
@@ -112,7 +121,9 @@ $$
 
 
 
+
 # [[Integration]]
+
 
 
 
@@ -127,6 +138,7 @@ $$
 &\int \tanh(x) \ dx = \ln(\cosh(x)) + C &&\int \frac{1}{1-x^2} \, dx = \text{artanh}(x) + C 
 \end{aligned}
 $$
+
 
 
 

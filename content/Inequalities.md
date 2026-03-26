@@ -10,9 +10,11 @@ Let $I$ be an interval on the reals $f:I\to \mathbb{R}$ be [[Concavity|Convex]] 
 
 
 
+
 $$
 \frac{w_{1}f(x_{1})+w_{2}f(x_{2})\dots +w_{n}f(x_{n})}{\sum w_{i}}\geq f\left( \frac{w_{1}x_{1}+w_{2}x_{2}+\dots+w_{n}x_{n}}{\sum w_{i}} \right)
 $$
+
 
 
 

@@ -11,9 +11,11 @@ Suppose we have two sequences $x_{1}\geq x_2 \geq \dots \geq x_{n}$ and $y_{1}\g
 
 
 
+
 $$
 (x_{n})\succ (y_{n})\implies \sum_{sym}a_{1}^{x_{1}}a_{2}^{x_{2}}\cdots a_{n}^{x_{n}}\geq \sum_{sym}a_{1}^{y_{1}}a_{2}^{y_{2}}\cdots a_{n}^{y_{n}}
 $$
+
 
 
 

@@ -11,9 +11,11 @@ Modular arithmetic is a system of arithmetic restricted to the remainders. Defin
 
 
 
+
 $$
 a \equiv b \pmod{m} \Leftrightarrow m|(a-b), \ m \in \mathbb{Z}^+ \quad a, b \in \mathbb{Z}
 $$
+
 
 
 
@@ -28,9 +30,11 @@ or equivalently using [[Euclid's Division Lemma]]
 
 
 
+
 $$
 a \equiv b \pmod{m} \Leftrightarrow \exists k \in \mathbb{Z} \text{ s.t } a = b + km
 $$
+
 
 
 
@@ -103,9 +107,11 @@ An element can be self inverse meaning $a^2\equiv 1 \pmod{p}$. This means $p|a^2
 
 
 
+
 $$
 \gcd(a^{-1}, n) = 1
 $$
+
 
 
 
@@ -130,6 +136,7 @@ They can be added and multiplied normally.
 
 
 
+
 $$
 \displaystyle bd(a\cdot b^{-1}+c\cdot d^{-1})=bd(a\cdot b^{-1})+bd(c\cdot d^{-1})\equiv ad+ bc \pmod{p} \Rightarrow \frac{a}{b}+\frac{c}{d}\equiv \frac{ad+bc}{bd} \pmod {p}
 $$
@@ -140,7 +147,9 @@ $$
 
 
 
+
 *Proof:* Multiplication
+
 
 
 
@@ -159,7 +168,9 @@ $$
 
 
 
+
 **Theorem** 
+
 
 
 
@@ -169,6 +180,7 @@ $$
 $$
 \frac{a}{b}\equiv 0 \pmod{n} \implies a\equiv 0 \pmod{n}
 $$
+
 
 
 
@@ -212,6 +224,7 @@ In many problems you can use the fact that certain powers of $a$ can only take o
 
 
 
+
 $$
 \displaystyle a^x \equiv a^y \equiv 1 \pmod{n} \Rightarrow a^{\gcd(x, y)} \equiv 1 \pmod{n}
 $$
@@ -222,8 +235,10 @@ $$
 
 
 
+
 *Proof:*
 By [[Bezout's Identity]] $mx+ny = \gcd(m, n)$. 
+
 
 
 
@@ -241,7 +256,9 @@ $$
 
 
 
+
 **Theorem** 
+
 
 
 
@@ -251,6 +268,7 @@ $$
 $$
 \displaystyle ad \equiv bd \pmod{n} \Rightarrow a \equiv b \quad \left(\text{ mod} {\frac{n}{\gcd(n, d)}}\right)
 $$
+
 
 
 
@@ -268,9 +286,11 @@ We have $n|d(a-b)$. $n=gn'$, $g=gd'$ with $g=\gcd(n,d)$. So $n'|d'(a-b)$. So $n'
 
 
 
+
 $$
 (a+b)^{p^i} \equiv a^{p^i}+b^{p^i} \pmod{p} \quad i \in \mathbb{N}_{0}
 $$
+
 
 
 
@@ -315,6 +335,7 @@ $\displaystyle \binom{p-1}{k} \equiv (-1)^k \pmod{p}$
 
 
 
+
 $$
 \begin{aligned}
 \binom{p-1}{k}&=\frac{(p-1)!}{k!(p-1-k)!} \\
@@ -324,6 +345,7 @@ $$
 &\equiv \frac{(-1)^kk!}{k!}\equiv (-1)^k \pmod{p}
 \end{aligned}
 $$
+
 
 
 

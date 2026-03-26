@@ -268,7 +268,7 @@ $h$ used so we can transform our estimate into the same form as the observation 
 
 ***
 # Kalman Filter (KF)
-The Kalman filter covers both propagation and update. It requires certain assumptions/properties that being the model is linear/affine and that all probability distributions our gaussian. It also requires the observation map to be linear
+The Kalman filter covers both propagation and update. It requires certain assumptions/properties that being the model is linear/affine and that all probability distributions our gaussian. It also requires the observation map to be linear.
 The gaussians allow us to just keep track of mean and covariance and the calculations on the distribution are all exact, the linear model is required to preserve all gaussian distributions as the propagation of a gaussian through a linear model will give us back a gaussian.
 So we have $\mathbf{x}_{t}\sim \mathcal{N}(\hat{\mathbf{x}}_{t}, P_{t})$ where $P_{t}$ is the covariance of our distribution. Like before we may want to differentiate between our covariance at time $t$ but before and after an update/observation. We will use $P_{t}$ to denote after and $P_{t}^{-}$ to denote before. Again in other sources you may see $P_{t|t}$ and $P_{t|t-1}$.
 

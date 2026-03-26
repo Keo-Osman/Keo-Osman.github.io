@@ -13,9 +13,11 @@ The **Derivative** of $f(x)$ is
 
 
 
+
 $$
 f'(x) = \lim_{h \to 0} \frac{f(x+h)-f(x)}{h} \quad \text{or} \quad f'(a) =\lim_{x \to a}\frac{f(x)-f(a)}{x-a}
 $$
+
 
 
 
@@ -32,6 +34,7 @@ A function is differentiable $\Leftrightarrow$ $f'(a)$ exists. It is Differentia
 
 
 
+
 $$
 \frac{d}{dx}[f(g(x))] = f'(g(x))g'(x)
 $$
@@ -41,7 +44,9 @@ $$
 
 
 
+
 ### Proof
+
 
 
 
@@ -69,11 +74,13 @@ $$
 
 
 
+
 ***
 # [[Continuity]]
 If $f(x)$ is Differentiable at $a$ then $f(x)$ is [[Continuity|Continuous]] at $a$. 
 *However the converse is not necessarily true, such as $f(x) = |x|$ which is continuous at $0$ but not differentiable at $0$*
 **Proof**
+
 
 
 
@@ -104,6 +111,7 @@ $$
 
 
 
+
 ***
 # Fermat's Theorem
 If $f$ has a local **maximum** or **minimum** at $c$ then $f'(c)=0$
@@ -123,9 +131,11 @@ If $f$ is [[Continuity|Continuous]] on $[a,b]$, differentiable on $(a, b)$ then 
 
 
 
+
 $$
 f'(c) = \frac{f(b)-f(a)}{b-a}
 $$
+
 
 
 

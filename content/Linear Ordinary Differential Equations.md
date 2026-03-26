@@ -11,9 +11,11 @@ A linear ordinary [[Derivatives|differential]] equation is a differential equati
 
 
 
+
 $$
 y^{(n)}(x)+a_{n-1}y^{(n-1)}(x)+\dots+a_{0}y(x)=f(x)
 $$
+
 
 
 
@@ -35,9 +37,11 @@ We can look at the vector space
 
 
 
+
 $$
 V=\{f:\mathbb{R}\to \mathbb{R} \ |\ f \in C^{n}(\mathbb{R})\}
 $$
+
 
 
 
@@ -54,9 +58,11 @@ Since the equation is a linear combination of $y$ after varying amounts of diffe
 
 
 
+
 $$
 L[y]=f(x)\quad \text{or} \quad P(D)y=0
 $$
+
 
 
 
@@ -89,6 +95,7 @@ Using this we can write the matrix equation as
 
 
 
+
 $$
 \begin{gather}
 \mathbf{y}'(x)=A\mathbf{y}(x)\\ \\
@@ -101,6 +108,7 @@ A=\begin{pmatrix}
 \end{pmatrix}
 \end{gather}
 $$
+
 
 
 
